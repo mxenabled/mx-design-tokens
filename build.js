@@ -1,32 +1,19 @@
-const fs = require('fs');
+const themes = require('./index.js')
 
-const core = require('./tokens/core')
-const backgroundColors = require('./tokens/backgroundColors')
-const spacing = require('./tokens/spacing')
+const fs = require('fs');
 
 const themeNames = ['light', 'dark']
 
 themeNames.forEach(themeName => {
-  const theme = {
-    ...core,
-    BackgroundColors: {
-      ...backgroundColors[themeName]
-    },
-    Spacing: {
-      ...core.Spacing,
-      ...spacing[themeName],
-    }
-  }
+  const jsonContent = JSON.stringify(themes[themeName])
 
-  const jsonContent = JSON.stringify(theme)
-
-  fs.writeFile(`${themeName}.json`, jsonContent, 'utf8', function (err) {
+  fs.writeFile(`./json/${themeName}.json`, jsonContent, 'utf8', function (err) {
     if (err) {
       console.log(`An error occured while writing ${themeName} JSON Object to File.`)
       return console.log(err);
     }
 
-    console.log("JSON file has been saved.");
+    console.log(`${themeName}.json has been saved in the json directory.`);
   });
 
 })
