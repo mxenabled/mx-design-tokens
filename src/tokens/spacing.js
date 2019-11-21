@@ -1,4 +1,4 @@
-const core = require('./core')
+import core from 'src/tokens/core'
 
 const light = {
   buttonPadding: core.Spacing.Small
@@ -8,7 +8,7 @@ const dark = {
   ...light,
 }
 
-module.exports = {
+export default {
   light,
   dark,
 }

@@ -1,8 +1,10 @@
-const core = require('./tokens/core')
-const backgroundColors = require('./tokens/backgroundColors')
-const spacing = require('./tokens/spacing')
+import core from 'src/tokens/core'
+import backgroundColors from 'src/tokens/backgroundColors'
+import spacing from 'src/tokens/spacing'
 
 const themeNames = ['light', 'dark']
+
+const exportObject = {}
 
 themeNames.forEach(themeName => {
   const theme = {
@@ -16,5 +18,7 @@ themeNames.forEach(themeName => {
     }
   }
 
-  module.exports[themeName] = theme
+  exportObject[themeName] = theme
 })
+
+export default exportObject

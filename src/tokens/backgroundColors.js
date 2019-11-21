@@ -1,4 +1,4 @@
-const core = require('./core')
+import core from 'src/tokens/core'
 
 const light = {
   LinkButtonHover: core.Colors.primary100,
@@ -10,7 +10,7 @@ const dark = {
   PrimaryButton: core.Colors.primary300,
 }
 
-module.exports = {
+export default {
   light,
   dark,
 }

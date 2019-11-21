@@ -1,5 +1,5 @@
 // This should not be modified
-module.exports = {
+export default {
   Colors: {
     "primary100": "#EAF1FB",
     "primary200": "#528AE0",
