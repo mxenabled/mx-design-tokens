@@ -1,13 +1,13 @@
 import core from 'src/tokens/core'
 
 const light = {
-  LinkButtonHover: core.Colors.primary100,
-  PrimaryButton: core.Colors.primary300,
+  LinkButtonHover: core.Colors.Primary100,
+  PrimaryButton: core.Colors.Primary300,
 }
 
 const dark = {
-  LinkButtonHover: core.Colors.primary100,
-  PrimaryButton: core.Colors.primary300,
+  LinkButtonHover: core.Colors.Primary100,
+  PrimaryButton: core.Colors.Primary300,
 }
 
 export default {

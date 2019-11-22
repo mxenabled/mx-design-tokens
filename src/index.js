@@ -13,4 +13,6 @@ const buildTheme = (themeName) => ({
   }
 })
 
-export default buildTheme
+export const light = buildTheme('light')
+
+export const dark = buildTheme('dark')
