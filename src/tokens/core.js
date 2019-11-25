@@ -37,18 +37,18 @@ export default {
   },
   Shadows: {
     "Low":" 0px 1px 3px rgba(87, 102, 117, 0.2)",
-    "Med":" 0px 3px 8px rgba(87, 102, 117, 0.15)",
+    "Medium":" 0px 3px 8px rgba(87, 102, 117, 0.15)",
     "High":" 0px 10px 20px rgba(87, 102, 117, 0.16)",
     "Top":" 0px -1px 3px rgba(87, 102, 117, 0.2)",
     "Left":" -1px 0px 3px rgba(87, 102, 117, 0.2)",
     "Right":" 1px 0px 3px rgba(87, 102, 117, 0.2)",
   },
-  Borders: {
+  BorderRadii: {
     "Small":"2px",
-    "Med":"4px",
+    "Medium":"4px",
     "Large":"16px",
   },
-  Fonts: {
+  FontSizes: {
     "Tiny": "10px",
     "XSmall": "12px",
     "Small": "14px",
@@ -74,7 +74,7 @@ export default {
     "Tiny": "4px",
     "XSmall": "8px",
     "Small": "12px",
-    "Med": "16px",
+    "Medium": "16px",
     "Large": "24px",
     "XLarge": "32px",
     "XXLarge": "40px",
