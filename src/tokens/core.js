@@ -6,7 +6,7 @@ export default {
     "Primary300": "#2F73DA",
     "Primary400": "#165ECC",
     "Primary500": "#034AB3",
-    "Neutralwhite": "#FFFFFF",
+    "NeutralWhite": "#FFFFFF",
     "Neutral100": "#F7F9FC",
     "Neutral200": "#EDF1F7",
     "Neutral300": "#E2E8F0",

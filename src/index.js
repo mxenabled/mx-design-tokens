@@ -1,6 +1,7 @@
 import core from 'src/tokens/core'
 import backgroundColors from 'src/tokens/backgroundColors'
 import spacing from 'src/tokens/spacing'
+import textColors from 'src/tokens/textColors'
 
 const buildTheme = (themeName) => ({
   ...core,
@@ -10,6 +11,9 @@ const buildTheme = (themeName) => ({
   Spacing: {
     ...core.Spacing,
     ...spacing[themeName],
+  }
+  TextColors: {
+    ...textColors[themeName]
   }
 })
 
