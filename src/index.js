@@ -9,14 +9,14 @@ import textColors from 'src/tokens/textColors'
 const buildTheme = (themeName) => ({
   ...core,
   BackgroundColors: backgroundColors[themeName],
-  BorderColors: borderColors[theme],
+  BorderColors: borderColors[themeName],
   BorderRadii: {
     ...core.BorderRadii,
     ...borderRadii[themeName],
   },
   Shadows: {
     ...core.Shadows,
-    BoxShadows[themeName],
+    ...shadows[themeName],
   },
   Spacing: {
     ...core.Spacing,

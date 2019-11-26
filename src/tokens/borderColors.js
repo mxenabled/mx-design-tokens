@@ -5,7 +5,7 @@ const light = {
   NeutralButtonHover: core.Colors.Primary400,
   // NeutralButtonDisabled: core.Colors.Neutral400,
   Input: core.Colors.Neutral400,
-  InputHover: core.Colors.Neutral600
+  InputHover: core.Colors.Neutral600,
   InputFocus: core.Colors.Primary300,
   InputError: core.Colors.Error300,
   InputDisabled: core.Colors.TransparentNeutral400,

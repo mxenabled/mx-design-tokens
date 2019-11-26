@@ -1,7 +1,7 @@
 import core from 'src/tokens/core'
 
 const light = {
-  Card: core.Shadows.Low
+  Card: core.Shadows.Low,
   DropdownMenu: core.Shadows.Medium,
   Modal: core.Shadows.High,
   BottomBar: core.Shadows.Top,
