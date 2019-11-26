@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Design Tokens",
   "main": "dist/index.js",
+  "engines": {
+    "node": ">=12.13.1",
+    "npm": "latest"
+  },
   "files": [
     "dist"
   ],
