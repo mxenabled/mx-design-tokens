@@ -1,28 +1,28 @@
 import core from 'src/tokens/core'
-import backgroundColors from 'src/tokens/backgroundColors'
-import borderColors from 'src/tokens/borderColors'
-import borderRadii from 'src/tokens/borderRadii'
-import shadows from 'src/tokens/shadows'
+import backgroundColor from 'src/tokens/backgroundColor'
+import borderColor from 'src/tokens/borderColor'
+import borderRadius from 'src/tokens/borderRadius'
+import boxShadow from 'src/tokens/boxShadow'
 import spacing from 'src/tokens/spacing'
-import textColors from 'src/tokens/textColors'
+import textColor from 'src/tokens/textColor'
 
-const buildTheme = (themeName) => ({
+const buildTheme = themeName => ({
   ...core,
-  BackgroundColors: backgroundColors[themeName],
-  BorderColors: borderColors[themeName],
-  BorderRadii: {
-    ...core.BorderRadii,
-    ...borderRadii[themeName],
+  BackgroundColor: backgroundColor[themeName],
+  BorderColor: borderColor[themeName],
+  BorderRadius: {
+    ...core.BorderRadius,
+    ...borderRadius[themeName],
   },
-  Shadows: {
-    ...core.Shadows,
-    ...shadows[themeName],
+  BoxShadow: {
+    ...core.BoxShadow,
+    ...boxShadow[themeName],
   },
   Spacing: {
     ...core.Spacing,
     ...spacing[themeName],
   },
-  TextColors: textColors[themeName],
+  TextColor: textColor[themeName],
 })
 
 export const light = buildTheme('light')
