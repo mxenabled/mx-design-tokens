@@ -10,9 +10,14 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moneydesktop/mx-design-tokens"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src/ -d dist/",
+    "release": "npm run build && npm run json && npm run && git add ./json && git commit -m 'Compiled JSON assets'",
     "json": "node json.js"
   },
   "author": "MX",
