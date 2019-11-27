@@ -14,10 +14,10 @@ const light = {
   PrimaryButtonDisabled: core.Color.Neutral500,
   NeutralButton: core.Color.Primary300,
   NeutralButtonHover: core.Color.Primary400,
-  NeutralButtonDisabled: core.Color.Primary600,
+  NeutralButtonDisabled: core.Color.Neutral600,
   TransparentButton: core.Color.Primary300,
-  TransparentHover: core.Color.Primary400,
-  TransparentButtonDisabled: core.Color.Primary600,
+  TransparentButtonHover: core.Color.Primary400,
+  TransparentButtonDisabled: core.Color.Neutral600,
 }
 
 const dark = {
