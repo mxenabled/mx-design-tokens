@@ -3,6 +3,7 @@ import backgroundColor from 'src/tokens/backgroundColor'
 import borderColor from 'src/tokens/borderColor'
 import borderRadius from 'src/tokens/borderRadius'
 import boxShadow from 'src/tokens/boxShadow'
+import fontSize from 'src/tokens/fontSize'
 import spacing from 'src/tokens/spacing'
 import textColor from 'src/tokens/textColor'
 
@@ -17,6 +18,10 @@ const buildTheme = themeName => ({
   BoxShadow: {
     ...core.BoxShadow,
     ...boxShadow[themeName],
+  },
+  FontSize: {
+    ...core.FontSize,
+    ...fontSize[themeName],
   },
   Spacing: {
     ...core.Spacing,
