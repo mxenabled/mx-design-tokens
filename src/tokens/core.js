@@ -88,4 +88,18 @@ export default {
     Jumbo: '64px',
     SuperJumbo: '96px',
   },
+  Time: {
+    Short: "300ms",
+    Med: "500ms",
+    Long: "1000ms"
+  },
+  Easing: {
+    Default: "cubic-bezier(.475,.425,0,.995)"
+  },
+  MediaQuery: {
+    Small: "576px",
+    Med: "768px",
+    Large: "992px",
+    XLarge: "1200px",
+  }
 }

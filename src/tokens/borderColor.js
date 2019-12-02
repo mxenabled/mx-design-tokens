@@ -3,7 +3,6 @@ import core from 'src/tokens/core'
 const light = {
   NeutralButton: core.Color.Neutral400,
   NeutralButtonHover: core.Color.Primary400,
-  // NeutralButtonDisabled: core.Color.Neutral400,
   Input: core.Color.Neutral400,
   InputHover: core.Color.Neutral600,
   InputFocus: core.Color.Primary300,
