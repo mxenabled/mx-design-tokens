@@ -6,7 +6,7 @@ const light = {
   Active: core.Color.Primary300,
   ActiveHover: core.Color.Primary400,
   Error: core.Color.Error300,
-  Disabled: core.Color.Neutral600,
+  Disabled: core.Color.Neutral500,
   InputPlaceholder: core.Color.Neutral600,
   LinkButton: core.Color.Primary300,
   LinkButtonHover: core.Color.Primary400,
