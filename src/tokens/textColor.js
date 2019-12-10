@@ -18,6 +18,7 @@ const light = {
   TransparentButton: core.Color.Primary300,
   TransparentButtonHover: core.Color.Primary400,
   TransparentButtonDisabled: core.Color.Neutral600,
+  TabHover: core.Color.Primary300,
   LeftNavItemActive: core.Color.Primary400,
 }
 
