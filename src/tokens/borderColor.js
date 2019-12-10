@@ -14,6 +14,7 @@ const light = {
   DropdownFocus: core.Color.Primary300,
   DropdownError: core.Color.Error300,
   DropdownDisabled: core.Color.TransparentNeutral400,
+  TabHover: core.Color.Primary200,
 }
 
 const dark = {
