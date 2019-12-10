@@ -15,6 +15,8 @@ const light = {
   DropdownItemPaddingTopBottom: core.Spacing.Small,
   DropdownItemPaddingLeftright: core.Spacing.XSmall,
   ModalPadding: core.Spacing.Small,
+  ContainerSidePadding: core.Spacing.Large,
+  CardSidePadding: core.Spacing.Medium,
 }
 
 const dark = {

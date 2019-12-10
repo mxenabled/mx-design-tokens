@@ -12,6 +12,9 @@ const light = {
   InputFocus: core.Color.NeutralWhite,
   InputDisabled: core.Color.TransparentNeutral100,
   Modal: core.Color.NeutralWhite,
+  Body: core.Color.Neutral100,
+  Container: core.Color.NeutralWhite,
+  Card: core.Color.NeutralWhite,
 }
 
 const dark = {
