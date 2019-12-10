@@ -8,7 +8,7 @@ const light = {
   InputFocus: core.Color.Primary300,
   InputError: core.Color.Error300,
   InputDisabled: core.Color.TransparentNeutral400,
-  LinkButtonHover: core.Color.Neutral400,
+  LinkButtonHover: core.Color.Primary400,
   Dropdown: core.Color.Neutral400,
   DropdownHover: core.Color.Neutral600,
   DropdownFocus: core.Color.Primary300,

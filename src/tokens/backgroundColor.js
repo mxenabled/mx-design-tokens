@@ -15,6 +15,9 @@ const light = {
   Body: core.Color.Neutral100,
   Container: core.Color.NeutralWhite,
   Card: core.Color.NeutralWhite,
+  LeftNavItem: core.Color.NeutralWhite,
+  LeftNavItemHover: core.Color.Neutral100,
+  LeftNavItemActive: core.Color.Primary100,
 }
 
 const dark = {
