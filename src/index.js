@@ -7,28 +7,38 @@ import fontSize from 'src/tokens/fontSize'
 import spacing from 'src/tokens/spacing'
 import textColor from 'src/tokens/textColor'
 
-const buildTheme = themeName => ({
-  ...core,
-  BackgroundColor: backgroundColor[themeName],
-  BorderColor: borderColor[themeName],
-  BorderRadius: {
-    ...core.BorderRadius,
-    ...borderRadius[themeName],
-  },
-  BoxShadow: {
-    ...core.BoxShadow,
-    ...boxShadow[themeName],
-  },
-  FontSize: {
-    ...core.FontSize,
-    ...fontSize[themeName],
-  },
-  Spacing: {
-    ...core.Spacing,
-    ...spacing[themeName],
-  },
-  TextColor: textColor[themeName],
-})
+export const buildTheme = (themeName, customColors={}) => {
+  const customCore = {
+    ...core,
+    Color: {
+      ...core.Color,
+      ...customColors,
+    },
+  }
+
+  return {
+    ...core,
+    BackgroundColor: backgroundColor[themeName](customCore),
+    BorderColor: borderColor[themeName](customCore),
+    BorderRadius: {
+      ...core.BorderRadius,
+      ...borderRadius[themeName](customCore),
+    },
+    BoxShadow: {
+      ...core.BoxShadow,
+      ...boxShadow[themeName](customCore),
+    },
+    FontSize: {
+      ...core.FontSize,
+      ...fontSize[themeName](customCore),
+    },
+    Spacing: {
+      ...core.Spacing,
+      ...spacing[themeName](customCore),
+    },
+    TextColor: textColor[themeName](customCore),
+  }
+}
 
 export const light = buildTheme('light')
 

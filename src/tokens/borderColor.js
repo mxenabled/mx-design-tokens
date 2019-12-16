@@ -1,6 +1,6 @@
 import core from 'src/tokens/core'
 
-const light = {
+const light = core => ({
   NeutralButton: core.Color.Neutral400,
   NeutralButtonHover: core.Color.Primary400,
   Input: core.Color.Neutral400,
@@ -15,11 +15,11 @@ const light = {
   DropdownError: core.Color.Error300,
   DropdownDisabled: core.Color.TransparentNeutral400,
   TabHover: core.Color.Primary200,
-}
+})
 
-const dark = {
-  ...light,
-}
+const dark = core => ({
+  ...light(core),
+})
 
 export default {
   light,

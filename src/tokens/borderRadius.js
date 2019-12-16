@@ -1,6 +1,4 @@
-import core from 'src/tokens/core'
-
-const light = {
+const light = core => ({
   Button: core.BorderRadius.Medium,
   Input: core.BorderRadius.Medium,
   Modal: core.BorderRadius.Medium,
@@ -9,11 +7,11 @@ const light = {
   DropdownMenu: core.BorderRadius.Medium,
   Container: core.BorderRadius.Medium,
   Card: core.BorderRadius.Medium,
-}
+})
 
-const dark = {
-  ...light,
-}
+const dark = core => ({
+  ...light(core),
+})
 
 export default {
   light,

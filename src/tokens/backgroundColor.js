@@ -1,6 +1,5 @@
-import core from 'src/tokens/core'
 
-const light = {
+const light = core => ({
   LinkButtonHover: core.Color.Primary100,
   PrimaryButton: core.Color.Primary300,
   PrimaryButtonHover: core.Color.Primary400,
@@ -19,11 +18,11 @@ const light = {
   LeftNavItemHover: core.Color.Neutral100,
   LeftNavItemActive: core.Color.Primary100,
   TabHover: core.Color.Neutral100,
-}
+})
 
-const dark = {
-  ...light,
-}
+const dark = core => ({
+  ...light(core),
+})
 
 export default {
   light,
