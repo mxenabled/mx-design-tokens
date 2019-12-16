@@ -8,7 +8,7 @@ const light = {
   SwitchLabelMarginRight: core.Spacing.Small,
   InputLabelMarginBottom: core.Spacing.Tiny,
   InputLabelMarginLeft: core.Spacing.Tiny,
-  InputPadding: core.Spacing.Small,
+  InputPadding: core.Spacing.Small + " " + core.Spacing.Medium,
   InputHelpTextMarginTop: core.Spacing.Tiny,
   TextAreaPadding: core.Spacing.Small,
   DropdownToggle: core.Spacing.Small,
