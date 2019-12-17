@@ -1,4 +1,3 @@
-
 const light = core => ({
   LinkButtonHover: core.Color.Primary100,
   PrimaryButton: core.Color.Primary300,

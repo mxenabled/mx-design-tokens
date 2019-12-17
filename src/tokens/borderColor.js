@@ -1,5 +1,3 @@
-import core from 'src/tokens/core'
-
 const light = core => ({
   NeutralButton: core.Color.Neutral400,
   NeutralButtonHover: core.Color.Primary400,
