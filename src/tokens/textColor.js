@@ -42,7 +42,7 @@ const dark = core => ({
   ButtonTransparentDisabled: core.Color.Neutral600,
   TabActive: core.Color.Primary200,
   LeftNavItemActive: core.Color.NeutralWhite,
-}
+})
 
 export default {
   light,
