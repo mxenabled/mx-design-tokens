@@ -23,8 +23,8 @@ const light = {
   LeftNavItemHover: core.Color.Neutral100,
   LeftNavItemActive: core.Color.Primary100,
   TabHover: core.Color.Neutral100,
-  HorizontalRowLight: core.Color.Neutral300,
-  HorizontalRowDark: core.Color.Neutral400,
+  HrLight: core.Color.Neutral300,
+  HrDark: core.Color.Neutral400,
 }
 
 const dark = {
