@@ -47,9 +47,8 @@ const dark = {
   LeftNavItemHover: core.Color.Neutral700,
   LeftNavItemActive: core.Color.Neutral900,
   TabHover: core.Color.Neutral700,
-  HorizontalRow: core.Color.Neutral700,
-  HorizontalRowLight: core.Color.Neutral600,
-  HorizontalRowDark: core.Color.Neutral500,
+  HrLight: core.Color.Neutral600,
+  HrDark: core.Color.Neutral500,
 }
 
 export default {
