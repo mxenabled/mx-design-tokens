@@ -21,6 +21,8 @@ const light = core => ({
   LeftNavItemHover: core.Color.Neutral100,
   LeftNavItemActive: core.Color.Primary100,
   TabHover: core.Color.Neutral100,
+  HrLight: core.Color.Neutral300,
+  HrDark: core.Color.Neutral400,
 })
 
 const dark = core => ({
@@ -33,7 +35,7 @@ const dark = core => ({
   ButtonTransparentHover: core.Color.Neutral600,
   ButtonDestructiveDisabled: core.Color.Neutral700,
   InputFocus: core.Color.Neutral800,
-  InputDisabled: "transparent",
+  InputDisabled: 'transparent',
   Modal: core.Color.Neutral800,
   ModalScrim: core.Color.TransparentScrimDarker,
   Body: core.Color.Neutral900,
@@ -43,6 +45,8 @@ const dark = core => ({
   LeftNavItemHover: core.Color.Neutral700,
   LeftNavItemActive: core.Color.Neutral900,
   TabHover: core.Color.Neutral700,
+  HrLight: core.Color.Neutral600,
+  HrDark: core.Color.Neutral500,
 })
 
 export default {

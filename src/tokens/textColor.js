@@ -18,6 +18,8 @@ const light = core => ({
   ButtonTransparentDisabled: core.Color.Neutral600,
   ButtonDestructive: core.Color.NeutralWhite,
   ButtonDestructiveDisabled: core.Color.Neutral500,
+  ButtonTransparentTertiary: core.Color.Neutral700,
+  ButtonLinkTertiary: core.Color.Neutral700,
   TabActive: core.Color.Primary300,
   LeftNavItemActive: core.Color.Primary400,
 })
@@ -33,6 +35,7 @@ const dark = core => ({
   InputPlaceholder: core.Color.Neutral500,
   ButtonLink: core.Color.Primary200,
   ButtonLinkHover: core.Color.NeutralWhite,
+  ButtonLinkDisabled: core.Color.Neutral600,
   ButtonPrimaryDisabled: core.Color.Neutral500,
   ButtonNeutral: core.Color.NeutralWhite,
   ButtonNeutralHover: core.Color.NeutralWhite,
@@ -40,6 +43,8 @@ const dark = core => ({
   ButtonTransparent: core.Color.Primary200,
   ButtonTransparentHover: core.Color.NeutralWhite,
   ButtonTransparentDisabled: core.Color.Neutral600,
+  ButtonTransparentTertiary: core.Color.Neutral400,
+  ButtonLinkTertiary: core.Color.Neutral400,
   TabActive: core.Color.Primary200,
   LeftNavItemActive: core.Color.NeutralWhite,
 })
