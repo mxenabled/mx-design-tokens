@@ -37,6 +37,7 @@ const dark = {
   InputPlaceholder: core.Color.Neutral500,
   ButtonLink: core.Color.Primary200,
   ButtonLinkHover: core.Color.NeutralWhite,
+  ButtonLinkDisabled: core.Color.Neutral600,
   ButtonPrimaryDisabled: core.Color.Neutral500,
   ButtonNeutral: core.Color.NeutralWhite,
   ButtonNeutralHover: core.Color.NeutralWhite,
