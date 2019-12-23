@@ -20,6 +20,8 @@ const light = {
   ButtonTransparentDisabled: core.Color.Neutral600,
   ButtonDestructive: core.Color.NeutralWhite,
   ButtonDestructiveDisabled: core.Color.Neutral500,
+  ButtonTransparentTertiary: core.Color.Neutral700,
+  ButtonLinkTertiary: core.Color.Neutral700,
   TabActive: core.Color.Primary300,
   LeftNavItemActive: core.Color.Primary400,
 }
@@ -42,6 +44,8 @@ const dark = {
   ButtonTransparent: core.Color.Primary200,
   ButtonTransparentHover: core.Color.NeutralWhite,
   ButtonTransparentDisabled: core.Color.Neutral600,
+  ButtonTransparentTertiary: core.Color.Neutral400,
+  ButtonLinkTertiary: core.Color.Neutral400,
   TabActive: core.Color.Primary200,
   LeftNavItemActive: core.Color.NeutralWhite,
 }
