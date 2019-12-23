@@ -1,6 +1,4 @@
-import core from 'src/tokens/core'
-
-const light = {
+const light = core => ({
   ButtonPadding: core.Spacing.Small,
   CheckboxLabelMarginLeft: core.Spacing.Small,
   CheckboxLabelMarginRight: core.Spacing.Small,
@@ -17,11 +15,11 @@ const light = {
   ModalPadding: core.Spacing.Small,
   ContainerSidePadding: core.Spacing.Large,
   CardSidePadding: core.Spacing.Medium,
-}
+})
 
-const dark = {
-  ...light,
-}
+const dark = core => ({
+  ...light(core),
+})
 
 export default {
   light,

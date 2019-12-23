@@ -1,6 +1,4 @@
-import core from 'src/tokens/core'
-
-const light = {
+const light = core => ({
   ButtonLinkHover: core.Color.Primary100,
   ButtonPrimary: core.Color.Primary300,
   ButtonPrimaryHover: core.Color.Primary400,
@@ -25,10 +23,10 @@ const light = {
   TabHover: core.Color.Neutral100,
   HrLight: core.Color.Neutral300,
   HrDark: core.Color.Neutral400,
-}
+})
 
-const dark = {
-  ...light,
+const dark = core => ({
+  ...light(core),
   ButtonLinkHover: core.Color.Neutral700,
   ButtonPrimaryDisabled: core.Color.Neutral700,
   ButtonNeutral: core.Color.Neutral800,
@@ -37,7 +35,7 @@ const dark = {
   ButtonTransparentHover: core.Color.Neutral600,
   ButtonDestructiveDisabled: core.Color.Neutral700,
   InputFocus: core.Color.Neutral800,
-  InputDisabled: "transparent",
+  InputDisabled: 'transparent',
   Modal: core.Color.Neutral800,
   ModalScrim: core.Color.TransparentScrimDarker,
   Body: core.Color.Neutral900,
@@ -49,7 +47,7 @@ const dark = {
   TabHover: core.Color.Neutral700,
   HrLight: core.Color.Neutral600,
   HrDark: core.Color.Neutral500,
-}
+})
 
 export default {
   light,
