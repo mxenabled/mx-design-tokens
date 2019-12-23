@@ -9,8 +9,8 @@ const light = {
   DropdownToggle: core.FontSize.Body,
   DropdownItems: core.FontSize.Body,
   ModalHeader: core.FontSize.H3,
-  LinkButtonSmall: core.FontSize.Small,
-  LinkButtonLarge: core.FontSize.Body,
+  ButtonLinkSmall: core.FontSize.Small,
+  ButtonLinkLarge: core.FontSize.Body,
   Button: core.FontSize.Body,
 }
 
