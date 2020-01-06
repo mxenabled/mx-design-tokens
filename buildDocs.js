@@ -11,12 +11,12 @@ Object.keys(themes.light).forEach(key => {
     stream.write(`
 | Key | Value | Color |
 | --- | ----- | ----- |
-    `)
+`)
   } else {
     stream.write(`
 | Key | Value |
 | --- | ----- |
-    `)
+`)
   }
 
   Object.keys(themes.light[key]).forEach(childKey => {
@@ -26,7 +26,7 @@ Object.keys(themes.light).forEach(key => {
       const hash = value.indexOf('#') !== -1
 
       if (value.indexOf('#') !== -1) {
-        stream.write(`| ${childKey} | ${value} | - ![${value}](https://placehold.it/15/${value.split('#')[1]}/000000?text=+) |\n`)
+        stream.write(`| ${childKey} | ${value} | ![${value}](https://placehold.it/15/${value.split('#')[1]}/000000?text=+) |\n`)
       } else {
         stream.write(`| ${childKey} | ${value} | N/A | \n`)
       }
