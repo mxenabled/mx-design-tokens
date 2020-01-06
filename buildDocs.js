@@ -4,7 +4,7 @@ const themes = require('./dist/index.js')
 
 const colorKeys = ['Color', 'BackgroundColor', 'BorderColor', 'TextColor']
 
-const stream = fs.createWriteStream("colors.md", {flags:'a'});
+const stream = fs.createWriteStream("docs/tokens.md", {flags:'a'});
 Object.keys(themes.light).forEach(key => {
   stream.write(`## ${key}\n`)
   if (colorKeys.indexOf(key) !== -1) {

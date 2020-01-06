@@ -24,6 +24,10 @@ import { buildTheme } from 'mx-design-tokens'
 const theme = buildTheme('light', { Primary300: '#876543' })
 ```
 
+## Tokens
+
+[CLICK HERE](docs/tokens.md) for a list of all the current tokens available.
+
 ## Compile Tokens
 
 To compile tokens run the following:
