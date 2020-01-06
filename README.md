@@ -10,15 +10,38 @@ To install the package via npm into another JS project, run the following comman
 npm install mx-design-tokens
 ```
 
-To import the themed objects:
+To import the default themed objects:
 
 ```
 import { light, dark } from 'mx-design-tokens'
 ```
 
+To build a custom colored themed object:
+
+```
+import { buildTheme } from 'mx-design-tokens'
+
+const theme = buildTheme('light', { Primary300: '#876543' })
+```
+
+## Compile Tokens
+
+To compile tokens run the following:
+```
+npm i
+```
+then
+```
+npm run build
+```
+then
+```
+npm run json
+```
+
 ## JSON
 
-You can also retrieve a JSON version of the themed objects directly from the repo. These files are located in the `json` directory.
+You can also retrieve a JSON version of the default themed objects directly from the repo. These files are located in the `json` directory.
 
 
 

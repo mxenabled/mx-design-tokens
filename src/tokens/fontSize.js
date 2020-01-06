@@ -1,6 +1,4 @@
-import core from 'src/tokens/core'
-
-const light = {
+const light = core => ({
   Input: core.FontSize.Body,
   InputLabel: core.FontSize.Body,
   InputHelpText: core.FontSize.Small,
@@ -9,14 +7,14 @@ const light = {
   DropdownToggle: core.FontSize.Body,
   DropdownItems: core.FontSize.Body,
   ModalHeader: core.FontSize.H3,
-  LinkButtonSmall: core.FontSize.Small,
-  LinkButtonLarge: core.FontSize.Body,
+  ButtonLinkSmall: core.FontSize.Small,
+  ButtonLinkLarge: core.FontSize.Body,
   Button: core.FontSize.Body,
-}
+})
 
-const dark = {
-  ...light,
-}
+const dark = core => ({
+  ...light(core),
+})
 
 export default {
   light,
