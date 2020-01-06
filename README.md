@@ -26,7 +26,7 @@ const theme = buildTheme('light', { Primary300: '#876543' })
 
 ## Tokens
 
-[CLICK HERE](docs/tokens.md) for a list of all the current tokens available.
+[CLICK HERE](docs/tokens.md) for a list of all the current tokens available with default colors from the light theme.
 
 ## Compile Tokens
 
