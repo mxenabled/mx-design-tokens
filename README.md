@@ -24,9 +24,13 @@ import { buildTheme } from 'mx-design-tokens'
 const theme = buildTheme('light', { Primary300: '#876543' })
 ```
 
-## Compile Tokens
+## Tokens
 
-To compile tokens run the following:
+[CLICK HERE](docs/tokens.md) for a list of all the current tokens available with default colors from the light theme.
+
+## Compile JSON Tokens
+
+To compile static JSON tokens for development, run the following:
 ```
 npm i
 ```
@@ -39,10 +43,13 @@ then
 npm run json
 ```
 
-## JSON
+## Token Documentation
 
-You can also retrieve a JSON version of the default themed objects directly from the repo. These files are located in the `json` directory.
+To update the auto-generated tokens documentation run the following:
 
+```
+npm run build:docs
+```
 
 
 
