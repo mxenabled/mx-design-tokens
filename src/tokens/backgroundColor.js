@@ -24,7 +24,6 @@ const light = core => ({
   TabHover: core.Color.Neutral100,
   HrLight: core.Color.Neutral300,
   HrDark: core.Color.Neutral400,
-  SwitchActive: core.Color.Success300,
 })
 
 const dark = core => ({
