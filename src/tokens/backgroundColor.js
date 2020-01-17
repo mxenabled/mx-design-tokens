@@ -10,6 +10,7 @@ const light = core => ({
   ButtonDestructive: core.Color.Error300,
   ButtonDestructiveHover: core.Color.Error400,
   ButtonDestructiveDisabled: core.Color.Neutral200,
+  InputHover: core.Color.Neutral100,
   InputFocus: core.Color.NeutralWhite,
   InputDisabled: core.Color.TransparentNeutral100,
   Modal: core.Color.NeutralWhite,
@@ -23,6 +24,7 @@ const light = core => ({
   TabHover: core.Color.Neutral100,
   HrLight: core.Color.Neutral300,
   HrDark: core.Color.Neutral400,
+  SwitchActive: core.Color.Success300,
 })
 
 const dark = core => ({
@@ -34,6 +36,7 @@ const dark = core => ({
   ButtonNeutralDisabled: core.Color.Neutral700,
   ButtonTransparentHover: core.Color.Neutral600,
   ButtonDestructiveDisabled: core.Color.Neutral700,
+  InputHover: core.Color.Neutral700,
   InputFocus: core.Color.Neutral800,
   InputDisabled: 'transparent',
   Modal: core.Color.Neutral800,
