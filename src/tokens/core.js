@@ -59,7 +59,7 @@ export default {
     Paragraph: 16,
     H3: 20,
     H2: 24,
-    H1: 36,
+    H1: 32,
   },
   FontWeight: {
     Regular: 400,
@@ -75,7 +75,7 @@ export default {
     Paragraph: 24,
     H3: 24,
     H2: 32,
-    H1: 44,
+    H1: 40,
   },
   Spacing: {
     Tiny: 4,
