@@ -49,6 +49,7 @@ export default {
     Small: 2,
     Medium: 4,
     Large: 16,
+    Rounded: `50%`,
   },
   FontSize: {
     Tiny: 10,
