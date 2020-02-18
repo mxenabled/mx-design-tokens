@@ -23,6 +23,12 @@ const light = core => ({
   TabHover: core.Color.Neutral100,
   HrLight: core.Color.Neutral300,
   HrDark: core.Color.Neutral400,
+  SwitchOff: core.Color.Neutral200,
+  SwitchOn: core.Color.Success300,
+  SwitchDisabledOff: core.Color.Neutral200,
+  SwitchDisabledOn: core.Color.Neutral300,
+  SwitchHandle: core.Color.NeutralWhite,
+  SwitchHandleDisabled: core.Color.Neutral100,
 })
 
 const dark = core => ({
@@ -47,6 +53,11 @@ const dark = core => ({
   TabHover: core.Color.Neutral700,
   HrLight: core.Color.Neutral600,
   HrDark: core.Color.Neutral500,
+  SwitchOff: core.Color.Neutral700,
+  SwitchDisabledOff: core.Color.Neutral900,
+  SwitchDisabledOn: core.Color.Neutral900,
+  SwitchHandle: core.Color.NeutralWhite,
+  SwitchHandleDisabled: core.Color.Neutral700,
 })
 
 export default {

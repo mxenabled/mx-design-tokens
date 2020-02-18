@@ -14,6 +14,8 @@ const light = core => ({
   DropdownError: core.Color.Error300,
   DropdownDisabled: core.Color.TransparentNeutral400,
   TabActive: core.Color.Primary300,
+  Switch: core.Color.Neutral600,
+  SwitchDisabled: core.Color.Neutral400,
 })
 
 const dark = core => ({
@@ -33,6 +35,7 @@ const dark = core => ({
   DropdownError: core.Color.Error200,
   DropdownDisabled: core.Color.Neutral600,
   TabActive: core.Color.Primary200,
+  SwitchDisabled: core.Color.Neutral600,
 })
 
 export default {
