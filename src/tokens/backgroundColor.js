@@ -29,6 +29,7 @@ const light = core => ({
   SwitchDisabledOn: core.Color.Neutral300,
   SwitchHandle: core.Color.NeutralWhite,
   SwitchHandleDisabled: core.Color.Neutral100,
+  Tooltip: core.Color.Neutral800,
 })
 
 const dark = core => ({
@@ -58,6 +59,7 @@ const dark = core => ({
   SwitchDisabledOn: core.Color.Neutral900,
   SwitchHandle: core.Color.NeutralWhite,
   SwitchHandleDisabled: core.Color.Neutral700,
+  Tooltip: core.Color.Neutral700,
 })
 
 export default {

@@ -15,6 +15,7 @@ const light = core => ({
   ModalPadding: core.Spacing.Small,
   ContainerSidePadding: core.Spacing.Large,
   CardSidePadding: core.Spacing.Medium,
+  TooltipPadding: core.Spacing.Small,
 })
 
 const dark = core => ({

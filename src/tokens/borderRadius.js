@@ -8,6 +8,7 @@ const light = core => ({
   Container: core.BorderRadius.Medium,
   Card: core.BorderRadius.Medium,
   Switch: core.BorderRadius.Rounded,
+  Tooltip: core.BorderRadius.Medium,
 })
 
 const dark = core => ({

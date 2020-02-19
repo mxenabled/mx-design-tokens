@@ -22,6 +22,7 @@ const light = core => ({
   ButtonLinkTertiary: core.Color.Neutral700,
   TabActive: core.Color.Primary300,
   LeftNavItemActive: core.Color.Primary400,
+  Tooltip: core.Color.NeutralWhite,
 })
 
 const dark = core => ({
