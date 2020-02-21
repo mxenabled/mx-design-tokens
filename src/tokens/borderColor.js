@@ -16,6 +16,13 @@ const light = core => ({
   TabActive: core.Color.Primary300,
   Switch: core.Color.Neutral600,
   SwitchDisabled: core.Color.Neutral400,
+  Checkbox: core.Color.Neutral600,
+  CheckboxChecked: core.Color.Primary300,
+  CheckboxDisabled: core.Color.Neutral400,
+  Radio: core.Color.Neutral600,
+  RadioChecked: core.Color.Primary300,
+  RadioDisabled: core.Color.Neutral400,
+  RadioDisabledChecked: core.Color.Neutral500,
 })
 
 const dark = core => ({
@@ -36,6 +43,11 @@ const dark = core => ({
   DropdownDisabled: core.Color.Neutral600,
   TabActive: core.Color.Primary200,
   SwitchDisabled: core.Color.Neutral600,
+  Checkbox: core.Color.Neutral400,
+  CheckboxChecked: core.Color.NeutralWhite,
+  CheckboxDisabled: core.Color.Neutral600,
+  RadioChecked: core.Color.NeutralWhite,
+  RadioDisabled: core.Color.Neutral600,
 })
 
 export default {
