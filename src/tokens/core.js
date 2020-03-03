@@ -16,7 +16,7 @@ export default {
     Neutral700: "#454F5E",
     Neutral800: "#1A222E",
     Neutral900: "#121417",
-    Success100: "#99FAC8",
+    Success100: "#DDFDED",
     Success200: "#0AC295",
     Success300: "#09A57F",
     Success400: "#078364",
@@ -49,6 +49,7 @@ export default {
     Small: 2,
     Medium: 4,
     Large: 16,
+    Rounded: `50%`,
   },
   FontSize: {
     Tiny: 10,
