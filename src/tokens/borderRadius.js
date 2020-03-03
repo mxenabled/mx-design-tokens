@@ -7,11 +7,15 @@ const light = core => ({
   DropdownMenu: core.BorderRadius.Medium,
   Container: core.BorderRadius.Medium,
   Card: core.BorderRadius.Medium,
+  Switch: core.BorderRadius.Rounded,
+  Tooltip: core.BorderRadius.Medium,
+  Checkbox: core.BorderRadius.Small,
+  Radio: core.BorderRadius.Rounded,
 })
 
 const dark = core => ({
   ...light(core),
-})
+}) 
 
 export default {
   light,

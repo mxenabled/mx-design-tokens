@@ -6,6 +6,7 @@ const light = core => ({
   BottomBar: core.BoxShadow.Top,
   Drawer: core.BoxShadow.Left,
   FocusRingDefault: core.BoxShadow.Focus,
+  Tooltip: core.BoxShadow.Medium,
 })
 
 const dark = core => ({

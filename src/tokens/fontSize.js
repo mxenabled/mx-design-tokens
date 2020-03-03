@@ -10,6 +10,8 @@ const light = core => ({
   ButtonLinkSmall: core.FontSize.Small,
   ButtonLinkLarge: core.FontSize.Body,
   Button: core.FontSize.Body,
+  TooltipHeadline: core.FontSize.Body,
+  TooltipText: core.FontSize.ParagraphSmall,
 })
 
 const dark = core => ({
