@@ -25,6 +25,21 @@ const light = core => ({
   TabHover: core.Color.Neutral100,
   HrLight: core.Color.Neutral300,
   HrDark: core.Color.Neutral400,
+  SwitchOff: core.Color.Neutral200,
+  SwitchOn: core.Color.Success300,
+  SwitchDisabledOff: core.Color.Neutral200,
+  SwitchDisabledOn: core.Color.Neutral300,
+  SwitchHandle: core.Color.NeutralWhite,
+  SwitchHandleDisabled: core.Color.Neutral100,
+  Tooltip: core.Color.Neutral800,
+  CheckboxChecked: core.Color.Primary100,
+  CheckboxDisabled: core.Color.Neutral100,
+  RadioChecked: core.Color.Primary100,
+  RadioDisabled: core.Color.Primary100,
+  RadioDot: core.Color.Neutral100,
+  RadioDotChecked: core.Color.Primary300,
+  RadioDotDisabled: core.Color.Neutral200,
+  RadioDotDisabledChecked: core.Color.Neutral500
 })
 
 const dark = core => ({
@@ -51,6 +66,19 @@ const dark = core => ({
   TabHover: core.Color.Neutral700,
   HrLight: core.Color.Neutral600,
   HrDark: core.Color.Neutral500,
+  SwitchOff: core.Color.Neutral700,
+  SwitchDisabledOff: core.Color.Neutral900,
+  SwitchDisabledOn: core.Color.Neutral900,
+  SwitchHandle: core.Color.NeutralWhite,
+  SwitchHandleDisabled: core.Color.Neutral700,
+  Tooltip: core.Color.Neutral700,
+  CheckboxChecked: 'transparent',
+  CheckboxDisabled: core.Color.Neutral700,
+  RadioChecked: 'transparent',
+  RadioDisabled: core.Color.Neutral700,
+  RadioDot: core.Color.Neutral600,
+  RadioDotChecked: core.Color.NeutralWhite,
+  RadioDotDisabled: core.Color.Neutral600,
 })
 
 export default {
