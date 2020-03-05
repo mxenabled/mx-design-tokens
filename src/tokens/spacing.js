@@ -4,7 +4,7 @@ const light = core => ({
   CheckboxLabelMarginRight: core.Spacing.Small,
   SwitchLabelMarginLeft: core.Spacing.Small,
   SwitchLabelMarginRight: core.Spacing.Small,
-  InputLabelTop: `-${core.Spacing.Medium}`,
+  InputLabelTop: `-${core.Spacing.XSmall}`,
   InputLabelMarginLeft: core.Spacing.Small,
   InputLabelPadding: `0 ${core.Spacing.Tiny}`,
   InputPadding: `${core.Spacing.Medium} ${core.Spacing.Small} ${core.Spacing.Small} ${core.Spacing.Small}`,

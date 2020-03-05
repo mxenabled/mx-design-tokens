@@ -69,7 +69,7 @@ export default {
   },
   LineHeight: {
     Tiny: 12,
-    XSmall: 16,
+    XSmall: 14,
     Small: 16,
     ParagraphSmall: 20,
     Body: 20,
