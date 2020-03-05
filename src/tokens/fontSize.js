@@ -1,6 +1,6 @@
 const light = core => ({
   Input: core.FontSize.Body,
-  InputLabel: core.FontSize.Body,
+  InputLabel: core.FontSize.Small,
   InputHelpText: core.FontSize.Small,
   TextArea: core.FontSize.Body,
   TextAreaHelpText: core.FontSize.Small,

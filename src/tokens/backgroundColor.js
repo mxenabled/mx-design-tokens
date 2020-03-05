@@ -10,9 +10,10 @@ const light = core => ({
   ButtonDestructive: core.Color.Error300,
   ButtonDestructiveHover: core.Color.Error400,
   ButtonDestructiveDisabled: core.Color.Neutral200,
-  InputHover: core.Color.Neutral100,
-  InputFocus: core.Color.NeutralWhite,
+  InputFocus: "transparent",
   InputDisabled: core.Color.TransparentNeutral100,
+  InputLabelDefault: core.Color.NeutralWhite,
+  InputLabelSecondary: core.Color.Neutral100,
   Modal: core.Color.NeutralWhite,
   ModalScrim: core.Color.TransparentScrim,
   Body: core.Color.Neutral100,
@@ -38,7 +39,7 @@ const light = core => ({
   RadioDot: core.Color.Neutral100,
   RadioDotChecked: core.Color.Primary300,
   RadioDotDisabled: core.Color.Neutral200,
-  RadioDotDisabledChecked: core.Color.Neutral500,
+  RadioDotDisabledChecked: core.Color.Neutral500
 })
 
 const dark = core => ({
@@ -50,9 +51,10 @@ const dark = core => ({
   ButtonNeutralDisabled: core.Color.Neutral700,
   ButtonTransparentHover: core.Color.Neutral600,
   ButtonDestructiveDisabled: core.Color.Neutral700,
-  InputHover: core.Color.Neutral700,
-  InputFocus: core.Color.Neutral800,
+  InputFocus: "transparent",
   InputDisabled: 'transparent',
+  InputLabelDefault: core.Color.Neutral800,
+  InputLabelSecondary: core.Color.Neutral900,
   Modal: core.Color.Neutral800,
   ModalScrim: core.Color.TransparentScrimDarker,
   Body: core.Color.Neutral900,
