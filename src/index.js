@@ -7,9 +7,9 @@ import fontSize from 'src/tokens/fontSize'
 import spacing from 'src/tokens/spacing'
 import textColor from 'src/tokens/textColor'
 
-export const buildTheme = (themeName, customColors = {}, removePx = false) => {
-  if (removePx) {
-    removePixels(core)
+export const buildTheme = (themeName, customColors = {}, addPx = false) => {
+  if (addPx) {
+    addPixels(core)
   }
 
   const customCore = {
@@ -44,18 +44,23 @@ export const buildTheme = (themeName, customColors = {}, removePx = false) => {
   }
 }
 
-const removePixels = core => {
+const addPixels = core => {
   Object.keys(core).forEach(key => {
     const category = core[key]
     if (
       key === 'BorderRadius' ||
-      key === 'FontSize' ||
       key === 'LineHeight' ||
-      key === 'Spacing' ||
-      key === 'MediaQuery'
+      key === 'Spacing'
     ) {
-      Object.keys(category).forEach(property => {
-        category[property] = parseInt(category[property], 10)
+      Object.keys(category).forEach(value => {
+        if (typeof category[value] === 'number') {
+          category[value] = `${category[value]}px`
+        } else {
+          category[value] = category[value]
+            .split(' ')
+            .map(v => !v.includes('%') ? `${v}px` : v)
+            .join(' ')
+        }
       })
     }
   })
