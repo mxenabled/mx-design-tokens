@@ -17,7 +17,7 @@ export const buildTheme = (themeName, customColors={}) => {
   }
 
   return {
-    ...core,
+    ...customCore,
     BackgroundColor: backgroundColor[themeName](customCore),
     BorderColor: borderColor[themeName](customCore),
     BorderRadius: {
