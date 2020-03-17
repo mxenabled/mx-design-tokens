@@ -9,7 +9,7 @@ export default {
     NeutralWhite: "#FFFFFF",
     Neutral100: "#F8F9FB",
     Neutral200: "#EEF1F6",
-    Neutral300: "#E4E8EE", 
+    Neutral300: "#E4E8EE",
     Neutral400: "#CDD3DD",
     Neutral500: "#A8B1BD",
     Neutral600: "#6A7381",
@@ -49,7 +49,6 @@ export default {
     Small: 2,
     Medium: 4,
     Large: 16,
-    Rounded: `50%`,
   },
   FontSize: {
     Tiny: 10,
@@ -63,20 +62,33 @@ export default {
     H1: 32,
   },
   FontWeight: {
-    Regular: 400,
+   Regular: 400,
     Semibold: 600,
     Bold: 700,
   },
-  LineHeight: {
-    Tiny: 12,
-    XSmall: 14,
-    Small: 16,
-    ParagraphSmall: 20,
-    Body: 20,
-    Paragraph: 24,
-    H3: 24,
-    H2: 32,
-    H1: 40,
+  LineHeight: target => {
+    const base = {
+      Tiny: 12,
+      XSmall: 14,
+      Small: 16,
+      ParagraphSmall: 20,
+      Body: 20,
+      Paragraph: 24,
+      H3: 24,
+      H2: 32,
+      H1: 40,
+    }
+
+    if (target === 'web') {
+      const web = {}
+
+      Object.keys(base).forEach(key => {
+        web[key] = `${base[key]}px`
+      })
+      return web
+    }
+
+    return base
   },
   Spacing: {
     Tiny: 4,
@@ -91,9 +103,9 @@ export default {
     SuperJumbo: 96,
   },
   Time: {
-    Short: "300ms",
-    Med: "500ms",
-    Long: "1000ms"
+    Short: 300,
+    Med: 500,
+    Long: 1000,
   },
   Easing: {
     Default: "cubic-bezier(.475,.425,0,.995)"

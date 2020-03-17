@@ -7,7 +7,7 @@ import fontSize from 'src/tokens/fontSize'
 import spacing from 'src/tokens/spacing'
 import textColor from 'src/tokens/textColor'
 
-export const buildTheme = (themeName, customColors={}) => {
+export const buildTheme = (themeName, customColors={}, target) => {
   const customCore = {
     ...core,
     Color: {
@@ -16,27 +16,39 @@ export const buildTheme = (themeName, customColors={}) => {
     },
   }
 
+  const builtCore = {}
+
+  Object.keys(customCore).forEach(coreKey => {
+
+    const value = typeof customCore[coreKey] === 'function' ?
+      customCore[coreKey](target) :
+      customCore[coreKey]
+
+    builtCore[coreKey] = value
+  })
+
+
   return {
-    ...customCore,
-    BackgroundColor: backgroundColor[themeName](customCore),
-    BorderColor: borderColor[themeName](customCore),
+    ...builtCore,
+    BackgroundColor: backgroundColor[themeName](builtCore),
+    BorderColor: borderColor[themeName](builtCore),
     BorderRadius: {
       ...core.BorderRadius,
-      ...borderRadius[themeName](customCore),
+      ...borderRadius[themeName](builtCore),
     },
     BoxShadow: {
       ...core.BoxShadow,
-      ...boxShadow[themeName](customCore),
+      ...boxShadow[themeName](builtCore),
     },
     FontSize: {
       ...core.FontSize,
-      ...fontSize[themeName](customCore),
+      ...fontSize[themeName](builtCore),
     },
     Spacing: {
       ...core.Spacing,
-      ...spacing[themeName](customCore),
+      ...spacing[themeName](builtCore),
     },
-    TextColor: textColor[themeName](customCore),
+    TextColor: textColor[themeName](builtCore),
   }
 }
 
