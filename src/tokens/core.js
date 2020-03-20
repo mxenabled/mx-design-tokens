@@ -62,7 +62,7 @@ export default {
     H1: 32,
   },
   FontWeight: {
-   Regular: 400,
+    Regular: 400,
     Semibold: 600,
     Bold: 700,
   },
