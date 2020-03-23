@@ -7,8 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [5.0.0] - 03-20-2020
 
 ### Added
+- `core.Resolution` exports the int version of `core.MediaQuery`.
 - Ability to pass in a build `target` to the buildTheme function.
-- `core.LineHeight` accepts the `web` target to add the `px` definition.
+- Exports `targets` const for use in other repos.
+- `core.LineHeight` accepts the `REACT` target to add the `px` definition.
+- `core.BoxShadow` accepts `target` with the current focus being `REACT`. Exploration still required.
+- `core.Easing` accepts `target`. Still exploring non web solutions.
 - `InputPaddingTop`
 - `InputPaddingRight`
 - `InputPaddingBottom`
@@ -17,7 +21,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `InputLabelPaddingRight`
 
 ### Changed
+- Argument order of `buildTheme`.
 - `core.Time.*` is now an int without the `ms`.
+- `core.MediaQuery.*` includes `px` as it's implied web values.
 
 ### Removed
 - Removed `core.BorderRadius.Rounded` as a circle is created completely differently across the different platforms.

@@ -7,7 +7,13 @@ import fontSize from 'src/tokens/fontSize'
 import spacing from 'src/tokens/spacing'
 import textColor from 'src/tokens/textColor'
 
-export const buildTheme = (themeName, customColors={}, target) => {
+export const targets = {
+  REACT: 'react',
+  REACT_NATIVE: 'react_native',
+  NATIVE: 'native',
+}
+
+export const buildTheme = (themeName, target=targets.REACT, customColors={}) => {
   const customCore = {
     ...core,
     Color: {
@@ -19,7 +25,6 @@ export const buildTheme = (themeName, customColors={}, target) => {
   const builtCore = {}
 
   Object.keys(customCore).forEach(coreKey => {
-
     const value = typeof customCore[coreKey] === 'function' ?
       customCore[coreKey](target) :
       customCore[coreKey]

@@ -1,4 +1,16 @@
-// This should not be modified
+import { targets } from '../index'
+// This should probably not be modified
+
+const addPx = obj => {
+  const newObj = {}
+
+  Object.keys(obj).forEach(key => {
+    newObj[key] = `${obj[key]}px`
+  })
+
+  return newObj
+}
+
 export default {
   Color: {
     Primary100: "#EAF1FB",
@@ -36,14 +48,29 @@ export default {
     TransparentScrim: "rgba(0, 0, 0, 0.25)",
     TransparentScrimDarker: "rgba(0, 0, 0, 0.50)",
   },
-  BoxShadow: {
-    Low: ' 0px 1px 3px rgba(87, 102, 117, 0.2)',
-    Medium: ' 0px 3px 8px rgba(87, 102, 117, 0.15)',
-    High: ' 0px 10px 20px rgba(87, 102, 117, 0.16)',
-    Top: ' 0px -1px 3px rgba(87, 102, 117, 0.2)',
-    Left: ' -1px 0px 3px rgba(87, 102, 117, 0.2)',
-    Right: ' 1px 0px 3px rgba(87, 102, 117, 0.2)',
-    Focus: '0px 0px 0px 2px rgba(82, 138, 224, 0.8)',
+  BoxShadow: target => {
+    if (target === targets.REACT) {
+      return {
+        Low: ' 0px 1px 3px rgba(87, 102, 117, 0.2)',
+        Medium: ' 0px 3px 8px rgba(87, 102, 117, 0.15)',
+        High: ' 0px 10px 20px rgba(87, 102, 117, 0.16)',
+        Top: ' 0px -1px 3px rgba(87, 102, 117, 0.2)',
+        Left: ' -1px 0px 3px rgba(87, 102, 117, 0.2)',
+        Right: ' 1px 0px 3px rgba(87, 102, 117, 0.2)',
+        Focus: '0px 0px 0px 2px rgba(82, 138, 224, 0.8)',
+      }
+    }
+
+    // TODO: explore mobile solutions more
+    return {
+      Low: '',
+      Medium: '',
+      High: '',
+      Top: '',
+      Left: ''
+      Right: '',
+      Focus: ''
+    }
   },
   BorderRadius: {
     Small: 2,
@@ -79,13 +106,8 @@ export default {
       H1: 40,
     }
 
-    if (target === 'web') {
-      const web = {}
-
-      Object.keys(base).forEach(key => {
-        web[key] = `${base[key]}px`
-      })
-      return web
+    if (target === targets.REACT) {
+      return addPx(base)
     }
 
     return base
@@ -107,10 +129,31 @@ export default {
     Med: 500,
     Long: 1000,
   },
-  Easing: {
-    Default: "cubic-bezier(.475,.425,0,.995)"
+  Easing: target => {
+    if (target === targets.REACT) {
+      return {
+        Default: "cubic-bezier(.475,.425,0,.995)"
+      }
+    }
+
+    // TODO: Define type cubic-bezier?
+    return {
+      Default: {
+        x1: 0.475,
+        y1: 0.425,
+        x2: 0,
+        y2: 0.995
+      }
+    }
   },
+  // Convenience values as web consumes both constantly
   MediaQuery: {
+    Small: '576px',
+    Med: '768px',
+    Large: '992px',
+    XLarge: '1200px',
+  },
+  Resolution: {
     Small: 576,
     Med: 768,
     Large: 992,
