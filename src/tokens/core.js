@@ -67,7 +67,7 @@ export default {
       Medium: '',
       High: '',
       Top: '',
-      Left: ''
+      Left: '',
       Right: '',
       Focus: ''
     }
