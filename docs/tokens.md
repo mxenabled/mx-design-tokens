@@ -40,13 +40,6 @@
 
 | Key | Value |
 | --- | ----- |
-| Low |  0px 1px 3px rgba(87, 102, 117, 0.2) |
-| Medium |  0px 3px 8px rgba(87, 102, 117, 0.15) |
-| High |  0px 10px 20px rgba(87, 102, 117, 0.16) |
-| Top |  0px -1px 3px rgba(87, 102, 117, 0.2) |
-| Left |  -1px 0px 3px rgba(87, 102, 117, 0.2) |
-| Right |  1px 0px 3px rgba(87, 102, 117, 0.2) |
-| Focus | 0px 0px 0px 2px rgba(82, 138, 224, 0.8) |
 | Card |  0px 1px 3px rgba(87, 102, 117, 0.2) |
 | Container |  0px 1px 3px rgba(87, 102, 117, 0.2) |
 | DropdownMenu |  0px 3px 8px rgba(87, 102, 117, 0.15) |
@@ -62,7 +55,6 @@
 | Small | 2 |
 | Medium | 4 |
 | Large | 16 |
-| Rounded | 50% |
 | Button | 4 |
 | Input | 4 |
 | Modal | 4 |
@@ -71,10 +63,8 @@
 | DropdownMenu | 4 |
 | Container | 4 |
 | Card | 4 |
-| Switch | 50% |
 | Tooltip | 4 |
 | Checkbox | 2 |
-| Radio | 50% |
 ## FontSize
 
 | Key | Value |
@@ -112,15 +102,15 @@
 
 | Key | Value |
 | --- | ----- |
-| Tiny | 12 |
-| XSmall | 14 |
-| Small | 16 |
-| ParagraphSmall | 20 |
-| Body | 20 |
-| Paragraph | 24 |
-| H3 | 24 |
-| H2 | 32 |
-| H1 | 40 |
+| Tiny | 12px |
+| XSmall | 14px |
+| Small | 16px |
+| ParagraphSmall | 20px |
+| Body | 20px |
+| Paragraph | 24px |
+| H3 | 24px |
+| H2 | 32px |
+| H1 | 40px |
 ## Spacing
 
 | Key | Value |
@@ -136,36 +126,48 @@
 | Jumbo | 64 |
 | SuperJumbo | 96 |
 | ButtonPadding | 12 |
+| CardSidePadding | 16 |
 | CheckboxLabelMarginLeft | 12 |
 | CheckboxLabelMarginRight | 12 |
-| SwitchLabelMarginLeft | 12 |
-| SwitchLabelMarginRight | 12 |
-| InputLabelTop | -8 |
-| InputLabelMarginLeft | 12 |
-| InputLabelPadding | 0 4 |
-| InputPadding | 16 12 12 12 |
-| InputHelpTextMarginTop | 4 |
-| TextAreaPadding | 12 |
+| ContainerSidePadding | 24 |
 | DropdownToggle | 12 |
 | DropdownItemPaddingTopBottom | 12 |
-| DropdownItemPaddingLeftright | 8 |
+| DropdownItemPaddingLeftRight | 8 |
+| InputLabelTop | -8 |
+| InputLabelMarginLeft | 12 |
+| InputLabelPaddingLeft | 4 |
+| InputLabelPaddingRight | 4 |
+| InputPaddingTop | 16 |
+| InputPaddingRight | 12 |
+| InputPaddingBottom | 12 |
+| InputPaddingLeft | 12 |
+| InputHelpTextMarginTop | 4 |
 | ModalPadding | 12 |
-| ContainerSidePadding | 24 |
-| CardSidePadding | 16 |
+| SwitchLabelMarginLeft | 12 |
+| SwitchLabelMarginRight | 12 |
+| TextAreaPadding | 12 |
 | TooltipPadding | 12 |
 ## Time
 
 | Key | Value |
 | --- | ----- |
-| Short | 300ms |
-| Med | 500ms |
-| Long | 1000ms |
+| Short | 300 |
+| Med | 500 |
+| Long | 1000 |
 ## Easing
 
 | Key | Value |
 | --- | ----- |
 | Default | cubic-bezier(.475,.425,0,.995) |
 ## MediaQuery
+
+| Key | Value |
+| --- | ----- |
+| Small | 576px |
+| Med | 768px |
+| Large | 992px |
+| XLarge | 1200px |
+## Resolution
 
 | Key | Value |
 | --- | ----- |
