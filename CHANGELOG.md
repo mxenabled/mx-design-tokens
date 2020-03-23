@@ -29,6 +29,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Removed `core.BorderRadius.Rounded` as a circle is created completely differently across the different platforms.
 - Removed `InputPadding` in favor of individually specified tokens.
 - Removed `InputLabelPadding` in favor of individually specified tokens.
+- Removed `BorderRadius.Radio` as it used `Rounded`.
+- Removed `BorderRadius.Switch` as it used `Rounded`.
 
 
 ## [4.1.0] - 03-16-2020
