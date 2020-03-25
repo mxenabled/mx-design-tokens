@@ -16,12 +16,12 @@ const light = core => ({
 
 const dark = core => ({
   ...light(core),
-  Card: 'none',
-  Container: 'none',
-  DropdownMenu: 'none',
-  Modal: 'none',
-  BottomBar: 'none',
-  Drawer: 'none',
+  Card: '',
+  Container: '',
+  DropdownMenu: '',
+  Modal: '',
+  BottomBar: '',
+  Drawer: '',
 })
 
 export default {
