@@ -13,7 +13,7 @@ npm install mx-design-tokens
 To import the default themed objects:
 
 ```
-import { light, dark } from 'mx-design-tokens'
+import { light, dark, targets } from 'mx-design-tokens'
 ```
 
 To build a custom colored themed object:
@@ -21,7 +21,7 @@ To build a custom colored themed object:
 ```
 import { buildTheme } from 'mx-design-tokens'
 
-const theme = buildTheme('light', { Primary300: '#876543' })
+const theme = buildTheme('light', targets.REACT, { Primary300: '#876543' })
 ```
 
 ## Tokens
@@ -31,14 +31,19 @@ const theme = buildTheme('light', { Primary300: '#876543' })
 ## Compile JSON Tokens
 
 To compile static JSON tokens for development, run the following:
+
 ```
 npm i
 ```
+
 then
+
 ```
 npm run build
 ```
+
 then
+
 ```
 npm run json
 ```
@@ -50,7 +55,3 @@ To update the auto-generated tokens documentation run the following:
 ```
 npm run build:docs
 ```
-
-
-
-
