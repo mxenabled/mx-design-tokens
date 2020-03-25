@@ -40,6 +40,11 @@
 
 | Key | Value |
 | --- | ----- |
+| Low |  0px 1px 3px rgba(87, 102, 117, 0.2) |
+| Medium |  0px 3px 8px rgba(87, 102, 117, 0.15) |
+| High |  0px 10px 20px rgba(87, 102, 117, 0.16) |
+| Left |  -1px 0px 3px rgba(87, 102, 117, 0.2) |
+| Right |  1px 0px 3px rgba(87, 102, 117, 0.2) |
 | Card |  0px 1px 3px rgba(87, 102, 117, 0.2) |
 | Container |  0px 1px 3px rgba(87, 102, 117, 0.2) |
 | DropdownMenu |  0px 3px 8px rgba(87, 102, 117, 0.15) |
@@ -134,7 +139,7 @@
 | DropdownItemPaddingTopBottom | 12 |
 | DropdownItemPaddingLeftRight | 8 |
 | InputLabelTop | -8 |
-| InputLabelMarginLeft | 12 |
+| InputLabelMarginLeft | 8 |
 | InputLabelPaddingLeft | 4 |
 | InputLabelPaddingRight | 4 |
 | InputPaddingTop | 16 |

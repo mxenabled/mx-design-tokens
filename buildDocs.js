@@ -1,10 +1,12 @@
-const fs = require('fs');
+const fs = require('fs')
 
 const themes = require('./dist/index.js')
 
 const colorKeys = ['Color', 'BackgroundColor', 'BorderColor', 'TextColor']
 
-const stream = fs.createWriteStream("docs/tokens.md", {flags:'a'});
+fs.unlinkSync('docs/tokens.md')
+
+const stream = fs.createWriteStream('docs/tokens.md', { flags: 'a' })
 Object.keys(themes.light).forEach(key => {
   stream.write(`## ${key}\n`)
   if (colorKeys.indexOf(key) !== -1) {
@@ -23,10 +25,12 @@ Object.keys(themes.light).forEach(key => {
     const value = themes.light[key][childKey]
 
     if (colorKeys.indexOf(key) !== -1) {
-      const hash = value.indexOf('#') !== -1
-
       if (value.indexOf('#') !== -1) {
-        stream.write(`| ${childKey} | ${value} | ![${value}](https://placehold.it/15/${value.split('#')[1]}/000000?text=+) |\n`)
+        stream.write(
+          `| ${childKey} | ${value} | ![${value}](https://placehold.it/15/${
+            value.split('#')[1]
+          }/000000?text=+) |\n`,
+        )
       } else {
         stream.write(`| ${childKey} | ${value} | N/A | \n`)
       }
@@ -36,5 +40,4 @@ Object.keys(themes.light).forEach(key => {
   })
 })
 
-stream.end();
-
+stream.end()

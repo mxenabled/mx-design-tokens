@@ -1,4 +1,9 @@
 const light = core => ({
+  Low: core.BoxShadow.Low,
+  Medium: core.BoxShadow.Medium,
+  High: core.BoxShadow.High,
+  Left: core.BoxShadow.Left,
+  Right: core.BoxShadow.Right,
   Card: core.BoxShadow.Low,
   Container: core.BoxShadow.Low,
   DropdownMenu: core.BoxShadow.Medium,
@@ -11,12 +16,12 @@ const light = core => ({
 
 const dark = core => ({
   ...light(core),
-  Card: "none",
-  Container: "none",
-  DropdownMenu: "none",
-  Modal: "none",
-  BottomBar: "none",
-  Drawer: "none",
+  Card: '',
+  Container: '',
+  DropdownMenu: '',
+  Modal: '',
+  BottomBar: '',
+  Drawer: '',
 })
 
 export default {
