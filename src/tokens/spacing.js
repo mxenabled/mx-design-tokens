@@ -14,7 +14,7 @@ const light = core => ({
   DropdownItemPaddingLeftRight: core.Spacing.XSmall,
   // Input
   InputLabelTop: -Math.abs(core.Spacing.XSmall),
-  InputLabelMarginLeft: core.Spacing.Small,
+  InputLabelMarginLeft: core.Spacing.XSmall,
   InputLabelPaddingLeft: core.Spacing.Tiny,
   InputLabelPaddingRight: core.Spacing.Tiny,
   InputPaddingTop: core.Spacing.Medium,
