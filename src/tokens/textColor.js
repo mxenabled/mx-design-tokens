@@ -9,6 +9,7 @@ const light = core => ({
   InputPlaceholder: core.Color.Neutral600,
   InputHelpText: core.Color.Neutral600,
   InputErrorMessage: core.Color.Error300,
+  DropdownActive: core.Color.Primary300,
   ButtonLink: core.Color.Primary300,
   ButtonLinkHover: core.Color.Primary400,
   ButtonPrimary: core.Color.NeutralWhite,
@@ -26,10 +27,6 @@ const light = core => ({
   TabActive: core.Color.Primary300,
   LeftNavItemActive: core.Color.Primary400,
   Tooltip: core.Color.NeutralWhite,
-  DropdownLabel: core.Color.Neutral600,
-  DropdownPlaceholder: core.Color.Neutral600,
-  DropdownHelpText: core.Color.Neutral600,
-  DropdownErrorMessage: core.Color.Error300,
 })
 
 const dark = core => ({
@@ -44,6 +41,7 @@ const dark = core => ({
   InputPlaceholder: core.Color.Neutral500,
   InputHelpText: core.Color.Neutral500,
   InputErrorMessage: core.Color.Error200,
+  DropdownActive: core.Color.White,
   ButtonLink: core.Color.Primary200,
   ButtonLinkHover: core.Color.NeutralWhite,
   ButtonLinkDisabled: core.Color.Neutral600,
@@ -58,10 +56,6 @@ const dark = core => ({
   ButtonLinkTertiary: core.Color.Neutral400,
   TabActive: core.Color.Primary200,
   LeftNavItemActive: core.Color.NeutralWhite,
-  DropdownLabel: core.Color.Neutral500,
-  DropdownPlaceholder: core.Color.Neutral500,
-  DropdownHelpText: core.Color.Neutral500,
-  DropdownErrorMessage: core.Color.Error200,
 })
 
 export default {

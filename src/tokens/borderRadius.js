@@ -1,6 +1,9 @@
 const light = core => ({
   Button: core.BorderRadius.Medium,
   Input: core.BorderRadius.Medium,
+  DropdownMenu: core.BorderRadius.Medium,
+  DropdownMenuItem: core.BorderRadius.Medium,
+  DropdownChip: core.BorderRadius.Medium,
   Modal: core.BorderRadius.Medium,
   ModalClose: core.BorderRadius.Medium,
   DropdownToggle: core.BorderRadius.Medium,
@@ -10,10 +13,6 @@ const light = core => ({
   Switch: core.BorderRadius.Rounded,
   Tooltip: core.BorderRadius.Medium,
   Checkbox: core.BorderRadius.Small,
-  Radio: core.BorderRadius.Rounded,
-  DropdownMenu: core.BorderRadius.Medium,
-  DropdownMenuItem: core.BorderRadius.Medium,
-  DropdownChip: core.BorderRadius.Medium,
 })
 
 const dark = core => ({
