@@ -1,24 +1,31 @@
 const light = core => ({
+  // Button
   ButtonPadding: core.Spacing.Small,
+  // Card
+  CardSidePadding: core.Spacing.Medium,
+  // Checkbox
   CheckboxLabelMarginLeft: core.Spacing.Small,
   CheckboxLabelMarginRight: core.Spacing.Small,
-  SwitchLabelMarginLeft: core.Spacing.Small,
-  SwitchLabelMarginRight: core.Spacing.Small,
-  InputLabelTop: `-${core.Spacing.XSmall}`,
+  // Container
+  ContainerSidePadding: core.Spacing.Large,
+  //Input
+  InputLabelTop: -Math.abs(core.Spacing.XSmall),
   InputLabelMarginLeft: core.Spacing.Small,
-  InputLabelPaddingTop: "0",
   InputLabelPaddingRight: core.Spacing.Tiny,
-  InputLabelPaddingBottom: "0",
   InputLabelPaddingLeft: core.Spacing.Tiny,
   InputPaddingTop: core.Spacing.Medium,
   InputPaddingRight: core.Spacing.Small,
   InputPaddingBottom: core.Spacing.Small,
   InputPaddingLeft: core.Spacing.Small,
   InputHelpTextMarginTop: core.Spacing.Tiny,
-  TextAreaPadding: core.Spacing.Small,
+  //Modal
   ModalPadding: core.Spacing.Small,
-  ContainerSidePadding: core.Spacing.Large,
-  CardSidePadding: core.Spacing.Medium,
+  // Switch
+  SwitchLabelMarginLeft: core.Spacing.Small,
+  SwitchLabelMarginRight: core.Spacing.Small,
+  // TextArea
+  TextAreaPadding: core.Spacing.Small,
+  // Tooltip
   TooltipPadding: core.Spacing.Small,
 })
 
