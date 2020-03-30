@@ -26,6 +26,10 @@ const light = core => ({
   TabActive: core.Color.Primary300,
   LeftNavItemActive: core.Color.Primary400,
   Tooltip: core.Color.NeutralWhite,
+  DropdownLabel: core.Color.Neutral600,
+  DropdownPlaceholder: core.Color.Neutral600,
+  DropdownHelpText: core.Color.Neutral600,
+  DropdownErrorMessage: core.Color.Error300,
 })
 
 const dark = core => ({
@@ -54,6 +58,10 @@ const dark = core => ({
   ButtonLinkTertiary: core.Color.Neutral400,
   TabActive: core.Color.Primary200,
   LeftNavItemActive: core.Color.NeutralWhite,
+  DropdownLabel: core.Color.Neutral500,
+  DropdownPlaceholder: core.Color.Neutral500,
+  DropdownHelpText: core.Color.Neutral500,
+  DropdownErrorMessage: core.Color.Error200,
 })
 
 export default {

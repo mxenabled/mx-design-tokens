@@ -43,7 +43,7 @@ export default {
     Top: ' 0px -1px 3px rgba(87, 102, 117, 0.2)',
     Left: ' -1px 0px 3px rgba(87, 102, 117, 0.2)',
     Right: ' 1px 0px 3px rgba(87, 102, 117, 0.2)',
-    Focus: '0px 0px 0px 2px rgba(82, 138, 224, 0.8)',
+    Focus: '0px 0px 0px 3px rgba(82, 138, 224, 0.8)',
   },
   BorderRadius: {
     Small: 2,

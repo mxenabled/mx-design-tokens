@@ -39,7 +39,14 @@ const light = core => ({
   RadioDot: core.Color.Neutral100,
   RadioDotChecked: core.Color.Primary300,
   RadioDotDisabled: core.Color.Neutral200,
-  RadioDotDisabledChecked: core.Color.Neutral500
+  RadioDotDisabledChecked: core.Color.Neutral500,
+  DropdownLabelDefault: core.Color.NeutralWhite,
+  DropdownLabelSecondary: core.Color.Neutral100,
+  DropdownMenu: core.Color.NeutralWhite,
+  DropdownMenuItemHover: core.Color.Neutral100,
+  DropdownMenuItemActive: core.Color.Primary100,
+  DropdownChip: core.Color.Primary100,
+  DropdownChipHover: core.Color.Primary300,
 })
 
 const dark = core => ({
@@ -79,6 +86,13 @@ const dark = core => ({
   RadioDot: core.Color.Neutral600,
   RadioDotChecked: core.Color.NeutralWhite,
   RadioDotDisabled: core.Color.Neutral600,
+  DropdownLabelDefault: core.Color.Neutral800,
+  DropdownLabelSecondary: core.Color.Neutral900,
+  DropdownMenu: core.Color.Neutral700,
+  DropdownMenuItemHover: core.Color.Neutral600,
+  DropdownMenuItemActive: core.Color.Primary600,
+  DropdownChip: core.Color.Neutral700,
+  DropdownChipHover: core.Color.Neutral600,
 })
 
 export default {

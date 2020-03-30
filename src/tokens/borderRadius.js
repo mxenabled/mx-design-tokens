@@ -11,6 +11,9 @@ const light = core => ({
   Tooltip: core.BorderRadius.Medium,
   Checkbox: core.BorderRadius.Small,
   Radio: core.BorderRadius.Rounded,
+  DropdownMenu: core.BorderRadius.Medium,
+  DropdownMenuItem: core.BorderRadius.Medium,
+  DropdownChip: core.BorderRadius.Medium,
 })
 
 const dark = core => ({
