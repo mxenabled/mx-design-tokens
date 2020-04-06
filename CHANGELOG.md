@@ -7,12 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [6.0.0] - 04-06-2020
 
 ### Added
-- Tokens for dropdown component.
-- Tokens for modal and drawer close button.
 - Organizational comments to background-color token file.
+- `BackgroundColor.InputChip`
+- `BackgroundColor.InputChipHover`
+- `BackgroundColor.ModalClose`
+- `BackgroundColor.DropdownMenu`
+- `BackgroundColor.DropdownMenuItemHover`
+- `BackgroundColor.DropdownMenuItemActive`
+- `BorderRadius.DropdownMenu`
+- `BorderRadius.DropdownMenuItem`
+- `BorderRadius.DropdownChip`
+- `TextColor.DropdownMenuItemActive`
+- `TextColor.DropdownMenuItemDisabled`
+- `TextColor.ModalClose`
 
 ### Removed
-- Dropdown border, spacing, and fontSize tokens. We will use the input tokens for these since they are the same styles.
+- `BorderColor.Dropdown`
+- `BorderColor.DropdownHover`
+- `BorderColor.DropdownFocus`
+- `BorderColor.DropdownError`
+- `FontSize.DropdownToggle`
+- `FontSize.DropdownItems`
+- `Spacing.DropdownToggle`
+- `Spacing.DropdownItemPaddingTopBottom`
+- `Spacing.DropdownItemPaddingLeftRight`
 
 ## [5.0.0] - 03-20-2020
 
