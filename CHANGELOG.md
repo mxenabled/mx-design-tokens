@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.0.0] - 04-06-2020
+
+### Added
+- Tokens for dropdown component.
+- Tokens for modal and drawer close button.
+- Organizational comments to background-color token file.
+
 ## [5.0.0] - 03-20-2020
 
 ### Added
