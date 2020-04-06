@@ -9,6 +9,8 @@ const light = core => ({
   InputPlaceholder: core.Color.Neutral600,
   InputHelpText: core.Color.Neutral600,
   InputErrorMessage: core.Color.Error300,
+  DropdownMenuItemActive: core.Color.Primary300,
+  DropdownMenuItemDisabled: core.Color.Neutral500,
   ButtonLink: core.Color.Primary300,
   ButtonLinkHover: core.Color.Primary400,
   ButtonPrimary: core.Color.NeutralWhite,
@@ -26,6 +28,7 @@ const light = core => ({
   TabActive: core.Color.Primary300,
   LeftNavItemActive: core.Color.Primary400,
   Tooltip: core.Color.NeutralWhite,
+  ModalClose: core.Color.Neutral900,
 })
 
 const dark = core => ({
@@ -40,6 +43,7 @@ const dark = core => ({
   InputPlaceholder: core.Color.Neutral500,
   InputHelpText: core.Color.Neutral500,
   InputErrorMessage: core.Color.Error200,
+  DropdownMenuItemActive: core.Color.White,
   ButtonLink: core.Color.Primary200,
   ButtonLinkHover: core.Color.NeutralWhite,
   ButtonLinkDisabled: core.Color.Neutral600,
@@ -54,6 +58,7 @@ const dark = core => ({
   ButtonLinkTertiary: core.Color.Neutral400,
   TabActive: core.Color.Primary200,
   LeftNavItemActive: core.Color.NeutralWhite,
+  ModalClose: core.Color.NeutralWhite,
 })
 
 export default {

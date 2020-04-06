@@ -1,6 +1,9 @@
 const light = core => ({
   Button: core.BorderRadius.Medium,
   Input: core.BorderRadius.Medium,
+  DropdownMenu: core.BorderRadius.Medium,
+  DropdownMenuItem: core.BorderRadius.Medium,
+  DropdownChip: core.BorderRadius.Medium,
   Modal: core.BorderRadius.Medium,
   ModalClose: core.BorderRadius.Medium,
   DropdownToggle: core.BorderRadius.Medium,

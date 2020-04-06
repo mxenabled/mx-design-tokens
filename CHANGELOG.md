@@ -4,6 +4,34 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.0.0] - 04-06-2020
+
+### Added
+- Organizational comments to background-color token file.
+- `BackgroundColor.InputChip`
+- `BackgroundColor.InputChipHover`
+- `BackgroundColor.ModalClose`
+- `BackgroundColor.DropdownMenu`
+- `BackgroundColor.DropdownMenuItemHover`
+- `BackgroundColor.DropdownMenuItemActive`
+- `BorderRadius.DropdownMenu`
+- `BorderRadius.DropdownMenuItem`
+- `BorderRadius.DropdownChip`
+- `TextColor.DropdownMenuItemActive`
+- `TextColor.DropdownMenuItemDisabled`
+- `TextColor.ModalClose`
+
+### Removed
+- `BorderColor.Dropdown`
+- `BorderColor.DropdownHover`
+- `BorderColor.DropdownFocus`
+- `BorderColor.DropdownError`
+- `FontSize.DropdownToggle`
+- `FontSize.DropdownItems`
+- `Spacing.DropdownToggle`
+- `Spacing.DropdownItemPaddingTopBottom`
+- `Spacing.DropdownItemPaddingLeftRight`
+
 ## [5.0.0] - 03-20-2020
 
 ### Added
