@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tokens for modal and drawer close button.
 - Organizational comments to background-color token file.
 
+### Removed
+- Dropdown border, spacing, and fontSize tokens. We will use the input tokens for these since they are the same styles.
+
 ## [5.0.0] - 03-20-2020
 
 ### Added
