@@ -108,7 +108,7 @@ const dark = core => ({
   CheckboxChecked: 'transparent',
   CheckboxDisabled: core.Color.Neutral700,
   // Radio
-  RadioChecked: 'transparent',
+  RadioChecked: core.Color.Neutral900,
   RadioDisabled: core.Color.Neutral700,
   RadioDot: core.Color.Neutral600,
   RadioDotChecked: core.Color.NeutralWhite,
