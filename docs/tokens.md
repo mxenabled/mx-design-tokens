@@ -62,10 +62,12 @@
 | Large | 16 |
 | Button | 4 |
 | Input | 4 |
+| DropdownMenu | 4 |
+| DropdownMenuItem | 4 |
+| DropdownChip | 4 |
 | Modal | 4 |
 | ModalClose | 4 |
 | DropdownToggle | 4 |
-| DropdownMenu | 4 |
 | Container | 4 |
 | Card | 4 |
 | Tooltip | 4 |
@@ -86,10 +88,10 @@
 | Input | 16 |
 | InputLabel | 14 |
 | InputHelpText | 14 |
+| DropdownItem | 16 |
+| DropdownChip | 10 |
 | TextArea | 16 |
 | TextAreaHelpText | 14 |
-| DropdownToggle | 16 |
-| DropdownItems | 16 |
 | ModalHeader | 20 |
 | ButtonLinkSmall | 14 |
 | ButtonLinkLarge | 16 |
@@ -135,13 +137,10 @@
 | CheckboxLabelMarginLeft | 12 |
 | CheckboxLabelMarginRight | 12 |
 | ContainerSidePadding | 24 |
-| DropdownToggle | 12 |
-| DropdownItemPaddingTopBottom | 12 |
-| DropdownItemPaddingLeftRight | 8 |
 | InputLabelTop | -8 |
-| InputLabelMarginLeft | 8 |
-| InputLabelPaddingLeft | 4 |
+| InputLabelMarginLeft | 12 |
 | InputLabelPaddingRight | 4 |
+| InputLabelPaddingLeft | 4 |
 | InputPaddingTop | 16 |
 | InputPaddingRight | 12 |
 | InputPaddingBottom | 12 |
@@ -184,6 +183,7 @@
 
 | Key | Value | Color |
 | --- | ----- | ----- |
+| Body | #F8F9FB | ![#F8F9FB](https://placehold.it/15/F8F9FB/000000?text=+) |
 | ButtonLinkHover | #EAF1FB | ![#EAF1FB](https://placehold.it/15/EAF1FB/000000?text=+) |
 | ButtonPrimary | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
 | ButtonPrimaryHover | #165ECC | ![#165ECC](https://placehold.it/15/165ECC/000000?text=+) |
@@ -199,9 +199,11 @@
 | InputDisabled | rgba(247, 249, 252, 0.55) | N/A | 
 | InputLabelDefault | #FFFFFF | ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) |
 | InputLabelSecondary | #F8F9FB | ![#F8F9FB](https://placehold.it/15/F8F9FB/000000?text=+) |
+| InputChip | #EAF1FB | ![#EAF1FB](https://placehold.it/15/EAF1FB/000000?text=+) |
+| InputChipHover | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
 | Modal | #FFFFFF | ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) |
 | ModalScrim | rgba(0, 0, 0, 0.25) | N/A | 
-| Body | #F8F9FB | ![#F8F9FB](https://placehold.it/15/F8F9FB/000000?text=+) |
+| ModalClose | #EEF1F6 | ![#EEF1F6](https://placehold.it/15/EEF1F6/000000?text=+) |
 | Container | #FFFFFF | ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) |
 | Card | #FFFFFF | ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) |
 | LeftNavItem | #FFFFFF | ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) |
@@ -225,6 +227,9 @@
 | RadioDotChecked | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
 | RadioDotDisabled | #EEF1F6 | ![#EEF1F6](https://placehold.it/15/EEF1F6/000000?text=+) |
 | RadioDotDisabledChecked | #A8B1BD | ![#A8B1BD](https://placehold.it/15/A8B1BD/000000?text=+) |
+| DropdownMenu | #FFFFFF | ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) |
+| DropdownMenuItemHover | #F8F9FB | ![#F8F9FB](https://placehold.it/15/F8F9FB/000000?text=+) |
+| DropdownMenuItemActive | #EAF1FB | ![#EAF1FB](https://placehold.it/15/EAF1FB/000000?text=+) |
 ## BorderColor
 
 | Key | Value | Color |
@@ -238,10 +243,6 @@
 | InputError | #DF320C | ![#DF320C](https://placehold.it/15/DF320C/000000?text=+) |
 | InputDisabled | rgba(203, 211, 223, 0.55) | N/A | 
 | ButtonLinkHover | #165ECC | ![#165ECC](https://placehold.it/15/165ECC/000000?text=+) |
-| Dropdown | #6A7381 | ![#6A7381](https://placehold.it/15/6A7381/000000?text=+) |
-| DropdownHover | #121417 | ![#121417](https://placehold.it/15/121417/000000?text=+) |
-| DropdownFocus | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
-| DropdownError | #DF320C | ![#DF320C](https://placehold.it/15/DF320C/000000?text=+) |
 | DropdownDisabled | rgba(203, 211, 223, 0.55) | N/A | 
 | TabActive | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
 | Switch | #6A7381 | ![#6A7381](https://placehold.it/15/6A7381/000000?text=+) |
@@ -267,6 +268,8 @@
 | InputPlaceholder | #6A7381 | ![#6A7381](https://placehold.it/15/6A7381/000000?text=+) |
 | InputHelpText | #6A7381 | ![#6A7381](https://placehold.it/15/6A7381/000000?text=+) |
 | InputErrorMessage | #DF320C | ![#DF320C](https://placehold.it/15/DF320C/000000?text=+) |
+| DropdownMenuItemActive | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
+| DropdownMenuItemDisabled | #A8B1BD | ![#A8B1BD](https://placehold.it/15/A8B1BD/000000?text=+) |
 | ButtonLink | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
 | ButtonLinkHover | #165ECC | ![#165ECC](https://placehold.it/15/165ECC/000000?text=+) |
 | ButtonPrimary | #FFFFFF | ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) |
@@ -284,3 +287,4 @@
 | TabActive | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
 | LeftNavItemActive | #165ECC | ![#165ECC](https://placehold.it/15/165ECC/000000?text=+) |
 | Tooltip | #FFFFFF | ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) |
+| ModalClose | #121417 | ![#121417](https://placehold.it/15/121417/000000?text=+) |
