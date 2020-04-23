@@ -59,6 +59,8 @@ const light = core => ({
   DropdownMenu: core.Color.NeutralWhite,
   DropdownMenuItemHover: core.Color.Neutral100,
   DropdownMenuItemActive: core.Color.Primary100,
+  // Avatar
+  Avatar: core.Color.Neutral300,
 })
 
 const dark = core => ({
@@ -117,6 +119,8 @@ const dark = core => ({
   DropdownMenu: core.Color.Neutral700,
   DropdownMenuItemHover: core.Color.Neutral600,
   DropdownMenuItemActive: core.Color.Primary600,
+  // Avatar
+  Avatar: core.Color.Neutral700,
 })
 
 export default {

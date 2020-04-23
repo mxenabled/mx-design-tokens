@@ -29,6 +29,7 @@ const light = core => ({
   LeftNavItemActive: core.Color.Primary400,
   Tooltip: core.Color.NeutralWhite,
   ModalClose: core.Color.Neutral900,
+  Avatar: core.Color.Neutral900,
 })
 
 const dark = core => ({
@@ -59,6 +60,7 @@ const dark = core => ({
   TabActive: core.Color.Primary200,
   LeftNavItemActive: core.Color.NeutralWhite,
   ModalClose: core.Color.NeutralWhite,
+  Avatar: core.Color.NeutralWhite,
 })
 
 export default {
