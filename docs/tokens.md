@@ -230,6 +230,7 @@
 | DropdownMenu | #FFFFFF | ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) |
 | DropdownMenuItemHover | #F8F9FB | ![#F8F9FB](https://placehold.it/15/F8F9FB/000000?text=+) |
 | DropdownMenuItemActive | #EAF1FB | ![#EAF1FB](https://placehold.it/15/EAF1FB/000000?text=+) |
+| Avatar | #E4E8EE | ![#E4E8EE](https://placehold.it/15/E4E8EE/000000?text=+) |
 ## BorderColor
 
 | Key | Value | Color |
@@ -288,3 +289,4 @@
 | LeftNavItemActive | #165ECC | ![#165ECC](https://placehold.it/15/165ECC/000000?text=+) |
 | Tooltip | #FFFFFF | ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) |
 | ModalClose | #121417 | ![#121417](https://placehold.it/15/121417/000000?text=+) |
+| Avatar | #121417 | ![#121417](https://placehold.it/15/121417/000000?text=+) |
