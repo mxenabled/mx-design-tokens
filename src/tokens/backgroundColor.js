@@ -118,7 +118,7 @@ const dark = core => ({
   // Dropdown
   DropdownMenu: core.Color.Neutral700,
   DropdownMenuItemHover: core.Color.Neutral600,
-  DropdownMenuItemActive: core.Color.Primary600,
+  DropdownMenuItemActive: core.Color.Neutral600,
   // Avatar
   Avatar: core.Color.Neutral700,
 })
