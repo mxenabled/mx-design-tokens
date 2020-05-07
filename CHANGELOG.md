@@ -4,10 +4,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.1.2] - 05-07-2020
+
+### Fixed
+- Bad publish of 6.1.1
+- Add script to maybe prevent this from happening again.
+
 ## [6.1.1] - 05-07-2020
 
 ### Fixed
-- Corrected typo on `BackgroundColor.DropdownMenuItemActive`. 
+- Corrected typo on `BackgroundColor.DropdownMenuItemActive`.
 
 ## [6.1.0] - 04-22-2020
 
