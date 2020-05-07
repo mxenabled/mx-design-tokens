@@ -20,7 +20,7 @@
     "build": "babel src/ -d dist/",
     "build:docs": "npm run build && node buildDocs.js",
     "json": "node json.js",
-    "publish": "npm run build && npm run publish"
+    "publish": "npm run build && npm publish"
   },
   "author": "MX",
   "license": "ISC",
