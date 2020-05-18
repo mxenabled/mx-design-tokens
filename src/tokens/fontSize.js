@@ -1,15 +1,21 @@
 const light = core => ({
-  Input: core.FontSize.Body,
-  InputLabel: core.FontSize.Small,
-  InputHelpText: core.FontSize.Small,
-  DropdownItem: core.FontSize.Body,
+  // Button
+  Button: core.FontSize.Body,
+  ButtonLinkLarge: core.FontSize.Body,
+  ButtonLinkSmall: core.FontSize.Small,
+  // Dropdown
   DropdownChip: core.FontSize.Tiny,
+  DropdownItem: core.FontSize.Body,
+  // Input
+  Input: core.FontSize.Body,
+  InputHelpText: core.FontSize.Small,
+  InputLabel: core.FontSize.Small,
+  // Modal
+  ModalHeader: core.FontSize.H3,
+  // Textarea
   TextArea: core.FontSize.Body,
   TextAreaHelpText: core.FontSize.Small,
-  ModalHeader: core.FontSize.H3,
-  ButtonLinkSmall: core.FontSize.Small,
-  ButtonLinkLarge: core.FontSize.Body,
-  Button: core.FontSize.Body,
+  // Tooltip
   TooltipHeadline: core.FontSize.Body,
   TooltipText: core.FontSize.ParagraphSmall,
 })

@@ -1,66 +1,83 @@
 const light = core => ({
-  Default: core.Color.Neutral900,
-  Secondary: core.Color.Neutral700,
+  // Global
   Active: core.Color.Primary300,
   ActiveHover: core.Color.Primary400,
-  Error: core.Color.Error300,
+  Default: core.Color.Neutral900,
   Disabled: core.Color.Neutral500,
-  InputLabel: core.Color.Neutral600,
-  InputPlaceholder: core.Color.Neutral600,
-  InputHelpText: core.Color.Neutral600,
-  InputErrorMessage: core.Color.Error300,
-  DropdownMenuItemActive: core.Color.Primary300,
-  DropdownMenuItemDisabled: core.Color.Neutral500,
-  ButtonLink: core.Color.Primary300,
-  ButtonLinkHover: core.Color.Primary400,
-  ButtonPrimary: core.Color.NeutralWhite,
-  ButtonPrimaryDisabled: core.Color.Neutral500,
-  ButtonNeutral: core.Color.Primary300,
-  ButtonNeutralHover: core.Color.Primary400,
-  ButtonNeutralDisabled: core.Color.Neutral600,
-  ButtonTransparent: core.Color.Primary300,
-  ButtonTransparentHover: core.Color.Primary400,
-  ButtonTransparentDisabled: core.Color.Neutral600,
+  Error: core.Color.Error300,
+  Secondary: core.Color.Neutral700,
+  // Avatar
+  Avatar: core.Color.Neutral900,
+  // Button
   ButtonDestructive: core.Color.NeutralWhite,
   ButtonDestructiveDisabled: core.Color.Neutral500,
-  ButtonTransparentTertiary: core.Color.Neutral700,
+  ButtonLink: core.Color.Primary300,
+  ButtonLinkHover: core.Color.Primary400,
   ButtonLinkTertiary: core.Color.Neutral700,
-  TabActive: core.Color.Primary300,
+  ButtonNeutral: core.Color.Primary300,
+  ButtonNeutralDisabled: core.Color.Neutral600,
+  ButtonNeutralHover: core.Color.Primary400,
+  ButtonPrimary: core.Color.NeutralWhite,
+  ButtonPrimaryDisabled: core.Color.Neutral500,
+  ButtonTransparent: core.Color.Primary300,
+  ButtonTransparentDisabled: core.Color.Neutral600,
+  ButtonTransparentHover: core.Color.Primary400,
+  ButtonTransparentTertiary: core.Color.Neutral700,
+  // Dropdown
+  DropdownMenuItemActive: core.Color.Primary300,
+  DropdownMenuItemDisabled: core.Color.Neutral500,
+  // Input
+  InputErrorMessage: core.Color.Error300,
+  InputHelpText: core.Color.Neutral600,
+  InputLabel: core.Color.Neutral600,
+  InputPlaceholder: core.Color.Neutral600,
+  // Left Nav
   LeftNavItemActive: core.Color.Primary400,
-  Tooltip: core.Color.NeutralWhite,
+  // Modal
   ModalClose: core.Color.Neutral900,
-  Avatar: core.Color.Neutral900,
+  // Tab
+  TabActive: core.Color.Primary300,
+  // Tooltip
+  Tooltip: core.Color.NeutralWhite,
 })
 
 const dark = core => ({
   ...light(core),
-  Default: core.Color.NeutralWhite,
-  Secondary: core.Color.Neutral500,
+  // Global
   Active: core.Color.Primary200,
   ActiveHover: core.Color.Primary100,
-  Error: core.Color.Error200,
+  Default: core.Color.NeutralWhite,
   Disabled: core.Color.Neutral600,
+  Error: core.Color.Error200,
+  Secondary: core.Color.Neutral500,
+  // Avatar
+  Avatar: core.Color.NeutralWhite,
+  // Button
+  ButtonLink: core.Color.Primary200,
+  ButtonLinkDisabled: core.Color.Neutral600,
+  ButtonLinkHover: core.Color.NeutralWhite,
+  ButtonLinkTertiary: core.Color.Neutral400,
+  ButtonNeutral: core.Color.NeutralWhite,
+  ButtonNeutralDisabled: core.Color.Neutral500,
+  ButtonNeutralHover: core.Color.NeutralWhite,
+  ButtonPrimaryDisabled: core.Color.Neutral500,
+  ButtonTransparent: core.Color.Primary200,
+  ButtonTransparentDisabled: core.Color.Neutral600,
+  ButtonTransparentHover: core.Color.NeutralWhite,
+  ButtonTransparentTertiary: core.Color.Neutral400,
+  // Dropdown
+  DropdownMenuItemActive: core.Color.White,
+  // Input
+  InputErrorMessage: core.Color.Error200,
+  InputHelpText: core.Color.Neutral500,
   InputLabel: core.Color.Neutral500,
   InputPlaceholder: core.Color.Neutral500,
-  InputHelpText: core.Color.Neutral500,
-  InputErrorMessage: core.Color.Error200,
-  DropdownMenuItemActive: core.Color.White,
-  ButtonLink: core.Color.Primary200,
-  ButtonLinkHover: core.Color.NeutralWhite,
-  ButtonLinkDisabled: core.Color.Neutral600,
-  ButtonPrimaryDisabled: core.Color.Neutral500,
-  ButtonNeutral: core.Color.NeutralWhite,
-  ButtonNeutralHover: core.Color.NeutralWhite,
-  ButtonNeutralDisabled: core.Color.Neutral500,
-  ButtonTransparent: core.Color.Primary200,
-  ButtonTransparentHover: core.Color.NeutralWhite,
-  ButtonTransparentDisabled: core.Color.Neutral600,
-  ButtonTransparentTertiary: core.Color.Neutral400,
-  ButtonLinkTertiary: core.Color.Neutral400,
-  TabActive: core.Color.Primary200,
+  // Left Nav
   LeftNavItemActive: core.Color.NeutralWhite,
+  // Modal
   ModalClose: core.Color.NeutralWhite,
-  Avatar: core.Color.NeutralWhite,
+  // Tab
+  TabActive: core.Color.Primary200,
 })
 
 export default {
