@@ -8,22 +8,22 @@ const light = core => ({
   CheckboxLabelMarginRight: core.Spacing.Small,
   // Container
   ContainerSidePadding: core.Spacing.Large,
-  //Input
-  InputLabelTop: -Math.abs(core.Spacing.XSmall),
+  // Input
+  InputHelpTextMarginTop: core.Spacing.Tiny,
   InputLabelMarginLeft: core.Spacing.Small,
-  InputLabelPaddingRight: core.Spacing.Tiny,
   InputLabelPaddingLeft: core.Spacing.Tiny,
-  InputPaddingTop: core.Spacing.Medium,
-  InputPaddingRight: core.Spacing.Small,
+  InputLabelPaddingRight: core.Spacing.Tiny,
+  InputLabelTop: -Math.abs(core.Spacing.XSmall),
   InputPaddingBottom: core.Spacing.Small,
   InputPaddingLeft: core.Spacing.Small,
-  InputHelpTextMarginTop: core.Spacing.Tiny,
-  //Modal
+  InputPaddingRight: core.Spacing.Small,
+  InputPaddingTop: core.Spacing.Medium,
+  // Modal
   ModalPadding: core.Spacing.Small,
   // Switch
   SwitchLabelMarginLeft: core.Spacing.Small,
   SwitchLabelMarginRight: core.Spacing.Small,
-  // TextArea
+  // Textarea
   TextAreaPadding: core.Spacing.Small,
   // Tooltip
   TooltipPadding: core.Spacing.Small,
