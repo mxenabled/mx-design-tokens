@@ -26,6 +26,9 @@ const light = core => ({
   SwitchDisabled: core.Color.Neutral400,
   // Tab
   TabActive: core.Color.Primary300,
+  // Table
+  TableHeader: core.Color.Neutral400,
+  TableCell: core.Color.Neutral200,
 })
 
 const dark = core => ({
@@ -52,6 +55,9 @@ const dark = core => ({
   SwitchDisabled: core.Color.Neutral600,
   // Tab
   TabActive: core.Color.Primary200,
+  // Table
+  TableHeader: core.Color.Neutral600,
+  TableCell: core.Color.Neutral700,
 })
 
 export default {
