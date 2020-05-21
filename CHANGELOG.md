@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `BackgroundColor.TableFooter`
 - `BorderColor.TableHeader`
 - `BorderColor.TableCell`
+- `Spacing.TableCell`
+- `Spacing.TableCellActionMargin`
+- `Spacing.TableFooterPaddingTop`
+- `Spacing.TableFooterPaddingSide`
 
 ### Changed
 - `Warning400` value updated to `#E07C02` to meet a 3:1 contrast ratio on white.
