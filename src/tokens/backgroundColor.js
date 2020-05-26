@@ -43,6 +43,7 @@ const light = core => ({
   // Modal
   Modal: core.Color.NeutralWhite,
   ModalClose: core.Color.Neutral200,
+  ModalCloseHover: core.Color.Neutral300,
   ModalScrim: core.Color.TransparentScrim,
   // Radio
   RadioChecked: core.Color.Primary100,
@@ -106,6 +107,7 @@ const dark = core => ({
   // Modal
   Modal: core.Color.Neutral800,
   ModalClose: core.Color.Neutral700,
+  ModalCloseHover: core.Color.Neutral600,
   ModalScrim: core.Color.TransparentScrimDarker,
   // Radio
   RadioChecked: core.Color.Neutral900,
