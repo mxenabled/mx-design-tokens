@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.2.0] - 05-21-2020
+## [6.3.0] - 05-21-2020
 
 ### Added
 - `BackgroundColor.TableHover`
@@ -19,7 +19,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - `Warning400` value updated to `#E07C02` to meet a 3:1 contrast ratio on white.
 
-## [6.1.3] - 05-07-2020
+## [6.2.0] - 05-26-2020
+
+### Added
+- `BackgroundColor.ModalCloseHover`
+
+## [6.1.3] - 05-21-2020
 
 ### Changed
 - Organized tokens alphabetically with global tokens at the top of each file. 
