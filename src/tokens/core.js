@@ -36,7 +36,7 @@ export default {
     Warning100: "#FEF7B9",
     Warning200: "#FFDA6C",
     Warning300: "#FFB400",
-    Warning400: "#FA8902",
+    Warning400: "#E07C02",
     Warning500: "#C33E01",
     Error100: "#FCD2CF",
     Error200: "#F45532",

@@ -25,7 +25,7 @@
 | Warning100 | #FEF7B9 | ![#FEF7B9](https://placehold.it/15/FEF7B9/000000?text=+) |
 | Warning200 | #FFDA6C | ![#FFDA6C](https://placehold.it/15/FFDA6C/000000?text=+) |
 | Warning300 | #FFB400 | ![#FFB400](https://placehold.it/15/FFB400/000000?text=+) |
-| Warning400 | #FA8902 | ![#FA8902](https://placehold.it/15/FA8902/000000?text=+) |
+| Warning400 | #E07C02 | ![#E07C02](https://placehold.it/15/E07C02/000000?text=+) |
 | Warning500 | #C33E01 | ![#C33E01](https://placehold.it/15/C33E01/000000?text=+) |
 | Error100 | #FCD2CF | ![#FCD2CF](https://placehold.it/15/FCD2CF/000000?text=+) |
 | Error200 | #F45532 | ![#F45532](https://placehold.it/15/F45532/000000?text=+) |
@@ -149,6 +149,10 @@
 | ModalPadding | 12 |
 | SwitchLabelMarginLeft | 12 |
 | SwitchLabelMarginRight | 12 |
+| TableCell | 16 |
+| TableCellActionMargin | 24 |
+| TableFooterPaddingTop | 12 |
+| TableFooterPaddingSide | 16 |
 | TextAreaPadding | 12 |
 | TooltipPadding | 12 |
 ## Time
@@ -231,6 +235,8 @@
 | SwitchOff | #EEF1F6 | ![#EEF1F6](https://placehold.it/15/EEF1F6/000000?text=+) |
 | SwitchOn | #09A57F | ![#09A57F](https://placehold.it/15/09A57F/000000?text=+) |
 | TabHover | #F8F9FB | ![#F8F9FB](https://placehold.it/15/F8F9FB/000000?text=+) |
+| TableRowHover | #F8F9FB | ![#F8F9FB](https://placehold.it/15/F8F9FB/000000?text=+) |
+| TableFooter | #EEF1F6 | ![#EEF1F6](https://placehold.it/15/EEF1F6/000000?text=+) |
 | Tooltip | #1F2329 | ![#1F2329](https://placehold.it/15/1F2329/000000?text=+) |
 ## BorderColor
 
@@ -256,6 +262,8 @@
 | Switch | #6A7381 | ![#6A7381](https://placehold.it/15/6A7381/000000?text=+) |
 | SwitchDisabled | #CDD3DD | ![#CDD3DD](https://placehold.it/15/CDD3DD/000000?text=+) |
 | TabActive | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
+| TableHeader | #CDD3DD | ![#CDD3DD](https://placehold.it/15/CDD3DD/000000?text=+) |
+| TableCell | #EEF1F6 | ![#EEF1F6](https://placehold.it/15/EEF1F6/000000?text=+) |
 ## TextColor
 
 | Key | Value | Color |

@@ -23,6 +23,11 @@ const light = core => ({
   // Switch
   SwitchLabelMarginLeft: core.Spacing.Small,
   SwitchLabelMarginRight: core.Spacing.Small,
+  // Table
+  TableCell: core.Spacing.Medium,
+  TableCellActionMargin: core.Spacing.Large,
+  TableFooterPaddingTop: core.Spacing.Small,
+  TableFooterPaddingSide: core.Spacing.Medium,
   // Textarea
   TextAreaPadding: core.Spacing.Small,
   // Tooltip

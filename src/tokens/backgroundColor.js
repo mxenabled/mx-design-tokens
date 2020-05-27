@@ -61,6 +61,9 @@ const light = core => ({
   SwitchOn: core.Color.Success300,
   // Tab
   TabHover: core.Color.Neutral100,
+  // Table
+  TableRowHover: core.Color.Neutral100,
+  TableFooter: core.Color.Neutral200,
   //Tooltip
   Tooltip: core.Color.Neutral800,
 })
@@ -123,6 +126,9 @@ const dark = core => ({
   SwitchOff: core.Color.Neutral700,
   // Tab
   TabHover: core.Color.Neutral700,
+  // Table
+  TableRowHover: core.Color.Neutral700,
+  TableFooter: core.Color.Neutral700,
   // Tooltip
   Tooltip: core.Color.Neutral700,
 })
