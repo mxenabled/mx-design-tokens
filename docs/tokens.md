@@ -138,7 +138,7 @@
 | CheckboxLabelMarginRight | 12 |
 | ContainerSidePadding | 24 |
 | InputHelpTextMarginTop | 4 |
-| InputLabelMarginLeft | 12 |
+| InputLabelMarginLeft | 8 |
 | InputLabelPaddingLeft | 4 |
 | InputLabelPaddingRight | 4 |
 | InputLabelTop | -8 |
