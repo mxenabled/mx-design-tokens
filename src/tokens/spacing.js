@@ -1,4 +1,4 @@
-const light = core => ({
+const light = (core) => ({
   // Button
   ButtonPadding: core.Spacing.Small,
   // Card
@@ -10,7 +10,7 @@ const light = core => ({
   ContainerSidePadding: core.Spacing.Large,
   // Input
   InputHelpTextMarginTop: core.Spacing.Tiny,
-  InputLabelMarginLeft: core.Spacing.Small,
+  InputLabelMarginLeft: core.Spacing.XSmall,
   InputLabelPaddingLeft: core.Spacing.Tiny,
   InputLabelPaddingRight: core.Spacing.Tiny,
   InputLabelTop: -Math.abs(core.Spacing.XSmall),
@@ -34,7 +34,7 @@ const light = core => ({
   TooltipPadding: core.Spacing.Small,
 })
 
-const dark = core => ({
+const dark = (core) => ({
   ...light(core),
 })
 
