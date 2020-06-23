@@ -234,6 +234,7 @@
 | SwitchHandleDisabled | #F8F9FB | ![#F8F9FB](https://placehold.it/15/F8F9FB/000000?text=+) |
 | SwitchOff | #EEF1F6 | ![#EEF1F6](https://placehold.it/15/EEF1F6/000000?text=+) |
 | SwitchOn | #09A57F | ![#09A57F](https://placehold.it/15/09A57F/000000?text=+) |
+| TabDivider | #CDD3DD | ![#CDD3DD](https://placehold.it/15/CDD3DD/000000?text=+) |
 | TabHover | #F8F9FB | ![#F8F9FB](https://placehold.it/15/F8F9FB/000000?text=+) |
 | TableRowHover | #F8F9FB | ![#F8F9FB](https://placehold.it/15/F8F9FB/000000?text=+) |
 | TableFooter | #EEF1F6 | ![#EEF1F6](https://placehold.it/15/EEF1F6/000000?text=+) |
