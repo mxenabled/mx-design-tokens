@@ -1,6 +1,6 @@
 {
   "name": "mx-design-tokens",
-  "version": "6.3.2",
+  "version": "6.4.0",
   "description": "Design Tokens",
   "main": "dist/index.js",
   "engines": {
