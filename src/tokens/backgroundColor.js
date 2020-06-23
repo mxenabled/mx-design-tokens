@@ -2,7 +2,7 @@ const light = core => ({
   // Global
   Body: core.Color.Neutral100,
   //Avatar
-  Avatar: core.Color.Neutral300, 
+  Avatar: core.Color.Neutral300,
   // Button
   ButtonDestructive: core.Color.Error300,
   ButtonDestructiveDisabled: core.Color.Neutral200,
@@ -60,6 +60,7 @@ const light = core => ({
   SwitchOff: core.Color.Neutral200,
   SwitchOn: core.Color.Success300,
   // Tab
+  TabDivider: core.Color.Neutral400,
   TabHover: core.Color.Neutral100,
   // Table
   TableRowHover: core.Color.Neutral100,
@@ -125,6 +126,7 @@ const dark = core => ({
   SwitchHandleDisabled: core.Color.Neutral700,
   SwitchOff: core.Color.Neutral700,
   // Tab
+  TabDivider: core.Color.Neutral600,
   TabHover: core.Color.Neutral700,
   // Table
   TableRowHover: core.Color.Neutral700,
