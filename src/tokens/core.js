@@ -75,7 +75,8 @@ export default {
   BorderRadius: {
     Small: 2,
     Medium: 4,
-    Large: 16,
+    Large: 8,
+    XLarge: 16,
   },
   FontSize: {
     Tiny: 10,
