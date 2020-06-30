@@ -59,9 +59,11 @@
 | --- | ----- |
 | Small | 2 |
 | Medium | 4 |
-| Large | 16 |
+| Large | 8 |
+| XLarge | 16 |
 | Button | 4 |
 | Card | 4 |
+| CardRounded | 8 |
 | Checkbox | 2 |
 | Container | 4 |
 | DropdownChip | 4 |
