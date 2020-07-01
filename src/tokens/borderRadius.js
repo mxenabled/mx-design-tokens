@@ -3,6 +3,7 @@ const light = core => ({
   Button: core.BorderRadius.Medium,
   // Card
   Card: core.BorderRadius.Medium,
+  CardRounded: core.BorderRadius.Large,
   // Checkbox
   Checkbox: core.BorderRadius.Small,
   // Container
