@@ -48,6 +48,14 @@ export default {
     TransparentScrim: "rgba(0, 0, 0, 0.25)",
     TransparentScrimDarker: "rgba(0, 0, 0, 0.50)",
   },
+  Font: {
+    Thin: 'ProximaNovaThin, Helvetica, Arial, sans-serif',
+    Light: 'ProximaNovaLight, Helvetica, Arial, sans-serif',
+    Regular: 'ProximaNovaRegular, Helvetica, Arial, sans-serif',
+    Italic: 'ProximaNovaRegularItalic, Helvetica, Arial, sans-serif',
+    Semibold: 'ProximaNovaSemibold, Helvetica, Arial, sans-serif',
+    Bold: 'ProximaNovaBold, Helvetica, Arial, sans-serif',
+  },
   BoxShadow: target => {
     if (target === targets.REACT) {
       return {
