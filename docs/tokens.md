@@ -36,6 +36,13 @@
 | TransparentNeutral400 | rgba(203, 211, 223, 0.55) | N/A | 
 | TransparentScrim | rgba(0, 0, 0, 0.25) | N/A | 
 | TransparentScrimDarker | rgba(0, 0, 0, 0.50) | N/A | 
+## Font
+
+| Key | Value |
+| --- | ----- |
+| Regular | ProximaNovaRegular, Helvetica, Arial, sans-serif |
+| Semibold | ProximaNovaSemibold, Helvetica, Arial, sans-serif |
+| Bold | ProximaNovaBold, Helvetica, Arial, sans-serif |
 ## BoxShadow
 
 | Key | Value |
