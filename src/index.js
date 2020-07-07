@@ -13,13 +13,17 @@ export const targets = {
   NATIVE: 'native',
 }
 
-export const buildTheme = (themeName, target=targets.REACT, customColors={}) => {
+export const buildTheme = (themeName, target=targets.REACT, customColors={}, customFonts={}) => {
   const customCore = {
     ...core,
     Color: {
       ...core.Color,
       ...customColors,
     },
+    Font: {
+      ...core.Font,
+      ...customFonts,
+    }
   }
 
   const builtCore = {}

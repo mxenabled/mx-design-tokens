@@ -1,6 +1,6 @@
 {
   "name": "mx-design-tokens",
-  "version": "7.0.0",
+  "version": "7.1.0",
   "description": "Design Tokens",
   "main": "dist/index.js",
   "engines": {
@@ -19,7 +19,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src/ -d dist/",
     "build:docs": "npm run build && node buildDocs.js",
-    "json": "node json.js",
+    "json": "node json.js"
   },
   "author": "MX",
   "license": "ISC",
