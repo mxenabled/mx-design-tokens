@@ -143,8 +143,8 @@
 | SuperJumbo | 96 |
 | ButtonPadding | 12 |
 | CardSidePadding | 16 |
-| CheckboxLabelMarginLeft | 12 |
-| CheckboxLabelMarginRight | 12 |
+| CheckboxLabelMarginLeft | 8 |
+| CheckboxLabelMarginRight | 8 |
 | ContainerSidePadding | 24 |
 | InputHelpTextMarginTop | 4 |
 | InputLabelMarginLeft | 8 |

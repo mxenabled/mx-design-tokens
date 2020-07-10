@@ -4,8 +4,8 @@ const light = (core) => ({
   // Card
   CardSidePadding: core.Spacing.Medium,
   // Checkbox
-  CheckboxLabelMarginLeft: core.Spacing.Small,
-  CheckboxLabelMarginRight: core.Spacing.Small,
+  CheckboxLabelMarginLeft: core.Spacing.XSmall,
+  CheckboxLabelMarginRight: core.Spacing.XSmall,
   // Container
   ContainerSidePadding: core.Spacing.Large,
   // Input
