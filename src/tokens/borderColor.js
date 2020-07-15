@@ -1,12 +1,12 @@
 const light = core => ({
   // Button
-  ButtonLinkHover: core.Color.Primary400,
+  ButtonLinkHover: core.Color.Brand400,
   ButtonNeutral: core.Color.Neutral400,
-  ButtonNeutralDisabled: core.Color.Primary400,
-  ButtonNeutralHover: core.Color.Primary400,
+  ButtonNeutralDisabled: core.Color.Brand400,
+  ButtonNeutralHover: core.Color.Brand400,
   // Checkbox
   Checkbox: core.Color.Neutral600,
-  CheckboxChecked: core.Color.Primary300,
+  CheckboxChecked: core.Color.Brand300,
   CheckboxDisabled: core.Color.Neutral400,
   // Dropdown
   DropdownDisabled: core.Color.TransparentNeutral400,
@@ -14,18 +14,18 @@ const light = core => ({
   Input: core.Color.Neutral600,
   InputDisabled: core.Color.TransparentNeutral400,
   InputError: core.Color.Error300,
-  InputFocus: core.Color.Primary300,
+  InputFocus: core.Color.Brand300,
   InputHover: core.Color.Neutral600,
   // Radio
   Radio: core.Color.Neutral600,
-  RadioChecked: core.Color.Primary300,
+  RadioChecked: core.Color.Brand300,
   RadioDisabled: core.Color.Neutral400,
   RadioDisabledChecked: core.Color.Neutral500,
   // Switch
   Switch: core.Color.Neutral600,
   SwitchDisabled: core.Color.Neutral400,
   // Tab
-  TabActive: core.Color.Primary300,
+  TabActive: core.Color.Brand300,
   // Table
   TableHeader: core.Color.Neutral400,
   TableCell: core.Color.Neutral200,
@@ -46,7 +46,7 @@ const dark = core => ({
   Input: core.Color.Neutral500,
   InputDisabled: core.Color.Neutral600,
   InputError: core.Color.Error200,
-  InputFocus: core.Color.Primary200,
+  InputFocus: core.Color.Brand200,
   InputHover: core.Color.Neutral500,
   // Radio
   RadioChecked: core.Color.NeutralWhite,
@@ -54,7 +54,7 @@ const dark = core => ({
   // Switch
   SwitchDisabled: core.Color.Neutral600,
   // Tab
-  TabActive: core.Color.Primary200,
+  TabActive: core.Color.Brand200,
   // Table
   TableHeader: core.Color.Neutral600,
   TableCell: core.Color.Neutral700,

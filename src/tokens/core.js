@@ -13,6 +13,11 @@ const addPx = obj => {
 
 export default {
   Color: {
+    Brand100: "#EAF1FB",
+    Brand200: "#6FA1EC",
+    Brand300: "#2F73DA",
+    Brand400: "#165ECC",
+    Brand500: "#034AB3",
     Primary100: "#EAF1FB",
     Primary200: "#6FA1EC",
     Primary300: "#2F73DA",
