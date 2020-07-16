@@ -7,11 +7,6 @@
 | Brand300 | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
 | Brand400 | #165ECC | ![#165ECC](https://placehold.it/15/165ECC/000000?text=+) |
 | Brand500 | #034AB3 | ![#034AB3](https://placehold.it/15/034AB3/000000?text=+) |
-| Primary100 | #EAF1FB | ![#EAF1FB](https://placehold.it/15/EAF1FB/000000?text=+) |
-| Primary200 | #6FA1EC | ![#6FA1EC](https://placehold.it/15/6FA1EC/000000?text=+) |
-| Primary300 | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
-| Primary400 | #165ECC | ![#165ECC](https://placehold.it/15/165ECC/000000?text=+) |
-| Primary500 | #034AB3 | ![#034AB3](https://placehold.it/15/034AB3/000000?text=+) |
 | NeutralWhite | #FFFFFF | ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) |
 | Neutral100 | #F8F9FB | ![#F8F9FB](https://placehold.it/15/F8F9FB/000000?text=+) |
 | Neutral200 | #EEF1F6 | ![#EEF1F6](https://placehold.it/15/EEF1F6/000000?text=+) |
