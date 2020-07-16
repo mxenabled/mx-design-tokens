@@ -1,7 +1,7 @@
 const light = core => ({
   // Global
-  Active: core.Color.Primary300,
-  ActiveHover: core.Color.Primary400,
+  Active: core.Color.Brand300,
+  ActiveHover: core.Color.Brand400,
   Default: core.Color.Neutral900,
   Disabled: core.Color.Neutral500,
   Error: core.Color.Error300,
@@ -11,20 +11,20 @@ const light = core => ({
   // Button
   ButtonDestructive: core.Color.NeutralWhite,
   ButtonDestructiveDisabled: core.Color.Neutral500,
-  ButtonLink: core.Color.Primary300,
-  ButtonLinkHover: core.Color.Primary400,
+  ButtonLink: core.Color.Brand300,
+  ButtonLinkHover: core.Color.Brand400,
   ButtonLinkTertiary: core.Color.Neutral700,
-  ButtonNeutral: core.Color.Primary300,
+  ButtonNeutral: core.Color.Brand300,
   ButtonNeutralDisabled: core.Color.Neutral600,
-  ButtonNeutralHover: core.Color.Primary400,
+  ButtonNeutralHover: core.Color.Brand400,
   ButtonPrimary: core.Color.NeutralWhite,
   ButtonPrimaryDisabled: core.Color.Neutral500,
-  ButtonTransparent: core.Color.Primary300,
+  ButtonTransparent: core.Color.Brand300,
   ButtonTransparentDisabled: core.Color.Neutral600,
-  ButtonTransparentHover: core.Color.Primary400,
+  ButtonTransparentHover: core.Color.Brand400,
   ButtonTransparentTertiary: core.Color.Neutral700,
   // Dropdown
-  DropdownMenuItemActive: core.Color.Primary300,
+  DropdownMenuItemActive: core.Color.Brand300,
   DropdownMenuItemDisabled: core.Color.Neutral500,
   // Input
   InputErrorMessage: core.Color.Error300,
@@ -32,11 +32,11 @@ const light = core => ({
   InputLabel: core.Color.Neutral600,
   InputPlaceholder: core.Color.Neutral600,
   // Left Nav
-  LeftNavItemActive: core.Color.Primary400,
+  LeftNavItemActive: core.Color.Brand400,
   // Modal
   ModalClose: core.Color.Neutral900,
   // Tab
-  TabActive: core.Color.Primary300,
+  TabActive: core.Color.Brand300,
   // Tooltip
   Tooltip: core.Color.NeutralWhite,
 })
@@ -44,8 +44,8 @@ const light = core => ({
 const dark = core => ({
   ...light(core),
   // Global
-  Active: core.Color.Primary200,
-  ActiveHover: core.Color.Primary100,
+  Active: core.Color.Brand200,
+  ActiveHover: core.Color.Brand100,
   Default: core.Color.NeutralWhite,
   Disabled: core.Color.Neutral600,
   Error: core.Color.Error200,
@@ -53,7 +53,7 @@ const dark = core => ({
   // Avatar
   Avatar: core.Color.NeutralWhite,
   // Button
-  ButtonLink: core.Color.Primary200,
+  ButtonLink: core.Color.Brand200,
   ButtonLinkDisabled: core.Color.Neutral600,
   ButtonLinkHover: core.Color.NeutralWhite,
   ButtonLinkTertiary: core.Color.Neutral400,
@@ -61,7 +61,7 @@ const dark = core => ({
   ButtonNeutralDisabled: core.Color.Neutral500,
   ButtonNeutralHover: core.Color.NeutralWhite,
   ButtonPrimaryDisabled: core.Color.Neutral500,
-  ButtonTransparent: core.Color.Primary200,
+  ButtonTransparent: core.Color.Brand200,
   ButtonTransparentDisabled: core.Color.Neutral600,
   ButtonTransparentHover: core.Color.NeutralWhite,
   ButtonTransparentTertiary: core.Color.Neutral400,
@@ -77,7 +77,7 @@ const dark = core => ({
   // Modal
   ModalClose: core.Color.NeutralWhite,
   // Tab
-  TabActive: core.Color.Primary200,
+  TabActive: core.Color.Brand200,
 })
 
 export default {

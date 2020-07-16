@@ -7,38 +7,38 @@ const light = core => ({
   ButtonDestructive: core.Color.Error300,
   ButtonDestructiveDisabled: core.Color.Neutral200,
   ButtonDestructiveHover: core.Color.Error400,
-  ButtonLinkHover: core.Color.Primary100,
+  ButtonLinkHover: core.Color.Brand100,
   ButtonNeutral: core.Color.NeutralWhite,
   ButtonNeutralDisabled: core.Color.NeutralWhite,
   ButtonNeutralHover: core.Color.NeutralWhite,
-  ButtonPrimary: core.Color.Primary300,
+  ButtonPrimary: core.Color.Brand300,
   ButtonPrimaryDisabled: core.Color.Neutral200,
-  ButtonPrimaryHover: core.Color.Primary400,
-  ButtonTransparentHover: core.Color.Primary100,
+  ButtonPrimaryHover: core.Color.Brand400,
+  ButtonTransparentHover: core.Color.Brand100,
   // Card
   Card: core.Color.NeutralWhite,
   //Checkbox
-  CheckboxChecked: core.Color.Primary100,
+  CheckboxChecked: core.Color.Brand100,
   CheckboxDisabled: core.Color.Neutral100,
   //Container
   Container: core.Color.NeutralWhite,
   // Dropdown
   DropdownMenu: core.Color.NeutralWhite,
-  DropdownMenuItemActive: core.Color.Primary100,
+  DropdownMenuItemActive: core.Color.Brand100,
   DropdownMenuItemHover: core.Color.Neutral100,
   // HR
   HrDark: core.Color.Neutral400,
   HrLight: core.Color.Neutral300,
   // Input
-  InputChip: core.Color.Primary100,
-  InputChipHover: core.Color.Primary300,
+  InputChip: core.Color.Brand100,
+  InputChipHover: core.Color.Brand300,
   InputDisabled: core.Color.TransparentNeutral100,
   InputFocus: "transparent",
   InputLabelDefault: core.Color.NeutralWhite,
   InputLabelSecondary: core.Color.Neutral100,
   // Left Nav
   LeftNavItem: core.Color.NeutralWhite,
-  LeftNavItemActive: core.Color.Primary100,
+  LeftNavItemActive: core.Color.Brand100,
   LeftNavItemHover: core.Color.Neutral100,
   // Modal
   Modal: core.Color.NeutralWhite,
@@ -46,10 +46,10 @@ const light = core => ({
   ModalCloseHover: core.Color.Neutral300,
   ModalScrim: core.Color.TransparentScrim,
   // Radio
-  RadioChecked: core.Color.Primary100,
-  RadioDisabled: core.Color.Primary100,
+  RadioChecked: core.Color.Brand100,
+  RadioDisabled: core.Color.Brand100,
   RadioDot: core.Color.Neutral100,
-  RadioDotChecked: core.Color.Primary300,
+  RadioDotChecked: core.Color.Brand300,
   RadioDotDisabled: core.Color.Neutral200,
   RadioDotDisabledChecked: core.Color.Neutral500,
   //Switch

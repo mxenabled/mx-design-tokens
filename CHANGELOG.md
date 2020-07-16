@@ -5,7 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [7.1.2] - 05-07-2020
+## [8.0.0] - 07-15-2020
+
+### Changed
+
+- Replaces Primary100-500 with Brand100-500 to be used when the colors need to reflect branding.
+
+## [7.1.2] - 07-05-2020
 
 ### Fixed
 
