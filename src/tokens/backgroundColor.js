@@ -1,4 +1,4 @@
-const light = core => ({
+const light = (core) => ({
   // Global
   Body: core.Color.Neutral100,
   //Avatar
@@ -33,13 +33,18 @@ const light = core => ({
   InputChip: core.Color.Brand100,
   InputChipHover: core.Color.Brand300,
   InputDisabled: core.Color.TransparentNeutral100,
-  InputFocus: "transparent",
+  InputFocus: 'transparent',
   InputLabelDefault: core.Color.NeutralWhite,
   InputLabelSecondary: core.Color.Neutral100,
   // Left Nav
   LeftNavItem: core.Color.NeutralWhite,
   LeftNavItemActive: core.Color.Brand100,
   LeftNavItemHover: core.Color.Neutral100,
+  // MessageBox
+  MessageBox: core.Color.NeutralWhite,
+  MessageBoxHelp: core.Color.Brand300,
+  MessageBoxError: core.Color.Error300,
+  MessageBoxSuccess: core.Color.Success300,
   // Modal
   Modal: core.Color.NeutralWhite,
   ModalClose: core.Color.Neutral200,
@@ -69,7 +74,7 @@ const light = core => ({
   Tooltip: core.Color.Neutral800,
 })
 
-const dark = core => ({
+const dark = (core) => ({
   ...light(core),
   // Global
   Body: core.Color.Neutral900,
@@ -101,13 +106,18 @@ const dark = core => ({
   InputChip: core.Color.Neutral700,
   InputChipHover: core.Color.Neutral600,
   InputDisabled: 'transparent',
-  InputFocus: "transparent",
+  InputFocus: 'transparent',
   InputLabelDefault: core.Color.Neutral800,
   InputLabelSecondary: core.Color.Neutral900,
   // Left Nav
   LeftNavItem: core.Color.Neutral800,
   LeftNavItemActive: core.Color.Neutral900,
   LeftNavItemHover: core.Color.Neutral700,
+  // MessageBox
+  MessageBox: core.Color.Neutral700,
+  MessageBoxHelp: core.Color.Brand200,
+  MessageBoxError: core.Color.Error200,
+  MessageBoxSuccess: core.Color.Success200,
   // Modal
   Modal: core.Color.Neutral800,
   ModalClose: core.Color.Neutral700,

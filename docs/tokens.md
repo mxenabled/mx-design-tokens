@@ -227,6 +227,10 @@
 | LeftNavItem | #FFFFFF | ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) |
 | LeftNavItemActive | #EAF1FB | ![#EAF1FB](https://placehold.it/15/EAF1FB/000000?text=+) |
 | LeftNavItemHover | #F8F9FB | ![#F8F9FB](https://placehold.it/15/F8F9FB/000000?text=+) |
+| MessageBox | #FFFFFF | ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) |
+| MessageBoxHelp | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
+| MessageBoxError | #DF320C | ![#DF320C](https://placehold.it/15/DF320C/000000?text=+) |
+| MessageBoxSuccess | #09A57F | ![#09A57F](https://placehold.it/15/09A57F/000000?text=+) |
 | Modal | #FFFFFF | ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) |
 | ModalClose | #EEF1F6 | ![#EEF1F6](https://placehold.it/15/EEF1F6/000000?text=+) |
 | ModalCloseHover | #E4E8EE | ![#E4E8EE](https://placehold.it/15/E4E8EE/000000?text=+) |
