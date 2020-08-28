@@ -83,6 +83,7 @@ const dark = (core) => ({
   // Button
   ButtonDestructiveDisabled: core.Color.Neutral700,
   ButtonLinkHover: core.Color.Neutral700,
+  ButtonLinkDestructiveHover: core.Color.Neutral700,
   ButtonNeutral: core.Color.Neutral800,
   ButtonNeutralDisabled: core.Color.Neutral700,
   ButtonNeutralHover: core.Color.Neutral600,
