@@ -1,6 +1,7 @@
 const light = core => ({
   // Button
   ButtonLinkHover: core.Color.Brand400,
+  ButtonLinkDestructiveHover: core.Color.Error400,
   ButtonNeutral: core.Color.Neutral400,
   ButtonNeutralDisabled: core.Color.Brand400,
   ButtonNeutralHover: core.Color.Brand400,
@@ -35,6 +36,7 @@ const dark = core => ({
   ...light(core),
   // Button
   ButtonLinkHover: core.Color.NeutralWhite,
+  ButtonLinkDestructiveHover: core.Color.NeutralWhite,
   ButtonNeutral: core.Color.Neutral500,
   ButtonNeutralDisabled: core.Color.Neutral600,
   ButtonNeutralHover: core.Color.Neutral500,

@@ -275,6 +275,7 @@
 | Key | Value | Color |
 | --- | ----- | ----- |
 | ButtonLinkHover | #165ECC | ![#165ECC](https://placehold.it/15/165ECC/000000?text=+) |
+| ButtonLinkDestructiveHover | #C61A0B | ![#C61A0B](https://placehold.it/15/C61A0B/000000?text=+) |
 | ButtonNeutral | #CDD3DD | ![#CDD3DD](https://placehold.it/15/CDD3DD/000000?text=+) |
 | ButtonNeutralDisabled | #165ECC | ![#165ECC](https://placehold.it/15/165ECC/000000?text=+) |
 | ButtonNeutralHover | #165ECC | ![#165ECC](https://placehold.it/15/165ECC/000000?text=+) |
@@ -312,6 +313,8 @@
 | ButtonLink | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
 | ButtonLinkHover | #165ECC | ![#165ECC](https://placehold.it/15/165ECC/000000?text=+) |
 | ButtonLinkTertiary | #49505A | ![#49505A](https://placehold.it/15/49505A/000000?text=+) |
+| ButtonLinkDestructive | #DF320C | ![#DF320C](https://placehold.it/15/DF320C/000000?text=+) |
+| ButtonLinkDestructiveHover | #C61A0B | ![#C61A0B](https://placehold.it/15/C61A0B/000000?text=+) |
 | ButtonNeutral | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
 | ButtonNeutralDisabled | #6A7381 | ![#6A7381](https://placehold.it/15/6A7381/000000?text=+) |
 | ButtonNeutralHover | #165ECC | ![#165ECC](https://placehold.it/15/165ECC/000000?text=+) |
