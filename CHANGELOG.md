@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Added text color, background color and border color for destructive link button variant
+- `BackgroundColor.ButtonLinkDestructiveHover`
+- `BorderColor.ButtonLinkDestructiveHover`
+- `TextColor.ButtonLinkDestructive`
+- `TextColor.ButtonLinkDestructiveHover`
 
 ## [8.1.1] - 08-03-2020
 
