@@ -132,6 +132,13 @@
 | Regular | 400 |
 | Semibold | 600 |
 | Bold | 700 |
+## LetterSpacing
+
+| Key | Value |
+| --- | ----- |
+| SmallUppercase | 0.48 |
+| TinyUppercase | 0.48 |
+| XSmallUppercase | 0.48 |
 ## LineHeight
 
 | Key | Value |
