@@ -117,6 +117,9 @@ export default {
     Semibold: 600,
     Bold: 700,
   },
+  LetterSpacing: {
+    Uppercase: 0.48
+  },
   LineHeight: target => {
     const base = {
       Tiny: 12,

@@ -3,6 +3,7 @@ import backgroundColor from 'src/tokens/backgroundColor'
 import borderColor from 'src/tokens/borderColor'
 import borderRadius from 'src/tokens/borderRadius'
 import boxShadow from 'src/tokens/boxShadow'
+import letterSpacing from 'src/tokens/letterSpacing'
 import fontSize from 'src/tokens/fontSize'
 import spacing from 'src/tokens/spacing'
 import textColor from 'src/tokens/textColor'
@@ -49,6 +50,7 @@ export const buildTheme = (themeName, target=targets.REACT, customColors={}, cus
       ...core.BoxShadow,
       ...boxShadow[themeName](builtCore),
     },
+    LetterSpacing: letterSpacing[themeName](builtCore),
     FontSize: {
       ...core.FontSize,
       ...fontSize[themeName](builtCore),
