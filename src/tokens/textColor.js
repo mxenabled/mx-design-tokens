@@ -1,4 +1,4 @@
-const light = core => ({
+const light = (core) => ({
   // Global
   Active: core.Color.Brand300,
   ActiveHover: core.Color.Brand400,
@@ -39,11 +39,16 @@ const light = core => ({
   ModalClose: core.Color.Neutral900,
   // Tab
   TabActive: core.Color.Brand300,
+  // Tag
+  Tag: core.Color.Neutral700,
+  TagError: core.Color.Error500,
+  TagSuccess: core.Color.Success500,
+  TagWarning: core.Color.Warning500,
   // Tooltip
   Tooltip: core.Color.NeutralWhite,
 })
 
-const dark = core => ({
+const dark = (core) => ({
   ...light(core),
   // Global
   Active: core.Color.Brand200,
@@ -82,6 +87,11 @@ const dark = core => ({
   ModalClose: core.Color.NeutralWhite,
   // Tab
   TabActive: core.Color.Brand200,
+  // Tag
+  Tag: core.Color.NeutralWhite,
+  TagError: core.Color.NeutralWhite,
+  TagSuccess: core.Color.NeutralWhite,
+  TagWarning: core.Color.Neutral800,
 })
 
 export default {

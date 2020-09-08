@@ -67,6 +67,11 @@ const light = (core) => ({
   // Tab
   TabDivider: core.Color.Neutral400,
   TabHover: core.Color.Neutral100,
+  // Tag
+  Tag: core.Color.Neutral200,
+  TagError: core.Color.Error100,
+  TagSuccess: core.Color.Success100,
+  TagWarning: core.Color.Warning100,
   // Table
   TableRowHover: core.Color.Neutral100,
   TableFooter: core.Color.Neutral200,
@@ -139,6 +144,11 @@ const dark = (core) => ({
   // Tab
   TabDivider: core.Color.Neutral600,
   TabHover: core.Color.Neutral700,
+  // Tag
+  Tag: core.Color.Neutral600,
+  TagError: core.Color.Error500,
+  TagSuccess: core.Color.Success500,
+  TagWarning: core.Color.Warning300,
   // Table
   TableRowHover: core.Color.Neutral700,
   TableFooter: core.Color.Neutral700,

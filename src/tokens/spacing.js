@@ -28,6 +28,11 @@ const light = (core) => ({
   TableCellActionMargin: core.Spacing.Large,
   TableFooterPaddingTop: core.Spacing.Small,
   TableFooterPaddingSide: core.Spacing.Medium,
+  // Tag
+  TagPaddingTopBottom: core.Spacing.XSmall,
+  TagPaddingLeftRight: core.Spacing.Small,
+  TagSmallPaddingTopBottom: core.Spacing.XTiny,
+  TagSmallPaddingLeftRight: core.Spacing.XSmall,
   // Textarea
   TextAreaPadding: core.Spacing.Small,
   // Tooltip
