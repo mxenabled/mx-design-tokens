@@ -40,8 +40,9 @@ const light = (core) => ({
   // Tab
   TabActive: core.Color.Brand300,
   // Tag
-  Tag: core.Color.Neutral700,
   TagError: core.Color.Error500,
+  TagNeutral: core.Color.Neutral700,
+  TagPrimary: core.Color.Primary400,
   TagSuccess: core.Color.Success500,
   TagWarning: core.Color.Warning500,
   // Tooltip
@@ -88,8 +89,9 @@ const dark = (core) => ({
   // Tab
   TabActive: core.Color.Brand200,
   // Tag
-  Tag: core.Color.NeutralWhite,
   TagError: core.Color.NeutralWhite,
+  TagNeutral: core.Color.NeutralWhite,
+  TagPrimary: core.Color.NeutralWhite,
   TagSuccess: core.Color.NeutralWhite,
   TagWarning: core.Color.Neutral800,
 })
