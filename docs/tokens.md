@@ -272,8 +272,9 @@
 | SwitchOn | #09A57F | ![#09A57F](https://placehold.it/15/09A57F/000000?text=+) |
 | TabDivider | #CDD3DD | ![#CDD3DD](https://placehold.it/15/CDD3DD/000000?text=+) |
 | TabHover | #F8F9FB | ![#F8F9FB](https://placehold.it/15/F8F9FB/000000?text=+) |
-| Tag | #EEF1F6 | ![#EEF1F6](https://placehold.it/15/EEF1F6/000000?text=+) |
 | TagError | #FCD2CF | ![#FCD2CF](https://placehold.it/15/FCD2CF/000000?text=+) |
+| TagNeutral | #EEF1F6 | ![#EEF1F6](https://placehold.it/15/EEF1F6/000000?text=+) |
+| TagPrimary | #EAF1FB | ![#EAF1FB](https://placehold.it/15/EAF1FB/000000?text=+) |
 | TagSuccess | #DDFDED | ![#DDFDED](https://placehold.it/15/DDFDED/000000?text=+) |
 | TagWarning | #FEF7B9 | ![#FEF7B9](https://placehold.it/15/FEF7B9/000000?text=+) |
 | TableRowHover | #F8F9FB | ![#F8F9FB](https://placehold.it/15/F8F9FB/000000?text=+) |
@@ -342,8 +343,9 @@
 | LeftNavItemActive | #165ECC | ![#165ECC](https://placehold.it/15/165ECC/000000?text=+) |
 | ModalClose | #121417 | ![#121417](https://placehold.it/15/121417/000000?text=+) |
 | TabActive | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
-| Tag | #49505A | ![#49505A](https://placehold.it/15/49505A/000000?text=+) |
 | TagError | #AE0A0A | ![#AE0A0A](https://placehold.it/15/AE0A0A/000000?text=+) |
+| TagNeutral | #49505A | ![#49505A](https://placehold.it/15/49505A/000000?text=+) |
+| TagPrimary | #165ECC | ![#165ECC](https://placehold.it/15/165ECC/000000?text=+) |
 | TagSuccess | #027357 | ![#027357](https://placehold.it/15/027357/000000?text=+) |
 | TagWarning | #C33E01 | ![#C33E01](https://placehold.it/15/C33E01/000000?text=+) |
 | Tooltip | #FFFFFF | ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) |
