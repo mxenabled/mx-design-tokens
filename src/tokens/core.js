@@ -1,10 +1,10 @@
 import { targets } from '../index'
 // This should probably not be modified
 
-const addPx = obj => {
+const addPx = (obj) => {
   const newObj = {}
 
-  Object.keys(obj).forEach(key => {
+  Object.keys(obj).forEach((key) => {
     newObj[key] = `${obj[key]}px`
   })
 
@@ -13,65 +13,65 @@ const addPx = obj => {
 
 export default {
   Color: {
-    Brand100: "#EAF1FB",
-    Brand200: "#6FA1EC",
-    Brand300: "#2F73DA",
-    Brand400: "#165ECC",
-    Brand500: "#034AB3",
-    Chart1: "#74E4DA",
-    Chart2: "#ED64A4",
-    Chart3: "#F3DC46",
-    Chart4: "#BABFC5",
-    Chart5: "#60A9FF",
-    Chart6: "#C8BAEE",
-    Chart7: "#585E67",
-    ChartMono1: "#89E8DF",
-    ChartMono2: "#FF8787",
-    ChartMono3: "#60A9FF",
-    ChartMono4: "#2F73DA",
-    ChartMono5: "#034AB3",
-    ChartMono6: "#002966",
-    NeutralWhite: "#FFFFFF",
-    Neutral100: "#F8F9FB",
-    Neutral200: "#EEF1F6",
-    Neutral300: "#E4E8EE",
-    Neutral400: "#CDD3DD",
-    Neutral500: "#A8B1BD",
-    Neutral600: "#6A7381",
-    Neutral700: "#49505A",
-    Neutral800: "#1F2329",
-    Neutral900: "#121417",
-    Primary100: "#EAF1FB",
-    Primary200: "#6FA1EC",
-    Primary300: "#2F73DA",
-    Primary400: "#165ECC",
-    Primary500: "#034AB3",
-    Success100: "#DDFDED",
-    Success200: "#0AC295",
-    Success300: "#09A57F",
-    Success400: "#078364",
-    Success500: "#027357",
-    Warning100: "#FEF7B9",
-    Warning200: "#FFDA6C",
-    Warning300: "#FFB400",
-    Warning400: "#E07C02",
-    Warning500: "#C33E01",
-    Error100: "#FCD2CF",
-    Error200: "#F45532",
-    Error300: "#DF320C",
-    Error400: "#C61A0B",
-    Error500: "#AE0A0A",
-    TransparentNeutral100: "rgba(247, 249, 252, 0.55)",
-    TransparentNeutral400: "rgba(203, 211, 223, 0.55)",
-    TransparentScrim: "rgba(0, 0, 0, 0.25)",
-    TransparentScrimDarker: "rgba(0, 0, 0, 0.50)",
+    Brand100: '#EAF1FB',
+    Brand200: '#6FA1EC',
+    Brand300: '#2F73DA',
+    Brand400: '#165ECC',
+    Brand500: '#034AB3',
+    Chart1: '#74E4DA',
+    Chart2: '#ED64A4',
+    Chart3: '#F3DC46',
+    Chart4: '#BABFC5',
+    Chart5: '#60A9FF',
+    Chart6: '#C8BAEE',
+    Chart7: '#585E67',
+    ChartMono1: '#89E8DF',
+    ChartMono2: '#FF8787',
+    ChartMono3: '#60A9FF',
+    ChartMono4: '#2F73DA',
+    ChartMono5: '#034AB3',
+    ChartMono6: '#002966',
+    NeutralWhite: '#FFFFFF',
+    Neutral100: '#F8F9FB',
+    Neutral200: '#EEF1F6',
+    Neutral300: '#E4E8EE',
+    Neutral400: '#CDD3DD',
+    Neutral500: '#A8B1BD',
+    Neutral600: '#6A7381',
+    Neutral700: '#49505A',
+    Neutral800: '#1F2329',
+    Neutral900: '#121417',
+    Primary100: '#EAF1FB',
+    Primary200: '#6FA1EC',
+    Primary300: '#2F73DA',
+    Primary400: '#165ECC',
+    Primary500: '#034AB3',
+    Success100: '#DDFDED',
+    Success200: '#0AC295',
+    Success300: '#09A57F',
+    Success400: '#078364',
+    Success500: '#027357',
+    Warning100: '#FEF7B9',
+    Warning200: '#FFDA6C',
+    Warning300: '#FFB400',
+    Warning400: '#E07C02',
+    Warning500: '#C33E01',
+    Error100: '#FCD2CF',
+    Error200: '#F45532',
+    Error300: '#DF320C',
+    Error400: '#C61A0B',
+    Error500: '#AE0A0A',
+    TransparentNeutral100: 'rgba(247, 249, 252, 0.55)',
+    TransparentNeutral400: 'rgba(203, 211, 223, 0.55)',
+    TransparentScrim: 'rgba(0, 0, 0, 0.25)',
+    TransparentScrimDarker: 'rgba(0, 0, 0, 0.50)',
   },
   Font: {
     Regular: 'ProximaNovaRegular, Helvetica, Arial, sans-serif',
     Semibold: 'ProximaNovaSemibold, Helvetica, Arial, sans-serif',
     Bold: 'ProximaNovaBold, Helvetica, Arial, sans-serif',
   },
-  BoxShadow: target => {
+  BoxShadow: (target) => {
     if (target === targets.REACT) {
       return {
         Low: ' 0px 1px 3px rgba(87, 102, 117, 0.2)',
@@ -92,7 +92,7 @@ export default {
       Top: '',
       Left: '',
       Right: '',
-      Focus: ''
+      Focus: '',
     }
   },
   BorderRadius: {
@@ -140,6 +140,7 @@ export default {
     return base
   },
   Spacing: {
+    XTiny: 2,
     Tiny: 4,
     XSmall: 8,
     Small: 12,
@@ -156,10 +157,10 @@ export default {
     Med: 500,
     Long: 1000,
   },
-  Easing: target => {
+  Easing: (target) => {
     if (target === targets.REACT) {
       return {
-        Default: "cubic-bezier(.475,.425,0,.995)"
+        Default: 'cubic-bezier(.475,.425,0,.995)',
       }
     }
 
@@ -169,8 +170,8 @@ export default {
         x1: 0.475,
         y1: 0.425,
         x2: 0,
-        y2: 0.995
-      }
+        y2: 0.995,
+      },
     }
   },
   // Convenience values as web consumes both constantly
@@ -185,5 +186,5 @@ export default {
     Med: 768,
     Large: 992,
     XLarge: 1200,
-  }
+  },
 }

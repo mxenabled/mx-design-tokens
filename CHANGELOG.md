@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [8.4.0] - 08-28-2020
+## [8.6.0] - 09-05-2020
 
 ### Added
 
@@ -14,6 +14,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `LetterSpacing.Small`
 - `LetterSpacing.Tiny`
 - `LetterSpacing.XSmall`
+
+## [8.5.0] - 09-09-2020
+
+### Added
+
+- Add the Tag primary color and background color tokens
+- Rename Tag tokens to Tag Neutral
+
+## [8.4.0] - 09-08-2020
+
+### Added
+
+- Add the Tag text colors and background color tokens
 
 ## [8.3.0] - 08-28-2020
 
