@@ -42,7 +42,7 @@ const light = (core) => ({
   LeftNavItemHover: core.Color.Neutral100,
   // MessageBox
   MessageBox: core.Color.NeutralWhite,
-  MessageBoxBrand: core.Color.Brand300
+  MessageBoxBrand: core.Color.Brand300,
   MessageBoxError: core.Color.Error300,
   MessageBoxHelp: core.Color.Primary300,
   MessageBoxSuccess: core.Color.Success300,
