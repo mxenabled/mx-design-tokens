@@ -42,8 +42,9 @@ const light = (core) => ({
   LeftNavItemHover: core.Color.Neutral100,
   // MessageBox
   MessageBox: core.Color.NeutralWhite,
-  MessageBoxHelp: core.Color.Brand300,
+  MessageBoxBrand: core.Color.Brand300,
   MessageBoxError: core.Color.Error300,
+  MessageBoxHelp: core.Color.Primary300,
   MessageBoxSuccess: core.Color.Success300,
   // Modal
   Modal: core.Color.NeutralWhite,
@@ -122,8 +123,9 @@ const dark = (core) => ({
   LeftNavItemHover: core.Color.Neutral700,
   // MessageBox
   MessageBox: core.Color.Neutral700,
-  MessageBoxHelp: core.Color.Brand200,
+  MessageBoxBrand: core.Color.Brand200,
   MessageBoxError: core.Color.Error200,
+  MessageBoxHelp: core.Color.Primary200,
   MessageBoxSuccess: core.Color.Success200,
   // Modal
   Modal: core.Color.Neutral800,
