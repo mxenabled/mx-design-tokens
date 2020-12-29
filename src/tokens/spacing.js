@@ -28,6 +28,7 @@ const light = (core) => ({
   TableCellActionMargin: core.Spacing.Large,
   TableFooterPaddingTop: core.Spacing.Small,
   TableFooterPaddingSide: core.Spacing.Medium,
+  TableBorderSpacing: core.Spacing.Small,
   // Tag
   TagPaddingTopBottom: core.Spacing.XSmall,
   TagPaddingLeftRight: core.Spacing.Small,
