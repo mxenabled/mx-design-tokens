@@ -7,6 +7,7 @@ import letterSpacing from 'src/tokens/letterSpacing'
 import fontSize from 'src/tokens/fontSize'
 import spacing from 'src/tokens/spacing'
 import textColor from 'src/tokens/textColor'
+import zIndex from 'src/tokens/zIndex'
 
 export const targets = {
   REACT: 'react',
@@ -60,6 +61,7 @@ export const buildTheme = (themeName, target=targets.REACT, customColors={}, cus
       ...spacing[themeName](builtCore),
     },
     TextColor: textColor[themeName](builtCore),
+    ZIndex: zIndex[themeName](builtCore),
   }
 }
 

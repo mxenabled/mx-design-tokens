@@ -101,6 +101,23 @@ export default {
     Large: 8,
     XLarge: 16,
   },
+  Easing: (target) => {
+    if (target === targets.REACT) {
+      return {
+        Default: 'cubic-bezier(.475,.425,0,.995)',
+      }
+    }
+
+    // TODO: Define type cubic-bezier?
+    return {
+      Default: {
+        x1: 0.475,
+        y1: 0.425,
+        x2: 0,
+        y2: 0.995,
+      },
+    }
+  },
   FontSize: {
     Tiny: 10,
     XSmall: 12,
@@ -157,22 +174,19 @@ export default {
     Med: 500,
     Long: 1000,
   },
-  Easing: (target) => {
-    if (target === targets.REACT) {
-      return {
-        Default: 'cubic-bezier(.475,.425,0,.995)',
-      }
-    }
-
-    // TODO: Define type cubic-bezier?
-    return {
-      Default: {
-        x1: 0.475,
-        y1: 0.425,
-        x2: 0,
-        y2: 0.995,
-      },
-    }
+  ZIndex: {
+    SendToBack: -1,
+    Base: 0,
+    Hover: 1,
+    Active: 2,
+    Focus: 3,
+    Overlay1: 1000,
+    Overlay2: 2000,
+    Overlay3: 3000,
+    Overlay4: 4000,
+    Overlay5: 5000,
+    Overlay6: 6000,
+    Overlay7: 7000,
   },
   // Convenience values as web consumes both constantly
   MediaQuery: {
