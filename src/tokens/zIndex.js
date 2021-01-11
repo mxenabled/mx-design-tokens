@@ -22,7 +22,9 @@ const light = (core) => ({
   Tooltip: core.ZIndex.Overlay7,
 })
 
-const dark = (core) => ({})
+const dark = (core) => ({
+  ...light(core),
+})
 
 export default {
   light,
