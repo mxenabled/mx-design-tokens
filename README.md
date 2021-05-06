@@ -55,3 +55,14 @@ To update the auto-generated tokens documentation run the following:
 ```
 npm run build:docs
 ```
+
+## Publishing to NPM
+
+In order to make sure you changes make it to NPM you need to run the following 3 commands and merge the code into master:
+
+ ```
+ npm run build
+ npm run json
+ npm run build:docs
+ ```
+This will insure the the json files are updated with your new tokens and the Docs page is also updated on Github
