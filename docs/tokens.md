@@ -90,6 +90,7 @@
 | Card | 4 |
 | CardRounded | 8 |
 | Checkbox | 2 |
+| Chip | 2 |
 | Container | 4 |
 | DropdownChip | 4 |
 | DropdownMenu | 4 |
@@ -117,6 +118,7 @@
 | ButtonLinkSmall | 14 |
 | DropdownChip | 10 |
 | DropdownItem | 16 |
+| Chip | 12 |
 | Input | 16 |
 | InputHelpText | 14 |
 | InputLabel | 14 |
@@ -171,6 +173,10 @@
 | CardSidePadding | 16 |
 | CheckboxLabelMarginLeft | 8 |
 | CheckboxLabelMarginRight | 8 |
+| ChipPaddingTop | 4 |
+| ChipPaddingBottom | 4 |
+| ChipPaddingLeft | 8 |
+| ChipPaddingRight | 8 |
 | ContainerSidePadding | 24 |
 | InputHelpTextMarginTop | 4 |
 | InputLabelMarginLeft | 8 |
@@ -242,6 +248,9 @@
 | Card | #FFFFFF | ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) |
 | CheckboxChecked | #EAF1FB | ![#EAF1FB](https://placehold.it/15/EAF1FB/000000?text=+) |
 | CheckboxDisabled | #F8F9FB | ![#F8F9FB](https://placehold.it/15/F8F9FB/000000?text=+) |
+| ChipDefault | transparent | N/A | 
+| ChipDefaultHover | #E4E8EE | ![#E4E8EE](https://placehold.it/15/E4E8EE/000000?text=+) |
+| ChipDefaultActive | #EAF1FB | ![#EAF1FB](https://placehold.it/15/EAF1FB/000000?text=+) |
 | Container | #FFFFFF | ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) |
 | DropdownMenu | #FFFFFF | ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+) |
 | DropdownMenuItemActive | #EAF1FB | ![#EAF1FB](https://placehold.it/15/EAF1FB/000000?text=+) |
@@ -300,6 +309,10 @@
 | Checkbox | #6A7381 | ![#6A7381](https://placehold.it/15/6A7381/000000?text=+) |
 | CheckboxChecked | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
 | CheckboxDisabled | #CDD3DD | ![#CDD3DD](https://placehold.it/15/CDD3DD/000000?text=+) |
+| ChipDefault | #6A7381 | ![#6A7381](https://placehold.it/15/6A7381/000000?text=+) |
+| ChipDefaultHover | #E4E8EE | ![#E4E8EE](https://placehold.it/15/E4E8EE/000000?text=+) |
+| ChipDefaultActive | #EAF1FB | ![#EAF1FB](https://placehold.it/15/EAF1FB/000000?text=+) |
+| ChipDefaultDisabled | #A8B1BD | ![#A8B1BD](https://placehold.it/15/A8B1BD/000000?text=+) |
 | DropdownDisabled | rgba(203, 211, 223, 0.55) | N/A | 
 | Input | #6A7381 | ![#6A7381](https://placehold.it/15/6A7381/000000?text=+) |
 | InputDisabled | rgba(203, 211, 223, 0.55) | N/A | 
@@ -342,6 +355,9 @@
 | ButtonTransparentDisabled | #6A7381 | ![#6A7381](https://placehold.it/15/6A7381/000000?text=+) |
 | ButtonTransparentHover | #165ECC | ![#165ECC](https://placehold.it/15/165ECC/000000?text=+) |
 | ButtonTransparentTertiary | #49505A | ![#49505A](https://placehold.it/15/49505A/000000?text=+) |
+| ChipDefault | #121417 | ![#121417](https://placehold.it/15/121417/000000?text=+) |
+| ChipDefaultActive | #165ECC | ![#165ECC](https://placehold.it/15/165ECC/000000?text=+) |
+| ChipDefaultDisabled | #A8B1BD | ![#A8B1BD](https://placehold.it/15/A8B1BD/000000?text=+) |
 | DropdownMenuItemActive | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
 | DropdownMenuItemDisabled | #A8B1BD | ![#A8B1BD](https://placehold.it/15/A8B1BD/000000?text=+) |
 | InputErrorMessage | #DF320C | ![#DF320C](https://placehold.it/15/DF320C/000000?text=+) |
