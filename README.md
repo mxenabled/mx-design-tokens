@@ -58,7 +58,7 @@ npm run build:docs
 
 ## Publishing to NPM
 
-In order to make sure you changes make it to NPM you need to run the following 3 commands and merge the code into master **before** publishing to NPM:
+In order to make sure you changes make it to NPM you need to run the following 3 commands, update the package version, and merge the code into master **before** publishing to NPM:
 
  ```
  npm run build
