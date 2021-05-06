@@ -9,6 +9,11 @@ const light = core => ({
   Checkbox: core.Color.Neutral600,
   CheckboxChecked: core.Color.Brand300,
   CheckboxDisabled: core.Color.Neutral400,
+  //Chip
+  ChipDefault: core.Color.Neutral600,
+  ChipDefaultHover: core.Color.Neutral300,
+  ChipDefaultActive: core.Color.Brand100,
+  ChipDefaultDisabled: core.Color.Neutral500,
   // Dropdown
   DropdownDisabled: core.Color.TransparentNeutral400,
   // Input
@@ -44,6 +49,11 @@ const dark = core => ({
   Checkbox: core.Color.Neutral400,
   CheckboxChecked: core.Color.NeutralWhite,
   CheckboxDisabled: core.Color.Neutral600,
+  //Chip
+  ChipDefault: core.Color.Neutral500,
+  ChipDefaultHover: core.Color.Neutral600,
+  ChipDefaultActive: core.Color.Brand200,
+  ChipDefaultDisabled: core.Color.Neutral600,
   // Input
   Input: core.Color.Neutral500,
   InputDisabled: core.Color.Neutral600,

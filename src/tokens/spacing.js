@@ -6,6 +6,11 @@ const light = (core) => ({
   // Checkbox
   CheckboxLabelMarginLeft: core.Spacing.XSmall,
   CheckboxLabelMarginRight: core.Spacing.XSmall,
+  // Chip
+  ChipPaddingTop: core.Spacing.Tiny,
+  ChipPaddingBottom: core.Spacing.Tiny,
+  ChipPaddingLeft: core.Spacing.XSmall,
+  ChipPaddingRight: core.Spacing.XSmall,
   // Container
   ContainerSidePadding: core.Spacing.Large,
   // Input

@@ -25,6 +25,10 @@ const light = (core) => ({
   ButtonTransparentDisabled: core.Color.Neutral600,
   ButtonTransparentHover: core.Color.Brand400,
   ButtonTransparentTertiary: core.Color.Neutral700,
+  // Chip
+  ChipDefault: core.Color.Neutral900,
+  ChipDefaultActive: core.Color.Brand400,
+  ChipDefaultDisabled: core.Color.Neutral500,
   // Dropdown
   DropdownMenuItemActive: core.Color.Brand300,
   DropdownMenuItemDisabled: core.Color.Neutral500,
@@ -77,6 +81,10 @@ const dark = (core) => ({
   ButtonTransparentTertiary: core.Color.Neutral400,
   // Dropdown
   DropdownMenuItemActive: core.Color.White,
+  // Chip
+  ChipDefault: core.Color.NeutralWhite,
+  ChipDefaultActive: core.Color.Brand200,
+  ChipDefaultDisabled: core.Color.Neutral600,
   // Input
   InputErrorMessage: core.Color.Error200,
   InputHelpText: core.Color.Neutral500,
