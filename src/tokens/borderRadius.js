@@ -7,7 +7,7 @@ const light = core => ({
   // Checkbox
   Checkbox: core.BorderRadius.Small,
   // Chip
-  Chip: core.BorderRadius.Small,
+  Chip: 12,
   // Container
   Container: core.BorderRadius.Medium,
   // Dropdown
