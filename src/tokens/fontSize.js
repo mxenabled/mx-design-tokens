@@ -6,6 +6,8 @@ const light = core => ({
   // Dropdown
   DropdownChip: core.FontSize.Tiny,
   DropdownItem: core.FontSize.Body,
+  // Chip
+  Chip: core.FontSize.XSmall,
   // Input
   Input: core.FontSize.Body,
   InputHelpText: core.FontSize.Small,

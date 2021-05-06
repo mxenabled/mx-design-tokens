@@ -20,6 +20,10 @@ const light = (core) => ({
   //Checkbox
   CheckboxChecked: core.Color.Brand100,
   CheckboxDisabled: core.Color.Neutral100,
+  // Chip
+  ChipDefault: 'transparent',
+  ChipDefaultHover: core.Color.Neutral300,
+  ChipDefaultActive: core.Color.Brand100,
   //Container
   Container: core.Color.NeutralWhite,
   // Dropdown
@@ -98,6 +102,10 @@ const dark = (core) => ({
   ButtonTransparentHover: core.Color.Neutral600,
   // Card
   Card: core.Color.Neutral800,
+  // Chip
+  ChipDefault: 'transparent',
+  ChipDefaultHover: core.Color.Neutral600,
+  ChipDefaultActive: 'transparent',
   // Checkbox
   CheckboxChecked: 'transparent',
   CheckboxDisabled: core.Color.Neutral700,

@@ -6,11 +6,12 @@ const light = core => ({
   CardRounded: core.BorderRadius.Large,
   // Checkbox
   Checkbox: core.BorderRadius.Small,
+  // Chip
+  Chip: core.BorderRadius.Small,
   // Container
   Container: core.BorderRadius.Medium,
   // Dropdown
   DropdownChip: core.BorderRadius.Medium,
-  DropdownMenu: core.BorderRadius.Medium,
   DropdownMenu: core.BorderRadius.Medium,
   DropdownMenuItem: core.BorderRadius.Medium,
   DropdownToggle: core.BorderRadius.Medium,
