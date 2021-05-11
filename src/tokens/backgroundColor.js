@@ -1,6 +1,7 @@
 const light = (core) => ({
   // Global
   Body: core.Color.Neutral100,
+  Error: core.Color.Error300,
   //Avatar
   Avatar: core.Color.Neutral300,
   // Button
@@ -89,6 +90,7 @@ const dark = (core) => ({
   ...light(core),
   // Global
   Body: core.Color.Neutral900,
+  Error: core.Color.Error200,
   //Avatar
   Avatar: core.Color.Neutral700,
   // Button

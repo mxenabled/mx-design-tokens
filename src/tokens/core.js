@@ -74,12 +74,12 @@ export default {
   BoxShadow: (target) => {
     if (target === targets.REACT) {
       return {
-        Low: ' 0px 1px 3px rgba(87, 102, 117, 0.2)',
-        Medium: ' 0px 3px 8px rgba(87, 102, 117, 0.15)',
-        High: ' 0px 10px 20px rgba(87, 102, 117, 0.16)',
-        Top: ' 0px -1px 3px rgba(87, 102, 117, 0.2)',
-        Left: ' -1px 0px 3px rgba(87, 102, 117, 0.2)',
-        Right: ' 1px 0px 3px rgba(87, 102, 117, 0.2)',
+        Low: ' 0px 2px 8px rgba(106, 115, 129, 0.12)',
+        Medium: ' 0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06)',
+        High: ' 0px 12px 20px rgba(106, 115, 129, 0.22)',
+        Top: ' 0px -2px 8px rgba(106, 115, 129, 0.12)',
+        Left: ' -1px 2px 8px rgba(106, 115, 129, 0.22)',
+        Right: ' 1px 0px 8px rgba(106, 115, 129, 0.22)',
         Focus: '0px 0px 0px 2px rgba(82, 138, 224, 0.8)',
       }
     }
