@@ -1,11 +1,11 @@
-const light = core => ({
+const light = (core) => ({
   // Global
   Low: core.BoxShadow.Low,
   Medium: core.BoxShadow.Medium,
   High: core.BoxShadow.High,
   FocusRingDefault: core.BoxShadow.Focus,
   Left: core.BoxShadow.Left,
-  Right: core.BoxShadow.Right,  
+  Right: core.BoxShadow.Right,
   // Bottom Bar
   BottomBar: core.BoxShadow.Top,
   // Card
@@ -18,11 +18,13 @@ const light = core => ({
   DropdownMenu: core.BoxShadow.Medium,
   // Modal
   Modal: core.BoxShadow.High,
+  // SelectionBox
+  SelectionBoxShadow: core.BoxShadow.Low,
   // Tooltip
   Tooltip: core.BoxShadow.Medium,
 })
 
-const dark = core => ({
+const dark = (core) => ({
   ...light(core),
   // Bottom Bar
   BottomBar: '',
@@ -36,6 +38,8 @@ const dark = core => ({
   DropdownMenu: '',
   // Modal
   Modal: '',
+  // SelectionBox
+  SelectionBoxShadow: 'none',
 })
 
 export default {
