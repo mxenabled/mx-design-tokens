@@ -65,19 +65,19 @@
 
 | Key | Value |
 | --- | ----- |
-| Low |  0px 1px 3px rgba(87, 102, 117, 0.2) |
-| Medium |  0px 3px 8px rgba(87, 102, 117, 0.15) |
-| High |  0px 10px 20px rgba(87, 102, 117, 0.16) |
+| Low |  0px 2px 8px rgba(106, 115, 129, 0.12) |
+| Medium |  0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06) |
+| High |  0px 12px 20px rgba(106, 115, 129, 0.22) |
 | FocusRingDefault | 0px 0px 0px 2px rgba(82, 138, 224, 0.8) |
-| Left |  -1px 0px 3px rgba(87, 102, 117, 0.2) |
-| Right |  1px 0px 3px rgba(87, 102, 117, 0.2) |
-| BottomBar |  0px -1px 3px rgba(87, 102, 117, 0.2) |
-| Card |  0px 1px 3px rgba(87, 102, 117, 0.2) |
-| Container |  0px 1px 3px rgba(87, 102, 117, 0.2) |
-| Drawer |  -1px 0px 3px rgba(87, 102, 117, 0.2) |
-| DropdownMenu |  0px 3px 8px rgba(87, 102, 117, 0.15) |
-| Modal |  0px 10px 20px rgba(87, 102, 117, 0.16) |
-| Tooltip |  0px 3px 8px rgba(87, 102, 117, 0.15) |
+| Left |  -1px 2px 8px rgba(106, 115, 129, 0.22) |
+| Right |  1px 0px 8px rgba(106, 115, 129, 0.22) |
+| BottomBar |  0px -2px 8px rgba(106, 115, 129, 0.12) |
+| Card |  0px 2px 8px rgba(106, 115, 129, 0.12) |
+| Container |  0px 2px 8px rgba(106, 115, 129, 0.12) |
+| Drawer |  -1px 2px 8px rgba(106, 115, 129, 0.22) |
+| DropdownMenu |  0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06) |
+| Modal |  0px 12px 20px rgba(106, 115, 129, 0.22) |
+| Tooltip |  0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06) |
 ## BorderRadius
 
 | Key | Value |
@@ -233,6 +233,7 @@
 | Key | Value | Color |
 | --- | ----- | ----- |
 | Body | #F8F9FB | ![#F8F9FB](https://placehold.it/15/F8F9FB/000000?text=+) |
+| Error | #DF320C | ![#DF320C](https://placehold.it/15/DF320C/000000?text=+) |
 | Avatar | #E4E8EE | ![#E4E8EE](https://placehold.it/15/E4E8EE/000000?text=+) |
 | ButtonDestructive | #DF320C | ![#DF320C](https://placehold.it/15/DF320C/000000?text=+) |
 | ButtonDestructiveDisabled | #EEF1F6 | ![#EEF1F6](https://placehold.it/15/EEF1F6/000000?text=+) |
@@ -301,6 +302,7 @@
 
 | Key | Value | Color |
 | --- | ----- | ----- |
+| Error | #DF320C | ![#DF320C](https://placehold.it/15/DF320C/000000?text=+) |
 | ButtonLinkHover | #165ECC | ![#165ECC](https://placehold.it/15/165ECC/000000?text=+) |
 | ButtonLinkDestructiveHover | #C61A0B | ![#C61A0B](https://placehold.it/15/C61A0B/000000?text=+) |
 | ButtonNeutral | #CDD3DD | ![#CDD3DD](https://placehold.it/15/CDD3DD/000000?text=+) |
