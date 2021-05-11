@@ -41,6 +41,8 @@ const light = (core) => ({
   LeftNavItemActive: core.Color.Brand400,
   // Modal
   ModalClose: core.Color.Neutral900,
+  // SelectionBox
+  SelectionBoxDisabled: core.Color.Neutral500,
   // Tab
   TabActive: core.Color.Brand300,
   // Tag
@@ -94,6 +96,8 @@ const dark = (core) => ({
   LeftNavItemActive: core.Color.NeutralWhite,
   // Modal
   ModalClose: core.Color.NeutralWhite,
+  // SelectionBox
+  SelectionBoxDisabled: core.Color.Neutral500,
   // Tab
   TabActive: core.Color.Brand200,
   // Tag

@@ -1,4 +1,4 @@
-const light = core => ({
+const light = (core) => ({
   // Global
   Error: core.Color.Error300,
   // Button
@@ -24,6 +24,10 @@ const light = core => ({
   InputError: core.Color.Error300,
   InputFocus: core.Color.Brand300,
   InputHover: core.Color.Neutral600,
+  // SelectionBox
+  SelectionBoxOutline: core.Color.Neutral300,
+  SelectionBoxFocusedSelected: core.Color.Primary300,
+  SelectionBoxDisabledSelected: core.Color.Neutral500,
   // Radio
   Radio: core.Color.Neutral600,
   RadioChecked: core.Color.Brand300,
@@ -39,7 +43,7 @@ const light = core => ({
   TableCell: core.Color.Neutral200,
 })
 
-const dark = core => ({
+const dark = (core) => ({
   ...light(core),
   // Global
   Error: core.Color.Error200,
@@ -64,6 +68,10 @@ const dark = core => ({
   InputError: core.Color.Error200,
   InputFocus: core.Color.Brand200,
   InputHover: core.Color.Neutral500,
+  // SelectionBox
+  SelectionBoxOutline: core.Color.Neutral700,
+  SelectionBoxFocusedSelected: core.Color.Primary200,
+  SelectionBoxDisabledSelected: core.Color.Neutral700,
   // Radio
   RadioChecked: core.Color.NeutralWhite,
   RadioDisabled: core.Color.Neutral600,
