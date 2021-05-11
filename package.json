@@ -19,7 +19,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src/ -d dist/",
     "build:docs": "npm run build && node buildDocs.js",
-    "json": "node json.js"
+    "json": "node json.js && npm run generate",
+    "generate": "cd ./bin && node generate.js"
   },
   "author": "MX",
   "license": "ISC",
