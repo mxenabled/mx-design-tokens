@@ -27,6 +27,7 @@ const light = (core) => ({
   // SelectionBox
   SelectionBoxOutline: core.Color.Neutral300,
   SelectionBoxFocusedSelected: core.Color.Primary300,
+  SelectionBoxDisabled: core.Color.Neutral300,
   SelectionBoxDisabledSelected: core.Color.Neutral500,
   // Radio
   Radio: core.Color.Neutral600,
@@ -71,6 +72,7 @@ const dark = (core) => ({
   // SelectionBox
   SelectionBoxOutline: core.Color.Neutral700,
   SelectionBoxFocusedSelected: core.Color.Primary200,
+  SelectionBoxDisabled: core.Color.Neutral700,
   SelectionBoxDisabledSelected: core.Color.Neutral700,
   // Radio
   RadioChecked: core.Color.NeutralWhite,

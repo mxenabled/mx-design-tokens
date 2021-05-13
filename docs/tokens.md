@@ -326,6 +326,7 @@
 | InputHover | #6A7381 | ![#6A7381](https://placehold.it/15/6A7381/000000?text=+) |
 | SelectionBoxOutline | #E4E8EE | ![#E4E8EE](https://placehold.it/15/E4E8EE/000000?text=+) |
 | SelectionBoxFocusedSelected | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
+| SelectionBoxDisabled | #E4E8EE | ![#E4E8EE](https://placehold.it/15/E4E8EE/000000?text=+) |
 | SelectionBoxDisabledSelected | #A8B1BD | ![#A8B1BD](https://placehold.it/15/A8B1BD/000000?text=+) |
 | Radio | #6A7381 | ![#6A7381](https://placehold.it/15/6A7381/000000?text=+) |
 | RadioChecked | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
