@@ -8,7 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [8.11.0] - 05-14-2021
 
 ### Added
-- Added Radio token to backgrounColor tokens for use with the radio button after a css refactor
+- Added Radio token to backgroundColor tokens for use with the radio button after a css refactor.
+- Add missing Radio borderColor token
 
 ## [8.10.1] - 05-13-2021
 
