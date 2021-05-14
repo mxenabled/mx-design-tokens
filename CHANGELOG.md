@@ -5,25 +5,42 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [9.0.0] - 05-17-2021
+
+### Added
+
+- SCSS output files
+- CSS output files
+
+### Updated
+
+- DOCS output script
+- JSON output script
+
 ## [8.9.0] - 05-11-2021
 
 ### Added
+
 - BorderColor and BackgroundColor now have an Error token that should be used by most components
 
 ### Updated
+
 - The BoxShadow tokens were updated to the latest ones from Figma
 
 ## [8.8.0] - 05-06-2021
 
 ### Added
+
 - Added new tokens to support the new Chip component
 
 ## [8.7.0] - 12-11-2020
 
 ### Added
+
 - Adds a new tokens `MessageBoxBrand` to replace `MessageBoxHelp`.
 
 ### Fixed
+
 - Fixes the `MessageBoxHelp` token using brand color instead of primary
 
 ## [8.6.1] - 09-09-2020

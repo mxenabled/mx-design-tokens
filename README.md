@@ -24,49 +24,36 @@ import { buildTheme } from 'mx-design-tokens'
 const theme = buildTheme('light', targets.REACT, { Primary300: '#876543' })
 ```
 
+## Development Environment
+
+Run the following commands in order to setup a local build environment:
+
+```
+git clone https://github.com/mxenabled/mx-design-tokens.git
+cd ./mx-design-tokens
+npm i
+npm run build:all
+```
+
 ## Tokens
 
 [CLICK HERE](docs/tokens.md) for a list of all the current tokens available with default colors from the light theme.
 
-## Compile JSON Tokens
+## Generate files from Tokens
 
-To compile static JSON tokens for development, run the following:
-
-```
-npm i
-```
-
-then
-
-```
-npm run build
-```
-
-then
-
-```
-npm run json
-```
-
-## Token Documentation
-
-To update the auto-generated tokens documentation run the following:
-
-```
-npm run build:docs
-```
+| Command              | Description                                                                 |
+| -------------------- | --------------------------------------------------------------------------- |
+| `npm run build:docs` | Update the markdown for viewing the [tokens](docs/tokens.md)                |
+| `npm run build:json` | Compile static JSON tokens for development                                  |
+| `npm run build:scss` | Compile static SCSS files for projects using [Sass](https://sass-lang.com/) |
+| `npm run build:css`  | Compile static CSS variables for use in any web project                     |
+| `npm run build:all`  | Builds everything above in one easy step                                    |
 
 ## Publishing to NPM
 
-In order to make sure you changes make it to NPM you need to do the following **before** publishing to NPM:
+In order to make sure your changes make it to NPM you need to do the following **before** publishing to NPM:
 
-1. Run the following 3 commands below
-2. Update the package version in `package.json` and the `CHANGELOG.md`
-3. Merge the code into master
-
- ```
- npm run build
- npm run json
- npm run build:docs
- ```
-This will insure the the json files are updated with your new tokens and the Docs page is also updated on Github.
+1. After adding/changing tokens in `src` be sure to run `npm run build:all` to ensure all output files are up to date
+2. Update the package version in `package.json`
+3. Update the `CHANGELOG.md`
+4. Merge the code into master
