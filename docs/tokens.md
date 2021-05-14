@@ -1,5 +1,4 @@
 ## Color
-
 | Key | Value | Color |
 | --- | ----- | ----- |
 | Brand100 | #EAF1FB | ![#EAF1FB](https://placehold.it/15/EAF1FB/000000?text=+) |
@@ -55,14 +54,12 @@
 | TransparentScrim | rgba(0, 0, 0, 0.25) | N/A | 
 | TransparentScrimDarker | rgba(0, 0, 0, 0.50) | N/A | 
 ## Font
-
 | Key | Value |
 | --- | ----- |
 | Regular | ProximaNovaRegular, Helvetica, Arial, sans-serif |
 | Semibold | ProximaNovaSemibold, Helvetica, Arial, sans-serif |
 | Bold | ProximaNovaBold, Helvetica, Arial, sans-serif |
 ## BoxShadow
-
 | Key | Value |
 | --- | ----- |
 | Low |  0px 2px 8px rgba(106, 115, 129, 0.12) |
@@ -79,7 +76,6 @@
 | Modal |  0px 12px 20px rgba(106, 115, 129, 0.22) |
 | Tooltip |  0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06) |
 ## BorderRadius
-
 | Key | Value |
 | --- | ----- |
 | Small | 2 |
@@ -101,7 +97,6 @@
 | ModalClose | 4 |
 | Tooltip | 4 |
 ## FontSize
-
 | Key | Value |
 | --- | ----- |
 | Tiny | 10 |
@@ -128,21 +123,18 @@
 | TooltipHeadline | 16 |
 | TooltipText | 14 |
 ## FontWeight
-
 | Key | Value |
 | --- | ----- |
 | Regular | 400 |
 | Semibold | 600 |
 | Bold | 700 |
 ## LetterSpacing
-
 | Key | Value |
 | --- | ----- |
 | SmallUppercase | 0.48 |
 | TinyUppercase | 0.48 |
 | XSmallUppercase | 0.48 |
 ## LineHeight
-
 | Key | Value |
 | --- | ----- |
 | Tiny | 12px |
@@ -155,7 +147,6 @@
 | H2 | 32px |
 | H1 | 40px |
 ## Spacing
-
 | Key | Value |
 | --- | ----- |
 | XTiny | 2 |
@@ -201,19 +192,16 @@
 | TextAreaPadding | 12 |
 | TooltipPadding | 12 |
 ## Time
-
 | Key | Value |
 | --- | ----- |
 | Short | 300 |
 | Med | 500 |
 | Long | 1000 |
 ## Easing
-
 | Key | Value |
 | --- | ----- |
 | Default | cubic-bezier(.475,.425,0,.995) |
 ## MediaQuery
-
 | Key | Value |
 | --- | ----- |
 | Small | 576px |
@@ -221,7 +209,6 @@
 | Large | 992px |
 | XLarge | 1200px |
 ## Resolution
-
 | Key | Value |
 | --- | ----- |
 | Small | 576 |
@@ -229,7 +216,6 @@
 | Large | 992 |
 | XLarge | 1200 |
 ## BackgroundColor
-
 | Key | Value | Color |
 | --- | ----- | ----- |
 | Body | #F8F9FB | ![#F8F9FB](https://placehold.it/15/F8F9FB/000000?text=+) |
@@ -299,7 +285,6 @@
 | TableFooter | #EEF1F6 | ![#EEF1F6](https://placehold.it/15/EEF1F6/000000?text=+) |
 | Tooltip | #1F2329 | ![#1F2329](https://placehold.it/15/1F2329/000000?text=+) |
 ## BorderColor
-
 | Key | Value | Color |
 | --- | ----- | ----- |
 | Error | #DF320C | ![#DF320C](https://placehold.it/15/DF320C/000000?text=+) |
@@ -331,7 +316,6 @@
 | TableHeader | #CDD3DD | ![#CDD3DD](https://placehold.it/15/CDD3DD/000000?text=+) |
 | TableCell | #EEF1F6 | ![#EEF1F6](https://placehold.it/15/EEF1F6/000000?text=+) |
 ## TextColor
-
 | Key | Value | Color |
 | --- | ----- | ----- |
 | Active | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |

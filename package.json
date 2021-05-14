@@ -18,9 +18,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src/ -d dist/",
-    "build:docs": "npm run build && node buildDocs.js",
-    "json": "node json.js && npm run generate",
-    "generate": "cd ./bin && node generate.js"
+    "build:docs": "cd ./bin && node docs.js",
+    "build:json": "cd ./bin && node json.js",
+    "build:scss": "cd ./bin && node scss.js",
+    "build:css": "cd ./bin && node css.js",
+    "build:all": "npm run build && npm run build:docs && npm run build:json && npm run build:scss && npm run build:css"
   },
   "author": "MX",
   "license": "ISC",
