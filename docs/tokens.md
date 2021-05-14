@@ -279,6 +279,7 @@
 | ModalScrim | rgba(0, 0, 0, 0.25) | N/A | 
 | SelectionBoxShadow | transparent | N/A | 
 | SelectionBoxShadowDisabled | #EEF1F6 | ![#EEF1F6](https://placehold.it/15/EEF1F6/000000?text=+) |
+| Radio | #EAF1FB | ![#EAF1FB](https://placehold.it/15/EAF1FB/000000?text=+) |
 | RadioChecked | #EAF1FB | ![#EAF1FB](https://placehold.it/15/EAF1FB/000000?text=+) |
 | RadioDisabled | #EAF1FB | ![#EAF1FB](https://placehold.it/15/EAF1FB/000000?text=+) |
 | RadioDot | #F8F9FB | ![#F8F9FB](https://placehold.it/15/F8F9FB/000000?text=+) |
