@@ -75,6 +75,7 @@ const dark = (core) => ({
   SelectionBoxDisabled: core.Color.Neutral700,
   SelectionBoxDisabledSelected: core.Color.Neutral700,
   // Radio
+  Radio: core.Color.NeutralWhite,
   RadioChecked: core.Color.NeutralWhite,
   RadioDisabled: core.Color.Neutral600,
   // Switch

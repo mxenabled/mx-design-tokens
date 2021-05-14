@@ -60,6 +60,7 @@ const light = (core) => ({
   SelectionBoxShadow: 'transparent',
   SelectionBoxShadowDisabled: core.Color.Neutral200,
   // Radio
+  Radio: core.Color.Primary100,
   RadioChecked: core.Color.Brand100,
   RadioDisabled: core.Color.Brand100,
   RadioDot: core.Color.Neutral100,
@@ -149,6 +150,7 @@ const dark = (core) => ({
   SelectionBoxShadow: core.Color.Neutral700,
   SelectionBoxShadowDisabled: core.Color.Neutral700,
   // Radio
+  Radio: 'transparent',
   RadioChecked: core.Color.Neutral900,
   RadioDisabled: core.Color.Neutral700,
   RadioDot: core.Color.Neutral600,
