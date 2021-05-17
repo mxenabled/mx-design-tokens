@@ -60,6 +60,7 @@
   --mx-dark_BoxShadow_FocusRingDefault: 0px 0px 0px 2px rgba(82, 138, 224, 0.8);
   --mx-dark_BoxShadow_Left:  -1px 2px 8px rgba(106, 115, 129, 0.22);
   --mx-dark_BoxShadow_Right:  1px 0px 8px rgba(106, 115, 129, 0.22);
+  --mx-dark_BoxShadow_SelectionBoxShadow: none;
   --mx-dark_BoxShadow_Tooltip:  0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06);
   --mx-dark_BorderRadius_Small: 2px;
   --mx-dark_BorderRadius_Medium: 4px;
@@ -215,6 +216,9 @@
   --mx-dark_BackgroundColor_ModalClose: #49505A;
   --mx-dark_BackgroundColor_ModalCloseHover: #6A7381;
   --mx-dark_BackgroundColor_ModalScrim: rgba(0, 0, 0, 0.50);
+  --mx-dark_BackgroundColor_SelectionBoxShadow: #49505A;
+  --mx-dark_BackgroundColor_SelectionBoxShadowDisabled: #49505A;
+  --mx-dark_BackgroundColor_Radio: transparent;
   --mx-dark_BackgroundColor_RadioChecked: #121417;
   --mx-dark_BackgroundColor_RadioDisabled: #49505A;
   --mx-dark_BackgroundColor_RadioDot: #6A7381;
@@ -257,7 +261,11 @@
   --mx-dark_BorderColor_InputError: #F45532;
   --mx-dark_BorderColor_InputFocus: #6FA1EC;
   --mx-dark_BorderColor_InputHover: #A8B1BD;
-  --mx-dark_BorderColor_Radio: #6A7381;
+  --mx-dark_BorderColor_SelectionBoxOutline: #49505A;
+  --mx-dark_BorderColor_SelectionBoxFocusedSelected: #6FA1EC;
+  --mx-dark_BorderColor_SelectionBoxDisabled: #49505A;
+  --mx-dark_BorderColor_SelectionBoxDisabledSelected: #49505A;
+  --mx-dark_BorderColor_Radio: #FFFFFF;
   --mx-dark_BorderColor_RadioChecked: #FFFFFF;
   --mx-dark_BorderColor_RadioDisabled: #6A7381;
   --mx-dark_BorderColor_RadioDisabledChecked: #A8B1BD;
@@ -299,6 +307,7 @@
   --mx-dark_TextColor_InputPlaceholder: #A8B1BD;
   --mx-dark_TextColor_LeftNavItemActive: #FFFFFF;
   --mx-dark_TextColor_ModalClose: #FFFFFF;
+  --mx-dark_TextColor_SelectionBoxDisabled: #A8B1BD;
   --mx-dark_TextColor_TabActive: #6FA1EC;
   --mx-dark_TextColor_TagError: #FFFFFF;
   --mx-dark_TextColor_TagNeutral: #FFFFFF;

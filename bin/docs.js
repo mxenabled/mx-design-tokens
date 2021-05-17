@@ -11,7 +11,7 @@ function getDocsContent(json) {
   const keys = Object.keys(json)
 
   keys.forEach((key) => {
-    md += `## ${key}\n`
+    md += `\n## ${key}\n\n`
 
     if (t.colorKeys.indexOf(key) !== -1) {
       md += `| Key | Value | Color |\n`
@@ -36,6 +36,8 @@ function getDocsContent(json) {
         md += `| ${childKey} | ${json[key][childKey]} |\n`
       }
     })
+
+    md += `\n----\n`
   })
 
   return md

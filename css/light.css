@@ -66,6 +66,7 @@
   --mx-light_BoxShadow_Drawer:  -1px 2px 8px rgba(106, 115, 129, 0.22);
   --mx-light_BoxShadow_DropdownMenu:  0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06);
   --mx-light_BoxShadow_Modal:  0px 12px 20px rgba(106, 115, 129, 0.22);
+  --mx-light_BoxShadow_SelectionBoxShadow:  0px 2px 8px rgba(106, 115, 129, 0.12);
   --mx-light_BoxShadow_Tooltip:  0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06);
   --mx-light_BorderRadius_Small: 2px;
   --mx-light_BorderRadius_Medium: 4px;
@@ -221,6 +222,9 @@
   --mx-light_BackgroundColor_ModalClose: #EEF1F6;
   --mx-light_BackgroundColor_ModalCloseHover: #E4E8EE;
   --mx-light_BackgroundColor_ModalScrim: rgba(0, 0, 0, 0.25);
+  --mx-light_BackgroundColor_SelectionBoxShadow: transparent;
+  --mx-light_BackgroundColor_SelectionBoxShadowDisabled: #EEF1F6;
+  --mx-light_BackgroundColor_Radio: #EAF1FB;
   --mx-light_BackgroundColor_RadioChecked: #EAF1FB;
   --mx-light_BackgroundColor_RadioDisabled: #EAF1FB;
   --mx-light_BackgroundColor_RadioDot: #F8F9FB;
@@ -262,6 +266,10 @@
   --mx-light_BorderColor_InputError: #DF320C;
   --mx-light_BorderColor_InputFocus: #2F73DA;
   --mx-light_BorderColor_InputHover: #6A7381;
+  --mx-light_BorderColor_SelectionBoxOutline: #E4E8EE;
+  --mx-light_BorderColor_SelectionBoxFocusedSelected: #2F73DA;
+  --mx-light_BorderColor_SelectionBoxDisabled: #E4E8EE;
+  --mx-light_BorderColor_SelectionBoxDisabledSelected: #A8B1BD;
   --mx-light_BorderColor_Radio: #6A7381;
   --mx-light_BorderColor_RadioChecked: #2F73DA;
   --mx-light_BorderColor_RadioDisabled: #CDD3DD;
@@ -305,6 +313,7 @@
   --mx-light_TextColor_InputPlaceholder: #6A7381;
   --mx-light_TextColor_LeftNavItemActive: #165ECC;
   --mx-light_TextColor_ModalClose: #121417;
+  --mx-light_TextColor_SelectionBoxDisabled: #A8B1BD;
   --mx-light_TextColor_TabActive: #2F73DA;
   --mx-light_TextColor_TagError: #AE0A0A;
   --mx-light_TextColor_TagNeutral: #49505A;
