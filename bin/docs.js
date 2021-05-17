@@ -26,7 +26,7 @@ function getDocsContent(json) {
 
       if (t.colorKeys.indexOf(key) !== -1) {
         if (value.indexOf('#') !== -1) {
-          md += `| ${childKey} | ${value} | ![${value}](https://placehold.it/15/${
+          md += `| ${childKey} | ${value} | ![${value}](http://placehold.it/15/${
             value.split('#')[1]
           }/000000?text=+) |\n`
         } else {
