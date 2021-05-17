@@ -74,6 +74,7 @@
 | Drawer |  -1px 2px 8px rgba(106, 115, 129, 0.22) |
 | DropdownMenu |  0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06) |
 | Modal |  0px 12px 20px rgba(106, 115, 129, 0.22) |
+| SelectionBoxShadow |  0px 2px 8px rgba(106, 115, 129, 0.12) |
 | Tooltip |  0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06) |
 ## BorderRadius
 | Key | Value |
@@ -262,6 +263,9 @@
 | ModalClose | #EEF1F6 | ![#EEF1F6](https://placehold.it/15/EEF1F6/000000?text=+) |
 | ModalCloseHover | #E4E8EE | ![#E4E8EE](https://placehold.it/15/E4E8EE/000000?text=+) |
 | ModalScrim | rgba(0, 0, 0, 0.25) | N/A | 
+| SelectionBoxShadow | transparent | N/A | 
+| SelectionBoxShadowDisabled | #EEF1F6 | ![#EEF1F6](https://placehold.it/15/EEF1F6/000000?text=+) |
+| Radio | #EAF1FB | ![#EAF1FB](https://placehold.it/15/EAF1FB/000000?text=+) |
 | RadioChecked | #EAF1FB | ![#EAF1FB](https://placehold.it/15/EAF1FB/000000?text=+) |
 | RadioDisabled | #EAF1FB | ![#EAF1FB](https://placehold.it/15/EAF1FB/000000?text=+) |
 | RadioDot | #F8F9FB | ![#F8F9FB](https://placehold.it/15/F8F9FB/000000?text=+) |
@@ -306,6 +310,10 @@
 | InputError | #DF320C | ![#DF320C](https://placehold.it/15/DF320C/000000?text=+) |
 | InputFocus | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
 | InputHover | #6A7381 | ![#6A7381](https://placehold.it/15/6A7381/000000?text=+) |
+| SelectionBoxOutline | #E4E8EE | ![#E4E8EE](https://placehold.it/15/E4E8EE/000000?text=+) |
+| SelectionBoxFocusedSelected | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
+| SelectionBoxDisabled | #E4E8EE | ![#E4E8EE](https://placehold.it/15/E4E8EE/000000?text=+) |
+| SelectionBoxDisabledSelected | #A8B1BD | ![#A8B1BD](https://placehold.it/15/A8B1BD/000000?text=+) |
 | Radio | #6A7381 | ![#6A7381](https://placehold.it/15/6A7381/000000?text=+) |
 | RadioChecked | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
 | RadioDisabled | #CDD3DD | ![#CDD3DD](https://placehold.it/15/CDD3DD/000000?text=+) |
@@ -352,6 +360,7 @@
 | InputPlaceholder | #6A7381 | ![#6A7381](https://placehold.it/15/6A7381/000000?text=+) |
 | LeftNavItemActive | #165ECC | ![#165ECC](https://placehold.it/15/165ECC/000000?text=+) |
 | ModalClose | #121417 | ![#121417](https://placehold.it/15/121417/000000?text=+) |
+| SelectionBoxDisabled | #A8B1BD | ![#A8B1BD](https://placehold.it/15/A8B1BD/000000?text=+) |
 | TabActive | #2F73DA | ![#2F73DA](https://placehold.it/15/2F73DA/000000?text=+) |
 | TagError | #AE0A0A | ![#AE0A0A](https://placehold.it/15/AE0A0A/000000?text=+) |
 | TagNeutral | #49505A | ![#49505A](https://placehold.it/15/49505A/000000?text=+) |

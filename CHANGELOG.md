@@ -17,6 +17,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - DOCS output script
 - JSON output script
 
+## [8.11.0] - 05-14-2021
+
+### Added
+
+- Added Radio token to backgroundColor tokens for use with the radio button after a css refactor.
+- Add missing Radio borderColor token
+
+## [8.10.1] - 05-13-2021
+
+### Added
+
+- Added SelectionBoxDisabled borderColor token
+
+## [8.10.0] - 05-11-2021
+
+### Added
+
+- Added new tokens for the SelectionBox component
+
 ## [8.9.0] - 05-11-2021
 
 ### Added
