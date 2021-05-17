@@ -26,9 +26,8 @@ function getDocsContent(json) {
 
       if (t.colorKeys.indexOf(key) !== -1) {
         if (value.indexOf('#') !== -1) {
-          md += `| ${childKey} | ${value} | ![${value}](http://placehold.it/15/${
-            value.split('#')[1]
-          }/000000?text=+) |\n`
+          let c = value.split('#')[1]
+          md += `| ${childKey} | ${value} | [![${value}](https://via.placeholder.com/32x16/${c}/000000?text=+)](https://www.colorhexa.com/${c}) |\n`
         } else {
           md += `| ${childKey} | ${value} | N/A | \n`
         }
