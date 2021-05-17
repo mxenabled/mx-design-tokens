@@ -10,8 +10,6 @@ function getDocsContent(json) {
   let md = ''
   const keys = Object.keys(json)
 
-  console.log(keys)
-
   keys.forEach((key) => {
     md += `## ${key}\n`
 
