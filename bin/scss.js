@@ -1,15 +1,16 @@
 const f = require('./helpers/file')
 const t = require('./helpers/theme')
+const pkg = require('./helpers/package')
 
-console.log(`GENERATING FILES:  mx-design-tokens -> .scss`)
+console.log(`GENERATING FILES:  ${pkg.packageInfo.name} (${pkg.packageInfo.version}) -> .scss`)
 
 t.themes.forEach((themeObj) =>
-  f.fileOverwrite(`../scss/${themeObj.name}.scss`, getSassContent(themeObj.theme)),
+  f.fileOverwrite(`../scss/${themeObj.name}.scss`, getSassContent(themeObj.theme, themeObj.name)),
 )
 
 // get scss text from a theme object
-function getSassContent(json) {
-  let sass = ''
+function getSassContent(json, theme) {
+  let sass = pkg.getHeaderComment(`/scss/${theme}.scss`, 'sass variables')
   const keys = Object.keys(json)
 
   const formatValue = (val, token) => {

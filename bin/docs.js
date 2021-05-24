@@ -1,13 +1,16 @@
 const f = require('./helpers/file')
 const t = require('./helpers/theme')
+const pkg = require('./helpers/package')
 
-console.log(`GENERATING FILES:  mx-design-tokens -> docs/tokens.md`)
+console.log(
+  `GENERATING FILES:  ${pkg.packageInfo.name} (${pkg.packageInfo.version}) -> docs/tokens.md`,
+)
 
 f.fileOverwrite(`../docs/tokens.md`, getDocsContent(t.themeList.light))
 
 // get markdown text from a theme object
 function getDocsContent(json) {
-  let md = ''
+  let md = `# ${pkg.packageInfo.name} - version ${pkg.packageInfo.version} (light theme)\n\n`
   const keys = Object.keys(json)
 
   keys.forEach((key) => {
