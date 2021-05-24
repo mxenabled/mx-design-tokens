@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/moneydesktop/mx-design-tokens"
+    "url": "https://github.com/mxenabled/mx-design-tokens"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
