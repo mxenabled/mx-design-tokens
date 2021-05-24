@@ -21,6 +21,12 @@ function getSassContent(json) {
       retVal = val
     } else if (Number.isInteger(val)) {
       retVal = `${val}px`
+    } else if (token === 'BoxShadow') {
+      let v = val.trim()
+
+      if (v && v !== 'none') {
+        retVal = `"${v}"`
+      }
     }
 
     return retVal
