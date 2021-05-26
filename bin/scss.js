@@ -2,7 +2,7 @@ const f = require('./helpers/file')
 const t = require('./helpers/theme')
 const pkg = require('./helpers/package')
 
-console.log(`GENERATING FILES:  ${pkg.packageInfo.name} (${pkg.packageInfo.version}) -> .scss`)
+pkg.logStart('scss')
 
 t.themes.forEach((themeObj) =>
   f.fileOverwrite(`../scss/${themeObj.name}.scss`, getSassContent(themeObj.theme, themeObj.name)),
@@ -10,7 +10,7 @@ t.themes.forEach((themeObj) =>
 
 // get scss text from a theme object
 function getSassContent(json, theme) {
-  let sass = pkg.getHeaderComment(`/scss/${theme}.scss`, 'sass variables')
+  let sass = pkg.getHeaderComment(`/scss/${theme}.scss`, 'sass variables', pkg.getTimestamp())
   const keys = Object.keys(json)
 
   const formatValue = (val, token) => {

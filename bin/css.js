@@ -2,7 +2,7 @@ const f = require('./helpers/file')
 const t = require('./helpers/theme')
 const pkg = require('./helpers/package')
 
-console.log(`GENERATING FILES:  ${pkg.packageInfo.name} (${pkg.packageInfo.version}) -> .css`)
+pkg.logStart('css')
 
 t.themes.forEach((themeObj) =>
   f.fileOverwrite(`../css/${themeObj.name}.css`, getCssContent(themeObj.theme, themeObj.name)),
@@ -10,7 +10,7 @@ t.themes.forEach((themeObj) =>
 
 // get css text from a theme object
 function getCssContent(json, theme) {
-  let css = pkg.getHeaderComment(`/css/${theme}.css`, 'css variables')
+  let css = pkg.getHeaderComment(`/css/${theme}.css`, 'css variables', pkg.getTimestamp())
   css += ':root {\n'
   const keys = Object.keys(json)
 

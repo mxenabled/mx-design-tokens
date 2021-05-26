@@ -27,7 +27,9 @@ function fileOverwrite(path, content) {
       console.error(`ERROR: Failed to write file '${path}'`)
       console.log(err)
     } else {
-      console.log(`SUCCESSS: Generated the file '${path}' (${content.length} bytes)`)
+      console.log(
+        `\x1b[32mSUCCESSS: Generated file \x1b[37m'${path}' \x1b[35m(${content.length} bytes)\x1b[0m`,
+      )
     }
   })
 }

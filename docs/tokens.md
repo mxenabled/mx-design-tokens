@@ -1,6 +1,6 @@
-# mx-design-tokens - version 9.0.0 (light theme)
+# mx-design-tokens (9.0.0)
 
-
+**light theme tokens** _last generated 2021-05-26_
 ## Color
 
 | Key | Value | Color |

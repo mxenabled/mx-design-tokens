@@ -2,15 +2,14 @@ const f = require('./helpers/file')
 const t = require('./helpers/theme')
 const pkg = require('./helpers/package')
 
-console.log(
-  `GENERATING FILES:  ${pkg.packageInfo.name} (${pkg.packageInfo.version}) -> docs/tokens.md`,
-)
+pkg.logStart('docs')
 
 f.fileOverwrite(`../docs/tokens.md`, getDocsContent(t.themeList.light))
 
 // get markdown text from a theme object
 function getDocsContent(json) {
-  let md = `# ${pkg.packageInfo.name} - version ${pkg.packageInfo.version} (light theme)\n\n`
+  let md = `# ${pkg.packageInfo.name} (${pkg.packageInfo.version})\n\n`
+  md += `**light theme tokens** _last generated ${pkg.getTimestamp()}_`
   const keys = Object.keys(json)
 
   keys.forEach((key) => {
