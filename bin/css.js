@@ -30,7 +30,7 @@ function getCssContent(json, theme) {
 
   keys.forEach((key) => {
     const isColor = t.colorKeys.indexOf(key) !== -1
-    let baseKey = `--mx-${theme}_${key}`
+    let baseKey = `--mx-${key}`
 
     Object.keys(json[key]).forEach((childKey) => {
       const value = formatValue(json[key][childKey], key)
