@@ -1,7 +1,8 @@
-# mx-design-tokens (9.0.0)
+# MX Design Tokens - light theme
 
-**light theme tokens** _last generated 2021-05-26_
-## Color
+#### <sup><code>mx-design-tokens (9.0.0)</code> &nbsp; _last generated: 2021-05-26_</sup>
+
+### Color
 
 | Key | Value | Color |
 | --- | ----- | ----- |
@@ -60,7 +61,7 @@
 
 ----
 
-## Font
+### Font
 
 | Key | Value |
 | --- | ----- |
@@ -70,7 +71,7 @@
 
 ----
 
-## BoxShadow
+### BoxShadow
 
 | Key | Value |
 | --- | ----- |
@@ -91,7 +92,7 @@
 
 ----
 
-## BorderRadius
+### BorderRadius
 
 | Key | Value |
 | --- | ----- |
@@ -116,7 +117,7 @@
 
 ----
 
-## FontSize
+### FontSize
 
 | Key | Value |
 | --- | ----- |
@@ -146,7 +147,7 @@
 
 ----
 
-## FontWeight
+### FontWeight
 
 | Key | Value |
 | --- | ----- |
@@ -156,7 +157,7 @@
 
 ----
 
-## LetterSpacing
+### LetterSpacing
 
 | Key | Value |
 | --- | ----- |
@@ -166,7 +167,7 @@
 
 ----
 
-## LineHeight
+### LineHeight
 
 | Key | Value |
 | --- | ----- |
@@ -182,7 +183,7 @@
 
 ----
 
-## Spacing
+### Spacing
 
 | Key | Value |
 | --- | ----- |
@@ -231,7 +232,7 @@
 
 ----
 
-## Time
+### Time
 
 | Key | Value |
 | --- | ----- |
@@ -241,7 +242,7 @@
 
 ----
 
-## Easing
+### Easing
 
 | Key | Value |
 | --- | ----- |
@@ -249,7 +250,7 @@
 
 ----
 
-## MediaQuery
+### MediaQuery
 
 | Key | Value |
 | --- | ----- |
@@ -260,7 +261,7 @@
 
 ----
 
-## Resolution
+### Resolution
 
 | Key | Value |
 | --- | ----- |
@@ -271,7 +272,7 @@
 
 ----
 
-## BackgroundColor
+### BackgroundColor
 
 | Key | Value | Color |
 | --- | ----- | ----- |
@@ -347,7 +348,7 @@
 
 ----
 
-## BorderColor
+### BorderColor
 
 | Key | Value | Color |
 | --- | ----- | ----- |
@@ -386,7 +387,7 @@
 
 ----
 
-## TextColor
+### TextColor
 
 | Key | Value | Color |
 | --- | ----- | ----- |

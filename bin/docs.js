@@ -8,12 +8,14 @@ f.fileOverwrite(`../docs/tokens.md`, getDocsContent(t.themeList.light))
 
 // get markdown text from a theme object
 function getDocsContent(json) {
-  let md = `# ${pkg.packageInfo.name} (${pkg.packageInfo.version})\n\n`
-  md += `**light theme tokens** _last generated ${pkg.getTimestamp()}_`
+  let md = '# MX Design Tokens - light theme\n\n'
+  md += `#### <sup><code>${pkg.packageInfo.name} (${pkg.packageInfo.version})</code>`
+  md += ` &nbsp; _last generated: ${pkg.getTimestamp()}_</sup>\n`
+
   const keys = Object.keys(json)
 
   keys.forEach((key) => {
-    md += `\n## ${key}\n\n`
+    md += `\n### ${key}\n\n`
 
     if (t.colorKeys.indexOf(key) !== -1) {
       md += `| Key | Value | Color |\n`
