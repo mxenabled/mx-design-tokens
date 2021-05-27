@@ -4,8 +4,6 @@
 
 ![light theme](./header_light.png)
 
----
-
 ### Color &nbsp; <sub><sup>( _light_ )</sup></sub>
 
 | Key | Value | Color |
@@ -444,8 +442,6 @@
 </details>
 
 ![dark theme](./header_dark.png)
-
----
 
 ### Color &nbsp; <sub><sup>( _dark_ )</sup></sub>
 
