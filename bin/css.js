@@ -15,17 +15,41 @@ function getCssContent(json, theme) {
   const keys = Object.keys(json)
 
   const formatValue = (val, token) => {
-    let retVal = val
-
-    if (token === 'Font') {
-      retVal = `(${val})`
-    } else if (token === 'FontWeight') {
-      retVal = val
-    } else if (Number.isInteger(val)) {
-      retVal = `${val}px`
+    // explicitly define any decorators which should appear before or after each value of various tokens
+    const tokenDecorators = {
+      BorderRadius: {
+        pre: '',
+        post: 'px',
+      },
+      Font: {
+        pre: '(',
+        post: ')',
+      },
+      FontSize: {
+        pre: '',
+        post: 'px',
+      },
+      Resolution: {
+        pre: '',
+        post: 'px',
+      },
+      Spacing: {
+        pre: '',
+        post: 'px',
+      },
     }
 
-    return retVal
+    const td = { pre: '', post: '', skip: [], ...tokenDecorators[token] }
+
+    let isExcluded = false
+
+    for (let i = 0; i < td.skip.length; i++) {
+      if (td.skip[i] === val) {
+        isExcluded = true
+      }
+    }
+
+    return isExcluded ? val : td.pre + val + td.post
   }
 
   keys.forEach((key) => {
@@ -33,7 +57,7 @@ function getCssContent(json, theme) {
     let baseKey = `--mx-${key}`
 
     Object.keys(json[key]).forEach((childKey) => {
-      const value = formatValue(json[key][childKey], key)
+      const value = json[key][childKey] ? formatValue(json[key][childKey], key) : null
 
       if (value) {
         css += `  ${baseKey}_${childKey}: ${value};\n`

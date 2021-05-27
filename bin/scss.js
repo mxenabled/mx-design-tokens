@@ -12,25 +12,47 @@ t.themes.forEach((themeObj) =>
 function getSassContent(json, theme) {
   let sass = pkg.getHeaderComment(`/scss/${theme}.scss`, 'sass variables', pkg.getTimestamp())
   const keys = Object.keys(json)
-
   const formatValue = (val, token) => {
-    let retVal = val
+    // explicitly define any decorators which should appear before or after each value of various tokens
+    const tokenDecorators = {
+      BorderRadius: {
+        pre: '',
+        post: 'px',
+      },
+      BoxShadow: {
+        pre: '"',
+        post: '"',
+        skip: ['none'],
+      },
+      Font: {
+        pre: '(',
+        post: ')',
+      },
+      FontSize: {
+        pre: '',
+        post: 'px',
+      },
+      Resolution: {
+        pre: '',
+        post: 'px',
+      },
+      Spacing: {
+        pre: '',
+        post: 'px',
+      },
+    }
 
-    if (token === 'Font') {
-      retVal = `(${val})`
-    } else if (token === 'FontWeight') {
-      retVal = val
-    } else if (Number.isInteger(val)) {
-      retVal = `${val}px`
-    } else if (token === 'BoxShadow') {
-      let v = val.trim()
+    const td = { pre: '', post: '', skip: [], ...tokenDecorators[token] }
 
-      if (v && v !== 'none') {
-        retVal = `"${v}"`
+    let isExcluded = false
+
+    for (let i = 0; i < td.skip.length; i++) {
+      if (td.skip[i] === val) {
+        isExcluded = true
       }
     }
 
-    return retVal
+    return isExcluded ? val : td.pre + val + td.post
   }
 
   for (let i = 0; i < keys.length; i++) {
@@ -42,7 +64,7 @@ function getSassContent(json, theme) {
 
     for (let j = 0; j < props.length; j++) {
       const p = props[j]
-      const v = formatValue(values[p], k)
+      const v = values[p] ? formatValue(values[p], k) : null
 
       if (v) {
         sass += `  "${p}": ${v},\n`

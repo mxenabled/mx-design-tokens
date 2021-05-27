@@ -26,7 +26,7 @@ function getDocsContent(themeName) {
   const json = t.themeList[themeName]
   const keys = Object.keys(json)
 
-  let md = `![${themeName} theme](./header_${themeName}.png)\n\n---\n\n`
+  let md = `![${themeName} theme](./header_${themeName}.png)\n\n`
 
   keys.forEach((key) => {
     md += `### ${key} &nbsp; <sub><sup>( _${themeName}_ )</sup></sub>\n\n`
