@@ -18,7 +18,6 @@ function getCssContent(json, theme) {
     // explicitly define any decorators which should appear before or after each value of various tokens
     const tokenDecorators = {
       BorderRadius: {
-        pre: '',
         post: 'px',
       },
       Font: {
@@ -26,15 +25,12 @@ function getCssContent(json, theme) {
         post: ')',
       },
       FontSize: {
-        pre: '',
         post: 'px',
       },
       Resolution: {
-        pre: '',
         post: 'px',
       },
       Spacing: {
-        pre: '',
         post: 'px',
       },
     }
