@@ -33,6 +33,9 @@ function getCssContent(json, theme) {
       Spacing: {
         post: 'px',
       },
+      Time: {
+        post: 'ms',
+      },
     }
 
     const td = { pre: '', post: '', skip: [], ...tokenDecorators[token] }

@@ -172,9 +172,9 @@
   --mx-Spacing_TagSmallPaddingLeftRight: 8px;
   --mx-Spacing_TextAreaPadding: 12px;
   --mx-Spacing_TooltipPadding: 12px;
-  --mx-Time_Short: 300;
-  --mx-Time_Med: 500;
-  --mx-Time_Long: 1000;
+  --mx-Time_Short: 300ms;
+  --mx-Time_Med: 500ms;
+  --mx-Time_Long: 1000ms;
   --mx-Easing_Default: cubic-bezier(.475,.425,0,.995);
   --mx-MediaQuery_Small: 576px;
   --mx-MediaQuery_Med: 768px;

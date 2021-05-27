@@ -184,9 +184,9 @@ $Spacing: (
   "TooltipPadding": 12px,
 );
 $Time: (
-  "Short": 300,
-  "Med": 500,
-  "Long": 1000,
+  "Short": 300ms,
+  "Med": 500ms,
+  "Long": 1000ms,
 );
 $Easing: (
   "Default": cubic-bezier(.475,.425,0,.995),
