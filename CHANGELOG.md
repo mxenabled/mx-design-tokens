@@ -1,52 +1,91 @@
-# Changelog
+# MX Design Tokens - Changelog
 
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+---
+
+## [9.0.0] - 05-27-2021
+
+### Added
+
+- SCSS output files
+- CSS output files
+
+### Updated
+
+- DOCS output script
+- JSON output script
+- use the latest babel dev dependencies
+
+---
+
 ## [8.11.0] - 05-14-2021
 
 ### Added
+
 - Added Radio token to backgroundColor tokens for use with the radio button after a css refactor.
 - Add missing Radio borderColor token
+
+---
 
 ## [8.10.1] - 05-13-2021
 
 ### Added
+
 - Added SelectionBoxDisabled borderColor token
+
+---
 
 ## [8.10.0] - 05-11-2021
 
 ### Added
+
 - Added new tokens for the SelectionBox component
+
+---
 
 ## [8.9.0] - 05-11-2021
 
 ### Added
+
 - BorderColor and BackgroundColor now have an Error token that should be used by most components
 
 ### Updated
+
 - The BoxShadow tokens were updated to the latest ones from Figma
+
+---
 
 ## [8.8.0] - 05-06-2021
 
 ### Added
+
 - Added new tokens to support the new Chip component
+
+---
 
 ## [8.7.0] - 12-11-2020
 
 ### Added
+
 - Adds a new tokens `MessageBoxBrand` to replace `MessageBoxHelp`.
 
 ### Fixed
+
 - Fixes the `MessageBoxHelp` token using brand color instead of primary
+
+---
 
 ## [8.6.1] - 09-09-2020
 
 ### Fixed
 
 - Fix bad publish
+
+---
 
 ## [8.6.0] - 09-09-2020
 
@@ -58,6 +97,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `LetterSpacing.Tiny`
 - `LetterSpacing.XSmall`
 
+---
+
 ## [8.5.0] - 09-09-2020
 
 ### Added
@@ -65,17 +106,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add the Tag primary color and background color tokens
 - Rename Tag tokens to Tag Neutral
 
+---
+
 ## [8.4.0] - 09-08-2020
 
 ### Added
 
 - Add the Tag text colors and background color tokens
 
+---
+
 ## [8.3.0] - 08-28-2020
 
 ### Added
 
 - Add the Chart colors tokens
+
+---
 
 ## [8.2.0] - 08-28-2020
 
@@ -87,11 +134,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `TextColor.ButtonLinkDestructive`
 - `TextColor.ButtonLinkDestructiveHover`
 
+---
+
 ## [8.1.1] - 08-03-2020
 
 ### Added
 
 - Added the Primary color tokens back for backwards compatability and usage
+
+---
 
 ## [8.1.0] - 07-29-2020
 
@@ -103,11 +154,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `BackgroundColor.MessageBoxError`
 - `BackgroundColor.MessageBoxSuccess`
 
+---
+
 ## [8.0.0] - 07-15-2020
 
 ### Changed
 
 - Replaces Primary100-500 with Brand100-500 to be used when the colors need to reflect branding.
+
+---
 
 ## [7.1.2] - 07-05-2020
 
@@ -115,11 +170,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Bad publish of 7.1.1
 
+---
+
 ## [7.1.1] - 07-10-2020
 
 ### Updated
 
 - `CheckboxLabelMarginLeft` and `CheckboxLabelMarginLeft` now use `XSmall` spacing to fit design
+
+---
 
 ## [7.1.0] - 07-07-2020
 
@@ -127,6 +186,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - `Font` in the core
 - `customFonts` argument to buildTheme to override fonts
+
+---
 
 ## [7.0.0] - 06-29-2020
 
@@ -139,17 +200,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - `BorderRadius.Large` changed to `8px`.
 
+---
+
 ## [6.4.0] - 06-23-2020
 
 ### Added
 
 - `BackgroundColor.TabDivider`
 
+---
+
 ## [6.3.1] - 06-09-2020
 
 ### Fixed
 
 - Changed InputLabelMarginLeft to `XSmall` spacing because `Small` was the incorrect size.
+
+---
 
 ## [6.3.0] - 05-27-2020
 
@@ -168,11 +235,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - `Warning400` value updated to `#E07C02` to meet a 3:1 contrast ratio on white.
 
+---
+
 ## [6.2.1] - 05-26-2020
 
 ### Fixed
 
 - New changes in `6.2.0` weren't compiled correctly. This release fixed the bad release
+
+---
 
 ## [6.2.0] - 05-26-2020
 
@@ -180,11 +251,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - `BackgroundColor.ModalCloseHover`
 
+---
+
 ## [6.1.3] - 05-21-2020
 
 ### Changed
 
 - Organized tokens alphabetically with global tokens at the top of each file.
+
+---
 
 ## [6.1.2] - 05-07-2020
 
@@ -193,11 +268,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bad publish of 6.1.1
 - Add script to maybe prevent this from happening again.
 
+---
+
 ## [6.1.1] - 05-07-2020
 
 ### Fixed
 
 - Corrected typo on `BackgroundColor.DropdownMenuItemActive`.
+
+---
 
 ## [6.1.0] - 04-22-2020
 
@@ -206,15 +285,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `BackgroundColor.Avatar`
 - `TextColor.Avatar`
 
+---
+
 ## [6.0.2] - 04-21-2020
 
 Fix bad publish of 6.0.1
+
+---
 
 ## [6.0.1] - 04-21-2020
 
 ### Changed
 
 - `BackgroundColor.RadioChecked` in dark mode is now `Neutral900`
+
+---
 
 ## [6.0.0] - 04-06-2020
 
@@ -245,6 +330,8 @@ Fix bad publish of 6.0.1
 - `Spacing.DropdownToggle`
 - `Spacing.DropdownItemPaddingTopBottom`
 - `Spacing.DropdownItemPaddingLeftRight`
+
+---
 
 ## [5.0.0] - 03-20-2020
 
@@ -277,6 +364,8 @@ Fix bad publish of 6.0.1
 - Removed `BorderRadius.Radio` as it used `Rounded`.
 - Removed `BorderRadius.Switch` as it used `Rounded`.
 
+---
+
 ## [4.1.0] - 03-16-2020
 
 ### Added
@@ -287,11 +376,15 @@ Fix bad publish of 6.0.1
 
 - Makes custom colors available to the core color set.
 
+---
+
 ## [4.0.1] - 03-05-2020
 
 ### Fixed
 
 - Updates incorrect values for input labels.
+
+---
 
 ## [4.0.0] - 03-05-2020
 
