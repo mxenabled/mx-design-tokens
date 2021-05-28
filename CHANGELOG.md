@@ -7,11 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [9.0.1] - 05-27-2021
+## [9.0.1] - 05-28-2021
 
 ### Fixed
 
-- The `Time` token was incorrectly appending `px` for `.css` and `.scss` output
+- The `Time` token values now append `ms` instead of `px` for `.css` and `.scss` output
 
 ## [9.0.0] - 05-27-2021
 
