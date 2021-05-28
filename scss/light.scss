@@ -1,7 +1,7 @@
 /*
-** mx-design-tokens (9.0.0)
+** mx-design-tokens (9.0.1)
 **
-** sass variables auto-generated on 2021-05-27
+** sass variables auto-generated on 2021-05-28
 ** from https://github.com/mxenabled/mx-design-tokens to /scss/light.scss
 */
 $Color: (
@@ -190,9 +190,9 @@ $Spacing: (
   "TooltipPadding": 12px,
 );
 $Time: (
-  "Short": 300px,
-  "Med": 500px,
-  "Long": 1000px,
+  "Short": 300ms,
+  "Med": 500ms,
+  "Long": 1000ms,
 );
 $Easing: (
   "Default": cubic-bezier(.475,.425,0,.995),

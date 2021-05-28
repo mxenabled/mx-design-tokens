@@ -1,7 +1,7 @@
 /*
-** mx-design-tokens (9.0.0)
+** mx-design-tokens (9.0.1)
 **
-** css variables auto-generated on 2021-05-27
+** css variables auto-generated on 2021-05-28
 ** from https://github.com/mxenabled/mx-design-tokens to /css/dark.css
 */
 :root {
@@ -166,9 +166,9 @@
   --mx-Spacing_TagSmallPaddingLeftRight: 8px;
   --mx-Spacing_TextAreaPadding: 12px;
   --mx-Spacing_TooltipPadding: 12px;
-  --mx-Time_Short: 300px;
-  --mx-Time_Med: 500px;
-  --mx-Time_Long: 1000px;
+  --mx-Time_Short: 300ms;
+  --mx-Time_Med: 500ms;
+  --mx-Time_Long: 1000ms;
   --mx-Easing_Default: cubic-bezier(.475,.425,0,.995);
   --mx-MediaQuery_Small: 576px;
   --mx-MediaQuery_Med: 768px;
