@@ -14,29 +14,25 @@ export const targets = {
   NATIVE: 'native',
 }
 
-export const buildTheme = (themeName, target=targets.REACT, customColors={}, customFonts={}) => {
+export const buildTheme = (themeName, target = targets.REACT, customOverrides = {}) => {
   const customCore = {
     ...core,
     Color: {
       ...core.Color,
-      ...customColors,
     },
     Font: {
       ...core.Font,
-      ...customFonts,
-    }
+    },
   }
 
   const builtCore = {}
 
-  Object.keys(customCore).forEach(coreKey => {
-    const value = typeof customCore[coreKey] === 'function' ?
-      customCore[coreKey](target) :
-      customCore[coreKey]
+  Object.keys(customCore).forEach((coreKey) => {
+    const value =
+      typeof customCore[coreKey] === 'function' ? customCore[coreKey](target) : customCore[coreKey]
 
     builtCore[coreKey] = value
   })
-
 
   return {
     ...builtCore,
@@ -60,6 +56,7 @@ export const buildTheme = (themeName, target=targets.REACT, customColors={}, cus
       ...spacing[themeName](builtCore),
     },
     TextColor: textColor[themeName](builtCore),
+    ...customOverrides,
   }
 }
 
