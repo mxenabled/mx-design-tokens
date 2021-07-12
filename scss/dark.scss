@@ -1,7 +1,7 @@
 /*
-** mx-design-tokens (9.0.1)
+** mx-design-tokens (10.0.0-rc.1)
 **
-** sass variables auto-generated on 2021-05-28
+** sass variables auto-generated on 2021-07-12
 ** from https://github.com/mxenabled/mx-design-tokens to /scss/dark.scss
 */
 $Color: (
@@ -187,6 +187,21 @@ $Time: (
   "Short": 300ms,
   "Med": 500ms,
   "Long": 1000ms,
+);
+$ZIndex: (
+  "SendToBack": -1,
+  "Hover": 1,
+  "Active": 2,
+  "Focus": 3,
+  "Overlay": 1000,
+  "Sticky": 2000,
+  "Fixed": 3000,
+  "DatePicker": 1000,
+  "Drawer": 5000,
+  "DropdownMenu": 1000,
+  "MessageBox": 3000,
+  "Modal": 5000,
+  "Tooltip": 7000,
 );
 $Easing: (
   "Default": cubic-bezier(.475,.425,0,.995),

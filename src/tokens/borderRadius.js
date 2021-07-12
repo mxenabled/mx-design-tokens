@@ -1,4 +1,4 @@
-const light = core => ({
+const light = (core) => ({
   // Button
   Button: core.BorderRadius.Medium,
   // Card
@@ -7,7 +7,7 @@ const light = core => ({
   // Checkbox
   Checkbox: core.BorderRadius.Small,
   // Chip
-  Chip: core.BorderRadius.Small,
+  Chip: core.BorderRadius.XLarge,
   // Container
   Container: core.BorderRadius.Medium,
   // Dropdown
@@ -24,7 +24,7 @@ const light = core => ({
   Tooltip: core.BorderRadius.Medium,
 })
 
-const dark = core => ({
+const dark = (core) => ({
   ...light(core),
 })
 

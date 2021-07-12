@@ -1,7 +1,7 @@
 /*
-** mx-design-tokens (9.0.1)
+** mx-design-tokens (10.0.0-rc.1)
 **
-** css variables auto-generated on 2021-05-28
+** css variables auto-generated on 2021-07-12
 ** from https://github.com/mxenabled/mx-design-tokens to /css/dark.css
 */
 :root {
@@ -169,6 +169,19 @@
   --mx-Time_Short: 300ms;
   --mx-Time_Med: 500ms;
   --mx-Time_Long: 1000ms;
+  --mx-ZIndex_SendToBack: -1;
+  --mx-ZIndex_Hover: 1;
+  --mx-ZIndex_Active: 2;
+  --mx-ZIndex_Focus: 3;
+  --mx-ZIndex_Overlay: 1000;
+  --mx-ZIndex_Sticky: 2000;
+  --mx-ZIndex_Fixed: 3000;
+  --mx-ZIndex_DatePicker: 1000;
+  --mx-ZIndex_Drawer: 5000;
+  --mx-ZIndex_DropdownMenu: 1000;
+  --mx-ZIndex_MessageBox: 3000;
+  --mx-ZIndex_Modal: 5000;
+  --mx-ZIndex_Tooltip: 7000;
   --mx-Easing_Default: cubic-bezier(.475,.425,0,.995);
   --mx-MediaQuery_Small: 576px;
   --mx-MediaQuery_Med: 768px;
