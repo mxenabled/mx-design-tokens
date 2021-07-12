@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-#### <sup><code>mx-design-tokens (10.0.0)</code> &nbsp; _last generated: 2021-07-07_</sup>
+#### <sup><code>mx-design-tokens (10.0.0-rc.1)</code> &nbsp; _last generated: 2021-07-12_</sup>
 
 ![light theme](./header_light.png)
 
@@ -241,6 +241,27 @@
 | Short | 300 |
 | Med | 500 |
 | Long | 1000 |
+
+---
+
+### ZIndex &nbsp; <sub><sup>( _light_ )</sup></sub>
+
+| Key | Value |
+| :-- | :---- |
+| SendToBack | -1 |
+| Default | 0 |
+| Hover | 1 |
+| Active | 2 |
+| Focus | 3 |
+| Overlay | 1000 |
+| Sticky | 2000 |
+| Fixed | 3000 |
+| DatePicker | 1000 |
+| Drawer | 5000 |
+| DropdownMenu | 1000 |
+| MessageBox | 3000 |
+| Modal | 5000 |
+| Tooltip | 7000 |
 
 ---
 
@@ -680,6 +701,27 @@
 | Short | 300 |
 | Med | 500 |
 | Long | 1000 |
+
+---
+
+### ZIndex &nbsp; <sub><sup>( _dark_ )</sup></sub>
+
+| Key | Value |
+| :-- | :---- |
+| SendToBack | -1 |
+| Default | 0 |
+| Hover | 1 |
+| Active | 2 |
+| Focus | 3 |
+| Overlay | 1000 |
+| Sticky | 2000 |
+| Fixed | 3000 |
+| DatePicker | 1000 |
+| Drawer | 5000 |
+| DropdownMenu | 1000 |
+| MessageBox | 3000 |
+| Modal | 5000 |
+| Tooltip | 7000 |
 
 ---
 

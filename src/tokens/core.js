@@ -157,6 +157,20 @@ export default {
     Med: 500,
     Long: 1000,
   },
+  ZIndex: {
+    SendToBack: -1,
+    Base: 0,
+    Hover: 1,
+    Active: 2,
+    Focus: 3,
+    Overlay1: 1000,
+    Overlay2: 2000,
+    Overlay3: 3000,
+    Overlay4: 4000,
+    Overlay5: 5000,
+    Overlay6: 6000,
+    Overlay7: 7000,
+  },
   Easing: (target) => {
     if (target === targets.REACT) {
       return {
