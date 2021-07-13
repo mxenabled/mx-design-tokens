@@ -5,7 +5,10 @@ const pkg = require('./helpers/package')
 pkg.logStart('scss')
 
 t.themes.forEach((themeObj) =>
-  f.fileOverwrite(`../scss/${themeObj.name}.scss`, getSassContent(themeObj.theme, themeObj.name)),
+  f.fileOverwrite(
+    `../dist/output/scss/${themeObj.name}.scss`,
+    getSassContent(themeObj.theme, themeObj.name),
+  ),
 )
 
 // get scss text from a theme object
