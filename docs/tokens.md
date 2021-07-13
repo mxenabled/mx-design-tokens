@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-#### <sup><code>mx-design-tokens (10.0.0-rc.1)</code> &nbsp; _last generated: 2021-07-12_</sup>
+#### <sup><code>mx-design-tokens (10.0.0-rc.2)</code> &nbsp; _last generated: 2021-07-13_</sup>
 
 ![light theme](./header_light.png)
 
@@ -106,7 +106,7 @@
 | Card | 4 |
 | CardRounded | 8 |
 | Checkbox | 2 |
-| Chip | 2 |
+| Chip | 16 |
 | Container | 4 |
 | DropdownChip | 4 |
 | DropdownMenu | 4 |
@@ -566,7 +566,7 @@
 | Card | 4 |
 | CardRounded | 8 |
 | Checkbox | 2 |
-| Chip | 2 |
+| Chip | 16 |
 | Container | 4 |
 | DropdownChip | 4 |
 | DropdownMenu | 4 |

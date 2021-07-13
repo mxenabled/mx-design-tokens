@@ -1,7 +1,7 @@
 /*
-** mx-design-tokens (10.0.0-rc.1)
+** mx-design-tokens (10.0.0-rc.2)
 **
-** css variables auto-generated on 2021-07-12
+** css variables auto-generated on 2021-07-13
 ** from https://github.com/mxenabled/mx-design-tokens to /css/dark.css
 */
 :root {
@@ -76,7 +76,7 @@
   --mx-BorderRadius_Card: 4px;
   --mx-BorderRadius_CardRounded: 8px;
   --mx-BorderRadius_Checkbox: 2px;
-  --mx-BorderRadius_Chip: 2px;
+  --mx-BorderRadius_Chip: 16px;
   --mx-BorderRadius_Container: 4px;
   --mx-BorderRadius_DropdownChip: 4px;
   --mx-BorderRadius_DropdownMenu: 4px;

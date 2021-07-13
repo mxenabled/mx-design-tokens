@@ -1,6 +1,6 @@
 {
   "name": "mx-design-tokens",
-  "version": "10.0.0-rc.1",
+  "version": "10.0.0-rc.2",
   "description": "Design Tokens",
   "main": "dist/index.js",
   "engines": {
@@ -9,7 +9,9 @@
   },
   "files": [
     "dist",
-    "json"
+    "json",
+    "scss",
+    "css"
   ],
   "repository": {
     "type": "git",
