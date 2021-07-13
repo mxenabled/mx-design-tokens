@@ -19,9 +19,15 @@ import { light, dark, targets } from 'mx-design-tokens'
 To build a custom colored themed object:
 
 ```
-import { buildTheme } from 'mx-design-tokens'
+import { buildTheme, targets } from 'mx-design-tokens'
 
-const theme = buildTheme('light', targets.REACT, { Primary300: '#876543' })
+const tokenOverrides = {
+  "Color": {
+    "Brand300": '#876543'
+  }
+}
+
+const theme = buildTheme('light', targets.REACT, tokenOverrides)
 ```
 
 ## Development Environment
@@ -43,6 +49,7 @@ npm run build:all
 
 | Command              | Description                                                                 |
 | -------------------- | --------------------------------------------------------------------------- |
+| `npm run build`      | Create / Update files in `dist` folder                                      |
 | `npm run build:docs` | Update the markdown for viewing the [tokens](docs/tokens.md)                |
 | `npm run build:json` | Compile static JSON tokens for development                                  |
 | `npm run build:scss` | Compile static SCSS files for projects using [Sass](https://sass-lang.com/) |
