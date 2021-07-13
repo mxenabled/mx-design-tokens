@@ -10,5 +10,5 @@ t.themes.forEach((themeObj) =>
 
 // get json text from a theme object
 function getJsonContent(json) {
-  return JSON.stringify(json)
+  return JSON.stringify(json, null, 2)
 }
