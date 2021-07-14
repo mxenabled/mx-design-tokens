@@ -75,10 +75,28 @@ var buildTheme = function buildTheme() {
       }
     }; // React Native - token modifications needed by React Native apps
 
-    var reactNativeOverrides = _objectSpread({}, commonOverrides); // Native - token modifications needed by Native OS apps
+    var reactNativeOverrides = _objectSpread(_objectSpread({}, commonOverrides), {}, {
+      Time: {
+        Short: '300ms',
+        Med: '500ms',
+        Long: '1000ms'
+      }
+    }); // Native - token modifications needed by Native OS apps
 
 
-    var nativeOverrides = _objectSpread({}, commonOverrides);
+    var nativeOverrides = _objectSpread(_objectSpread({}, commonOverrides), {}, {
+      LineHeight: {
+        Tiny: 12,
+        XSmall: 14,
+        Small: 16,
+        ParagraphSmall: 20,
+        Body: 20,
+        Paragraph: 24,
+        H3: 24,
+        H2: 32,
+        H1: 40
+      }
+    });
 
     if (target === targets.REACT_NATIVE) {
       return reactNativeOverrides;

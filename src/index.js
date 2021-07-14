@@ -54,11 +54,27 @@ export const buildTheme = (
     // React Native - token modifications needed by React Native apps
     const reactNativeOverrides = {
       ...commonOverrides,
+      Time: {
+        Short: '300ms',
+        Med: '500ms',
+        Long: '1000ms',
+      },
     }
 
     // Native - token modifications needed by Native OS apps
     const nativeOverrides = {
       ...commonOverrides,
+      LineHeight: {
+        Tiny: 12,
+        XSmall: 14,
+        Small: 16,
+        ParagraphSmall: 20,
+        Body: 20,
+        Paragraph: 24,
+        H3: 24,
+        H2: 32,
+        H1: 40,
+      },
     }
 
     if (target === targets.REACT_NATIVE) {
