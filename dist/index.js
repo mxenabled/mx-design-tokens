@@ -49,65 +49,9 @@ var buildTheme = function buildTheme() {
   var themeName = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : themes.LIGHT;
   var target = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : targets.REACT;
   var tokenOverrides = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+  var targetOverrides = getTargetSpecificOverrides(target, _core["default"]);
 
-  // make all target based changes here so they're easy to find
-  var targetBasedMods = function targetBasedMods(target) {
-    // React Web - all token values should be stored and ready to use by React Web apps (without modifications)
-    var cleansedOverrides = {}; // Common changes applied to all targets excpet React Web apps
-
-    var commonOverrides = {
-      BoxShadow: {
-        Low: '',
-        Medium: '',
-        High: '',
-        Top: '',
-        Left: '',
-        Right: '',
-        Focus: ''
-      },
-      Easing: {
-        Default: {
-          x1: 0.475,
-          y1: 0.425,
-          x2: 0,
-          y2: 0.995
-        }
-      }
-    }; // React Native - token modifications needed by React Native apps
-
-    var reactNativeOverrides = _objectSpread(_objectSpread({}, commonOverrides), {}, {
-      Time: {
-        Short: '300ms',
-        Med: '500ms',
-        Long: '1000ms'
-      }
-    }); // Native - token modifications needed by Native OS apps
-
-
-    var nativeOverrides = _objectSpread(_objectSpread({}, commonOverrides), {}, {
-      LineHeight: {
-        Tiny: 12,
-        XSmall: 14,
-        Small: 16,
-        ParagraphSmall: 20,
-        Body: 20,
-        Paragraph: 24,
-        H3: 24,
-        H2: 32,
-        H1: 40
-      }
-    });
-
-    if (target === targets.REACT_NATIVE) {
-      return reactNativeOverrides;
-    } else if (target === targets.NATIVE) {
-      return nativeOverrides;
-    }
-
-    return cleansedOverrides;
-  };
-
-  var builtCore = _objectSpread(_objectSpread({}, _core["default"]), targetBasedMods(target));
+  var builtCore = _objectSpread(_objectSpread({}, _core["default"]), targetOverrides);
 
   return _objectSpread(_objectSpread({}, builtCore), {}, {
     BackgroundColor: _backgroundColor["default"][themeName](builtCore),
@@ -120,9 +64,82 @@ var buildTheme = function buildTheme() {
     TextColor: _textColor["default"][themeName](builtCore),
     ZIndex: _zIndex["default"][themeName](builtCore)
   }, tokenOverrides);
-};
+}; // keep target specific token modifications here so they are easier to manage
+
 
 exports.buildTheme = buildTheme;
+
+function getTargetSpecificOverrides(target, tokens) {
+  // React Web - all token values should be stored in core and ready to use without modifications
+  var reactWebOverrides = {}; // Common changes applied to all targets excpet React Web apps
+
+  var commonOverrides = {
+    BoxShadow: _objectSpread({}, updateValues(_core["default"].BoxShadow, '')),
+    Easing: {
+      Default: {
+        x1: 0.475,
+        y1: 0.425,
+        x2: 0,
+        y2: 0.995
+      }
+    }
+  }; // React Native - token modifications needed by React Native apps
+
+  var reactNativeOverrides = _objectSpread(_objectSpread({}, commonOverrides), {}, {
+    Time: _objectSpread({}, addSuffix(_core["default"].Time, 'ms'))
+  }); // console.log(reactNativeOverrides)
+  // Native - token modifications needed by Native OS apps
+
+
+  var nativeOverrides = _objectSpread(_objectSpread({}, commonOverrides), {}, {
+    LineHeight: _objectSpread({}, removeSuffix(_core["default"].LineHeight, 'px'))
+  }); // console.log(nativeOverrides)
+
+
+  if (target === targets.REACT_NATIVE) {
+    return reactNativeOverrides;
+  } else if (target === targets.NATIVE) {
+    return nativeOverrides;
+  }
+
+  return reactWebOverrides;
+} // helper functions which take in a list of key/value pairs and modify the value
+
+
+function addSuffix(json) {
+  var value = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'px';
+  var retValues = {};
+  Object.keys(json).forEach(function (key) {
+    retValues[key] = ''.concat(json[key], value);
+  });
+  return retValues;
+}
+
+function removeSuffix(json) {
+  var value = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'px';
+  var isNumeric = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
+  var retValues = {};
+  Object.keys(json).forEach(function (key) {
+    if (json[key].slice(-value.length) === value) {
+      var shortVal = json[key].slice(0, -value.length);
+
+      var _isNumeric = !isNaN(shortVal) && !isNaN(parseFloat(shortVal));
+
+      retValues[key] = _isNumeric ? parseFloat(shortVal) : shortVal;
+    }
+  });
+  return retValues;
+}
+
+function updateValues(json) {
+  var value = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
+  var retValues = {};
+  Object.keys(json).forEach(function (key) {
+    retValues[key] = value;
+  });
+  return retValues;
+}
+
 var light = buildTheme('light');
 exports.light = light;
 var dark = buildTheme('dark');
