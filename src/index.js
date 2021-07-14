@@ -15,50 +15,78 @@ export const targets = {
   NATIVE: 'native',
 }
 
-export const buildTheme = (themeName, target = targets.REACT, customOverrides = {}) => {
-  const customCore = {
-    ...core,
-    Color: {
-      ...core.Color,
-    },
-    Font: {
-      ...core.Font,
-    },
+export const themes = {
+  LIGHT: 'light',
+  DARK: 'dark',
+}
+
+export const buildTheme = (
+  themeName = themes.LIGHT,
+  target = targets.REACT,
+  tokenOverrides = {},
+) => {
+  // make all target based changes here so they're easy to find
+  const targetBasedMods = (target) => {
+    // React Web - all token values should be stored and ready to use by React Web apps (without modifications)
+    let cleansedOverrides = {}
+
+    // Common changes applied to all targets excpet React Web apps
+    const commonOverrides = {
+      BoxShadow: {
+        Low: '',
+        Medium: '',
+        High: '',
+        Top: '',
+        Left: '',
+        Right: '',
+        Focus: '',
+      },
+      Easing: {
+        Default: {
+          x1: 0.475,
+          y1: 0.425,
+          x2: 0,
+          y2: 0.995,
+        },
+      },
+    }
+
+    // React Native - token modifications needed by React Native apps
+    const reactNativeOverrides = {
+      ...commonOverrides,
+    }
+
+    // Native - token modifications needed by Native OS apps
+    const nativeOverrides = {
+      ...commonOverrides,
+    }
+
+    if (target === targets.REACT_NATIVE) {
+      return reactNativeOverrides
+    } else if (target === targets.NATIVE) {
+      return nativeOverrides
+    }
+
+    return cleansedOverrides
   }
 
-  const builtCore = {}
-
-  Object.keys(customCore).forEach((coreKey) => {
-    const value =
-      typeof customCore[coreKey] === 'function' ? customCore[coreKey](target) : customCore[coreKey]
-
-    builtCore[coreKey] = value
-  })
+  const builtCore = {
+    ...core,
+    ...targetBasedMods(target),
+  }
 
   return {
     ...builtCore,
     BackgroundColor: backgroundColor[themeName](builtCore),
     BorderColor: borderColor[themeName](builtCore),
-    BorderRadius: {
-      ...core.BorderRadius,
-      ...borderRadius[themeName](builtCore),
-    },
-    BoxShadow: {
-      ...core.BoxShadow,
-      ...boxShadow[themeName](builtCore),
-    },
+    BorderRadius: borderRadius[themeName](builtCore),
+    BoxShadow: boxShadow[themeName](builtCore),
     LetterSpacing: letterSpacing[themeName](builtCore),
-    FontSize: {
-      ...core.FontSize,
-      ...fontSize[themeName](builtCore),
-    },
-    Spacing: {
-      ...core.Spacing,
-      ...spacing[themeName](builtCore),
-    },
+    FontSize: fontSize[themeName](builtCore),
+    Spacing: spacing[themeName](builtCore),
     TextColor: textColor[themeName](builtCore),
     ZIndex: zIndex[themeName](builtCore),
-    ...customOverrides,
+    ...tokenOverrides,
   }
 }
 

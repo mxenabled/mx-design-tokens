@@ -1,16 +1,3 @@
-import { targets } from '../index'
-// This should probably not be modified
-
-const addPx = (obj) => {
-  const newObj = {}
-
-  Object.keys(obj).forEach((key) => {
-    newObj[key] = `${obj[key]}px`
-  })
-
-  return newObj
-}
-
 export default {
   Color: {
     Brand100: '#EAF1FB',
@@ -71,29 +58,14 @@ export default {
     Semibold: 'ProximaNovaSemibold, Helvetica, Arial, sans-serif',
     Bold: 'ProximaNovaBold, Helvetica, Arial, sans-serif',
   },
-  BoxShadow: (target) => {
-    if (target === targets.REACT) {
-      return {
-        Low: '0px 2px 8px rgba(106, 115, 129, 0.12)',
-        Medium: '0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06)',
-        High: '0px 12px 20px rgba(106, 115, 129, 0.22)',
-        Top: '0px -2px 8px rgba(106, 115, 129, 0.12)',
-        Left: '-1px 2px 8px rgba(106, 115, 129, 0.22)',
-        Right: '1px 0px 8px rgba(106, 115, 129, 0.22)',
-        Focus: '0px 0px 0px 2px rgba(82, 138, 224, 0.8)',
-      }
-    }
-
-    // TODO: explore mobile solutions more
-    return {
-      Low: '',
-      Medium: '',
-      High: '',
-      Top: '',
-      Left: '',
-      Right: '',
-      Focus: '',
-    }
+  BoxShadow: {
+    Low: '0px 2px 8px rgba(106, 115, 129, 0.12)',
+    Medium: '0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06)',
+    High: '0px 12px 20px rgba(106, 115, 129, 0.22)',
+    Top: '0px -2px 8px rgba(106, 115, 129, 0.12)',
+    Left: '-1px 2px 8px rgba(106, 115, 129, 0.22)',
+    Right: '1px 0px 8px rgba(106, 115, 129, 0.22)',
+    Focus: '0px 0px 0px 2px rgba(82, 138, 224, 0.8)',
   },
   BorderRadius: {
     Small: 2,
@@ -120,24 +92,16 @@ export default {
   LetterSpacing: {
     Uppercase: 0.48,
   },
-  LineHeight: (target) => {
-    const base = {
-      Tiny: 12,
-      XSmall: 14,
-      Small: 16,
-      ParagraphSmall: 20,
-      Body: 20,
-      Paragraph: 24,
-      H3: 24,
-      H2: 32,
-      H1: 40,
-    }
-
-    if (target === targets.REACT) {
-      return addPx(base)
-    }
-
-    return base
+  LineHeight: {
+    Tiny: '12px',
+    XSmall: '14px',
+    Small: '16px',
+    ParagraphSmall: '20px',
+    Body: '20px',
+    Paragraph: '24px',
+    H3: '24px',
+    H2: '32px',
+    H1: '40px',
   },
   Spacing: {
     XTiny: 2,
@@ -171,24 +135,9 @@ export default {
     Overlay6: 6000,
     Overlay7: 7000,
   },
-  Easing: (target) => {
-    if (target === targets.REACT) {
-      return {
-        Default: 'cubic-bezier(.475,.425,0,.995)',
-      }
-    }
-
-    // TODO: Define type cubic-bezier?
-    return {
-      Default: {
-        x1: 0.475,
-        y1: 0.425,
-        x2: 0,
-        y2: 0.995,
-      },
-    }
+  Easing: {
+    Default: 'cubic-bezier(.475,.425,0,.995)',
   },
-  // Convenience values as web consumes both constantly
   MediaQuery: {
     Small: '576px',
     Med: '768px',

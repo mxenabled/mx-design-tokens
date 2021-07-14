@@ -1,4 +1,6 @@
-const light = core => ({
+const light = (core) => ({
+  // Globals
+  ...core.FontSize,
   // Button
   Button: core.FontSize.Body,
   ButtonLinkLarge: core.FontSize.Body,
@@ -22,7 +24,7 @@ const light = core => ({
   TooltipText: core.FontSize.ParagraphSmall,
 })
 
-const dark = core => ({
+const dark = (core) => ({
   ...light(core),
 })
 

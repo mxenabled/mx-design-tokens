@@ -44,7 +44,7 @@ npm run build:all
 ## Tokens
 
 | Token Output Types                                                                        |
-| ----------------------------------------------------------------------------------------- |
+| :---------------------------------------------------------------------------------------- |
 | [Markdown - documentation for both light and dark theme tokens](dist/output/md/tokens.md) |
 | [JSON - React Web Apps](dist/output/json/light.json)                                      |
 | [SCSS - Sass / Rails Apps](dist/output/scss/light.scss)                                   |
@@ -55,7 +55,7 @@ npm run build:all
 ## Generate files from Tokens
 
 | Command              | Description                                                                                              |
-| -------------------- | -------------------------------------------------------------------------------------------------------- |
+| :------------------- | :------------------------------------------------------------------------------------------------------- |
 |                      |                                                                                                          |
 | `npm run build:all`  | Builds everything in one easy step                                                                       |
 |                      |                                                                                                          |

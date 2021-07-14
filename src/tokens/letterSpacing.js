@@ -1,10 +1,10 @@
-const light = core => ({
+const light = (core) => ({
   SmallUppercase: core.LetterSpacing.Uppercase,
   TinyUppercase: core.LetterSpacing.Uppercase,
   XSmallUppercase: core.LetterSpacing.Uppercase,
 })
 
-const dark = core => ({
+const dark = (core) => ({
   ...light(core),
 })
 

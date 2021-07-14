@@ -1,4 +1,6 @@
 const light = (core) => ({
+  // Globals
+  ...core.Spacing,
   // Button
   ButtonPadding: core.Spacing.Small,
   // Card

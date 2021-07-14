@@ -1,4 +1,6 @@
 const light = (core) => ({
+  // Globals
+  ...core.BorderRadius,
   // Button
   Button: core.BorderRadius.Medium,
   // Card

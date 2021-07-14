@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.dark = exports.light = exports.buildTheme = exports.targets = void 0;
+exports.dark = exports.light = exports.buildTheme = exports.themes = exports.targets = void 0;
 
 var _core = _interopRequireDefault(require("./tokens/core"));
 
@@ -39,32 +39,69 @@ var targets = {
   NATIVE: 'native'
 };
 exports.targets = targets;
+var themes = {
+  LIGHT: 'light',
+  DARK: 'dark'
+};
+exports.themes = themes;
 
-var buildTheme = function buildTheme(themeName) {
+var buildTheme = function buildTheme() {
+  var themeName = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : themes.LIGHT;
   var target = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : targets.REACT;
-  var customOverrides = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+  var tokenOverrides = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
 
-  var customCore = _objectSpread(_objectSpread({}, _core["default"]), {}, {
-    Color: _objectSpread({}, _core["default"].Color),
-    Font: _objectSpread({}, _core["default"].Font)
-  });
+  // make all target based changes here so they're easy to find
+  var targetBasedMods = function targetBasedMods(target) {
+    // React Web - all token values should be stored and ready to use by React Web apps (without modifications)
+    var cleansedOverrides = {}; // Common changes applied to all targets excpet React Web apps
 
-  var builtCore = {};
-  Object.keys(customCore).forEach(function (coreKey) {
-    var value = typeof customCore[coreKey] === 'function' ? customCore[coreKey](target) : customCore[coreKey];
-    builtCore[coreKey] = value;
-  });
+    var commonOverrides = {
+      BoxShadow: {
+        Low: '',
+        Medium: '',
+        High: '',
+        Top: '',
+        Left: '',
+        Right: '',
+        Focus: ''
+      },
+      Easing: {
+        Default: {
+          x1: 0.475,
+          y1: 0.425,
+          x2: 0,
+          y2: 0.995
+        }
+      }
+    }; // React Native - token modifications needed by React Native apps
+
+    var reactNativeOverrides = _objectSpread({}, commonOverrides); // Native - token modifications needed by Native OS apps
+
+
+    var nativeOverrides = _objectSpread({}, commonOverrides);
+
+    if (target === targets.REACT_NATIVE) {
+      return reactNativeOverrides;
+    } else if (target === targets.NATIVE) {
+      return nativeOverrides;
+    }
+
+    return cleansedOverrides;
+  };
+
+  var builtCore = _objectSpread(_objectSpread({}, _core["default"]), targetBasedMods(target));
+
   return _objectSpread(_objectSpread({}, builtCore), {}, {
     BackgroundColor: _backgroundColor["default"][themeName](builtCore),
     BorderColor: _borderColor["default"][themeName](builtCore),
-    BorderRadius: _objectSpread(_objectSpread({}, _core["default"].BorderRadius), _borderRadius["default"][themeName](builtCore)),
-    BoxShadow: _objectSpread(_objectSpread({}, _core["default"].BoxShadow), _boxShadow["default"][themeName](builtCore)),
+    BorderRadius: _borderRadius["default"][themeName](builtCore),
+    BoxShadow: _boxShadow["default"][themeName](builtCore),
     LetterSpacing: _letterSpacing["default"][themeName](builtCore),
-    FontSize: _objectSpread(_objectSpread({}, _core["default"].FontSize), _fontSize["default"][themeName](builtCore)),
-    Spacing: _objectSpread(_objectSpread({}, _core["default"].Spacing), _spacing["default"][themeName](builtCore)),
+    FontSize: _fontSize["default"][themeName](builtCore),
+    Spacing: _spacing["default"][themeName](builtCore),
     TextColor: _textColor["default"][themeName](builtCore),
     ZIndex: _zIndex["default"][themeName](builtCore)
-  }, customOverrides);
+  }, tokenOverrides);
 };
 
 exports.buildTheme = buildTheme;
