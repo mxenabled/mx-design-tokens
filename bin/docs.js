@@ -10,7 +10,7 @@ t.themes.forEach((themeObj) => {
   tokenMarkdown += getDocsContent(themeObj.name)
 })
 
-f.fileOverwrite(`../docs/tokens.md`, tokenMarkdown)
+f.fileOverwrite(`../dist/output/md/tokens.md`, tokenMarkdown)
 
 // get markdown for the page header
 function getDocsHeader() {

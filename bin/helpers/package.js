@@ -12,7 +12,7 @@ const packageInfo = {
 
 function logStart(outputType) {
   const lblText = `\x1b[34mGENERATE:\x1b[0m`
-  const pkgText = `\x1b[36m${packageInfo.name} (${packageInfo.version})\x1b[0m\n`
+  const pkgText = `\x1b[36m${packageInfo.name} (${packageInfo.version})\x1b[0m`
   const outText = `\x1b[30m\x1b[46m${outputType}\x1b[0m \x1b[34mfrom`
 
   console.log(`${lblText} ${outText} ${pkgText}`)

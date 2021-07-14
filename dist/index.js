@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.dark = exports.light = exports.buildTheme = exports.targets = void 0;
+exports.dark = exports.light = exports.buildTheme = exports.themes = exports.targets = void 0;
 
 var _core = _interopRequireDefault(require("./tokens/core"));
 
@@ -39,35 +39,107 @@ var targets = {
   NATIVE: 'native'
 };
 exports.targets = targets;
+var themes = {
+  LIGHT: 'light',
+  DARK: 'dark'
+};
+exports.themes = themes;
 
-var buildTheme = function buildTheme(themeName) {
+var buildTheme = function buildTheme() {
+  var themeName = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : themes.LIGHT;
   var target = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : targets.REACT;
-  var customOverrides = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+  var tokenOverrides = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+  var targetOverrides = getTargetSpecificOverrides(target, _core["default"]);
 
-  var customCore = _objectSpread(_objectSpread({}, _core["default"]), {}, {
-    Color: _objectSpread({}, _core["default"].Color),
-    Font: _objectSpread({}, _core["default"].Font)
-  });
+  var builtCore = _objectSpread(_objectSpread({}, _core["default"]), targetOverrides);
 
-  var builtCore = {};
-  Object.keys(customCore).forEach(function (coreKey) {
-    var value = typeof customCore[coreKey] === 'function' ? customCore[coreKey](target) : customCore[coreKey];
-    builtCore[coreKey] = value;
-  });
   return _objectSpread(_objectSpread({}, builtCore), {}, {
     BackgroundColor: _backgroundColor["default"][themeName](builtCore),
     BorderColor: _borderColor["default"][themeName](builtCore),
-    BorderRadius: _objectSpread(_objectSpread({}, _core["default"].BorderRadius), _borderRadius["default"][themeName](builtCore)),
-    BoxShadow: _objectSpread(_objectSpread({}, _core["default"].BoxShadow), _boxShadow["default"][themeName](builtCore)),
+    BorderRadius: _borderRadius["default"][themeName](builtCore),
+    BoxShadow: _boxShadow["default"][themeName](builtCore),
     LetterSpacing: _letterSpacing["default"][themeName](builtCore),
-    FontSize: _objectSpread(_objectSpread({}, _core["default"].FontSize), _fontSize["default"][themeName](builtCore)),
-    Spacing: _objectSpread(_objectSpread({}, _core["default"].Spacing), _spacing["default"][themeName](builtCore)),
+    FontSize: _fontSize["default"][themeName](builtCore),
+    Spacing: _spacing["default"][themeName](builtCore),
     TextColor: _textColor["default"][themeName](builtCore),
     ZIndex: _zIndex["default"][themeName](builtCore)
-  }, customOverrides);
-};
+  }, tokenOverrides);
+}; // keep target specific token modifications here so they are easier to manage
+
 
 exports.buildTheme = buildTheme;
+
+function getTargetSpecificOverrides(target, tokens) {
+  // React Web - all token values should be stored in core and ready to use without modifications
+  var reactWebOverrides = {}; // Common changes applied to all targets excpet React Web apps
+
+  var commonOverrides = {
+    BoxShadow: _objectSpread({}, updateValues(_core["default"].BoxShadow, '')),
+    Easing: {
+      Default: {
+        x1: 0.475,
+        y1: 0.425,
+        x2: 0,
+        y2: 0.995
+      }
+    }
+  }; // React Native - token modifications needed by React Native apps
+
+  var reactNativeOverrides = _objectSpread(_objectSpread({}, commonOverrides), {}, {
+    Time: _objectSpread({}, addSuffix(_core["default"].Time, 'ms'))
+  }); // console.log(reactNativeOverrides)
+  // Native - token modifications needed by Native OS apps
+
+
+  var nativeOverrides = _objectSpread(_objectSpread({}, commonOverrides), {}, {
+    LineHeight: _objectSpread({}, removeSuffix(_core["default"].LineHeight, 'px'))
+  }); // console.log(nativeOverrides)
+
+
+  if (target === targets.REACT_NATIVE) {
+    return reactNativeOverrides;
+  } else if (target === targets.NATIVE) {
+    return nativeOverrides;
+  }
+
+  return reactWebOverrides;
+} // helper functions which take in a list of key/value pairs and modify all values
+
+
+function addSuffix(json) {
+  var value = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'px';
+  var retValues = {};
+  Object.keys(json).forEach(function (key) {
+    retValues[key] = ''.concat(json[key], value);
+  });
+  return retValues;
+}
+
+function removeSuffix(json) {
+  var value = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'px';
+  var isNumeric = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
+  var retValues = {};
+  Object.keys(json).forEach(function (key) {
+    if (json[key].slice(-value.length) === value) {
+      var shortVal = json[key].slice(0, -value.length);
+
+      var _isNumeric = !isNaN(shortVal) && !isNaN(parseFloat(shortVal));
+
+      retValues[key] = _isNumeric ? parseFloat(shortVal) : shortVal;
+    }
+  });
+  return retValues;
+}
+
+function updateValues(json) {
+  var value = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
+  var retValues = {};
+  Object.keys(json).forEach(function (key) {
+    retValues[key] = value;
+  });
+  return retValues;
+}
+
 var light = buildTheme('light');
 exports.light = light;
 var dark = buildTheme('dark');

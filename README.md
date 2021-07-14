@@ -43,18 +43,27 @@ npm run build:all
 
 ## Tokens
 
-[CLICK HERE](docs/tokens.md) for a list of all the current tokens available with default colors from the light theme.
+| Token Output Types                                                                        |
+| :---------------------------------------------------------------------------------------- |
+| [Markdown - documentation for both light and dark theme tokens](dist/output/md/tokens.md) |
+| [JSON - React Web Apps](dist/output/json/light.json)                                      |
+| [SCSS - Sass / Rails Apps](dist/output/scss/light.scss)                                   |
+| [CSS - Other Web Apps](dist/output/css/light.css)                                         |
+| JSON - React Native Apps (_work in progress..._)                                          |
+| JSON - Mobile OS Apps (_work in progress..._)                                             |
 
 ## Generate files from Tokens
 
-| Command              | Description                                                                 |
-| -------------------- | --------------------------------------------------------------------------- |
-| `npm run build`      | Create / Update files in `dist` folder                                      |
-| `npm run build:docs` | Update the markdown for viewing the [tokens](docs/tokens.md)                |
-| `npm run build:json` | Compile static JSON tokens for development                                  |
-| `npm run build:scss` | Compile static SCSS files for projects using [Sass](https://sass-lang.com/) |
-| `npm run build:css`  | Compile static CSS variables for use in any web project                     |
-| `npm run build:all`  | Builds everything above in one easy step                                    |
+| Command              | Description                                                                                              |
+| :------------------- | :------------------------------------------------------------------------------------------------------- |
+|                      |                                                                                                          |
+| `npm run build:all`  | Builds everything in one easy step                                                                       |
+|                      |                                                                                                          |
+| `npm run build`      | Compile `src` files out to the `dist` folder                                                             |
+| `npm run build:docs` | Compile markdown documentation for [viewing all the tokens](dist/output/md/tokens.md)                    |
+| `npm run build:json` | Compile static [JSON](https://www.json.org/) files to use as style objects in React Web Apps             |
+| `npm run build:scss` | Compile static [SCSS](https://sass-lang.com/) variables to use in Sass / Rails Apps                      |
+| `npm run build:css`  | Compile static [CSS](https://www.w3.org/Style/CSS/Overview.en.html) variables for use in any web project |
 
 ## Publishing to NPM
 

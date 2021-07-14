@@ -5,7 +5,10 @@ const pkg = require('./helpers/package')
 pkg.logStart('css')
 
 t.themes.forEach((themeObj) =>
-  f.fileOverwrite(`../css/${themeObj.name}.css`, getCssContent(themeObj.theme, themeObj.name)),
+  f.fileOverwrite(
+    `../dist/output/css/${themeObj.name}.css`,
+    getCssContent(themeObj.theme, themeObj.name),
+  ),
 )
 
 // get css text from a theme object
