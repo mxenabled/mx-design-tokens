@@ -103,7 +103,7 @@ function getTargetSpecificOverrides(target, tokens) {
   }
 
   return reactWebOverrides;
-} // helper functions which take in a list of key/value pairs and modify the value
+} // helper functions which take in a list of key/value pairs and modify all values
 
 
 function addSuffix(json) {
