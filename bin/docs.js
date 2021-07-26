@@ -40,7 +40,7 @@ function getDocsContent(themeName) {
     }
 
     Object.keys(json[key]).forEach((childKey) => {
-      const value = json[key][childKey]
+      const value = json[key][childKey] || '&nbsp;'
 
       if (t.colorKeys.indexOf(key) !== -1) {
         if (value && value.indexOf('#') !== -1) {
