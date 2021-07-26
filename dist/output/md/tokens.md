@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-#### <sup><code>mx-design-tokens (10.0.0-rc.3)</code> &nbsp; _last generated: 2021-07-13_</sup>
+#### <sup><code>mx-design-tokens (10.0.0-rc.4)</code> &nbsp; _last generated: 2021-07-26_</sup>
 
 ![light theme](./header_light.png)
 
@@ -249,7 +249,7 @@
 | Key | Value |
 | :-- | :---- |
 | SendToBack | -1 |
-| Default | 0 |
+| Default | &nbsp; |
 | Hover | 1 |
 | Active | 2 |
 | Focus | 3 |
@@ -543,12 +543,12 @@
 | FocusRingDefault | 0px 0px 0px 2px rgba(82, 138, 224, 0.8) |
 | Left | -1px 2px 8px rgba(106, 115, 129, 0.22) |
 | Right | 1px 0px 8px rgba(106, 115, 129, 0.22) |
-| BottomBar |  |
-| Card |  |
-| Container |  |
-| Drawer |  |
-| DropdownMenu |  |
-| Modal |  |
+| BottomBar | &nbsp; |
+| Card | &nbsp; |
+| Container | &nbsp; |
+| Drawer | &nbsp; |
+| DropdownMenu | &nbsp; |
+| Modal | &nbsp; |
 | SelectionBoxShadow | none |
 | Tooltip | 0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06) |
 
@@ -709,7 +709,7 @@
 | Key | Value |
 | :-- | :---- |
 | SendToBack | -1 |
-| Default | 0 |
+| Default | &nbsp; |
 | Hover | 1 |
 | Active | 2 |
 | Focus | 3 |
@@ -901,7 +901,7 @@
 | ChipDefault | #FFFFFF | [![#FFFFFF](https://via.placeholder.com/32x16/FFFFFF/000000?text=+)](https://www.colorhexa.com/FFFFFF) |
 | ChipDefaultActive | #6FA1EC | [![#6FA1EC](https://via.placeholder.com/32x16/6FA1EC/000000?text=+)](https://www.colorhexa.com/6FA1EC) |
 | ChipDefaultDisabled | #6A7381 | [![#6A7381](https://via.placeholder.com/32x16/6A7381/000000?text=+)](https://www.colorhexa.com/6A7381) |
-| DropdownMenuItemActive | undefined | &nbsp; |
+| DropdownMenuItemActive | &nbsp; | &nbsp; |
 | DropdownMenuItemDisabled | #A8B1BD | [![#A8B1BD](https://via.placeholder.com/32x16/A8B1BD/000000?text=+)](https://www.colorhexa.com/A8B1BD) |
 | InputErrorMessage | #F45532 | [![#F45532](https://via.placeholder.com/32x16/F45532/000000?text=+)](https://www.colorhexa.com/F45532) |
 | InputHelpText | #A8B1BD | [![#A8B1BD](https://via.placeholder.com/32x16/A8B1BD/000000?text=+)](https://www.colorhexa.com/A8B1BD) |
