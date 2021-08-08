@@ -97,7 +97,7 @@ var dark = function dark(core) {
     ButtonTransparentHover: core.Color.NeutralWhite,
     ButtonTransparentTertiary: core.Color.Neutral400,
     // Dropdown
-    DropdownMenuItemActive: core.Color.White,
+    DropdownMenuItemActive: core.Color.NeutralWhite,
     // Chip
     ChipDefault: core.Color.NeutralWhite,
     ChipDefaultActive: core.Color.Brand200,
