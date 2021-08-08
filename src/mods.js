@@ -1,5 +1,5 @@
 import core from 'src/core'
-import { deepMerge, addSuffix, removeSuffix, updateValues } from 'src/utils'
+import { addSuffix, removeSuffix, updateValues } from 'src/utils'
 import { targets } from 'src/index'
 
 // Target Specific Modifications
@@ -19,28 +19,26 @@ const updatedTime = addSuffix(core.Time, 'ms')
 // Native
 const updatedLineHeight = removeSuffix(core.LineHeight, 'px')
 
-export const getTargetSpecificTokens = (target, tokenOverrides) => {
-  const coreTokens = deepMerge(core, tokenOverrides)
-
-  const reactNativeTokens = Object.assign(
-    {},
-    coreTokens,
-    updatedBoxShadow,
-    updatedEasing,
-    updatedTime,
-  )
-
-  const nativeTokens = Object.assign(
-    {},
-    coreTokens,
-    updatedBoxShadow,
-    updatedEasing,
-    updatedLineHeight,
-  )
-
+export const applyTargetModifications = (target = targets.REACT, coreTokens = core) => {
   if (target === targets.REACT_NATIVE) {
+    const reactNativeTokens = Object.assign(
+      {},
+      coreTokens,
+      updatedBoxShadow,
+      updatedEasing,
+      updatedTime,
+    )
+
     return reactNativeTokens
   } else if (target === targets.NATIVE) {
+    const nativeTokens = Object.assign(
+      {},
+      coreTokens,
+      updatedBoxShadow,
+      updatedEasing,
+      updatedLineHeight,
+    )
+
     return nativeTokens
   } else {
     return coreTokens

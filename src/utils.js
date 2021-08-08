@@ -1,5 +1,3 @@
-import core from 'src/core'
-
 // test if value is a simple object {}
 export const isObject = (value) => value && typeof value === 'object' && !Array.isArray(value)
 
@@ -10,8 +8,11 @@ export const deepMerge = (target, source) => {
   if (isObject(target) && isObject(source)) {
     Object.keys(source).forEach((key) => {
       if (isObject(source[key])) {
-        if (!(key in target)) Object.assign(retValues, { [key]: source[key] })
-        else retValues[key] = deepMerge(target[key], source[key])
+        if (!(key in target)) {
+          Object.assign(retValues, { [key]: source[key] })
+        } else {
+          retValues[key] = deepMerge(target[key], source[key])
+        }
       } else {
         Object.assign(retValues, { [key]: source[key] })
       }
@@ -21,18 +22,31 @@ export const deepMerge = (target, source) => {
   return retValues
 }
 
-// test if a token is defined in core.js
-export const getTokenType = (fullToken) => {
+// is token part of core or a calculated leaf value
+export const getTokenType = (token, core, leaf) => {
   let tokenType = 'new'
-  const rootKeys = Object.keys(core)
+  const coreKeys = Object.keys(core)
+  const leafKeys = Object.keys(leaf)
 
-  rootKeys.map((rKey) => {
-    if (fullToken.hasOwnProperty(rKey)) {
+  coreKeys.map((rKey) => {
+    if (token.hasOwnProperty(rKey)) {
       const subKeys = Object.keys(core[rKey])
 
       subKeys.map((sKey) => {
-        if (fullToken[rKey].hasOwnProperty(sKey)) {
-          tokenType = 'core'
+        if (token[rKey].hasOwnProperty(sKey)) {
+          tokenType = token[rKey][sKey] === core[rKey][sKey] ? 'core-default' : 'core-updated'
+        }
+      })
+    }
+  })
+
+  leafKeys.map((rKey) => {
+    if (token.hasOwnProperty(rKey)) {
+      const subKeys = Object.keys(leaf[rKey])
+
+      subKeys.map((sKey) => {
+        if (token[rKey].hasOwnProperty(sKey)) {
+          tokenType = token[rKey][sKey] === leaf[rKey][sKey] ? 'leaf-default' : 'leaf-updated'
         }
       })
     }
@@ -60,7 +74,6 @@ export const expandTokens = (tokens) => {
 }
 
 // convert array of individual tokens into a single token object
-// convert array of individual tokens into a single token object
 export const collapseTokens = (tokenList) => {
   let retToken = {}
 
@@ -69,34 +82,39 @@ export const collapseTokens = (tokenList) => {
   return retToken
 }
 
-// divide tokenList into separate token arrays based on type
-// coreTokens, newTokensAdded, leafTokensDefault, leafTokensChanged
-export const splitTokens = (tokenList) => {
-  let coreTokens = []
-  let newTokensAdded = []
-  let leafTokensDefault = []
-  let leafTokensChanged = []
+// divide tokens into separate lists of individual tokens
+// coreTokens, leafTokensDefault, leafTokensChanged, newTokens
+export const splitTokens = (tokens, core, leaf) => {
+  const partitionedLists = {
+    defaultTokens: {
+      core: [],
+      leaf: [],
+    },
+    updatedTokens: {
+      core: [],
+      leaf: [],
+      new: [],
+    },
+  }
 
+  const tokenList = expandTokens(tokens)
   tokenList.map((token) => {
-    const type = getTokenType(token)
+    const type = getTokenType(token, core, leaf)
 
-    if (type === 'core') {
-      coreTokens.push(token)
+    if (type === 'core-default') {
+      partitionedLists.defaultTokens.core.push(token)
+    } else if (type === 'core-updated') {
+      partitionedLists.updatedTokens.core.push(token)
     } else if (type === 'leaf-default') {
-      leafTokensDefault.push(token)
-    } else if (type === 'leaf-changed') {
-      leafTokensDefault.push(token)
+      partitionedLists.defaultTokens.leaf.push(token)
+    } else if (type === 'leaf-updated') {
+      partitionedLists.updatedTokens.leaf.push(token)
     } else {
-      newTokensAdded.push(token)
+      partitionedLists.updatedTokens.new.push(token)
     }
   })
 
-  return {
-    coreTokens,
-    leafTokensChanged,
-    leafTokensDefault,
-    newTokensAdded,
-  }
+  return partitionedLists
 }
 
 // concatenate a `suffix` to each token value in `json`
