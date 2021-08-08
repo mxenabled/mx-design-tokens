@@ -25,8 +25,9 @@ function getDocsHeader() {
 function getDocsContent(themeName) {
   const json = t.themeList[themeName]
   const keys = Object.keys(json)
+  const icon = themeName === 'light' ? '🌞' : '🌙'
 
-  let md = `![${themeName} theme](./header_${themeName}.png)\n\n`
+  let md = `## ${icon} ${themeName.toUpperCase()} THEME TOKENS\n\n`
 
   keys.forEach((key) => {
     md += `### ${key} &nbsp; <sub><sup>( _${themeName}_ )</sup></sub>\n\n`
