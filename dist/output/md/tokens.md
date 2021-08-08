@@ -2,7 +2,7 @@
 
 #### <sup><code>mx-design-tokens (10.0.0-rc.4)</code> &nbsp; _last generated: 2021-08-08_</sup>
 
-![light theme](./header_light.png)
+## 🌞 LIGHT THEME TOKENS
 
 ### Color &nbsp; <sub><sup>( _light_ )</sup></sub>
 
@@ -473,7 +473,7 @@
 
 </details>
 
-![dark theme](./header_dark.png)
+## 🌙 DARK THEME TOKENS
 
 ### Color &nbsp; <sub><sup>( _dark_ )</sup></sub>
 
