@@ -1,13 +1,13 @@
 /*
 ** mx-design-tokens (10.0.0-rc.4)
 **
-** sass variables auto-generated on 2021-08-07
+** sass variables auto-generated on 2021-08-08
 ** from https://github.com/mxenabled/mx-design-tokens to /scss/dark.scss
 */
 $Color: (
   "Brand100": #EAF1FB,
   "Brand200": #6FA1EC,
-  "Brand300": yellow,
+  "Brand300": #2F73DA,
   "Brand400": #165ECC,
   "Brand500": #034AB3,
   "Chart1": #74E4DA,
@@ -239,7 +239,7 @@ $BackgroundColor: (
   "ButtonNeutral": #1F2329,
   "ButtonNeutralDisabled": #49505A,
   "ButtonNeutralHover": #6A7381,
-  "ButtonPrimary": yellow,
+  "ButtonPrimary": #2F73DA,
   "ButtonPrimaryDisabled": #49505A,
   "ButtonPrimaryHover": #165ECC,
   "ButtonTransparentHover": #6A7381,
@@ -361,6 +361,7 @@ $TextColor: (
   "ChipDefault": #FFFFFF,
   "ChipDefaultActive": #6FA1EC,
   "ChipDefaultDisabled": #6A7381,
+  "DropdownMenuItemActive": #FFFFFF,
   "DropdownMenuItemDisabled": #A8B1BD,
   "InputErrorMessage": #F45532,
   "InputHelpText": #A8B1BD,

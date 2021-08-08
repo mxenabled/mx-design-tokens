@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.getTargetSpecificTokens = void 0;
+exports.applyTargetModifications = void 0;
 
 var _core = _interopRequireDefault(require("./core"));
 
@@ -27,18 +27,19 @@ var updatedTime = (0, _utils.addSuffix)(_core["default"].Time, 'ms'); // Native
 
 var updatedLineHeight = (0, _utils.removeSuffix)(_core["default"].LineHeight, 'px');
 
-var getTargetSpecificTokens = function getTargetSpecificTokens(target, tokenOverrides) {
-  var coreTokens = (0, _utils.deepMerge)(_core["default"], tokenOverrides);
-  var reactNativeTokens = Object.assign({}, coreTokens, updatedBoxShadow, updatedEasing, updatedTime);
-  var nativeTokens = Object.assign({}, coreTokens, updatedBoxShadow, updatedEasing, updatedLineHeight);
+var applyTargetModifications = function applyTargetModifications() {
+  var target = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : _index.targets.REACT;
+  var coreTokens = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _core["default"];
 
   if (target === _index.targets.REACT_NATIVE) {
+    var reactNativeTokens = Object.assign({}, coreTokens, updatedBoxShadow, updatedEasing, updatedTime);
     return reactNativeTokens;
   } else if (target === _index.targets.NATIVE) {
+    var nativeTokens = Object.assign({}, coreTokens, updatedBoxShadow, updatedEasing, updatedLineHeight);
     return nativeTokens;
   } else {
     return coreTokens;
   }
 };
 
-exports.getTargetSpecificTokens = getTargetSpecificTokens;
+exports.applyTargetModifications = applyTargetModifications;

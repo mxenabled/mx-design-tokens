@@ -5,10 +5,6 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.updateValues = exports.removeSuffix = exports.addSuffix = exports.splitTokens = exports.collapseTokens = exports.expandTokens = exports.getTokenType = exports.deepMerge = exports.isObject = void 0;
 
-var _core = _interopRequireDefault(require("./core"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -39,7 +35,11 @@ var deepMerge = function deepMerge(target, source) {
   if (isObject(target) && isObject(source)) {
     Object.keys(source).forEach(function (key) {
       if (isObject(source[key])) {
-        if (!(key in target)) Object.assign(retValues, _defineProperty({}, key, source[key]));else retValues[key] = deepMerge(target[key], source[key]);
+        if (!(key in target)) {
+          Object.assign(retValues, _defineProperty({}, key, source[key]));
+        } else {
+          retValues[key] = deepMerge(target[key], source[key]);
+        }
       } else {
         Object.assign(retValues, _defineProperty({}, key, source[key]));
       }
@@ -47,20 +47,31 @@ var deepMerge = function deepMerge(target, source) {
   }
 
   return retValues;
-}; // test if a token is defined in core.js
+}; // is token part of core or a calculated leaf value
 
 
 exports.deepMerge = deepMerge;
 
-var getTokenType = function getTokenType(fullToken) {
+var getTokenType = function getTokenType(token, core, leaf) {
   var tokenType = 'new';
-  var rootKeys = Object.keys(_core["default"]);
-  rootKeys.map(function (rKey) {
-    if (fullToken.hasOwnProperty(rKey)) {
-      var subKeys = Object.keys(_core["default"][rKey]);
+  var coreKeys = Object.keys(core);
+  var leafKeys = Object.keys(leaf);
+  coreKeys.map(function (rKey) {
+    if (token.hasOwnProperty(rKey)) {
+      var subKeys = Object.keys(core[rKey]);
       subKeys.map(function (sKey) {
-        if (fullToken[rKey].hasOwnProperty(sKey)) {
-          tokenType = 'core';
+        if (token[rKey].hasOwnProperty(sKey)) {
+          tokenType = token[rKey][sKey] === core[rKey][sKey] ? 'core-default' : 'core-updated';
+        }
+      });
+    }
+  });
+  leafKeys.map(function (rKey) {
+    if (token.hasOwnProperty(rKey)) {
+      var subKeys = Object.keys(leaf[rKey]);
+      subKeys.map(function (sKey) {
+        if (token[rKey].hasOwnProperty(sKey)) {
+          tokenType = token[rKey][sKey] === leaf[rKey][sKey] ? 'leaf-default' : 'leaf-updated';
         }
       });
     }
@@ -91,7 +102,6 @@ var expandTokens = function expandTokens(tokens) {
   });
   return tokenList;
 }; // convert array of individual tokens into a single token object
-// convert array of individual tokens into a single token object
 
 
 exports.expandTokens = expandTokens;
@@ -102,36 +112,41 @@ var collapseTokens = function collapseTokens(tokenList) {
     return retToken = Object.assign({}, deepMerge(retToken, token));
   });
   return retToken;
-}; // divide tokenList into separate token arrays based on type
-// coreTokens, newTokensAdded, leafTokensDefault, leafTokensChanged
+}; // divide tokens into separate lists of individual tokens
+// coreTokens, leafTokensDefault, leafTokensChanged, newTokens
 
 
 exports.collapseTokens = collapseTokens;
 
-var splitTokens = function splitTokens(tokenList) {
-  var coreTokens = [];
-  var newTokensAdded = [];
-  var leafTokensDefault = [];
-  var leafTokensChanged = [];
+var splitTokens = function splitTokens(tokens, core, leaf) {
+  var partitionedLists = {
+    defaultTokens: {
+      core: [],
+      leaf: []
+    },
+    updatedTokens: {
+      core: [],
+      leaf: [],
+      "new": []
+    }
+  };
+  var tokenList = expandTokens(tokens);
   tokenList.map(function (token) {
-    var type = getTokenType(token);
+    var type = getTokenType(token, core, leaf);
 
-    if (type === 'core') {
-      coreTokens.push(token);
+    if (type === 'core-default') {
+      partitionedLists.defaultTokens.core.push(token);
+    } else if (type === 'core-updated') {
+      partitionedLists.updatedTokens.core.push(token);
     } else if (type === 'leaf-default') {
-      leafTokensDefault.push(token);
-    } else if (type === 'leaf-changed') {
-      leafTokensDefault.push(token);
+      partitionedLists.defaultTokens.leaf.push(token);
+    } else if (type === 'leaf-updated') {
+      partitionedLists.updatedTokens.leaf.push(token);
     } else {
-      newTokensAdded.push(token);
+      partitionedLists.updatedTokens["new"].push(token);
     }
   });
-  return {
-    coreTokens: coreTokens,
-    leafTokensChanged: leafTokensChanged,
-    leafTokensDefault: leafTokensDefault,
-    newTokensAdded: newTokensAdded
-  };
+  return partitionedLists;
 }; // concatenate a `suffix` to each token value in `json`
 // by default the suffix will be 'px'
 

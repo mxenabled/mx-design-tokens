@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-#### <sup><code>mx-design-tokens (10.0.0-rc.4)</code> &nbsp; _last generated: 2021-08-07_</sup>
+#### <sup><code>mx-design-tokens (10.0.0-rc.4)</code> &nbsp; _last generated: 2021-08-08_</sup>
 
 ![light theme](./header_light.png)
 
@@ -10,7 +10,7 @@
 | :-- | :---- | :---- |
 | Brand100 | #EAF1FB | [![#EAF1FB](https://via.placeholder.com/32x16/EAF1FB/000000?text=+)](https://www.colorhexa.com/EAF1FB) |
 | Brand200 | #6FA1EC | [![#6FA1EC](https://via.placeholder.com/32x16/6FA1EC/000000?text=+)](https://www.colorhexa.com/6FA1EC) |
-| Brand300 | yellow | &nbsp; |
+| Brand300 | #2F73DA | [![#2F73DA](https://via.placeholder.com/32x16/2F73DA/000000?text=+)](https://www.colorhexa.com/2F73DA) |
 | Brand400 | #165ECC | [![#165ECC](https://via.placeholder.com/32x16/165ECC/000000?text=+)](https://www.colorhexa.com/165ECC) |
 | Brand500 | #034AB3 | [![#034AB3](https://via.placeholder.com/32x16/034AB3/000000?text=+)](https://www.colorhexa.com/034AB3) |
 | Chart1 | #74E4DA | [![#74E4DA](https://via.placeholder.com/32x16/74E4DA/000000?text=+)](https://www.colorhexa.com/74E4DA) |
@@ -320,7 +320,7 @@
 | ButtonNeutral | #FFFFFF | [![#FFFFFF](https://via.placeholder.com/32x16/FFFFFF/000000?text=+)](https://www.colorhexa.com/FFFFFF) |
 | ButtonNeutralDisabled | #FFFFFF | [![#FFFFFF](https://via.placeholder.com/32x16/FFFFFF/000000?text=+)](https://www.colorhexa.com/FFFFFF) |
 | ButtonNeutralHover | #FFFFFF | [![#FFFFFF](https://via.placeholder.com/32x16/FFFFFF/000000?text=+)](https://www.colorhexa.com/FFFFFF) |
-| ButtonPrimary | yellow | &nbsp; |
+| ButtonPrimary | #2F73DA | [![#2F73DA](https://via.placeholder.com/32x16/2F73DA/000000?text=+)](https://www.colorhexa.com/2F73DA) |
 | ButtonPrimaryDisabled | #EEF1F6 | [![#EEF1F6](https://via.placeholder.com/32x16/EEF1F6/000000?text=+)](https://www.colorhexa.com/EEF1F6) |
 | ButtonPrimaryHover | #165ECC | [![#165ECC](https://via.placeholder.com/32x16/165ECC/000000?text=+)](https://www.colorhexa.com/165ECC) |
 | ButtonTransparentHover | #EAF1FB | [![#EAF1FB](https://via.placeholder.com/32x16/EAF1FB/000000?text=+)](https://www.colorhexa.com/EAF1FB) |
@@ -337,7 +337,7 @@
 | HrDark | #CDD3DD | [![#CDD3DD](https://via.placeholder.com/32x16/CDD3DD/000000?text=+)](https://www.colorhexa.com/CDD3DD) |
 | HrLight | #E4E8EE | [![#E4E8EE](https://via.placeholder.com/32x16/E4E8EE/000000?text=+)](https://www.colorhexa.com/E4E8EE) |
 | InputChip | #EAF1FB | [![#EAF1FB](https://via.placeholder.com/32x16/EAF1FB/000000?text=+)](https://www.colorhexa.com/EAF1FB) |
-| InputChipHover | yellow | &nbsp; |
+| InputChipHover | #2F73DA | [![#2F73DA](https://via.placeholder.com/32x16/2F73DA/000000?text=+)](https://www.colorhexa.com/2F73DA) |
 | InputDisabled | rgba(247, 249, 252, 0.55) | &nbsp; |
 | InputFocus | transparent | &nbsp; |
 | InputLabelDefault | #FFFFFF | [![#FFFFFF](https://via.placeholder.com/32x16/FFFFFF/000000?text=+)](https://www.colorhexa.com/FFFFFF) |
@@ -346,7 +346,7 @@
 | LeftNavItemActive | #EAF1FB | [![#EAF1FB](https://via.placeholder.com/32x16/EAF1FB/000000?text=+)](https://www.colorhexa.com/EAF1FB) |
 | LeftNavItemHover | #F8F9FB | [![#F8F9FB](https://via.placeholder.com/32x16/F8F9FB/000000?text=+)](https://www.colorhexa.com/F8F9FB) |
 | MessageBox | #FFFFFF | [![#FFFFFF](https://via.placeholder.com/32x16/FFFFFF/000000?text=+)](https://www.colorhexa.com/FFFFFF) |
-| MessageBoxBrand | yellow | &nbsp; |
+| MessageBoxBrand | #2F73DA | [![#2F73DA](https://via.placeholder.com/32x16/2F73DA/000000?text=+)](https://www.colorhexa.com/2F73DA) |
 | MessageBoxError | #DF320C | [![#DF320C](https://via.placeholder.com/32x16/DF320C/000000?text=+)](https://www.colorhexa.com/DF320C) |
 | MessageBoxHelp | #2F73DA | [![#2F73DA](https://via.placeholder.com/32x16/2F73DA/000000?text=+)](https://www.colorhexa.com/2F73DA) |
 | MessageBoxSuccess | #09A57F | [![#09A57F](https://via.placeholder.com/32x16/09A57F/000000?text=+)](https://www.colorhexa.com/09A57F) |
@@ -360,7 +360,7 @@
 | RadioChecked | #EAF1FB | [![#EAF1FB](https://via.placeholder.com/32x16/EAF1FB/000000?text=+)](https://www.colorhexa.com/EAF1FB) |
 | RadioDisabled | #EAF1FB | [![#EAF1FB](https://via.placeholder.com/32x16/EAF1FB/000000?text=+)](https://www.colorhexa.com/EAF1FB) |
 | RadioDot | #F8F9FB | [![#F8F9FB](https://via.placeholder.com/32x16/F8F9FB/000000?text=+)](https://www.colorhexa.com/F8F9FB) |
-| RadioDotChecked | yellow | &nbsp; |
+| RadioDotChecked | #2F73DA | [![#2F73DA](https://via.placeholder.com/32x16/2F73DA/000000?text=+)](https://www.colorhexa.com/2F73DA) |
 | RadioDotDisabled | #EEF1F6 | [![#EEF1F6](https://via.placeholder.com/32x16/EEF1F6/000000?text=+)](https://www.colorhexa.com/EEF1F6) |
 | RadioDotDisabledChecked | #A8B1BD | [![#A8B1BD](https://via.placeholder.com/32x16/A8B1BD/000000?text=+)](https://www.colorhexa.com/A8B1BD) |
 | SwitchDisabledOff | #EEF1F6 | [![#EEF1F6](https://via.placeholder.com/32x16/EEF1F6/000000?text=+)](https://www.colorhexa.com/EEF1F6) |
@@ -393,7 +393,7 @@
 | ButtonNeutralDisabled | #165ECC | [![#165ECC](https://via.placeholder.com/32x16/165ECC/000000?text=+)](https://www.colorhexa.com/165ECC) |
 | ButtonNeutralHover | #165ECC | [![#165ECC](https://via.placeholder.com/32x16/165ECC/000000?text=+)](https://www.colorhexa.com/165ECC) |
 | Checkbox | #6A7381 | [![#6A7381](https://via.placeholder.com/32x16/6A7381/000000?text=+)](https://www.colorhexa.com/6A7381) |
-| CheckboxChecked | yellow | &nbsp; |
+| CheckboxChecked | #2F73DA | [![#2F73DA](https://via.placeholder.com/32x16/2F73DA/000000?text=+)](https://www.colorhexa.com/2F73DA) |
 | CheckboxDisabled | #CDD3DD | [![#CDD3DD](https://via.placeholder.com/32x16/CDD3DD/000000?text=+)](https://www.colorhexa.com/CDD3DD) |
 | ChipDefault | #6A7381 | [![#6A7381](https://via.placeholder.com/32x16/6A7381/000000?text=+)](https://www.colorhexa.com/6A7381) |
 | ChipDefaultHover | #E4E8EE | [![#E4E8EE](https://via.placeholder.com/32x16/E4E8EE/000000?text=+)](https://www.colorhexa.com/E4E8EE) |
@@ -403,19 +403,19 @@
 | Input | #6A7381 | [![#6A7381](https://via.placeholder.com/32x16/6A7381/000000?text=+)](https://www.colorhexa.com/6A7381) |
 | InputDisabled | rgba(203, 211, 223, 0.55) | &nbsp; |
 | InputError | #DF320C | [![#DF320C](https://via.placeholder.com/32x16/DF320C/000000?text=+)](https://www.colorhexa.com/DF320C) |
-| InputFocus | yellow | &nbsp; |
+| InputFocus | #2F73DA | [![#2F73DA](https://via.placeholder.com/32x16/2F73DA/000000?text=+)](https://www.colorhexa.com/2F73DA) |
 | InputHover | #6A7381 | [![#6A7381](https://via.placeholder.com/32x16/6A7381/000000?text=+)](https://www.colorhexa.com/6A7381) |
 | SelectionBoxOutline | #E4E8EE | [![#E4E8EE](https://via.placeholder.com/32x16/E4E8EE/000000?text=+)](https://www.colorhexa.com/E4E8EE) |
 | SelectionBoxFocusedSelected | #2F73DA | [![#2F73DA](https://via.placeholder.com/32x16/2F73DA/000000?text=+)](https://www.colorhexa.com/2F73DA) |
 | SelectionBoxDisabled | #E4E8EE | [![#E4E8EE](https://via.placeholder.com/32x16/E4E8EE/000000?text=+)](https://www.colorhexa.com/E4E8EE) |
 | SelectionBoxDisabledSelected | #A8B1BD | [![#A8B1BD](https://via.placeholder.com/32x16/A8B1BD/000000?text=+)](https://www.colorhexa.com/A8B1BD) |
 | Radio | #6A7381 | [![#6A7381](https://via.placeholder.com/32x16/6A7381/000000?text=+)](https://www.colorhexa.com/6A7381) |
-| RadioChecked | yellow | &nbsp; |
+| RadioChecked | #2F73DA | [![#2F73DA](https://via.placeholder.com/32x16/2F73DA/000000?text=+)](https://www.colorhexa.com/2F73DA) |
 | RadioDisabled | #CDD3DD | [![#CDD3DD](https://via.placeholder.com/32x16/CDD3DD/000000?text=+)](https://www.colorhexa.com/CDD3DD) |
 | RadioDisabledChecked | #A8B1BD | [![#A8B1BD](https://via.placeholder.com/32x16/A8B1BD/000000?text=+)](https://www.colorhexa.com/A8B1BD) |
 | Switch | #6A7381 | [![#6A7381](https://via.placeholder.com/32x16/6A7381/000000?text=+)](https://www.colorhexa.com/6A7381) |
 | SwitchDisabled | #CDD3DD | [![#CDD3DD](https://via.placeholder.com/32x16/CDD3DD/000000?text=+)](https://www.colorhexa.com/CDD3DD) |
-| TabActive | yellow | &nbsp; |
+| TabActive | #2F73DA | [![#2F73DA](https://via.placeholder.com/32x16/2F73DA/000000?text=+)](https://www.colorhexa.com/2F73DA) |
 | TableHeader | #CDD3DD | [![#CDD3DD](https://via.placeholder.com/32x16/CDD3DD/000000?text=+)](https://www.colorhexa.com/CDD3DD) |
 | TableCell | #EEF1F6 | [![#EEF1F6](https://via.placeholder.com/32x16/EEF1F6/000000?text=+)](https://www.colorhexa.com/EEF1F6) |
 
@@ -425,7 +425,7 @@
 
 | Key | Value | Color |
 | :-- | :---- | :---- |
-| Active | yellow | &nbsp; |
+| Active | #2F73DA | [![#2F73DA](https://via.placeholder.com/32x16/2F73DA/000000?text=+)](https://www.colorhexa.com/2F73DA) |
 | ActiveHover | #165ECC | [![#165ECC](https://via.placeholder.com/32x16/165ECC/000000?text=+)](https://www.colorhexa.com/165ECC) |
 | Default | #121417 | [![#121417](https://via.placeholder.com/32x16/121417/000000?text=+)](https://www.colorhexa.com/121417) |
 | Disabled | #A8B1BD | [![#A8B1BD](https://via.placeholder.com/32x16/A8B1BD/000000?text=+)](https://www.colorhexa.com/A8B1BD) |
@@ -434,24 +434,24 @@
 | Avatar | #121417 | [![#121417](https://via.placeholder.com/32x16/121417/000000?text=+)](https://www.colorhexa.com/121417) |
 | ButtonDestructive | #FFFFFF | [![#FFFFFF](https://via.placeholder.com/32x16/FFFFFF/000000?text=+)](https://www.colorhexa.com/FFFFFF) |
 | ButtonDestructiveDisabled | #A8B1BD | [![#A8B1BD](https://via.placeholder.com/32x16/A8B1BD/000000?text=+)](https://www.colorhexa.com/A8B1BD) |
-| ButtonLink | yellow | &nbsp; |
+| ButtonLink | #2F73DA | [![#2F73DA](https://via.placeholder.com/32x16/2F73DA/000000?text=+)](https://www.colorhexa.com/2F73DA) |
 | ButtonLinkHover | #165ECC | [![#165ECC](https://via.placeholder.com/32x16/165ECC/000000?text=+)](https://www.colorhexa.com/165ECC) |
 | ButtonLinkTertiary | #49505A | [![#49505A](https://via.placeholder.com/32x16/49505A/000000?text=+)](https://www.colorhexa.com/49505A) |
 | ButtonLinkDestructive | #DF320C | [![#DF320C](https://via.placeholder.com/32x16/DF320C/000000?text=+)](https://www.colorhexa.com/DF320C) |
 | ButtonLinkDestructiveHover | #C61A0B | [![#C61A0B](https://via.placeholder.com/32x16/C61A0B/000000?text=+)](https://www.colorhexa.com/C61A0B) |
-| ButtonNeutral | yellow | &nbsp; |
+| ButtonNeutral | #2F73DA | [![#2F73DA](https://via.placeholder.com/32x16/2F73DA/000000?text=+)](https://www.colorhexa.com/2F73DA) |
 | ButtonNeutralDisabled | #6A7381 | [![#6A7381](https://via.placeholder.com/32x16/6A7381/000000?text=+)](https://www.colorhexa.com/6A7381) |
 | ButtonNeutralHover | #165ECC | [![#165ECC](https://via.placeholder.com/32x16/165ECC/000000?text=+)](https://www.colorhexa.com/165ECC) |
 | ButtonPrimary | #FFFFFF | [![#FFFFFF](https://via.placeholder.com/32x16/FFFFFF/000000?text=+)](https://www.colorhexa.com/FFFFFF) |
 | ButtonPrimaryDisabled | #A8B1BD | [![#A8B1BD](https://via.placeholder.com/32x16/A8B1BD/000000?text=+)](https://www.colorhexa.com/A8B1BD) |
-| ButtonTransparent | yellow | &nbsp; |
+| ButtonTransparent | #2F73DA | [![#2F73DA](https://via.placeholder.com/32x16/2F73DA/000000?text=+)](https://www.colorhexa.com/2F73DA) |
 | ButtonTransparentDisabled | #6A7381 | [![#6A7381](https://via.placeholder.com/32x16/6A7381/000000?text=+)](https://www.colorhexa.com/6A7381) |
 | ButtonTransparentHover | #165ECC | [![#165ECC](https://via.placeholder.com/32x16/165ECC/000000?text=+)](https://www.colorhexa.com/165ECC) |
 | ButtonTransparentTertiary | #49505A | [![#49505A](https://via.placeholder.com/32x16/49505A/000000?text=+)](https://www.colorhexa.com/49505A) |
 | ChipDefault | #121417 | [![#121417](https://via.placeholder.com/32x16/121417/000000?text=+)](https://www.colorhexa.com/121417) |
 | ChipDefaultActive | #165ECC | [![#165ECC](https://via.placeholder.com/32x16/165ECC/000000?text=+)](https://www.colorhexa.com/165ECC) |
 | ChipDefaultDisabled | #A8B1BD | [![#A8B1BD](https://via.placeholder.com/32x16/A8B1BD/000000?text=+)](https://www.colorhexa.com/A8B1BD) |
-| DropdownMenuItemActive | yellow | &nbsp; |
+| DropdownMenuItemActive | #2F73DA | [![#2F73DA](https://via.placeholder.com/32x16/2F73DA/000000?text=+)](https://www.colorhexa.com/2F73DA) |
 | DropdownMenuItemDisabled | #A8B1BD | [![#A8B1BD](https://via.placeholder.com/32x16/A8B1BD/000000?text=+)](https://www.colorhexa.com/A8B1BD) |
 | InputErrorMessage | #DF320C | [![#DF320C](https://via.placeholder.com/32x16/DF320C/000000?text=+)](https://www.colorhexa.com/DF320C) |
 | InputHelpText | #6A7381 | [![#6A7381](https://via.placeholder.com/32x16/6A7381/000000?text=+)](https://www.colorhexa.com/6A7381) |
@@ -460,7 +460,7 @@
 | LeftNavItemActive | #165ECC | [![#165ECC](https://via.placeholder.com/32x16/165ECC/000000?text=+)](https://www.colorhexa.com/165ECC) |
 | ModalClose | #121417 | [![#121417](https://via.placeholder.com/32x16/121417/000000?text=+)](https://www.colorhexa.com/121417) |
 | SelectionBoxDisabled | #A8B1BD | [![#A8B1BD](https://via.placeholder.com/32x16/A8B1BD/000000?text=+)](https://www.colorhexa.com/A8B1BD) |
-| TabActive | yellow | &nbsp; |
+| TabActive | #2F73DA | [![#2F73DA](https://via.placeholder.com/32x16/2F73DA/000000?text=+)](https://www.colorhexa.com/2F73DA) |
 | TagError | #AE0A0A | [![#AE0A0A](https://via.placeholder.com/32x16/AE0A0A/000000?text=+)](https://www.colorhexa.com/AE0A0A) |
 | TagNeutral | #49505A | [![#49505A](https://via.placeholder.com/32x16/49505A/000000?text=+)](https://www.colorhexa.com/49505A) |
 | TagPrimary | #165ECC | [![#165ECC](https://via.placeholder.com/32x16/165ECC/000000?text=+)](https://www.colorhexa.com/165ECC) |
@@ -481,7 +481,7 @@
 | :-- | :---- | :---- |
 | Brand100 | #EAF1FB | [![#EAF1FB](https://via.placeholder.com/32x16/EAF1FB/000000?text=+)](https://www.colorhexa.com/EAF1FB) |
 | Brand200 | #6FA1EC | [![#6FA1EC](https://via.placeholder.com/32x16/6FA1EC/000000?text=+)](https://www.colorhexa.com/6FA1EC) |
-| Brand300 | yellow | &nbsp; |
+| Brand300 | #2F73DA | [![#2F73DA](https://via.placeholder.com/32x16/2F73DA/000000?text=+)](https://www.colorhexa.com/2F73DA) |
 | Brand400 | #165ECC | [![#165ECC](https://via.placeholder.com/32x16/165ECC/000000?text=+)](https://www.colorhexa.com/165ECC) |
 | Brand500 | #034AB3 | [![#034AB3](https://via.placeholder.com/32x16/034AB3/000000?text=+)](https://www.colorhexa.com/034AB3) |
 | Chart1 | #74E4DA | [![#74E4DA](https://via.placeholder.com/32x16/74E4DA/000000?text=+)](https://www.colorhexa.com/74E4DA) |
@@ -791,7 +791,7 @@
 | ButtonNeutral | #1F2329 | [![#1F2329](https://via.placeholder.com/32x16/1F2329/000000?text=+)](https://www.colorhexa.com/1F2329) |
 | ButtonNeutralDisabled | #49505A | [![#49505A](https://via.placeholder.com/32x16/49505A/000000?text=+)](https://www.colorhexa.com/49505A) |
 | ButtonNeutralHover | #6A7381 | [![#6A7381](https://via.placeholder.com/32x16/6A7381/000000?text=+)](https://www.colorhexa.com/6A7381) |
-| ButtonPrimary | yellow | &nbsp; |
+| ButtonPrimary | #2F73DA | [![#2F73DA](https://via.placeholder.com/32x16/2F73DA/000000?text=+)](https://www.colorhexa.com/2F73DA) |
 | ButtonPrimaryDisabled | #49505A | [![#49505A](https://via.placeholder.com/32x16/49505A/000000?text=+)](https://www.colorhexa.com/49505A) |
 | ButtonPrimaryHover | #165ECC | [![#165ECC](https://via.placeholder.com/32x16/165ECC/000000?text=+)](https://www.colorhexa.com/165ECC) |
 | ButtonTransparentHover | #6A7381 | [![#6A7381](https://via.placeholder.com/32x16/6A7381/000000?text=+)](https://www.colorhexa.com/6A7381) |
@@ -923,7 +923,7 @@
 | ChipDefault | #FFFFFF | [![#FFFFFF](https://via.placeholder.com/32x16/FFFFFF/000000?text=+)](https://www.colorhexa.com/FFFFFF) |
 | ChipDefaultActive | #6FA1EC | [![#6FA1EC](https://via.placeholder.com/32x16/6FA1EC/000000?text=+)](https://www.colorhexa.com/6FA1EC) |
 | ChipDefaultDisabled | #6A7381 | [![#6A7381](https://via.placeholder.com/32x16/6A7381/000000?text=+)](https://www.colorhexa.com/6A7381) |
-| DropdownMenuItemActive | &nbsp; | &nbsp; |
+| DropdownMenuItemActive | #FFFFFF | [![#FFFFFF](https://via.placeholder.com/32x16/FFFFFF/000000?text=+)](https://www.colorhexa.com/FFFFFF) |
 | DropdownMenuItemDisabled | #A8B1BD | [![#A8B1BD](https://via.placeholder.com/32x16/A8B1BD/000000?text=+)](https://www.colorhexa.com/A8B1BD) |
 | InputErrorMessage | #F45532 | [![#F45532](https://via.placeholder.com/32x16/F45532/000000?text=+)](https://www.colorhexa.com/F45532) |
 | InputHelpText | #A8B1BD | [![#A8B1BD](https://via.placeholder.com/32x16/A8B1BD/000000?text=+)](https://www.colorhexa.com/A8B1BD) |

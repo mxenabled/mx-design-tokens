@@ -1,13 +1,13 @@
 /*
 ** mx-design-tokens (10.0.0-rc.4)
 **
-** css variables auto-generated on 2021-08-07
+** css variables auto-generated on 2021-08-08
 ** from https://github.com/mxenabled/mx-design-tokens to /css/light.css
 */
 :root {
   --mx-Color_Brand100: #EAF1FB;
   --mx-Color_Brand200: #6FA1EC;
-  --mx-Color_Brand300: yellow;
+  --mx-Color_Brand300: #2F73DA;
   --mx-Color_Brand400: #165ECC;
   --mx-Color_Brand500: #034AB3;
   --mx-Color_Chart1: #74E4DA;
@@ -217,7 +217,7 @@
   --mx-BackgroundColor_ButtonNeutral: #FFFFFF;
   --mx-BackgroundColor_ButtonNeutralDisabled: #FFFFFF;
   --mx-BackgroundColor_ButtonNeutralHover: #FFFFFF;
-  --mx-BackgroundColor_ButtonPrimary: yellow;
+  --mx-BackgroundColor_ButtonPrimary: #2F73DA;
   --mx-BackgroundColor_ButtonPrimaryDisabled: #EEF1F6;
   --mx-BackgroundColor_ButtonPrimaryHover: #165ECC;
   --mx-BackgroundColor_ButtonTransparentHover: #EAF1FB;
@@ -234,7 +234,7 @@
   --mx-BackgroundColor_HrDark: #CDD3DD;
   --mx-BackgroundColor_HrLight: #E4E8EE;
   --mx-BackgroundColor_InputChip: #EAF1FB;
-  --mx-BackgroundColor_InputChipHover: yellow;
+  --mx-BackgroundColor_InputChipHover: #2F73DA;
   --mx-BackgroundColor_InputDisabled: rgba(247, 249, 252, 0.55);
   --mx-BackgroundColor_InputFocus: transparent;
   --mx-BackgroundColor_InputLabelDefault: #FFFFFF;
@@ -243,7 +243,7 @@
   --mx-BackgroundColor_LeftNavItemActive: #EAF1FB;
   --mx-BackgroundColor_LeftNavItemHover: #F8F9FB;
   --mx-BackgroundColor_MessageBox: #FFFFFF;
-  --mx-BackgroundColor_MessageBoxBrand: yellow;
+  --mx-BackgroundColor_MessageBoxBrand: #2F73DA;
   --mx-BackgroundColor_MessageBoxError: #DF320C;
   --mx-BackgroundColor_MessageBoxHelp: #2F73DA;
   --mx-BackgroundColor_MessageBoxSuccess: #09A57F;
@@ -257,7 +257,7 @@
   --mx-BackgroundColor_RadioChecked: #EAF1FB;
   --mx-BackgroundColor_RadioDisabled: #EAF1FB;
   --mx-BackgroundColor_RadioDot: #F8F9FB;
-  --mx-BackgroundColor_RadioDotChecked: yellow;
+  --mx-BackgroundColor_RadioDotChecked: #2F73DA;
   --mx-BackgroundColor_RadioDotDisabled: #EEF1F6;
   --mx-BackgroundColor_RadioDotDisabledChecked: #A8B1BD;
   --mx-BackgroundColor_SwitchDisabledOff: #EEF1F6;
@@ -283,7 +283,7 @@
   --mx-BorderColor_ButtonNeutralDisabled: #165ECC;
   --mx-BorderColor_ButtonNeutralHover: #165ECC;
   --mx-BorderColor_Checkbox: #6A7381;
-  --mx-BorderColor_CheckboxChecked: yellow;
+  --mx-BorderColor_CheckboxChecked: #2F73DA;
   --mx-BorderColor_CheckboxDisabled: #CDD3DD;
   --mx-BorderColor_ChipDefault: #6A7381;
   --mx-BorderColor_ChipDefaultHover: #E4E8EE;
@@ -293,22 +293,22 @@
   --mx-BorderColor_Input: #6A7381;
   --mx-BorderColor_InputDisabled: rgba(203, 211, 223, 0.55);
   --mx-BorderColor_InputError: #DF320C;
-  --mx-BorderColor_InputFocus: yellow;
+  --mx-BorderColor_InputFocus: #2F73DA;
   --mx-BorderColor_InputHover: #6A7381;
   --mx-BorderColor_SelectionBoxOutline: #E4E8EE;
   --mx-BorderColor_SelectionBoxFocusedSelected: #2F73DA;
   --mx-BorderColor_SelectionBoxDisabled: #E4E8EE;
   --mx-BorderColor_SelectionBoxDisabledSelected: #A8B1BD;
   --mx-BorderColor_Radio: #6A7381;
-  --mx-BorderColor_RadioChecked: yellow;
+  --mx-BorderColor_RadioChecked: #2F73DA;
   --mx-BorderColor_RadioDisabled: #CDD3DD;
   --mx-BorderColor_RadioDisabledChecked: #A8B1BD;
   --mx-BorderColor_Switch: #6A7381;
   --mx-BorderColor_SwitchDisabled: #CDD3DD;
-  --mx-BorderColor_TabActive: yellow;
+  --mx-BorderColor_TabActive: #2F73DA;
   --mx-BorderColor_TableHeader: #CDD3DD;
   --mx-BorderColor_TableCell: #EEF1F6;
-  --mx-TextColor_Active: yellow;
+  --mx-TextColor_Active: #2F73DA;
   --mx-TextColor_ActiveHover: #165ECC;
   --mx-TextColor_Default: #121417;
   --mx-TextColor_Disabled: #A8B1BD;
@@ -317,24 +317,24 @@
   --mx-TextColor_Avatar: #121417;
   --mx-TextColor_ButtonDestructive: #FFFFFF;
   --mx-TextColor_ButtonDestructiveDisabled: #A8B1BD;
-  --mx-TextColor_ButtonLink: yellow;
+  --mx-TextColor_ButtonLink: #2F73DA;
   --mx-TextColor_ButtonLinkHover: #165ECC;
   --mx-TextColor_ButtonLinkTertiary: #49505A;
   --mx-TextColor_ButtonLinkDestructive: #DF320C;
   --mx-TextColor_ButtonLinkDestructiveHover: #C61A0B;
-  --mx-TextColor_ButtonNeutral: yellow;
+  --mx-TextColor_ButtonNeutral: #2F73DA;
   --mx-TextColor_ButtonNeutralDisabled: #6A7381;
   --mx-TextColor_ButtonNeutralHover: #165ECC;
   --mx-TextColor_ButtonPrimary: #FFFFFF;
   --mx-TextColor_ButtonPrimaryDisabled: #A8B1BD;
-  --mx-TextColor_ButtonTransparent: yellow;
+  --mx-TextColor_ButtonTransparent: #2F73DA;
   --mx-TextColor_ButtonTransparentDisabled: #6A7381;
   --mx-TextColor_ButtonTransparentHover: #165ECC;
   --mx-TextColor_ButtonTransparentTertiary: #49505A;
   --mx-TextColor_ChipDefault: #121417;
   --mx-TextColor_ChipDefaultActive: #165ECC;
   --mx-TextColor_ChipDefaultDisabled: #A8B1BD;
-  --mx-TextColor_DropdownMenuItemActive: yellow;
+  --mx-TextColor_DropdownMenuItemActive: #2F73DA;
   --mx-TextColor_DropdownMenuItemDisabled: #A8B1BD;
   --mx-TextColor_InputErrorMessage: #DF320C;
   --mx-TextColor_InputHelpText: #6A7381;
@@ -343,7 +343,7 @@
   --mx-TextColor_LeftNavItemActive: #165ECC;
   --mx-TextColor_ModalClose: #121417;
   --mx-TextColor_SelectionBoxDisabled: #A8B1BD;
-  --mx-TextColor_TabActive: yellow;
+  --mx-TextColor_TabActive: #2F73DA;
   --mx-TextColor_TagError: #AE0A0A;
   --mx-TextColor_TagNeutral: #49505A;
   --mx-TextColor_TagPrimary: #165ECC;

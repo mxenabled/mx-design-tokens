@@ -1,13 +1,13 @@
 /*
 ** mx-design-tokens (10.0.0-rc.4)
 **
-** css variables auto-generated on 2021-08-07
+** css variables auto-generated on 2021-08-08
 ** from https://github.com/mxenabled/mx-design-tokens to /css/dark.css
 */
 :root {
   --mx-Color_Brand100: #EAF1FB;
   --mx-Color_Brand200: #6FA1EC;
-  --mx-Color_Brand300: yellow;
+  --mx-Color_Brand300: #2F73DA;
   --mx-Color_Brand400: #165ECC;
   --mx-Color_Brand500: #034AB3;
   --mx-Color_Chart1: #74E4DA;
@@ -211,7 +211,7 @@
   --mx-BackgroundColor_ButtonNeutral: #1F2329;
   --mx-BackgroundColor_ButtonNeutralDisabled: #49505A;
   --mx-BackgroundColor_ButtonNeutralHover: #6A7381;
-  --mx-BackgroundColor_ButtonPrimary: yellow;
+  --mx-BackgroundColor_ButtonPrimary: #2F73DA;
   --mx-BackgroundColor_ButtonPrimaryDisabled: #49505A;
   --mx-BackgroundColor_ButtonPrimaryHover: #165ECC;
   --mx-BackgroundColor_ButtonTransparentHover: #6A7381;
@@ -329,6 +329,7 @@
   --mx-TextColor_ChipDefault: #FFFFFF;
   --mx-TextColor_ChipDefaultActive: #6FA1EC;
   --mx-TextColor_ChipDefaultDisabled: #6A7381;
+  --mx-TextColor_DropdownMenuItemActive: #FFFFFF;
   --mx-TextColor_DropdownMenuItemDisabled: #A8B1BD;
   --mx-TextColor_InputErrorMessage: #F45532;
   --mx-TextColor_InputHelpText: #A8B1BD;
