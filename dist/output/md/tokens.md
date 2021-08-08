@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-#### <sup><code>mx-design-tokens (10.0.0-rc.3)</code> &nbsp; _last generated: 2021-07-13_</sup>
+#### <sup><code>mx-design-tokens (10.0.0-rc.4)</code> &nbsp; _last generated: 2021-08-08_</sup>
 
 ![light theme](./header_light.png)
 
@@ -80,9 +80,11 @@
 | Low | 0px 2px 8px rgba(106, 115, 129, 0.12) |
 | Medium | 0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06) |
 | High | 0px 12px 20px rgba(106, 115, 129, 0.22) |
-| FocusRingDefault | 0px 0px 0px 2px rgba(82, 138, 224, 0.8) |
+| Top | 0px -2px 8px rgba(106, 115, 129, 0.12) |
 | Left | -1px 2px 8px rgba(106, 115, 129, 0.22) |
 | Right | 1px 0px 8px rgba(106, 115, 129, 0.22) |
+| Focus | 0px 0px 0px 2px rgba(82, 138, 224, 0.8) |
+| FocusRingDefault | 0px 0px 0px 2px rgba(82, 138, 224, 0.8) |
 | BottomBar | 0px -2px 8px rgba(106, 115, 129, 0.12) |
 | Card | 0px 2px 8px rgba(106, 115, 129, 0.12) |
 | Container | 0px 2px 8px rgba(106, 115, 129, 0.12) |
@@ -163,6 +165,7 @@
 
 | Key | Value |
 | :-- | :---- |
+| Uppercase | 0.48 |
 | SmallUppercase | 0.48 |
 | TinyUppercase | 0.48 |
 | XSmallUppercase | 0.48 |
@@ -249,10 +252,18 @@
 | Key | Value |
 | :-- | :---- |
 | SendToBack | -1 |
-| Default | 0 |
+| Base | 0 |
 | Hover | 1 |
 | Active | 2 |
 | Focus | 3 |
+| Overlay1 | 1000 |
+| Overlay2 | 2000 |
+| Overlay3 | 3000 |
+| Overlay4 | 4000 |
+| Overlay5 | 5000 |
+| Overlay6 | 6000 |
+| Overlay7 | 7000 |
+| Default | 0 |
 | Overlay | 1000 |
 | Sticky | 2000 |
 | Fixed | 3000 |
@@ -540,15 +551,17 @@
 | Low | 0px 2px 8px rgba(106, 115, 129, 0.12) |
 | Medium | 0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06) |
 | High | 0px 12px 20px rgba(106, 115, 129, 0.22) |
-| FocusRingDefault | 0px 0px 0px 2px rgba(82, 138, 224, 0.8) |
+| Top | 0px -2px 8px rgba(106, 115, 129, 0.12) |
 | Left | -1px 2px 8px rgba(106, 115, 129, 0.22) |
 | Right | 1px 0px 8px rgba(106, 115, 129, 0.22) |
-| BottomBar |  |
-| Card |  |
-| Container |  |
-| Drawer |  |
-| DropdownMenu |  |
-| Modal |  |
+| Focus | 0px 0px 0px 2px rgba(82, 138, 224, 0.8) |
+| FocusRingDefault | 0px 0px 0px 2px rgba(82, 138, 224, 0.8) |
+| BottomBar | &nbsp; |
+| Card | &nbsp; |
+| Container | &nbsp; |
+| Drawer | &nbsp; |
+| DropdownMenu | &nbsp; |
+| Modal | &nbsp; |
 | SelectionBoxShadow | none |
 | Tooltip | 0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06) |
 
@@ -623,6 +636,7 @@
 
 | Key | Value |
 | :-- | :---- |
+| Uppercase | 0.48 |
 | SmallUppercase | 0.48 |
 | TinyUppercase | 0.48 |
 | XSmallUppercase | 0.48 |
@@ -709,10 +723,18 @@
 | Key | Value |
 | :-- | :---- |
 | SendToBack | -1 |
-| Default | 0 |
+| Base | 0 |
 | Hover | 1 |
 | Active | 2 |
 | Focus | 3 |
+| Overlay1 | 1000 |
+| Overlay2 | 2000 |
+| Overlay3 | 3000 |
+| Overlay4 | 4000 |
+| Overlay5 | 5000 |
+| Overlay6 | 6000 |
+| Overlay7 | 7000 |
+| Default | 0 |
 | Overlay | 1000 |
 | Sticky | 2000 |
 | Fixed | 3000 |
@@ -901,7 +923,7 @@
 | ChipDefault | #FFFFFF | [![#FFFFFF](https://via.placeholder.com/32x16/FFFFFF/000000?text=+)](https://www.colorhexa.com/FFFFFF) |
 | ChipDefaultActive | #6FA1EC | [![#6FA1EC](https://via.placeholder.com/32x16/6FA1EC/000000?text=+)](https://www.colorhexa.com/6FA1EC) |
 | ChipDefaultDisabled | #6A7381 | [![#6A7381](https://via.placeholder.com/32x16/6A7381/000000?text=+)](https://www.colorhexa.com/6A7381) |
-| DropdownMenuItemActive | undefined | &nbsp; |
+| DropdownMenuItemActive | #FFFFFF | [![#FFFFFF](https://via.placeholder.com/32x16/FFFFFF/000000?text=+)](https://www.colorhexa.com/FFFFFF) |
 | DropdownMenuItemDisabled | #A8B1BD | [![#A8B1BD](https://via.placeholder.com/32x16/A8B1BD/000000?text=+)](https://www.colorhexa.com/A8B1BD) |
 | InputErrorMessage | #F45532 | [![#F45532](https://via.placeholder.com/32x16/F45532/000000?text=+)](https://www.colorhexa.com/F45532) |
 | InputHelpText | #A8B1BD | [![#A8B1BD](https://via.placeholder.com/32x16/A8B1BD/000000?text=+)](https://www.colorhexa.com/A8B1BD) |

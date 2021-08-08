@@ -1,7 +1,7 @@
 /*
-** mx-design-tokens (10.0.0-rc.3)
+** mx-design-tokens (10.0.0-rc.4)
 **
-** css variables auto-generated on 2021-07-13
+** css variables auto-generated on 2021-08-08
 ** from https://github.com/mxenabled/mx-design-tokens to /css/light.css
 */
 :root {
@@ -63,9 +63,11 @@
   --mx-BoxShadow_Low: 0px 2px 8px rgba(106, 115, 129, 0.12);
   --mx-BoxShadow_Medium: 0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06);
   --mx-BoxShadow_High: 0px 12px 20px rgba(106, 115, 129, 0.22);
-  --mx-BoxShadow_FocusRingDefault: 0px 0px 0px 2px rgba(82, 138, 224, 0.8);
+  --mx-BoxShadow_Top: 0px -2px 8px rgba(106, 115, 129, 0.12);
   --mx-BoxShadow_Left: -1px 2px 8px rgba(106, 115, 129, 0.22);
   --mx-BoxShadow_Right: 1px 0px 8px rgba(106, 115, 129, 0.22);
+  --mx-BoxShadow_Focus: 0px 0px 0px 2px rgba(82, 138, 224, 0.8);
+  --mx-BoxShadow_FocusRingDefault: 0px 0px 0px 2px rgba(82, 138, 224, 0.8);
   --mx-BoxShadow_BottomBar: 0px -2px 8px rgba(106, 115, 129, 0.12);
   --mx-BoxShadow_Card: 0px 2px 8px rgba(106, 115, 129, 0.12);
   --mx-BoxShadow_Container: 0px 2px 8px rgba(106, 115, 129, 0.12);
@@ -118,6 +120,7 @@
   --mx-FontWeight_Regular: 400;
   --mx-FontWeight_Semibold: 600;
   --mx-FontWeight_Bold: 700;
+  --mx-LetterSpacing_Uppercase: 0.48;
   --mx-LetterSpacing_SmallUppercase: 0.48;
   --mx-LetterSpacing_TinyUppercase: 0.48;
   --mx-LetterSpacing_XSmallUppercase: 0.48;
@@ -179,6 +182,13 @@
   --mx-ZIndex_Hover: 1;
   --mx-ZIndex_Active: 2;
   --mx-ZIndex_Focus: 3;
+  --mx-ZIndex_Overlay1: 1000;
+  --mx-ZIndex_Overlay2: 2000;
+  --mx-ZIndex_Overlay3: 3000;
+  --mx-ZIndex_Overlay4: 4000;
+  --mx-ZIndex_Overlay5: 5000;
+  --mx-ZIndex_Overlay6: 6000;
+  --mx-ZIndex_Overlay7: 7000;
   --mx-ZIndex_Overlay: 1000;
   --mx-ZIndex_Sticky: 2000;
   --mx-ZIndex_Fixed: 3000;

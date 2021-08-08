@@ -1,7 +1,7 @@
 /*
-** mx-design-tokens (10.0.0-rc.3)
+** mx-design-tokens (10.0.0-rc.4)
 **
-** sass variables auto-generated on 2021-07-13
+** sass variables auto-generated on 2021-08-08
 ** from https://github.com/mxenabled/mx-design-tokens to /scss/dark.scss
 */
 $Color: (
@@ -67,9 +67,11 @@ $BoxShadow: (
   "Low": "0px 2px 8px rgba(106, 115, 129, 0.12)",
   "Medium": "0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06)",
   "High": "0px 12px 20px rgba(106, 115, 129, 0.22)",
-  "FocusRingDefault": "0px 0px 0px 2px rgba(82, 138, 224, 0.8)",
+  "Top": "0px -2px 8px rgba(106, 115, 129, 0.12)",
   "Left": "-1px 2px 8px rgba(106, 115, 129, 0.22)",
   "Right": "1px 0px 8px rgba(106, 115, 129, 0.22)",
+  "Focus": "0px 0px 0px 2px rgba(82, 138, 224, 0.8)",
+  "FocusRingDefault": "0px 0px 0px 2px rgba(82, 138, 224, 0.8)",
   "SelectionBoxShadow": none,
   "Tooltip": "0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06)",
 );
@@ -124,6 +126,7 @@ $FontWeight: (
   "Bold": 700,
 );
 $LetterSpacing: (
+  "Uppercase": 0.48,
   "SmallUppercase": 0.48,
   "TinyUppercase": 0.48,
   "XSmallUppercase": 0.48,
@@ -193,6 +196,13 @@ $ZIndex: (
   "Hover": 1,
   "Active": 2,
   "Focus": 3,
+  "Overlay1": 1000,
+  "Overlay2": 2000,
+  "Overlay3": 3000,
+  "Overlay4": 4000,
+  "Overlay5": 5000,
+  "Overlay6": 6000,
+  "Overlay7": 7000,
   "Overlay": 1000,
   "Sticky": 2000,
   "Fixed": 3000,
@@ -351,6 +361,7 @@ $TextColor: (
   "ChipDefault": #FFFFFF,
   "ChipDefaultActive": #6FA1EC,
   "ChipDefaultDisabled": #6A7381,
+  "DropdownMenuItemActive": #FFFFFF,
   "DropdownMenuItemDisabled": #A8B1BD,
   "InputErrorMessage": #F45532,
   "InputHelpText": #A8B1BD,
