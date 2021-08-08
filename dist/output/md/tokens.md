@@ -252,7 +252,7 @@
 | Key | Value |
 | :-- | :---- |
 | SendToBack | -1 |
-| Base | &nbsp; |
+| Base | 0 |
 | Hover | 1 |
 | Active | 2 |
 | Focus | 3 |
@@ -263,7 +263,7 @@
 | Overlay5 | 5000 |
 | Overlay6 | 6000 |
 | Overlay7 | 7000 |
-| Default | &nbsp; |
+| Default | 0 |
 | Overlay | 1000 |
 | Sticky | 2000 |
 | Fixed | 3000 |
@@ -723,7 +723,7 @@
 | Key | Value |
 | :-- | :---- |
 | SendToBack | -1 |
-| Base | &nbsp; |
+| Base | 0 |
 | Hover | 1 |
 | Active | 2 |
 | Focus | 3 |
@@ -734,7 +734,7 @@
 | Overlay5 | 5000 |
 | Overlay6 | 6000 |
 | Overlay7 | 7000 |
-| Default | &nbsp; |
+| Default | 0 |
 | Overlay | 1000 |
 | Sticky | 2000 |
 | Fixed | 3000 |
