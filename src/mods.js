@@ -2,9 +2,7 @@ import core from 'src/core'
 import { addSuffix, removeSuffix, updateValues } from 'src/utils'
 import { targets } from 'src/index'
 
-// Target Specific Modifications
-
-// Shared
+// Shared modifications
 const updatedBoxShadow = updateValues(core.BoxShadow, '')
 const updatedEasing = updateValues(core.Easing, {
   x1: 0.475,
@@ -13,34 +11,30 @@ const updatedEasing = updateValues(core.Easing, {
   y2: 0.995,
 })
 
-// React Native
+// React Native modifications
 const updatedTime = addSuffix(core.Time, 'ms')
 
-// Native
+// Native modifications
 const updatedLineHeight = removeSuffix(core.LineHeight, 'px')
 
 export const applyTargetModifications = (target = targets.REACT, coreTokens = core) => {
-  if (target === targets.REACT_NATIVE) {
-    const reactNativeTokens = Object.assign(
-      {},
-      coreTokens,
-      updatedBoxShadow,
-      updatedEasing,
-      updatedTime,
-    )
+  let modifiedTokens = coreTokens
 
-    return reactNativeTokens
+  if (target === targets.REACT) {
+    const reactWebTokenMods = [coreTokens]
+
+    modifiedTokens = Object.assign({}, ...reactWebTokenMods)
+  } else if (target === targets.REACT_NATIVE) {
+    const reactNativeTokenMods = [coreTokens, updatedBoxShadow, updatedEasing, updatedTime]
+
+    modifiedTokens = Object.assign({}, ...reactNativeTokenMods)
   } else if (target === targets.NATIVE) {
-    const nativeTokens = Object.assign(
-      {},
-      coreTokens,
-      updatedBoxShadow,
-      updatedEasing,
-      updatedLineHeight,
-    )
+    const nativeTokenMods = [coreTokens, updatedBoxShadow, updatedEasing, updatedLineHeight]
 
-    return nativeTokens
+    modifiedTokens = Object.assign({}, ...nativeTokenMods)
   } else {
-    return coreTokens
+    console.error(`ERROR: applyTargetModifications unknown target [${target}]`)
   }
+
+  return modifiedTokens
 }
