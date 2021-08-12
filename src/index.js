@@ -46,8 +46,22 @@ export const buildTheme = (theme = themes.LIGHT, target = targets.REACT, tokenOv
 
   const customCore = applyTargetModifications(target, mergedCore)
   const customLeaf = getSectionTokens(theme, customCore)
+  const customBoth = deepMerge(customCore, customLeaf)
 
-  const builtTokens = deepMerge(customCore, customLeaf)
+  // leaf changes take priority over core token changes
+  let mergedLeaf = {}
+
+  const leafChanges = baseParts.updatedTokens.leaf
+  leafChanges.map((l) => {
+    mergedLeaf = deepMerge(mergedLeaf, l)
+  })
+
+  const newChanges = baseParts.updatedTokens.new
+  newChanges.map((n) => {
+    mergedLeaf = deepMerge(mergedLeaf, n)
+  })
+
+  const builtTokens = deepMerge(customBoth, mergedLeaf)
 
   return builtTokens
 }
