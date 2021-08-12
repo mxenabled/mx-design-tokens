@@ -43,12 +43,13 @@ npm run build:all
 
 ## Tokens
 
-| Token Output Types                                                                        |
-| :---------------------------------------------------------------------------------------- |
-| [Markdown - documentation for both light and dark theme tokens](dist/output/md/tokens.md) |
-| [JSON - React Web Apps](dist/output/json/light.json)                                      |
-| [SCSS - Sass / Rails Apps](dist/output/scss/light.scss)                                   |
-| [CSS - Other Web Apps](dist/output/css/light.css)                                         |
+| Token Output Types                                                                        | Description |
+| :---------------------------------------------------------------------------------------- | :----- |
+| [Markdown](https://github.com/mxenabled/mx-design-tokens/blob/master/dist/output/md/tokens.md) | documentation for [light theme tokens](https://github.com/mxenabled/mx-design-tokens/blob/master/dist/output/md/tokens.md#-light-theme-tokens) |
+| &nbsp; | documentation for [dark theme tokens](https://github.com/mxenabled/mx-design-tokens/blob/master/dist/output/md/tokens.md#-dark-theme-tokens) theme tokens |
+| [JSON - React Web Apps](https://github.com/mxenabled/mx-design-tokens/blob/master/dist/output/json/light.json)                                      |
+| [SCSS - Sass / Rails Apps](https://github.com/mxenabled/mx-design-tokens/blob/master/dist/output/scss/light.scss)                                   |
+| [CSS - Other Web Apps](https://github.com/mxenabled/mx-design-tokens/blob/master/dist/output/css/light.css)                                         |
 | JSON - React Native Apps (_work in progress..._)                                          |
 | JSON - Mobile OS Apps (_work in progress..._)                                             |
 
@@ -60,7 +61,7 @@ npm run build:all
 | `npm run build:all`  | Builds everything in one easy step                                                                       |
 |                      |                                                                                                          |
 | `npm run build`      | Compile `src` files out to the `dist` folder                                                             |
-| `npm run build:docs` | Compile markdown documentation for [viewing all the tokens](dist/output/md/tokens.md)                    |
+| `npm run build:docs` | Compile markdown documentation for [viewing all the tokens](https://github.com/mxenabled/mx-design-tokens/blob/master/dist/output/md/tokens.md)                    |
 | `npm run build:json` | Compile static [JSON](https://www.json.org/) files to use as style objects in React Web Apps             |
 | `npm run build:scss` | Compile static [SCSS](https://sass-lang.com/) variables to use in Sass / Rails Apps                      |
 | `npm run build:css`  | Compile static [CSS](https://www.w3.org/Style/CSS/Overview.en.html) variables for use in any web project |

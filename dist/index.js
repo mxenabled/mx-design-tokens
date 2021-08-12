@@ -71,7 +71,18 @@ var buildTheme = function buildTheme() {
   var mergedCore = (0, _utils.deepMerge)(baseCore, updatedCore);
   var customCore = (0, _mods.applyTargetModifications)(target, mergedCore);
   var customLeaf = getSectionTokens(theme, customCore);
-  var builtTokens = (0, _utils.deepMerge)(customCore, customLeaf);
+  var customBoth = (0, _utils.deepMerge)(customCore, customLeaf); // leaf changes take priority over core token changes
+
+  var mergedLeaf = {};
+  var leafChanges = baseParts.updatedTokens.leaf;
+  leafChanges.map(function (l) {
+    mergedLeaf = (0, _utils.deepMerge)(mergedLeaf, l);
+  });
+  var newChanges = baseParts.updatedTokens["new"];
+  newChanges.map(function (n) {
+    mergedLeaf = (0, _utils.deepMerge)(mergedLeaf, n);
+  });
+  var builtTokens = (0, _utils.deepMerge)(customBoth, mergedLeaf);
   return builtTokens;
 };
 
