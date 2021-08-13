@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-A very simple utility for sharing themed styling information.
+A simple utility for sharing themed styling information.
 
 ## Installation
 
@@ -13,21 +13,25 @@ npm install mx-design-tokens
 To import the default themed objects:
 
 ```
-import { light, dark, targets } from 'mx-design-tokens'
+import { light, dark } from 'mx-design-tokens'
 ```
 
 To build a custom colored themed object:
 
 ```
-import { buildTheme, targets } from 'mx-design-tokens'
+import { buildTheme } from 'mx-design-tokens'
 
-const tokenOverrides = {
+const myCustomOverrides = {
   "Color": {
-    "Brand300": '#876543'
+    "Brand300": "green"
+  },
+  "Custom": {
+    "ButtonHeight": 42,
+    "InputText": "lime"
   }
 }
 
-const theme = buildTheme('light', targets.REACT, tokenOverrides)
+const greenTheme = buildTheme('light', 'react', myCustomOverrides)
 ```
 
 ## Development Environment
