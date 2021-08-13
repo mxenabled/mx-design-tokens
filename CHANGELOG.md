@@ -17,8 +17,8 @@ The following breaking changes have been made to the `buildTheme` function...
 
 - Removed the `customColors` and `customFonts` properties
 - Added a single `tokenOverrides` property so that all tokens may be customized instead of just colors and fonts
-  - Core token changes will automatically propigate down the tree
-  - Leaf token changes will take precedent over any core propigations
+  - Core token changes will automatically propagate down the tree
+  - Leaf token changes will take precedent over any core propagations
   - New tokens will be appended
 
 ## [9.0.1] - 05-28-2021

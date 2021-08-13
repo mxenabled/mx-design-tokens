@@ -36,7 +36,7 @@ const getSectionTokens = (theme = themes.LIGHT, base = core) => ({
 })
 
 export const buildTheme = (theme = themes.LIGHT, target = targets.REACT, tokenOverrides = {}) => {
-  // core token changes propigate down
+  // core token changes propagate down
   const baseCore = Object.assign({}, core)
   const baseLeaf = getSectionTokens(theme)
   const baseParts = splitTokens(tokenOverrides, baseCore, baseLeaf)

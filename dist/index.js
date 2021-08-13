@@ -63,7 +63,7 @@ var buildTheme = function buildTheme() {
   var theme = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : themes.LIGHT;
   var target = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : targets.REACT;
   var tokenOverrides = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-  // core token changes propigate down
+  // core token changes propagate down
   var baseCore = Object.assign({}, _core["default"]);
   var baseLeaf = getSectionTokens(theme);
   var baseParts = (0, _utils.splitTokens)(tokenOverrides, baseCore, baseLeaf);
