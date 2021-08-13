@@ -13,11 +13,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 **Breaking Change** — _`mx-design-tokens 10.0.0` works in conjunction with `@kyper/tokenprovider 3.0.0` or greater._
 
-in the `buildTheme` function...
+The following breaking changes have been made to the `buildTheme` function...
 
-- Removed the `customColors` and `customFonts` properties.
-- Added a single `customOverrides` property.
-- All existing tokens may now be overridden and/or new tokens added using `customOverrides`.
+- Removed the `customColors` and `customFonts` properties
+- Added a single `tokenOverrides` property so that all tokens may be customized instead of just colors and fonts
+  - Core token changes will automatically propagate down the tree
+  - Leaf token changes will take precedent over any core propagations
+  - New tokens will be appended
 
 ## [9.0.1] - 05-28-2021
 

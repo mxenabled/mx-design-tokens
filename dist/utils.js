@@ -112,8 +112,7 @@ var collapseTokens = function collapseTokens(tokenList) {
     return retToken = Object.assign({}, deepMerge(retToken, token));
   });
   return retToken;
-}; // divide tokens into separate lists of individual tokens
-// coreTokens, leafTokensDefault, leafTokensChanged, newTokens
+}; // split a token object into various partitions
 
 
 exports.collapseTokens = collapseTokens;
