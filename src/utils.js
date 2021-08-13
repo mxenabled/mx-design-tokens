@@ -82,8 +82,7 @@ export const collapseTokens = (tokenList) => {
   return retToken
 }
 
-// divide tokens into separate lists of individual tokens
-// coreTokens, leafTokensDefault, leafTokensChanged, newTokens
+// split a token object into various partitions
 export const splitTokens = (tokens, core, leaf) => {
   const partitionedLists = {
     defaultTokens: {

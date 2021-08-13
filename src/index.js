@@ -36,7 +36,7 @@ const getSectionTokens = (theme = themes.LIGHT, base = core) => ({
 })
 
 export const buildTheme = (theme = themes.LIGHT, target = targets.REACT, tokenOverrides = {}) => {
-  // core token changes propigate down but leaf token changes take precedent at the end
+  // core token changes propigate down
   const baseCore = Object.assign({}, core)
   const baseLeaf = getSectionTokens(theme)
   const baseParts = splitTokens(tokenOverrides, baseCore, baseLeaf)
@@ -48,7 +48,7 @@ export const buildTheme = (theme = themes.LIGHT, target = targets.REACT, tokenOv
   const customLeaf = getSectionTokens(theme, customCore)
   const customBoth = deepMerge(customCore, customLeaf)
 
-  // leaf changes take priority over core token changes
+  // leaf token changes take priority over core token changes
   let mergedLeaf = {}
 
   const leafChanges = baseParts.updatedTokens.leaf

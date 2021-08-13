@@ -63,7 +63,7 @@ var buildTheme = function buildTheme() {
   var theme = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : themes.LIGHT;
   var target = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : targets.REACT;
   var tokenOverrides = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-  // core token changes propigate down but leaf token changes take precedent at the end
+  // core token changes propigate down
   var baseCore = Object.assign({}, _core["default"]);
   var baseLeaf = getSectionTokens(theme);
   var baseParts = (0, _utils.splitTokens)(tokenOverrides, baseCore, baseLeaf);
@@ -71,7 +71,7 @@ var buildTheme = function buildTheme() {
   var mergedCore = (0, _utils.deepMerge)(baseCore, updatedCore);
   var customCore = (0, _mods.applyTargetModifications)(target, mergedCore);
   var customLeaf = getSectionTokens(theme, customCore);
-  var customBoth = (0, _utils.deepMerge)(customCore, customLeaf); // leaf changes take priority over core token changes
+  var customBoth = (0, _utils.deepMerge)(customCore, customLeaf); // leaf token changes take priority over core token changes
 
   var mergedLeaf = {};
   var leafChanges = baseParts.updatedTokens.leaf;
