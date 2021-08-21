@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-#### <sup><code>mx-design-tokens (10.0.0)</code> &nbsp; _last generated: 2021-08-13_</sup>
+#### <sup><code>mx-design-tokens (10.0.0)</code> &nbsp; _last generated: 2021-08-20_</sup>
 
 ## 🌞 LIGHT THEME TOKENS
 
@@ -60,6 +60,27 @@
 | TransparentNeutral400 | rgba(203, 211, 223, 0.55) | &nbsp; |
 | TransparentScrim | rgba(0, 0, 0, 0.25) | &nbsp; |
 | TransparentScrimDarker | rgba(0, 0, 0, 0.50) | &nbsp; |
+| AutoTransport | #4B9DBC | [![#4B9DBC](https://via.placeholder.com/32x16/4B9DBC/000000?text=+)](https://www.colorhexa.com/4B9DBC) |
+| BillsUtilities | #EF8B2C | [![#EF8B2C](https://via.placeholder.com/32x16/EF8B2C/000000?text=+)](https://www.colorhexa.com/EF8B2C) |
+| BusinessServices | #B3DE8C | [![#B3DE8C](https://via.placeholder.com/32x16/B3DE8C/000000?text=+)](https://www.colorhexa.com/B3DE8C) |
+| Education | #F8AB3A | [![#F8AB3A](https://via.placeholder.com/32x16/F8AB3A/000000?text=+)](https://www.colorhexa.com/F8AB3A) |
+| Entertainment | #AB5B89 | [![#AB5B89](https://via.placeholder.com/32x16/AB5B89/000000?text=+)](https://www.colorhexa.com/AB5B89) |
+| FeesCharges | #FF9696 | [![#FF9696](https://via.placeholder.com/32x16/FF9696/000000?text=+)](https://www.colorhexa.com/FF9696) |
+| Financial | #6BCDDB | [![#6BCDDB](https://via.placeholder.com/32x16/6BCDDB/000000?text=+)](https://www.colorhexa.com/6BCDDB) |
+| FoodDining | #58AC7B | [![#58AC7B](https://via.placeholder.com/32x16/58AC7B/000000?text=+)](https://www.colorhexa.com/58AC7B) |
+| GiftsDonations | #347AA5 | [![#347AA5](https://via.placeholder.com/32x16/347AA5/000000?text=+)](https://www.colorhexa.com/347AA5) |
+| HealthFitness | #5C446E | [![#5C446E](https://via.placeholder.com/32x16/5C446E/000000?text=+)](https://www.colorhexa.com/5C446E) |
+| Home | #FFD84D | [![#FFD84D](https://via.placeholder.com/32x16/FFD84D/000000?text=+)](https://www.colorhexa.com/FFD84D) |
+| Income | #133F49 | [![#133F49](https://via.placeholder.com/32x16/133F49/000000?text=+)](https://www.colorhexa.com/133F49) |
+| Investments | #FF7070 | [![#FF7070](https://via.placeholder.com/32x16/FF7070/000000?text=+)](https://www.colorhexa.com/FF7070) |
+| Kids | #82D196 | [![#82D196](https://via.placeholder.com/32x16/82D196/000000?text=+)](https://www.colorhexa.com/82D196) |
+| PersonalCare | #338B7A | [![#338B7A](https://via.placeholder.com/32x16/338B7A/000000?text=+)](https://www.colorhexa.com/338B7A) |
+| Pets | #615BAB | [![#615BAB](https://via.placeholder.com/32x16/615BAB/000000?text=+)](https://www.colorhexa.com/615BAB) |
+| Shopping | #CF5F84 | [![#CF5F84](https://via.placeholder.com/32x16/CF5F84/000000?text=+)](https://www.colorhexa.com/CF5F84) |
+| Taxes | #32588D | [![#32588D](https://via.placeholder.com/32x16/32588D/000000?text=+)](https://www.colorhexa.com/32588D) |
+| Transfer | #959CA6 | [![#959CA6](https://via.placeholder.com/32x16/959CA6/000000?text=+)](https://www.colorhexa.com/959CA6) |
+| Travel | #E37434 | [![#E37434](https://via.placeholder.com/32x16/E37434/000000?text=+)](https://www.colorhexa.com/E37434) |
+| Uncategorized | #FA5555 | [![#FA5555](https://via.placeholder.com/32x16/FA5555/000000?text=+)](https://www.colorhexa.com/FA5555) |
 
 ---
 
@@ -325,6 +346,48 @@
 | ButtonPrimaryHover | #165ECC | [![#165ECC](https://via.placeholder.com/32x16/165ECC/000000?text=+)](https://www.colorhexa.com/165ECC) |
 | ButtonTransparentHover | #EAF1FB | [![#EAF1FB](https://via.placeholder.com/32x16/EAF1FB/000000?text=+)](https://www.colorhexa.com/EAF1FB) |
 | Card | #FFFFFF | [![#FFFFFF](https://via.placeholder.com/32x16/FFFFFF/000000?text=+)](https://www.colorhexa.com/FFFFFF) |
+| AutoTransport | #4B9DBC | [![#4B9DBC](https://via.placeholder.com/32x16/4B9DBC/000000?text=+)](https://www.colorhexa.com/4B9DBC) |
+| AutoTransportLight | #F1FAFC | [![#F1FAFC](https://via.placeholder.com/32x16/F1FAFC/000000?text=+)](https://www.colorhexa.com/F1FAFC) |
+| BillsUtilities | #EF8B2C | [![#EF8B2C](https://via.placeholder.com/32x16/EF8B2C/000000?text=+)](https://www.colorhexa.com/EF8B2C) |
+| BillsUtilitiesLight | #FEF4EA | [![#FEF4EA](https://via.placeholder.com/32x16/FEF4EA/000000?text=+)](https://www.colorhexa.com/FEF4EA) |
+| BusinessServices | #B3DE8C | [![#B3DE8C](https://via.placeholder.com/32x16/B3DE8C/000000?text=+)](https://www.colorhexa.com/B3DE8C) |
+| BusinessServicesLight | #F8FCF4 | [![#F8FCF4](https://via.placeholder.com/32x16/F8FCF4/000000?text=+)](https://www.colorhexa.com/F8FCF4) |
+| Education | #F8AB3A | [![#F8AB3A](https://via.placeholder.com/32x16/F8AB3A/000000?text=+)](https://www.colorhexa.com/F8AB3A) |
+| EducationLight | #FFF7EC | [![#FFF7EC](https://via.placeholder.com/32x16/FFF7EC/000000?text=+)](https://www.colorhexa.com/FFF7EC) |
+| Entertainment | #AB5B89 | [![#AB5B89](https://via.placeholder.com/32x16/AB5B89/000000?text=+)](https://www.colorhexa.com/AB5B89) |
+| EntertainmentLight | #F7EFF4 | [![#F7EFF4](https://via.placeholder.com/32x16/F7EFF4/000000?text=+)](https://www.colorhexa.com/F7EFF4) |
+| FeesCharges | #FF9696 | [![#FF9696](https://via.placeholder.com/32x16/FF9696/000000?text=+)](https://www.colorhexa.com/FF9696) |
+| FeesChargesLight | #FFF5F5 | [![#FFF5F5](https://via.placeholder.com/32x16/FFF5F5/000000?text=+)](https://www.colorhexa.com/FFF5F5) |
+| Financial | #6BCDDB | [![#6BCDDB](https://via.placeholder.com/32x16/6BCDDB/000000?text=+)](https://www.colorhexa.com/6BCDDB) |
+| FinancialLight | #EDF6F9 | [![#EDF6F9](https://via.placeholder.com/32x16/EDF6F9/000000?text=+)](https://www.colorhexa.com/EDF6F9) |
+| FoodDining | #58AC7B | [![#58AC7B](https://via.placeholder.com/32x16/58AC7B/000000?text=+)](https://www.colorhexa.com/58AC7B) |
+| FoodDiningLight | #F3FBF5 | [![#F3FBF5](https://via.placeholder.com/32x16/F3FBF5/000000?text=+)](https://www.colorhexa.com/F3FBF5) |
+| GiftsDonations | #347AA5 | [![#347AA5](https://via.placeholder.com/32x16/347AA5/000000?text=+)](https://www.colorhexa.com/347AA5) |
+| GiftsDonationsLight | #EBF2F6 | [![#EBF2F6](https://via.placeholder.com/32x16/EBF2F6/000000?text=+)](https://www.colorhexa.com/EBF2F6) |
+| HealthFitness | #5C446E | [![#5C446E](https://via.placeholder.com/32x16/5C446E/000000?text=+)](https://www.colorhexa.com/5C446E) |
+| HealthFitnessLight | #EFEDF1 | [![#EFEDF1](https://via.placeholder.com/32x16/EFEDF1/000000?text=+)](https://www.colorhexa.com/EFEDF1) |
+| Home | #FFD84D | [![#FFD84D](https://via.placeholder.com/32x16/FFD84D/000000?text=+)](https://www.colorhexa.com/FFD84D) |
+| HomeLight | #FFFCEE | [![#FFFCEE](https://via.placeholder.com/32x16/FFFCEE/000000?text=+)](https://www.colorhexa.com/FFFCEE) |
+| Income | #133F49 | [![#133F49](https://via.placeholder.com/32x16/133F49/000000?text=+)](https://www.colorhexa.com/133F49) |
+| IncomeLight | #E8ECED | [![#E8ECED](https://via.placeholder.com/32x16/E8ECED/000000?text=+)](https://www.colorhexa.com/E8ECED) |
+| Investments | #FF7070 | [![#FF7070](https://via.placeholder.com/32x16/FF7070/000000?text=+)](https://www.colorhexa.com/FF7070) |
+| InvestmentsLight | #FFF1F1 | [![#FFF1F1](https://via.placeholder.com/32x16/FFF1F1/000000?text=+)](https://www.colorhexa.com/FFF1F1) |
+| Kids | #82D196 | [![#82D196](https://via.placeholder.com/32x16/82D196/000000?text=+)](https://www.colorhexa.com/82D196) |
+| KidsLight | #EFF7F2 | [![#EFF7F2](https://via.placeholder.com/32x16/EFF7F2/000000?text=+)](https://www.colorhexa.com/EFF7F2) |
+| PersonalCare | #338B7A | [![#338B7A](https://via.placeholder.com/32x16/338B7A/000000?text=+)](https://www.colorhexa.com/338B7A) |
+| PersonalCareLight | #EBF4F2 | [![#EBF4F2](https://via.placeholder.com/32x16/EBF4F2/000000?text=+)](https://www.colorhexa.com/EBF4F2) |
+| Pets | #615BAB | [![#615BAB](https://via.placeholder.com/32x16/615BAB/000000?text=+)](https://www.colorhexa.com/615BAB) |
+| PetsLight | #F3EEF2 | [![#F3EEF2](https://via.placeholder.com/32x16/F3EEF2/000000?text=+)](https://www.colorhexa.com/F3EEF2) |
+| Shopping | #CF5F84 | [![#CF5F84](https://via.placeholder.com/32x16/CF5F84/000000?text=+)](https://www.colorhexa.com/CF5F84) |
+| ShoppingLight | #FBEFF3 | [![#FBEFF3](https://via.placeholder.com/32x16/FBEFF3/000000?text=+)](https://www.colorhexa.com/FBEFF3) |
+| Taxes | #32588D | [![#32588D](https://via.placeholder.com/32x16/32588D/000000?text=+)](https://www.colorhexa.com/32588D) |
+| TaxesLight | #EBEFF4 | [![#EBEFF4](https://via.placeholder.com/32x16/EBEFF4/000000?text=+)](https://www.colorhexa.com/EBEFF4) |
+| Transfer | #959CA6 | [![#959CA6](https://via.placeholder.com/32x16/959CA6/000000?text=+)](https://www.colorhexa.com/959CA6) |
+| TransferLight | #F5F6F6 | [![#F5F6F6](https://via.placeholder.com/32x16/F5F6F6/000000?text=+)](https://www.colorhexa.com/F5F6F6) |
+| Travel | #E37434 | [![#E37434](https://via.placeholder.com/32x16/E37434/000000?text=+)](https://www.colorhexa.com/E37434) |
+| TravelLight | #FDF2EB | [![#FDF2EB](https://via.placeholder.com/32x16/FDF2EB/000000?text=+)](https://www.colorhexa.com/FDF2EB) |
+| Uncategorized | #FA5555 | [![#FA5555](https://via.placeholder.com/32x16/FA5555/000000?text=+)](https://www.colorhexa.com/FA5555) |
+| UncategorizedLight | #FFEEEE | [![#FFEEEE](https://via.placeholder.com/32x16/FFEEEE/000000?text=+)](https://www.colorhexa.com/FFEEEE) |
 | CheckboxChecked | #EAF1FB | [![#EAF1FB](https://via.placeholder.com/32x16/EAF1FB/000000?text=+)](https://www.colorhexa.com/EAF1FB) |
 | CheckboxDisabled | #F8F9FB | [![#F8F9FB](https://via.placeholder.com/32x16/F8F9FB/000000?text=+)](https://www.colorhexa.com/F8F9FB) |
 | ChipDefault | transparent | &nbsp; |
@@ -531,6 +594,27 @@
 | TransparentNeutral400 | rgba(203, 211, 223, 0.55) | &nbsp; |
 | TransparentScrim | rgba(0, 0, 0, 0.25) | &nbsp; |
 | TransparentScrimDarker | rgba(0, 0, 0, 0.50) | &nbsp; |
+| AutoTransport | #4B9DBC | [![#4B9DBC](https://via.placeholder.com/32x16/4B9DBC/000000?text=+)](https://www.colorhexa.com/4B9DBC) |
+| BillsUtilities | #EF8B2C | [![#EF8B2C](https://via.placeholder.com/32x16/EF8B2C/000000?text=+)](https://www.colorhexa.com/EF8B2C) |
+| BusinessServices | #B3DE8C | [![#B3DE8C](https://via.placeholder.com/32x16/B3DE8C/000000?text=+)](https://www.colorhexa.com/B3DE8C) |
+| Education | #F8AB3A | [![#F8AB3A](https://via.placeholder.com/32x16/F8AB3A/000000?text=+)](https://www.colorhexa.com/F8AB3A) |
+| Entertainment | #AB5B89 | [![#AB5B89](https://via.placeholder.com/32x16/AB5B89/000000?text=+)](https://www.colorhexa.com/AB5B89) |
+| FeesCharges | #FF9696 | [![#FF9696](https://via.placeholder.com/32x16/FF9696/000000?text=+)](https://www.colorhexa.com/FF9696) |
+| Financial | #6BCDDB | [![#6BCDDB](https://via.placeholder.com/32x16/6BCDDB/000000?text=+)](https://www.colorhexa.com/6BCDDB) |
+| FoodDining | #58AC7B | [![#58AC7B](https://via.placeholder.com/32x16/58AC7B/000000?text=+)](https://www.colorhexa.com/58AC7B) |
+| GiftsDonations | #347AA5 | [![#347AA5](https://via.placeholder.com/32x16/347AA5/000000?text=+)](https://www.colorhexa.com/347AA5) |
+| HealthFitness | #5C446E | [![#5C446E](https://via.placeholder.com/32x16/5C446E/000000?text=+)](https://www.colorhexa.com/5C446E) |
+| Home | #FFD84D | [![#FFD84D](https://via.placeholder.com/32x16/FFD84D/000000?text=+)](https://www.colorhexa.com/FFD84D) |
+| Income | #133F49 | [![#133F49](https://via.placeholder.com/32x16/133F49/000000?text=+)](https://www.colorhexa.com/133F49) |
+| Investments | #FF7070 | [![#FF7070](https://via.placeholder.com/32x16/FF7070/000000?text=+)](https://www.colorhexa.com/FF7070) |
+| Kids | #82D196 | [![#82D196](https://via.placeholder.com/32x16/82D196/000000?text=+)](https://www.colorhexa.com/82D196) |
+| PersonalCare | #338B7A | [![#338B7A](https://via.placeholder.com/32x16/338B7A/000000?text=+)](https://www.colorhexa.com/338B7A) |
+| Pets | #615BAB | [![#615BAB](https://via.placeholder.com/32x16/615BAB/000000?text=+)](https://www.colorhexa.com/615BAB) |
+| Shopping | #CF5F84 | [![#CF5F84](https://via.placeholder.com/32x16/CF5F84/000000?text=+)](https://www.colorhexa.com/CF5F84) |
+| Taxes | #32588D | [![#32588D](https://via.placeholder.com/32x16/32588D/000000?text=+)](https://www.colorhexa.com/32588D) |
+| Transfer | #959CA6 | [![#959CA6](https://via.placeholder.com/32x16/959CA6/000000?text=+)](https://www.colorhexa.com/959CA6) |
+| Travel | #E37434 | [![#E37434](https://via.placeholder.com/32x16/E37434/000000?text=+)](https://www.colorhexa.com/E37434) |
+| Uncategorized | #FA5555 | [![#FA5555](https://via.placeholder.com/32x16/FA5555/000000?text=+)](https://www.colorhexa.com/FA5555) |
 
 ---
 
@@ -796,6 +880,48 @@
 | ButtonPrimaryHover | #165ECC | [![#165ECC](https://via.placeholder.com/32x16/165ECC/000000?text=+)](https://www.colorhexa.com/165ECC) |
 | ButtonTransparentHover | #6A7381 | [![#6A7381](https://via.placeholder.com/32x16/6A7381/000000?text=+)](https://www.colorhexa.com/6A7381) |
 | Card | #1F2329 | [![#1F2329](https://via.placeholder.com/32x16/1F2329/000000?text=+)](https://www.colorhexa.com/1F2329) |
+| AutoTransport | #4B9DBC | [![#4B9DBC](https://via.placeholder.com/32x16/4B9DBC/000000?text=+)](https://www.colorhexa.com/4B9DBC) |
+| AutoTransportLight | #F1FAFC | [![#F1FAFC](https://via.placeholder.com/32x16/F1FAFC/000000?text=+)](https://www.colorhexa.com/F1FAFC) |
+| BillsUtilities | #EF8B2C | [![#EF8B2C](https://via.placeholder.com/32x16/EF8B2C/000000?text=+)](https://www.colorhexa.com/EF8B2C) |
+| BillsUtilitiesLight | #FEF4EA | [![#FEF4EA](https://via.placeholder.com/32x16/FEF4EA/000000?text=+)](https://www.colorhexa.com/FEF4EA) |
+| BusinessServices | #B3DE8C | [![#B3DE8C](https://via.placeholder.com/32x16/B3DE8C/000000?text=+)](https://www.colorhexa.com/B3DE8C) |
+| BusinessServicesLight | #F8FCF4 | [![#F8FCF4](https://via.placeholder.com/32x16/F8FCF4/000000?text=+)](https://www.colorhexa.com/F8FCF4) |
+| Education | #F8AB3A | [![#F8AB3A](https://via.placeholder.com/32x16/F8AB3A/000000?text=+)](https://www.colorhexa.com/F8AB3A) |
+| EducationLight | #FFF7EC | [![#FFF7EC](https://via.placeholder.com/32x16/FFF7EC/000000?text=+)](https://www.colorhexa.com/FFF7EC) |
+| Entertainment | #AB5B89 | [![#AB5B89](https://via.placeholder.com/32x16/AB5B89/000000?text=+)](https://www.colorhexa.com/AB5B89) |
+| EntertainmentLight | #F7EFF4 | [![#F7EFF4](https://via.placeholder.com/32x16/F7EFF4/000000?text=+)](https://www.colorhexa.com/F7EFF4) |
+| FeesCharges | #FF9696 | [![#FF9696](https://via.placeholder.com/32x16/FF9696/000000?text=+)](https://www.colorhexa.com/FF9696) |
+| FeesChargesLight | #FFF5F5 | [![#FFF5F5](https://via.placeholder.com/32x16/FFF5F5/000000?text=+)](https://www.colorhexa.com/FFF5F5) |
+| Financial | #6BCDDB | [![#6BCDDB](https://via.placeholder.com/32x16/6BCDDB/000000?text=+)](https://www.colorhexa.com/6BCDDB) |
+| FinancialLight | #EDF6F9 | [![#EDF6F9](https://via.placeholder.com/32x16/EDF6F9/000000?text=+)](https://www.colorhexa.com/EDF6F9) |
+| FoodDining | #58AC7B | [![#58AC7B](https://via.placeholder.com/32x16/58AC7B/000000?text=+)](https://www.colorhexa.com/58AC7B) |
+| FoodDiningLight | #F3FBF5 | [![#F3FBF5](https://via.placeholder.com/32x16/F3FBF5/000000?text=+)](https://www.colorhexa.com/F3FBF5) |
+| GiftsDonations | #347AA5 | [![#347AA5](https://via.placeholder.com/32x16/347AA5/000000?text=+)](https://www.colorhexa.com/347AA5) |
+| GiftsDonationsLight | #EBF2F6 | [![#EBF2F6](https://via.placeholder.com/32x16/EBF2F6/000000?text=+)](https://www.colorhexa.com/EBF2F6) |
+| HealthFitness | #5C446E | [![#5C446E](https://via.placeholder.com/32x16/5C446E/000000?text=+)](https://www.colorhexa.com/5C446E) |
+| HealthFitnessLight | #EFEDF1 | [![#EFEDF1](https://via.placeholder.com/32x16/EFEDF1/000000?text=+)](https://www.colorhexa.com/EFEDF1) |
+| Home | #FFD84D | [![#FFD84D](https://via.placeholder.com/32x16/FFD84D/000000?text=+)](https://www.colorhexa.com/FFD84D) |
+| HomeLight | #FFFCEE | [![#FFFCEE](https://via.placeholder.com/32x16/FFFCEE/000000?text=+)](https://www.colorhexa.com/FFFCEE) |
+| Income | #133F49 | [![#133F49](https://via.placeholder.com/32x16/133F49/000000?text=+)](https://www.colorhexa.com/133F49) |
+| IncomeLight | #E8ECED | [![#E8ECED](https://via.placeholder.com/32x16/E8ECED/000000?text=+)](https://www.colorhexa.com/E8ECED) |
+| Investments | #FF7070 | [![#FF7070](https://via.placeholder.com/32x16/FF7070/000000?text=+)](https://www.colorhexa.com/FF7070) |
+| InvestmentsLight | #FFF1F1 | [![#FFF1F1](https://via.placeholder.com/32x16/FFF1F1/000000?text=+)](https://www.colorhexa.com/FFF1F1) |
+| Kids | #82D196 | [![#82D196](https://via.placeholder.com/32x16/82D196/000000?text=+)](https://www.colorhexa.com/82D196) |
+| KidsLight | #EFF7F2 | [![#EFF7F2](https://via.placeholder.com/32x16/EFF7F2/000000?text=+)](https://www.colorhexa.com/EFF7F2) |
+| PersonalCare | #338B7A | [![#338B7A](https://via.placeholder.com/32x16/338B7A/000000?text=+)](https://www.colorhexa.com/338B7A) |
+| PersonalCareLight | #EBF4F2 | [![#EBF4F2](https://via.placeholder.com/32x16/EBF4F2/000000?text=+)](https://www.colorhexa.com/EBF4F2) |
+| Pets | #615BAB | [![#615BAB](https://via.placeholder.com/32x16/615BAB/000000?text=+)](https://www.colorhexa.com/615BAB) |
+| PetsLight | #F3EEF2 | [![#F3EEF2](https://via.placeholder.com/32x16/F3EEF2/000000?text=+)](https://www.colorhexa.com/F3EEF2) |
+| Shopping | #CF5F84 | [![#CF5F84](https://via.placeholder.com/32x16/CF5F84/000000?text=+)](https://www.colorhexa.com/CF5F84) |
+| ShoppingLight | #FBEFF3 | [![#FBEFF3](https://via.placeholder.com/32x16/FBEFF3/000000?text=+)](https://www.colorhexa.com/FBEFF3) |
+| Taxes | #32588D | [![#32588D](https://via.placeholder.com/32x16/32588D/000000?text=+)](https://www.colorhexa.com/32588D) |
+| TaxesLight | #EBEFF4 | [![#EBEFF4](https://via.placeholder.com/32x16/EBEFF4/000000?text=+)](https://www.colorhexa.com/EBEFF4) |
+| Transfer | #959CA6 | [![#959CA6](https://via.placeholder.com/32x16/959CA6/000000?text=+)](https://www.colorhexa.com/959CA6) |
+| TransferLight | #F5F6F6 | [![#F5F6F6](https://via.placeholder.com/32x16/F5F6F6/000000?text=+)](https://www.colorhexa.com/F5F6F6) |
+| Travel | #E37434 | [![#E37434](https://via.placeholder.com/32x16/E37434/000000?text=+)](https://www.colorhexa.com/E37434) |
+| TravelLight | #FDF2EB | [![#FDF2EB](https://via.placeholder.com/32x16/FDF2EB/000000?text=+)](https://www.colorhexa.com/FDF2EB) |
+| Uncategorized | #FA5555 | [![#FA5555](https://via.placeholder.com/32x16/FA5555/000000?text=+)](https://www.colorhexa.com/FA5555) |
+| UncategorizedLight | #FFEEEE | [![#FFEEEE](https://via.placeholder.com/32x16/FFEEEE/000000?text=+)](https://www.colorhexa.com/FFEEEE) |
 | CheckboxChecked | transparent | &nbsp; |
 | CheckboxDisabled | #49505A | [![#49505A](https://via.placeholder.com/32x16/49505A/000000?text=+)](https://www.colorhexa.com/49505A) |
 | ChipDefault | transparent | &nbsp; |

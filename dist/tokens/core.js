@@ -1,4 +1,22 @@
-export default {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _index = require("../index");
+
+// This should probably not be modified
+var addPx = function addPx(obj) {
+  var newObj = {};
+  Object.keys(obj).forEach(function (key) {
+    newObj[key] = "".concat(obj[key], "px");
+  });
+  return newObj;
+};
+
+var _default = {
   Color: {
     Brand100: '#EAF1FB',
     Brand200: '#6FA1EC',
@@ -51,48 +69,42 @@ export default {
     TransparentNeutral100: 'rgba(247, 249, 252, 0.55)',
     TransparentNeutral400: 'rgba(203, 211, 223, 0.55)',
     TransparentScrim: 'rgba(0, 0, 0, 0.25)',
-    TransparentScrimDarker: 'rgba(0, 0, 0, 0.50)',
-    AutoTransport: '#4B9DBC',
-    BillsUtilities: '#EF8B2C',
-    BusinessServices: '#B3DE8C',
-    Education: '#F8AB3A',
-    Entertainment: '#AB5B89',
-    FeesCharges: '#FF9696',
-    Financial: '#6BCDDB',
-    FoodDining: '#58AC7B',
-    GiftsDonations: '#347AA5',
-    HealthFitness: '#5C446E',
-    Home: '#FFD84D',
-    Income: '#133F49',
-    Investments: '#FF7070',
-    Kids: '#82D196',
-    PersonalCare: '#338B7A',
-    Pets: '#615BAB',
-    Shopping: '#CF5F84',
-    Taxes: '#32588D',
-    Transfer: '#959CA6',
-    Travel: '#E37434',
-    Uncategorized: '#FA5555',
+    TransparentScrimDarker: 'rgba(0, 0, 0, 0.50)'
   },
   Font: {
     Regular: 'ProximaNovaRegular, Helvetica, Arial, sans-serif',
     Semibold: 'ProximaNovaSemibold, Helvetica, Arial, sans-serif',
-    Bold: 'ProximaNovaBold, Helvetica, Arial, sans-serif',
+    Bold: 'ProximaNovaBold, Helvetica, Arial, sans-serif'
   },
-  BoxShadow: {
-    Low: '0px 2px 8px rgba(106, 115, 129, 0.12)',
-    Medium: '0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06)',
-    High: '0px 12px 20px rgba(106, 115, 129, 0.22)',
-    Top: '0px -2px 8px rgba(106, 115, 129, 0.12)',
-    Left: '-1px 2px 8px rgba(106, 115, 129, 0.22)',
-    Right: '1px 0px 8px rgba(106, 115, 129, 0.22)',
-    Focus: '0px 0px 0px 2px rgba(82, 138, 224, 0.8)',
+  BoxShadow: function BoxShadow(target) {
+    if (target === _index.targets.REACT) {
+      return {
+        Low: '0px 2px 8px rgba(106, 115, 129, 0.12)',
+        Medium: '0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06)',
+        High: '0px 12px 20px rgba(106, 115, 129, 0.22)',
+        Top: '0px -2px 8px rgba(106, 115, 129, 0.12)',
+        Left: '-1px 2px 8px rgba(106, 115, 129, 0.22)',
+        Right: '1px 0px 8px rgba(106, 115, 129, 0.22)',
+        Focus: '0px 0px 0px 2px rgba(82, 138, 224, 0.8)'
+      };
+    } // TODO: explore mobile solutions more
+
+
+    return {
+      Low: '',
+      Medium: '',
+      High: '',
+      Top: '',
+      Left: '',
+      Right: '',
+      Focus: ''
+    };
   },
   BorderRadius: {
     Small: 2,
     Medium: 4,
     Large: 8,
-    XLarge: 16,
+    XLarge: 16
   },
   FontSize: {
     Tiny: 10,
@@ -103,26 +115,34 @@ export default {
     Paragraph: 16,
     H3: 20,
     H2: 24,
-    H1: 32,
+    H1: 32
   },
   FontWeight: {
     Regular: 400,
     Semibold: 600,
-    Bold: 700,
+    Bold: 700
   },
   LetterSpacing: {
-    Uppercase: 0.48,
+    Uppercase: 0.48
   },
-  LineHeight: {
-    Tiny: '12px',
-    XSmall: '14px',
-    Small: '16px',
-    ParagraphSmall: '20px',
-    Body: '20px',
-    Paragraph: '24px',
-    H3: '24px',
-    H2: '32px',
-    H1: '40px',
+  LineHeight: function LineHeight(target) {
+    var base = {
+      Tiny: 12,
+      XSmall: 14,
+      Small: 16,
+      ParagraphSmall: 20,
+      Body: 20,
+      Paragraph: 24,
+      H3: 24,
+      H2: 32,
+      H1: 40
+    };
+
+    if (target === _index.targets.REACT) {
+      return addPx(base);
+    }
+
+    return base;
   },
   Spacing: {
     XTiny: 2,
@@ -135,40 +155,42 @@ export default {
     XXLarge: 40,
     XXXLarge: 48,
     Jumbo: 64,
-    SuperJumbo: 96,
+    SuperJumbo: 96
   },
   Time: {
     Short: 300,
     Med: 500,
-    Long: 1000,
+    Long: 1000
   },
-  ZIndex: {
-    SendToBack: -1,
-    Base: 0,
-    Hover: 1,
-    Active: 2,
-    Focus: 3,
-    Overlay1: 1000,
-    Overlay2: 2000,
-    Overlay3: 3000,
-    Overlay4: 4000,
-    Overlay5: 5000,
-    Overlay6: 6000,
-    Overlay7: 7000,
+  Easing: function Easing(target) {
+    if (target === _index.targets.REACT) {
+      return {
+        Default: 'cubic-bezier(.475,.425,0,.995)'
+      };
+    } // TODO: Define type cubic-bezier?
+
+
+    return {
+      Default: {
+        x1: 0.475,
+        y1: 0.425,
+        x2: 0,
+        y2: 0.995
+      }
+    };
   },
-  Easing: {
-    Default: 'cubic-bezier(.475,.425,0,.995)',
-  },
+  // Convenience values as web consumes both constantly
   MediaQuery: {
     Small: '576px',
     Med: '768px',
     Large: '992px',
-    XLarge: '1200px',
+    XLarge: '1200px'
   },
   Resolution: {
     Small: 576,
     Med: 768,
     Large: 992,
-    XLarge: 1200,
-  },
-}
+    XLarge: 1200
+  }
+};
+exports["default"] = _default;
