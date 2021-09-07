@@ -4,6 +4,18 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
+
+var _index = require("../index");
+
+// This should probably not be modified
+var addPx = function addPx(obj) {
+  var newObj = {};
+  Object.keys(obj).forEach(function (key) {
+    newObj[key] = "".concat(obj[key], "px");
+  });
+  return newObj;
+};
+
 var _default = {
   Color: {
     Brand100: '#EAF1FB',
@@ -11,27 +23,6 @@ var _default = {
     Brand300: '#2F73DA',
     Brand400: '#165ECC',
     Brand500: '#034AB3',
-    CategoryAutoTransport: '#4B9DBC',
-    CategoryBillsUtilities: '#EF8B2C',
-    CategoryBusinessServices: '#B3DE8C',
-    CategoryEducation: '#F8AB3A',
-    CategoryEntertainment: '#AB5B89',
-    CategoryFeesCharges: '#FF9696',
-    CategoryFinancial: '#6BCDDB',
-    CategoryFoodDining: '#58AC7B',
-    CategoryGiftsDonations: '#347AA5',
-    CategoryHealthFitness: '#5C446E',
-    CategoryHome: '#FFD84D',
-    CategoryIncome: '#133F49',
-    CategoryInvestments: '#FF7070',
-    CategoryKids: '#82D196',
-    CategoryPersonalCare: '#338B7A',
-    CategoryPets: '#615BAB',
-    CategoryShopping: '#CF5F84',
-    CategoryTaxes: '#32588D',
-    CategoryTransfer: '#959CA6',
-    CategoryTravel: '#E37434',
-    CategoryUncategorized: '#FA5555',
     Chart1: '#74E4DA',
     Chart2: '#ED64A4',
     Chart3: '#F3DC46',
@@ -85,14 +76,29 @@ var _default = {
     Semibold: 'ProximaNovaSemibold, Helvetica, Arial, sans-serif',
     Bold: 'ProximaNovaBold, Helvetica, Arial, sans-serif'
   },
-  BoxShadow: {
-    Low: '0px 2px 8px rgba(106, 115, 129, 0.12)',
-    Medium: '0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06)',
-    High: '0px 12px 20px rgba(106, 115, 129, 0.22)',
-    Top: '0px -2px 8px rgba(106, 115, 129, 0.12)',
-    Left: '-1px 2px 8px rgba(106, 115, 129, 0.22)',
-    Right: '1px 0px 8px rgba(106, 115, 129, 0.22)',
-    Focus: '0px 0px 0px 2px rgba(82, 138, 224, 0.8)'
+  BoxShadow: function BoxShadow(target) {
+    if (target === _index.targets.REACT) {
+      return {
+        Low: '0px 2px 8px rgba(106, 115, 129, 0.12)',
+        Medium: '0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06)',
+        High: '0px 12px 20px rgba(106, 115, 129, 0.22)',
+        Top: '0px -2px 8px rgba(106, 115, 129, 0.12)',
+        Left: '-1px 2px 8px rgba(106, 115, 129, 0.22)',
+        Right: '1px 0px 8px rgba(106, 115, 129, 0.22)',
+        Focus: '0px 0px 0px 2px rgba(82, 138, 224, 0.8)'
+      };
+    } // TODO: explore mobile solutions more
+
+
+    return {
+      Low: '',
+      Medium: '',
+      High: '',
+      Top: '',
+      Left: '',
+      Right: '',
+      Focus: ''
+    };
   },
   BorderRadius: {
     Small: 2,
@@ -119,16 +125,24 @@ var _default = {
   LetterSpacing: {
     Uppercase: 0.48
   },
-  LineHeight: {
-    Tiny: '12px',
-    XSmall: '14px',
-    Small: '16px',
-    ParagraphSmall: '20px',
-    Body: '20px',
-    Paragraph: '24px',
-    H3: '24px',
-    H2: '32px',
-    H1: '40px'
+  LineHeight: function LineHeight(target) {
+    var base = {
+      Tiny: 12,
+      XSmall: 14,
+      Small: 16,
+      ParagraphSmall: 20,
+      Body: 20,
+      Paragraph: 24,
+      H3: 24,
+      H2: 32,
+      H1: 40
+    };
+
+    if (target === _index.targets.REACT) {
+      return addPx(base);
+    }
+
+    return base;
   },
   Spacing: {
     XTiny: 2,
@@ -148,23 +162,24 @@ var _default = {
     Med: 500,
     Long: 1000
   },
-  ZIndex: {
-    SendToBack: -1,
-    Base: 0,
-    Hover: 1,
-    Active: 2,
-    Focus: 3,
-    Overlay1: 1000,
-    Overlay2: 2000,
-    Overlay3: 3000,
-    Overlay4: 4000,
-    Overlay5: 5000,
-    Overlay6: 6000,
-    Overlay7: 7000
+  Easing: function Easing(target) {
+    if (target === _index.targets.REACT) {
+      return {
+        Default: 'cubic-bezier(.475,.425,0,.995)'
+      };
+    } // TODO: Define type cubic-bezier?
+
+
+    return {
+      Default: {
+        x1: 0.475,
+        y1: 0.425,
+        x2: 0,
+        y2: 0.995
+      }
+    };
   },
-  Easing: {
-    Default: 'cubic-bezier(.475,.425,0,.995)'
-  },
+  // Convenience values as web consumes both constantly
   MediaQuery: {
     Small: '576px',
     Med: '768px',

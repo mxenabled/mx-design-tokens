@@ -1,7 +1,7 @@
 /*
-** mx-design-tokens (10.0.0)
+** mx-design-tokens (10.1.0)
 **
-** css variables auto-generated on 2021-08-13
+** css variables auto-generated on 2021-09-07
 ** from https://github.com/mxenabled/mx-design-tokens to /css/light.css
 */
 :root {
@@ -10,6 +10,27 @@
   --mx-Color_Brand300: #2F73DA;
   --mx-Color_Brand400: #165ECC;
   --mx-Color_Brand500: #034AB3;
+  --mx-Color_CategoryAutoTransport: #4B9DBC;
+  --mx-Color_CategoryBillsUtilities: #EF8B2C;
+  --mx-Color_CategoryBusinessServices: #B3DE8C;
+  --mx-Color_CategoryEducation: #F8AB3A;
+  --mx-Color_CategoryEntertainment: #AB5B89;
+  --mx-Color_CategoryFeesCharges: #FF9696;
+  --mx-Color_CategoryFinancial: #6BCDDB;
+  --mx-Color_CategoryFoodDining: #58AC7B;
+  --mx-Color_CategoryGiftsDonations: #347AA5;
+  --mx-Color_CategoryHealthFitness: #5C446E;
+  --mx-Color_CategoryHome: #FFD84D;
+  --mx-Color_CategoryIncome: #133F49;
+  --mx-Color_CategoryInvestments: #FF7070;
+  --mx-Color_CategoryKids: #82D196;
+  --mx-Color_CategoryPersonalCare: #338B7A;
+  --mx-Color_CategoryPets: #615BAB;
+  --mx-Color_CategoryShopping: #CF5F84;
+  --mx-Color_CategoryTaxes: #32588D;
+  --mx-Color_CategoryTransfer: #959CA6;
+  --mx-Color_CategoryTravel: #E37434;
+  --mx-Color_CategoryUncategorized: #FA5555;
   --mx-Color_Chart1: #74E4DA;
   --mx-Color_Chart2: #ED64A4;
   --mx-Color_Chart3: #F3DC46;
@@ -222,6 +243,27 @@
   --mx-BackgroundColor_ButtonPrimaryHover: #165ECC;
   --mx-BackgroundColor_ButtonTransparentHover: #EAF1FB;
   --mx-BackgroundColor_Card: #FFFFFF;
+  --mx-BackgroundColor_CategoryAutoTransport: #4B9DBC;
+  --mx-BackgroundColor_CategoryBillsUtilities: #EF8B2C;
+  --mx-BackgroundColor_CategoryBusinessServices: #B3DE8C;
+  --mx-BackgroundColor_CategoryEducation: #F8AB3A;
+  --mx-BackgroundColor_CategoryEntertainment: #AB5B89;
+  --mx-BackgroundColor_CategoryFeesCharges: #FF9696;
+  --mx-BackgroundColor_CategoryFinancial: #6BCDDB;
+  --mx-BackgroundColor_CategoryFoodDining: #58AC7B;
+  --mx-BackgroundColor_CategoryGiftsDonations: #347AA5;
+  --mx-BackgroundColor_CategoryHealthFitness: #5C446E;
+  --mx-BackgroundColor_CategoryHome: #FFD84D;
+  --mx-BackgroundColor_CategoryIncome: #133F49;
+  --mx-BackgroundColor_CategoryInvestments: #FF7070;
+  --mx-BackgroundColor_CategoryKids: #82D196;
+  --mx-BackgroundColor_CategoryPersonalCare: #338B7A;
+  --mx-BackgroundColor_CategoryPets: #615BAB;
+  --mx-BackgroundColor_CategoryShopping: #CF5F84;
+  --mx-BackgroundColor_CategoryTaxes: #32588D;
+  --mx-BackgroundColor_CategoryTransfer: #959CA6;
+  --mx-BackgroundColor_CategoryTravel: #E37434;
+  --mx-BackgroundColor_CategoryUncategorized: #FA5555;
   --mx-BackgroundColor_CheckboxChecked: #EAF1FB;
   --mx-BackgroundColor_CheckboxDisabled: #F8F9FB;
   --mx-BackgroundColor_ChipDefault: transparent;

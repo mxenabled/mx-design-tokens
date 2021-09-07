@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [10.1.0] - 09-07-2021
+
+### Added
+
+- Added core and BackgroundColor tokens for Category colors
+
 ## [10.0.0] - 07-08-2021
 
 ### Changed
