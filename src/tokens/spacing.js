@@ -2,7 +2,7 @@ const light = (core) => ({
   // Globals
   ...core.Spacing,
   // Button
-  ButtonPadding: core.Spacing.Small,
+  ButtonPadding: core.Spacing.Medium,
   // Card
   CardSidePadding: core.Spacing.Medium,
   // Checkbox

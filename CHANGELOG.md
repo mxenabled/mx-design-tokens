@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [10.1.1] - 09-24-2021
+
+### Updated
+
+- Updated the Button padding from `Small` to `Medium` to fit the design system specifications. This makes the side padding 16px instead of 12px
+
 ## [10.1.0] - 09-07-2021
 
 ### Added

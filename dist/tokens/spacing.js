@@ -14,7 +14,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 var light = function light(core) {
   return _objectSpread(_objectSpread({}, core.Spacing), {}, {
     // Button
-    ButtonPadding: core.Spacing.Small,
+    ButtonPadding: core.Spacing.Medium,
     // Card
     CardSidePadding: core.Spacing.Medium,
     // Checkbox

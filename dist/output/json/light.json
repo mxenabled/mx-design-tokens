@@ -176,7 +176,7 @@
     "XXXLarge": 48,
     "Jumbo": 64,
     "SuperJumbo": 96,
-    "ButtonPadding": 12,
+    "ButtonPadding": 16,
     "CardSidePadding": 16,
     "CheckboxLabelMarginLeft": 8,
     "CheckboxLabelMarginRight": 8,
