@@ -40,6 +40,8 @@ const dark = (core) => ({
   Modal: '',
   // SelectionBox
   SelectionBoxShadow: 'none',
+  // Tooltip
+  Tooltip: 'none',
 })
 
 export default {
