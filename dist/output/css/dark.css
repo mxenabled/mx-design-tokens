@@ -1,7 +1,7 @@
 /*
 ** mx-design-tokens (10.1.0)
 **
-** css variables auto-generated on 2021-09-07
+** css variables auto-generated on 2021-09-28
 ** from https://github.com/mxenabled/mx-design-tokens to /css/dark.css
 */
 :root {
@@ -90,7 +90,7 @@
   --mx-BoxShadow_Focus: 0px 0px 0px 2px rgba(82, 138, 224, 0.8);
   --mx-BoxShadow_FocusRingDefault: 0px 0px 0px 2px rgba(82, 138, 224, 0.8);
   --mx-BoxShadow_SelectionBoxShadow: none;
-  --mx-BoxShadow_Tooltip: 0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06);
+  --mx-BoxShadow_Tooltip: none;
   --mx-BorderRadius_Small: 2px;
   --mx-BorderRadius_Medium: 4px;
   --mx-BorderRadius_Large: 8px;

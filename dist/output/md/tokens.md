@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-#### <sup><code>mx-design-tokens (10.1.0)</code> &nbsp; _last generated: 2021-09-07_</sup>
+#### <sup><code>mx-design-tokens (10.1.0)</code> &nbsp; _last generated: 2021-09-28_</sup>
 
 ## 🌞 LIGHT THEME TOKENS
 
@@ -626,7 +626,7 @@
 | DropdownMenu | &nbsp; |
 | Modal | &nbsp; |
 | SelectionBoxShadow | none |
-| Tooltip | 0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06) |
+| Tooltip | none |
 
 ---
 

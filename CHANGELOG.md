@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [10.1.1] - 09-29-2021
+
+### Added
+
+- Added token for the tooltip `boxShadow` to display `'none'` when theme is set to dark.
+
 ## [10.1.0] - 09-07-2021
 
 ### Added
