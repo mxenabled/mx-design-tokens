@@ -155,6 +155,7 @@ export default {
     Overlay5: 5000,
     Overlay6: 6000,
     Overlay7: 7000,
+    Tooltip: 10000,
   },
   Easing: {
     Default: 'cubic-bezier(.475,.425,0,.995)',

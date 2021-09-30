@@ -19,7 +19,7 @@ const light = (core) => ({
   // Modal
   Modal: core.ZIndex.Overlay5,
   // Tooltip
-  Tooltip: core.ZIndex.Overlay7,
+  Tooltip: core.ZIndex.Tooltip,
 })
 
 const dark = (core) => ({

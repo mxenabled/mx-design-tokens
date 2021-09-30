@@ -226,6 +226,7 @@
     "Overlay5": 5000,
     "Overlay6": 6000,
     "Overlay7": 7000,
+    "Tooltip": 10000,
     "Default": 0,
     "Overlay": 1000,
     "Sticky": 2000,
@@ -234,8 +235,7 @@
     "Drawer": 5000,
     "DropdownMenu": 1000,
     "MessageBox": 3000,
-    "Modal": 5000,
-    "Tooltip": 7000
+    "Modal": 5000
   },
   "Easing": {
     "Default": "cubic-bezier(.475,.425,0,.995)"

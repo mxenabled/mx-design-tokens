@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [10.1.2] - 09-30-2021
+
+### Added
+
+- Added a Tooltip `z-index` token of `10000`
+
 ## [10.1.1] - 09-29-2021
 
 ### Added
