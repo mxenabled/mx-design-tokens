@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [10.1.2] - 10-11-2021
+
+### Added
+
+- Added tokens for the Breadcrumbs component
+
 ## [10.1.1] - 09-29-2021
 
 ### Added
