@@ -1,7 +1,7 @@
 /*
-** mx-design-tokens (10.1.1)
+** mx-design-tokens (10.2.0)
 **
-** sass variables auto-generated on 2021-09-29
+** sass variables auto-generated on 2021-10-11
 ** from https://github.com/mxenabled/mx-design-tokens to /scss/light.scss
 */
 $Color: (
@@ -132,6 +132,7 @@ $FontSize: (
   "H3": 20px,
   "H2": 24px,
   "H1": 32px,
+  "Breadcrumbs": 16px,
   "Button": 16px,
   "ButtonLinkLarge": 16px,
   "ButtonLinkSmall": 14px,
@@ -181,6 +182,7 @@ $Spacing: (
   "XXXLarge": 48px,
   "Jumbo": 64px,
   "SuperJumbo": 96px,
+  "BreadcrumbsDividerMargin": 12px,
   "ButtonPadding": 12px,
   "CardSidePadding": 16px,
   "CheckboxLabelMarginLeft": 8px,
@@ -389,6 +391,9 @@ $TextColor: (
   "Error": #DF320C,
   "Secondary": #49505A,
   "Avatar": #121417,
+  "BreadcrumbsLink": #2F73DA,
+  "BreadcrumbsDivider": #6A7381,
+  "BreadcrumbsCurrentRoute": #121417,
   "ButtonDestructive": #FFFFFF,
   "ButtonDestructiveDisabled": #A8B1BD,
   "ButtonLink": #2F73DA,

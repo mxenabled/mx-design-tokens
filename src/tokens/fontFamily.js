@@ -1,6 +1,7 @@
 const light = (core) => ({
   Button: core.Font.Regular,
   Chip: core.Font.Semibold,
+  Breadcrumbs: core.Font.Semibold
 })
 
 const dark = (core) => ({

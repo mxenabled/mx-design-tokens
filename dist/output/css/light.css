@@ -1,7 +1,7 @@
 /*
-** mx-design-tokens (10.1.1)
+** mx-design-tokens (10.2.0)
 **
-** css variables auto-generated on 2021-09-29
+** css variables auto-generated on 2021-10-11
 ** from https://github.com/mxenabled/mx-design-tokens to /css/light.css
 */
 :root {
@@ -124,6 +124,7 @@
   --mx-FontSize_H3: 20px;
   --mx-FontSize_H2: 24px;
   --mx-FontSize_H1: 32px;
+  --mx-FontSize_Breadcrumbs: 16px;
   --mx-FontSize_Button: 16px;
   --mx-FontSize_ButtonLinkLarge: 16px;
   --mx-FontSize_ButtonLinkSmall: 14px;
@@ -165,6 +166,7 @@
   --mx-Spacing_XXXLarge: 48px;
   --mx-Spacing_Jumbo: 64px;
   --mx-Spacing_SuperJumbo: 96px;
+  --mx-Spacing_BreadcrumbsDividerMargin: 12px;
   --mx-Spacing_ButtonPadding: 12px;
   --mx-Spacing_CardSidePadding: 16px;
   --mx-Spacing_CheckboxLabelMarginLeft: 8px;
@@ -357,6 +359,9 @@
   --mx-TextColor_Error: #DF320C;
   --mx-TextColor_Secondary: #49505A;
   --mx-TextColor_Avatar: #121417;
+  --mx-TextColor_BreadcrumbsLink: #2F73DA;
+  --mx-TextColor_BreadcrumbsDivider: #6A7381;
+  --mx-TextColor_BreadcrumbsCurrentRoute: #121417;
   --mx-TextColor_ButtonDestructive: #FFFFFF;
   --mx-TextColor_ButtonDestructiveDisabled: #A8B1BD;
   --mx-TextColor_ButtonLink: #2F73DA;

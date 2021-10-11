@@ -5,9 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -22,6 +22,10 @@ var light = function light(core) {
     Secondary: core.Color.Neutral700,
     // Avatar
     Avatar: core.Color.Neutral900,
+    // Breadcrumbs
+    BreadcrumbsLink: core.Color.Brand300,
+    BreadcrumbsDivider: core.Color.Neutral600,
+    BreadcrumbsCurrentRoute: core.Color.Neutral900,
     // Button
     ButtonDestructive: core.Color.NeutralWhite,
     ButtonDestructiveDisabled: core.Color.Neutral500,
@@ -71,7 +75,7 @@ var light = function light(core) {
 };
 
 var dark = function dark(core) {
-  return _objectSpread(_objectSpread({}, light(core)), {}, {
+  return _objectSpread({}, light(core), {
     // Global
     Active: core.Color.Brand200,
     ActiveHover: core.Color.Brand100,
@@ -81,6 +85,10 @@ var dark = function dark(core) {
     Secondary: core.Color.Neutral500,
     // Avatar
     Avatar: core.Color.NeutralWhite,
+    // Breadcrumbs
+    BreadcrumbsLink: core.Color.Brand200,
+    BreadcrumbsDivider: core.Color.NeutralWhite,
+    BreadcrumbsCurrentRoute: core.Color.NeutralWhite,
     // Button
     ButtonLink: core.Color.Brand200,
     ButtonLinkDisabled: core.Color.Neutral600,

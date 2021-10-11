@@ -1,7 +1,7 @@
 /*
-** mx-design-tokens (10.1.1)
+** mx-design-tokens (10.2.0)
 **
-** css variables auto-generated on 2021-09-29
+** css variables auto-generated on 2021-10-11
 ** from https://github.com/mxenabled/mx-design-tokens to /css/dark.css
 */
 :root {
@@ -118,6 +118,7 @@
   --mx-FontSize_H3: 20px;
   --mx-FontSize_H2: 24px;
   --mx-FontSize_H1: 32px;
+  --mx-FontSize_Breadcrumbs: 16px;
   --mx-FontSize_Button: 16px;
   --mx-FontSize_ButtonLinkLarge: 16px;
   --mx-FontSize_ButtonLinkSmall: 14px;
@@ -159,6 +160,7 @@
   --mx-Spacing_XXXLarge: 48px;
   --mx-Spacing_Jumbo: 64px;
   --mx-Spacing_SuperJumbo: 96px;
+  --mx-Spacing_BreadcrumbsDividerMargin: 12px;
   --mx-Spacing_ButtonPadding: 12px;
   --mx-Spacing_CardSidePadding: 16px;
   --mx-Spacing_CheckboxLabelMarginLeft: 8px;
@@ -352,6 +354,9 @@
   --mx-TextColor_Error: #F45532;
   --mx-TextColor_Secondary: #A8B1BD;
   --mx-TextColor_Avatar: #FFFFFF;
+  --mx-TextColor_BreadcrumbsLink: #6FA1EC;
+  --mx-TextColor_BreadcrumbsDivider: #FFFFFF;
+  --mx-TextColor_BreadcrumbsCurrentRoute: #FFFFFF;
   --mx-TextColor_ButtonDestructive: #FFFFFF;
   --mx-TextColor_ButtonDestructiveDisabled: #A8B1BD;
   --mx-TextColor_ButtonLink: #6FA1EC;

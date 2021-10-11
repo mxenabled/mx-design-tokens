@@ -1,6 +1,8 @@
 const light = (core) => ({
   // Globals
   ...core.FontSize,
+  // Breadcrumbs
+  Breadcrumbs: core.FontSize.Body,
   // Button
   Button: core.FontSize.Body,
   ButtonLinkLarge: core.FontSize.Body,
