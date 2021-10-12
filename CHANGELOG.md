@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [10.2.1] - 10-12-2021
+
+### Fixed
+
+- Fixed the font size token for breadcrumbs
+
 ## [10.2.0] - 10-11-2021
 
 ### Added
