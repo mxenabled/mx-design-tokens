@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-#### <sup><code>mx-design-tokens (10.2.0)</code> &nbsp; _last generated: 2021-10-11_</sup>
+#### <sup><code>mx-design-tokens (10.2.1)</code> &nbsp; _last generated: 2021-10-12_</sup>
 
 ## 🌞 LIGHT THEME TOKENS
 
@@ -155,7 +155,7 @@
 | H3 | 20 |
 | H2 | 24 |
 | H1 | 32 |
-| Breadcrumbs | 16 |
+| Breadcrumbs | 14 |
 | Button | 16 |
 | ButtonLinkLarge | 16 |
 | ButtonLinkSmall | 14 |
@@ -673,7 +673,7 @@
 | H3 | 20 |
 | H2 | 24 |
 | H1 | 32 |
-| Breadcrumbs | 16 |
+| Breadcrumbs | 14 |
 | Button | 16 |
 | ButtonLinkLarge | 16 |
 | ButtonLinkSmall | 14 |

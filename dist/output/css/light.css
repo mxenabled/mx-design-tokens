@@ -1,7 +1,7 @@
 /*
-** mx-design-tokens (10.2.0)
+** mx-design-tokens (10.2.1)
 **
-** css variables auto-generated on 2021-10-11
+** css variables auto-generated on 2021-10-12
 ** from https://github.com/mxenabled/mx-design-tokens to /css/light.css
 */
 :root {
@@ -124,7 +124,7 @@
   --mx-FontSize_H3: 20px;
   --mx-FontSize_H2: 24px;
   --mx-FontSize_H1: 32px;
-  --mx-FontSize_Breadcrumbs: 16px;
+  --mx-FontSize_Breadcrumbs: 14px;
   --mx-FontSize_Button: 16px;
   --mx-FontSize_ButtonLinkLarge: 16px;
   --mx-FontSize_ButtonLinkSmall: 14px;
