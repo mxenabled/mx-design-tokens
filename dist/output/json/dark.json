@@ -344,7 +344,7 @@
     "TagWarning": "#FFB400",
     "TableRowHover": "#49505A",
     "TableFooter": "#49505A",
-    "Tooltip": "#49505A",
+    "Tooltip": "#E4E8EE",
     "ButtonLinkDestructiveHover": "#49505A"
   },
   "BorderColor": {
@@ -426,7 +426,7 @@
     "TagPrimary": "#FFFFFF",
     "TagSuccess": "#FFFFFF",
     "TagWarning": "#1F2329",
-    "Tooltip": "#FFFFFF",
+    "Tooltip": "#121417",
     "ButtonLinkDisabled": "#6A7381"
   }
 }

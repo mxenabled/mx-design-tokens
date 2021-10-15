@@ -13,6 +13,7 @@ var _index = require("./index");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
+// Shared modifications
 var updatedBoxShadow = (0, _utils.updateValues)(_core["default"].BoxShadow, '');
 var updatedEasing = (0, _utils.updateValues)(_core["default"].Easing, {
   x1: 0.475,

@@ -1,7 +1,7 @@
 /*
 ** mx-design-tokens (10.2.1)
 **
-** css variables auto-generated on 2021-10-12
+** css variables auto-generated on 2021-10-15
 ** from https://github.com/mxenabled/mx-design-tokens to /css/dark.css
 */
 :root {
@@ -313,7 +313,7 @@
   --mx-BackgroundColor_TagWarning: #FFB400;
   --mx-BackgroundColor_TableRowHover: #49505A;
   --mx-BackgroundColor_TableFooter: #49505A;
-  --mx-BackgroundColor_Tooltip: #49505A;
+  --mx-BackgroundColor_Tooltip: #E4E8EE;
   --mx-BackgroundColor_ButtonLinkDestructiveHover: #49505A;
   --mx-BorderColor_Error: #F45532;
   --mx-BorderColor_ButtonLinkHover: #FFFFFF;
@@ -391,6 +391,6 @@
   --mx-TextColor_TagPrimary: #FFFFFF;
   --mx-TextColor_TagSuccess: #FFFFFF;
   --mx-TextColor_TagWarning: #1F2329;
-  --mx-TextColor_Tooltip: #FFFFFF;
+  --mx-TextColor_Tooltip: #121417;
   --mx-TextColor_ButtonLinkDisabled: #6A7381;
 }
