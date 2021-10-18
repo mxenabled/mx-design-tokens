@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-#### <sup><code>mx-design-tokens (10.2.1)</code> &nbsp; _last generated: 2021-10-12_</sup>
+#### <sup><code>mx-design-tokens (10.2.1)</code> &nbsp; _last generated: 2021-10-15_</sup>
 
 ## 🌞 LIGHT THEME TOKENS
 
@@ -940,7 +940,7 @@
 | TagWarning | #FFB400 | [![#FFB400](https://via.placeholder.com/32x16/FFB400/000000?text=+)](https://www.colorhexa.com/FFB400) |
 | TableRowHover | #49505A | [![#49505A](https://via.placeholder.com/32x16/49505A/000000?text=+)](https://www.colorhexa.com/49505A) |
 | TableFooter | #49505A | [![#49505A](https://via.placeholder.com/32x16/49505A/000000?text=+)](https://www.colorhexa.com/49505A) |
-| Tooltip | #49505A | [![#49505A](https://via.placeholder.com/32x16/49505A/000000?text=+)](https://www.colorhexa.com/49505A) |
+| Tooltip | #E4E8EE | [![#E4E8EE](https://via.placeholder.com/32x16/E4E8EE/000000?text=+)](https://www.colorhexa.com/E4E8EE) |
 | ButtonLinkDestructiveHover | #49505A | [![#49505A](https://via.placeholder.com/32x16/49505A/000000?text=+)](https://www.colorhexa.com/49505A) |
 
 ---
@@ -1032,7 +1032,7 @@
 | TagPrimary | #FFFFFF | [![#FFFFFF](https://via.placeholder.com/32x16/FFFFFF/000000?text=+)](https://www.colorhexa.com/FFFFFF) |
 | TagSuccess | #FFFFFF | [![#FFFFFF](https://via.placeholder.com/32x16/FFFFFF/000000?text=+)](https://www.colorhexa.com/FFFFFF) |
 | TagWarning | #1F2329 | [![#1F2329](https://via.placeholder.com/32x16/1F2329/000000?text=+)](https://www.colorhexa.com/1F2329) |
-| Tooltip | #FFFFFF | [![#FFFFFF](https://via.placeholder.com/32x16/FFFFFF/000000?text=+)](https://www.colorhexa.com/FFFFFF) |
+| Tooltip | #121417 | [![#121417](https://via.placeholder.com/32x16/121417/000000?text=+)](https://www.colorhexa.com/121417) |
 | ButtonLinkDisabled | #6A7381 | [![#6A7381](https://via.placeholder.com/32x16/6A7381/000000?text=+)](https://www.colorhexa.com/6A7381) |
 
 ---

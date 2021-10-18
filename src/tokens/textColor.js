@@ -114,6 +114,8 @@ const dark = (core) => ({
   TagPrimary: core.Color.NeutralWhite,
   TagSuccess: core.Color.NeutralWhite,
   TagWarning: core.Color.Neutral800,
+  // Tooltip
+  Tooltip: core.Color.Neutral900,
 })
 
 export default {

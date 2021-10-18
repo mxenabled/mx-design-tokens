@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [10.2.2] - 10-15-2021
+
+### Updated
+
+- Updated the dark background for the tooltip to `neutral900`, as per design.
+
 ## [10.2.1] - 10-12-2021
 
 ### Fixed
