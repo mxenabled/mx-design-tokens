@@ -13,6 +13,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 var light = function light(core) {
   return _objectSpread(_objectSpread({}, core.FontSize), {}, {
+    // Breadcrumbs
+    Breadcrumbs: core.FontSize.Small,
     // Button
     Button: core.FontSize.Body,
     ButtonLinkLarge: core.FontSize.Body,

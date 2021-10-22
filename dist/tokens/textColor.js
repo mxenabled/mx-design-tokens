@@ -22,6 +22,10 @@ var light = function light(core) {
     Secondary: core.Color.Neutral700,
     // Avatar
     Avatar: core.Color.Neutral900,
+    // Breadcrumbs
+    BreadcrumbsLink: core.Color.Brand300,
+    BreadcrumbsDivider: core.Color.Neutral600,
+    BreadcrumbsCurrentRoute: core.Color.Neutral900,
     // Button
     ButtonDestructive: core.Color.NeutralWhite,
     ButtonDestructiveDisabled: core.Color.Neutral500,
@@ -81,6 +85,10 @@ var dark = function dark(core) {
     Secondary: core.Color.Neutral500,
     // Avatar
     Avatar: core.Color.NeutralWhite,
+    // Breadcrumbs
+    BreadcrumbsLink: core.Color.Brand200,
+    BreadcrumbsDivider: core.Color.NeutralWhite,
+    BreadcrumbsCurrentRoute: core.Color.NeutralWhite,
     // Button
     ButtonLink: core.Color.Brand200,
     ButtonLinkDisabled: core.Color.Neutral600,
@@ -120,7 +128,9 @@ var dark = function dark(core) {
     TagNeutral: core.Color.NeutralWhite,
     TagPrimary: core.Color.NeutralWhite,
     TagSuccess: core.Color.NeutralWhite,
-    TagWarning: core.Color.Neutral800
+    TagWarning: core.Color.Neutral800,
+    // Tooltip
+    Tooltip: core.Color.Neutral900
   });
 };
 

@@ -8,6 +8,10 @@ const light = (core) => ({
   Secondary: core.Color.Neutral700,
   // Avatar
   Avatar: core.Color.Neutral900,
+  // Breadcrumbs
+  BreadcrumbsLink: core.Color.Brand300,
+  BreadcrumbsDivider: core.Color.Neutral600,
+  BreadcrumbsCurrentRoute: core.Color.Neutral900,
   // Button
   ButtonDestructive: core.Color.NeutralWhite,
   ButtonDestructiveDisabled: core.Color.Neutral500,
@@ -66,6 +70,10 @@ const dark = (core) => ({
   Secondary: core.Color.Neutral500,
   // Avatar
   Avatar: core.Color.NeutralWhite,
+  // Breadcrumbs
+  BreadcrumbsLink: core.Color.Brand200,
+  BreadcrumbsDivider: core.Color.NeutralWhite,
+  BreadcrumbsCurrentRoute: core.Color.NeutralWhite,
   // Button
   ButtonLink: core.Color.Brand200,
   ButtonLinkDisabled: core.Color.Neutral600,
@@ -106,6 +114,8 @@ const dark = (core) => ({
   TagPrimary: core.Color.NeutralWhite,
   TagSuccess: core.Color.NeutralWhite,
   TagWarning: core.Color.Neutral800,
+  // Tooltip
+  Tooltip: core.Color.Neutral900,
 })
 
 export default {

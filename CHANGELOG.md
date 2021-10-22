@@ -7,11 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [10.1.2] - 09-30-2021
+## [10.2.3] - 10-22-2021
 
 ### Added
 
 - Added a Tooltip `z-index` token of `10000`
+
+## [10.2.2] - 10-18-2021
+
+### Updated
+
+- Updated the dark background for the tooltip to `neutral900`, as per design.
+
+## [10.2.1] - 10-12-2021
+
+### Fixed
+
+- Fixed the font size token for breadcrumbs
+
+## [10.2.0] - 10-11-2021
+
+### Added
+
+- Added tokens for the Breadcrumbs component
 
 ## [10.1.1] - 09-29-2021
 

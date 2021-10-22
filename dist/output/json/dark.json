@@ -127,6 +127,7 @@
     "H3": 20,
     "H2": 24,
     "H1": 32,
+    "Breadcrumbs": 14,
     "Button": 16,
     "ButtonLinkLarge": 16,
     "ButtonLinkSmall": 14,
@@ -176,6 +177,7 @@
     "XXXLarge": 48,
     "Jumbo": 64,
     "SuperJumbo": 96,
+    "BreadcrumbsDividerMargin": 12,
     "ButtonPadding": 12,
     "CardSidePadding": 16,
     "CheckboxLabelMarginLeft": 8,
@@ -342,7 +344,7 @@
     "TagWarning": "#FFB400",
     "TableRowHover": "#49505A",
     "TableFooter": "#49505A",
-    "Tooltip": "#49505A",
+    "Tooltip": "#E4E8EE",
     "ButtonLinkDestructiveHover": "#49505A"
   },
   "BorderColor": {
@@ -387,6 +389,9 @@
     "Error": "#F45532",
     "Secondary": "#A8B1BD",
     "Avatar": "#FFFFFF",
+    "BreadcrumbsLink": "#6FA1EC",
+    "BreadcrumbsDivider": "#FFFFFF",
+    "BreadcrumbsCurrentRoute": "#FFFFFF",
     "ButtonDestructive": "#FFFFFF",
     "ButtonDestructiveDisabled": "#A8B1BD",
     "ButtonLink": "#6FA1EC",
@@ -421,7 +426,7 @@
     "TagPrimary": "#FFFFFF",
     "TagSuccess": "#FFFFFF",
     "TagWarning": "#1F2329",
-    "Tooltip": "#FFFFFF",
+    "Tooltip": "#121417",
     "ButtonLinkDisabled": "#6A7381"
   }
 }

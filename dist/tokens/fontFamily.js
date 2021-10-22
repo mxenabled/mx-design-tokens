@@ -14,7 +14,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 var light = function light(core) {
   return {
     Button: core.Font.Regular,
-    Chip: core.Font.Semibold
+    Chip: core.Font.Semibold,
+    Breadcrumbs: core.Font.Semibold
   };
 };
 
