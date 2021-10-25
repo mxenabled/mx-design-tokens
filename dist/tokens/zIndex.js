@@ -33,7 +33,7 @@ var light = function light(core) {
     // Modal
     Modal: core.ZIndex.Overlay5,
     // Tooltip
-    Tooltip: core.ZIndex.Overlay7
+    Tooltip: core.ZIndex.Overlay10
   };
 };
 
