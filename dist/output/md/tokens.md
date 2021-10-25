@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-#### <sup><code>mx-design-tokens (10.2.3)</code> &nbsp; _last generated: 2021-10-22_</sup>
+#### <sup><code>mx-design-tokens (10.2.3)</code> &nbsp; _last generated: 2021-10-25_</sup>
 
 ## 🌞 LIGHT THEME TOKENS
 
@@ -286,7 +286,9 @@
 | Overlay5 | 5000 |
 | Overlay6 | 6000 |
 | Overlay7 | 7000 |
-| Tooltip | 10000 |
+| Overlay8 | 8000 |
+| Overlay9 | 9000 |
+| Overlay10 | 10000 |
 | Default | 0 |
 | Overlay | 1000 |
 | Sticky | 2000 |
@@ -296,6 +298,7 @@
 | DropdownMenu | 1000 |
 | MessageBox | 3000 |
 | Modal | 5000 |
+| Tooltip | 10000 |
 
 ---
 
@@ -804,7 +807,9 @@
 | Overlay5 | 5000 |
 | Overlay6 | 6000 |
 | Overlay7 | 7000 |
-| Tooltip | 10000 |
+| Overlay8 | 8000 |
+| Overlay9 | 9000 |
+| Overlay10 | 10000 |
 | Default | 0 |
 | Overlay | 1000 |
 | Sticky | 2000 |
@@ -814,6 +819,7 @@
 | DropdownMenu | 1000 |
 | MessageBox | 3000 |
 | Modal | 5000 |
+| Tooltip | 10000 |
 
 ---
 

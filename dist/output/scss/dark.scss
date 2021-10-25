@@ -1,7 +1,7 @@
 /*
 ** mx-design-tokens (10.2.3)
 **
-** sass variables auto-generated on 2021-10-22
+** sass variables auto-generated on 2021-10-25
 ** from https://github.com/mxenabled/mx-design-tokens to /scss/dark.scss
 */
 $Color: (
@@ -226,7 +226,9 @@ $ZIndex: (
   "Overlay5": 5000,
   "Overlay6": 6000,
   "Overlay7": 7000,
-  "Tooltip": 10000,
+  "Overlay8": 8000,
+  "Overlay9": 9000,
+  "Overlay10": 10000,
   "Overlay": 1000,
   "Sticky": 2000,
   "Fixed": 3000,
@@ -235,6 +237,7 @@ $ZIndex: (
   "DropdownMenu": 1000,
   "MessageBox": 3000,
   "Modal": 5000,
+  "Tooltip": 10000,
 );
 $Easing: (
   "Default": cubic-bezier(.475,.425,0,.995),

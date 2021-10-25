@@ -161,7 +161,9 @@ var _default = {
     Overlay5: 5000,
     Overlay6: 6000,
     Overlay7: 7000,
-    Tooltip: 10000
+    Overlay8: 8000,
+    Overlay9: 9000,
+    Overlay10: 10000
   },
   Easing: {
     Default: 'cubic-bezier(.475,.425,0,.995)'

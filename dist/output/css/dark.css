@@ -1,7 +1,7 @@
 /*
 ** mx-design-tokens (10.2.3)
 **
-** css variables auto-generated on 2021-10-22
+** css variables auto-generated on 2021-10-25
 ** from https://github.com/mxenabled/mx-design-tokens to /css/dark.css
 */
 :root {
@@ -206,7 +206,9 @@
   --mx-ZIndex_Overlay5: 5000;
   --mx-ZIndex_Overlay6: 6000;
   --mx-ZIndex_Overlay7: 7000;
-  --mx-ZIndex_Tooltip: 10000;
+  --mx-ZIndex_Overlay8: 8000;
+  --mx-ZIndex_Overlay9: 9000;
+  --mx-ZIndex_Overlay10: 10000;
   --mx-ZIndex_Overlay: 1000;
   --mx-ZIndex_Sticky: 2000;
   --mx-ZIndex_Fixed: 3000;
@@ -215,6 +217,7 @@
   --mx-ZIndex_DropdownMenu: 1000;
   --mx-ZIndex_MessageBox: 3000;
   --mx-ZIndex_Modal: 5000;
+  --mx-ZIndex_Tooltip: 10000;
   --mx-Easing_Default: cubic-bezier(.475,.425,0,.995);
   --mx-MediaQuery_Small: 576px;
   --mx-MediaQuery_Med: 768px;

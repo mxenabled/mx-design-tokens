@@ -7,11 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [10.2.3] - 10-22-2021
+## [10.2.3] - 10-25-2021
 
 ### Added
 
-- Added a Tooltip `z-index` token of `10000`
+- Added a `Overlay8`, `Overlay9`, and `Overlay10` to `core`, then added `Tooltip: core.ZIndex.Overlay10`
 
 ## [10.2.2] - 10-18-2021
 
