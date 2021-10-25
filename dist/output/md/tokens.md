@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-#### <sup><code>mx-design-tokens (10.2.3)</code> &nbsp; _last generated: 2021-10-25_</sup>
+#### <sup><code>mx-design-tokens (10.3.0)</code> &nbsp; _last generated: 2021-10-25_</sup>
 
 ## 🌞 LIGHT THEME TOKENS
 
