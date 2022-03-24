@@ -127,6 +127,7 @@
     "H3": 20,
     "H2": 24,
     "H1": 32,
+    "Breadcrumbs": 14,
     "Button": 16,
     "ButtonLinkLarge": 16,
     "ButtonLinkSmall": 14,
@@ -176,6 +177,7 @@
     "XXXLarge": 48,
     "Jumbo": 64,
     "SuperJumbo": 96,
+    "BreadcrumbsDividerMargin": 12,
     "ButtonPadding": 16,
     "CardSidePadding": 16,
     "CheckboxLabelMarginLeft": 8,
@@ -226,6 +228,9 @@
     "Overlay5": 5000,
     "Overlay6": 6000,
     "Overlay7": 7000,
+    "Overlay8": 8000,
+    "Overlay9": 9000,
+    "Overlay10": 10000,
     "Default": 0,
     "Overlay": 1000,
     "Sticky": 2000,
@@ -235,7 +240,7 @@
     "DropdownMenu": 1000,
     "MessageBox": 3000,
     "Modal": 5000,
-    "Tooltip": 7000
+    "Tooltip": 10000
   },
   "Easing": {
     "Default": "cubic-bezier(.475,.425,0,.995)"
@@ -386,6 +391,9 @@
     "Error": "#DF320C",
     "Secondary": "#49505A",
     "Avatar": "#121417",
+    "BreadcrumbsLink": "#2F73DA",
+    "BreadcrumbsDivider": "#6A7381",
+    "BreadcrumbsCurrentRoute": "#121417",
     "ButtonDestructive": "#FFFFFF",
     "ButtonDestructiveDisabled": "#A8B1BD",
     "ButtonLink": "#2F73DA",

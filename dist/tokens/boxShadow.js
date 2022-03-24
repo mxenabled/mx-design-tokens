@@ -54,7 +54,9 @@ var dark = function dark(core) {
     // Modal
     Modal: '',
     // SelectionBox
-    SelectionBoxShadow: 'none'
+    SelectionBoxShadow: 'none',
+    // Tooltip
+    Tooltip: 'none'
   });
 };
 

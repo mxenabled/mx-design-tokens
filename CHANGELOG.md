@@ -7,11 +7,41 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [10.1.1] - 09-24-2021
+## [10.3.1] - 03-28-2021
 
 ### Updated
 
 - Updated the Button padding from `Small` to `Medium` to fit the design system specifications. This makes the side padding 16px instead of 12px
+
+## [10.3.0] - 10-25-2021
+
+### Added
+
+- Added a `Overlay8`, `Overlay9`, and `Overlay10` to `core`, then added `Tooltip: core.ZIndex.Overlay10`
+
+## [10.2.2] - 10-18-2021
+
+### Updated
+
+- Updated the dark background for the tooltip to `neutral900`, as per design.
+
+## [10.2.1] - 10-12-2021
+
+### Fixed
+
+- Fixed the font size token for breadcrumbs
+
+## [10.2.0] - 10-11-2021
+
+### Added
+
+- Added tokens for the Breadcrumbs component
+
+## [10.1.1] - 09-29-2021
+
+### Added
+
+- Added token for the tooltip `boxShadow` to display `'none'` when theme is set to dark.
 
 ## [10.1.0] - 09-07-2021
 

@@ -234,7 +234,7 @@ var dark = function dark(core) {
     TableRowHover: core.Color.Neutral700,
     TableFooter: core.Color.Neutral700,
     // Tooltip
-    Tooltip: core.Color.Neutral700
+    Tooltip: core.Color.Neutral300
   });
 };
 

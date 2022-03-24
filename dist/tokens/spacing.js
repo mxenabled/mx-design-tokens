@@ -13,6 +13,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 var light = function light(core) {
   return _objectSpread(_objectSpread({}, core.Spacing), {}, {
+    // Breadcrumbs
+    BreadcrumbsDividerMargin: core.Spacing.Small,
     // Button
     ButtonPadding: core.Spacing.Medium,
     // Card

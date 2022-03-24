@@ -1,7 +1,7 @@
 /*
-** mx-design-tokens (10.1.0)
+** mx-design-tokens (10.3.1)
 **
-** sass variables auto-generated on 2021-09-27
+** sass variables auto-generated on 2022-03-24
 ** from https://github.com/mxenabled/mx-design-tokens to /scss/dark.scss
 */
 $Color: (
@@ -94,7 +94,7 @@ $BoxShadow: (
   "Focus": "0px 0px 0px 2px rgba(82, 138, 224, 0.8)",
   "FocusRingDefault": "0px 0px 0px 2px rgba(82, 138, 224, 0.8)",
   "SelectionBoxShadow": none,
-  "Tooltip": "0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06)",
+  "Tooltip": none,
 );
 $BorderRadius: (
   "Small": 2px,
@@ -126,6 +126,7 @@ $FontSize: (
   "H3": 20px,
   "H2": 24px,
   "H1": 32px,
+  "Breadcrumbs": 14px,
   "Button": 16px,
   "ButtonLinkLarge": 16px,
   "ButtonLinkSmall": 14px,
@@ -175,6 +176,7 @@ $Spacing: (
   "XXXLarge": 48px,
   "Jumbo": 64px,
   "SuperJumbo": 96px,
+  "BreadcrumbsDividerMargin": 12px,
   "ButtonPadding": 16px,
   "CardSidePadding": 16px,
   "CheckboxLabelMarginLeft": 8px,
@@ -224,6 +226,9 @@ $ZIndex: (
   "Overlay5": 5000,
   "Overlay6": 6000,
   "Overlay7": 7000,
+  "Overlay8": 8000,
+  "Overlay9": 9000,
+  "Overlay10": 10000,
   "Overlay": 1000,
   "Sticky": 2000,
   "Fixed": 3000,
@@ -232,7 +237,7 @@ $ZIndex: (
   "DropdownMenu": 1000,
   "MessageBox": 3000,
   "Modal": 5000,
-  "Tooltip": 7000,
+  "Tooltip": 10000,
 );
 $Easing: (
   "Default": cubic-bezier(.475,.425,0,.995),
@@ -339,7 +344,7 @@ $BackgroundColor: (
   "TagWarning": #FFB400,
   "TableRowHover": #49505A,
   "TableFooter": #49505A,
-  "Tooltip": #49505A,
+  "Tooltip": #E4E8EE,
   "ButtonLinkDestructiveHover": #49505A,
 );
 $BorderColor: (
@@ -384,6 +389,9 @@ $TextColor: (
   "Error": #F45532,
   "Secondary": #A8B1BD,
   "Avatar": #FFFFFF,
+  "BreadcrumbsLink": #6FA1EC,
+  "BreadcrumbsDivider": #FFFFFF,
+  "BreadcrumbsCurrentRoute": #FFFFFF,
   "ButtonDestructive": #FFFFFF,
   "ButtonDestructiveDisabled": #A8B1BD,
   "ButtonLink": #6FA1EC,
@@ -418,6 +426,6 @@ $TextColor: (
   "TagPrimary": #FFFFFF,
   "TagSuccess": #FFFFFF,
   "TagWarning": #1F2329,
-  "Tooltip": #FFFFFF,
+  "Tooltip": #121417,
   "ButtonLinkDisabled": #6A7381,
 );
