@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-#### <sup><code>mx-design-tokens (10.3.0)</code> &nbsp; _last generated: 2021-10-25_</sup>
+#### <sup><code>mx-design-tokens (10.3.0)</code> &nbsp; _last generated: 2022-03-24_</sup>
 
 ## 🌞 LIGHT THEME TOKENS
 
@@ -627,12 +627,12 @@
 | Right | 1px 0px 8px rgba(106, 115, 129, 0.22) |
 | Focus | 0px 0px 0px 2px rgba(82, 138, 224, 0.8) |
 | FocusRingDefault | 0px 0px 0px 2px rgba(82, 138, 224, 0.8) |
-| BottomBar | &nbsp; |
-| Card | &nbsp; |
-| Container | &nbsp; |
-| Drawer | &nbsp; |
-| DropdownMenu | &nbsp; |
-| Modal | &nbsp; |
+| BottomBar | none |
+| Card | none |
+| Container | none |
+| Drawer | none |
+| DropdownMenu | none |
+| Modal | none |
 | SelectionBoxShadow | none |
 | Tooltip | none |
 
