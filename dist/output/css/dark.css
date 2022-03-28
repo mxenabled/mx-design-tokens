@@ -1,7 +1,7 @@
 /*
-** mx-design-tokens (10.3.0)
+** mx-design-tokens (10.3.1)
 **
-** css variables auto-generated on 2021-10-25
+** css variables auto-generated on 2022-03-24
 ** from https://github.com/mxenabled/mx-design-tokens to /css/dark.css
 */
 :root {
@@ -161,7 +161,7 @@
   --mx-Spacing_Jumbo: 64px;
   --mx-Spacing_SuperJumbo: 96px;
   --mx-Spacing_BreadcrumbsDividerMargin: 12px;
-  --mx-Spacing_ButtonPadding: 12px;
+  --mx-Spacing_ButtonPadding: 16px;
   --mx-Spacing_CardSidePadding: 16px;
   --mx-Spacing_CheckboxLabelMarginLeft: 8px;
   --mx-Spacing_CheckboxLabelMarginRight: 8px;

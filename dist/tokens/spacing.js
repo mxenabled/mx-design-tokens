@@ -16,7 +16,7 @@ var light = function light(core) {
     // Breadcrumbs
     BreadcrumbsDividerMargin: core.Spacing.Small,
     // Button
-    ButtonPadding: core.Spacing.Small,
+    ButtonPadding: core.Spacing.Medium,
     // Card
     CardSidePadding: core.Spacing.Medium,
     // Checkbox
