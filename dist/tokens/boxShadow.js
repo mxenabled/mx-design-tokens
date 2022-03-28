@@ -42,17 +42,17 @@ var light = function light(core) {
 var dark = function dark(core) {
   return _objectSpread(_objectSpread({}, light(core)), {}, {
     // Bottom Bar
-    BottomBar: '',
+    BottomBar: 'none',
     // Card
-    Card: '',
+    Card: 'none',
     // Container
-    Container: '',
+    Container: 'none',
     // Drawer
-    Drawer: '',
+    Drawer: 'none',
     // Dropdown
-    DropdownMenu: '',
+    DropdownMenu: 'none',
     // Modal
-    Modal: '',
+    Modal: 'none',
     // SelectionBox
     SelectionBoxShadow: 'none',
     // Tooltip

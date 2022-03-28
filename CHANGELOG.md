@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [10.3.2] - 03-28-2022
+
+### Changed
+
+- Changed dark mode BoxShadow values from an empty string to 'none' so the CSS is valid
+
 ## [10.3.1] - 03-28-2022
 
 ### Updated
