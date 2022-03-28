@@ -7,11 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [10.3.1] - 03-28-2022
+## [10.3.2] - 03-28-2022
 
 ### Changed
 
 - Changed dark mode BoxShadow values from an empty string to 'none' so the CSS is valid
+
+## [10.3.1] - 03-28-2022
+
+### Updated
+
+- Updated the Button padding from `Small` to `Medium` to fit the design system specifications. This makes the side padding 16px instead of 12px
 
 ## [10.3.0] - 10-25-2021
 

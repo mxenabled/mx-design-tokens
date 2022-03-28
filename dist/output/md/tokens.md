@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-#### <sup><code>mx-design-tokens (10.3.2)</code> &nbsp; _last generated: 2022-03-24_</sup>
+#### <sup><code>mx-design-tokens (10.3.2)</code> &nbsp; _last generated: 2022-03-28_</sup>
 
 ## 🌞 LIGHT THEME TOKENS
 
@@ -226,7 +226,7 @@
 | Jumbo | 64 |
 | SuperJumbo | 96 |
 | BreadcrumbsDividerMargin | 12 |
-| ButtonPadding | 12 |
+| ButtonPadding | 16 |
 | CardSidePadding | 16 |
 | CheckboxLabelMarginLeft | 8 |
 | CheckboxLabelMarginRight | 8 |
@@ -747,7 +747,7 @@
 | Jumbo | 64 |
 | SuperJumbo | 96 |
 | BreadcrumbsDividerMargin | 12 |
-| ButtonPadding | 12 |
+| ButtonPadding | 16 |
 | CardSidePadding | 16 |
 | CheckboxLabelMarginLeft | 8 |
 | CheckboxLabelMarginRight | 8 |
