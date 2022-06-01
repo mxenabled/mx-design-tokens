@@ -51,7 +51,7 @@ export default {
     Neutral900: '#121417',
     Primary100: '#EAF1FB',
     Primary200: '#6FA1EC',
-    Primary300: '#2F73DA',
+    Primary300: '#2C64EF',
     Primary400: '#165ECC',
     Primary500: '#034AB3',
     Success100: '#DDFDED',

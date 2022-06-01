@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [10.3.3] - 06-01-2022
+
+### Changed
+
+- Changed primary 300 to match marketing's new sytle guide
+
 ## [10.3.2] - 03-28-2022
 
 ### Changed
