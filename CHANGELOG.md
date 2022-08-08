@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [10.3.3] - 08-08-2022
+
+### Changed
+
+- Updated the Brand and Primary colors to match the new colors from the design team.
+
 ## [10.3.2] - 03-28-2022
 
 ### Changed
