@@ -47,7 +47,7 @@ function getDocsContent(themeName) {
       if (t.colorKeys.indexOf(key) !== -1) {
         if (value && value.indexOf('#') !== -1) {
           let c = value.split('#')[1]
-          md += `| ${childKey} | ${value} | [![${value}](https://via.placeholder.com/32x16/${c}/000000?text=+)](https://www.colorhexa.com/${c}) |\n`
+          md += `| ${childKey} | ${value} | ![${value}](https://via.placeholder.com/32/${c}/${c}.png) |\n`
         } else {
           md += `| ${childKey} | ${value} | &nbsp; |\n`
         }

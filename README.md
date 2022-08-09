@@ -72,9 +72,12 @@ npm run build:all
 
 ## Publishing to NPM
 
-In order to make sure your changes make it to NPM you need to do the following **before** publishing to NPM:
+In order to make sure your changes make it to NPM you need to do the following steps in order:
 
 1. After adding/changing tokens in `src` be sure to run `npm run build:all` to ensure all output files are up to date
 2. Update the package version in `package.json`
 3. Update the `CHANGELOG.md`
-4. Merge the code into master
+4. Merge the code into `master`
+5. Checkout the `master` branch
+6. Run `npm publish`
+7. Enter your OTP(one time password). This is the code from your 2 factor authentication for npm.
