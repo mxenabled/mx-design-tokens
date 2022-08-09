@@ -78,3 +78,5 @@ In order to make sure your changes make it to NPM you need to do the following *
 2. Update the package version in `package.json`
 3. Update the `CHANGELOG.md`
 4. Merge the code into master
+
+Now you can run `npm publish`
