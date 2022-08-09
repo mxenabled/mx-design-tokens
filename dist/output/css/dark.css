@@ -1,15 +1,15 @@
 /*
-** mx-design-tokens (10.3.2)
+** mx-design-tokens (10.3.3)
 **
 ** css variables auto-generated on 2022-08-09
 ** from https://github.com/mxenabled/mx-design-tokens to /css/dark.css
 */
 :root {
-  --mx-Color_Brand100: #EAF1FB;
-  --mx-Color_Brand200: #6FA1EC;
-  --mx-Color_Brand300: #2F73DA;
-  --mx-Color_Brand400: #165ECC;
-  --mx-Color_Brand500: #034AB3;
+  --mx-Color_Brand100: #E7F0FE;
+  --mx-Color_Brand200: #69A1FA;
+  --mx-Color_Brand300: #2D64EF;
+  --mx-Color_Brand400: #095ADB;
+  --mx-Color_Brand500: #0749B2;
   --mx-Color_CategoryAutoTransport: #4B9DBC;
   --mx-Color_CategoryBillsUtilities: #EF8B2C;
   --mx-Color_CategoryBusinessServices: #B3DE8C;
@@ -54,11 +54,11 @@
   --mx-Color_Neutral700: #49505A;
   --mx-Color_Neutral800: #1F2329;
   --mx-Color_Neutral900: #121417;
-  --mx-Color_Primary100: #EAF1FB;
-  --mx-Color_Primary200: #6FA1EC;
-  --mx-Color_Primary300: #2F73DA;
-  --mx-Color_Primary400: #165ECC;
-  --mx-Color_Primary500: #034AB3;
+  --mx-Color_Primary100: #E7F0FE;
+  --mx-Color_Primary200: #69A1FA;
+  --mx-Color_Primary300: #2D64EF;
+  --mx-Color_Primary400: #095ADB;
+  --mx-Color_Primary500: #0749B2;
   --mx-Color_Success100: #DDFDED;
   --mx-Color_Success200: #0AC295;
   --mx-Color_Success300: #09A57F;
@@ -243,9 +243,9 @@
   --mx-BackgroundColor_ButtonNeutral: #1F2329;
   --mx-BackgroundColor_ButtonNeutralDisabled: #49505A;
   --mx-BackgroundColor_ButtonNeutralHover: #6A7381;
-  --mx-BackgroundColor_ButtonPrimary: #2F73DA;
+  --mx-BackgroundColor_ButtonPrimary: #2D64EF;
   --mx-BackgroundColor_ButtonPrimaryDisabled: #49505A;
-  --mx-BackgroundColor_ButtonPrimaryHover: #165ECC;
+  --mx-BackgroundColor_ButtonPrimaryHover: #095ADB;
   --mx-BackgroundColor_ButtonTransparentHover: #6A7381;
   --mx-BackgroundColor_Card: #1F2329;
   --mx-BackgroundColor_CategoryAutoTransport: #4B9DBC;
@@ -290,9 +290,9 @@
   --mx-BackgroundColor_LeftNavItemActive: #121417;
   --mx-BackgroundColor_LeftNavItemHover: #49505A;
   --mx-BackgroundColor_MessageBox: #49505A;
-  --mx-BackgroundColor_MessageBoxBrand: #6FA1EC;
+  --mx-BackgroundColor_MessageBoxBrand: #69A1FA;
   --mx-BackgroundColor_MessageBoxError: #F45532;
-  --mx-BackgroundColor_MessageBoxHelp: #6FA1EC;
+  --mx-BackgroundColor_MessageBoxHelp: #69A1FA;
   --mx-BackgroundColor_MessageBoxSuccess: #0AC295;
   --mx-BackgroundColor_Modal: #1F2329;
   --mx-BackgroundColor_ModalClose: #49505A;
@@ -317,7 +317,7 @@
   --mx-BackgroundColor_TabHover: #49505A;
   --mx-BackgroundColor_TagError: #AE0A0A;
   --mx-BackgroundColor_TagNeutral: #6A7381;
-  --mx-BackgroundColor_TagPrimary: #034AB3;
+  --mx-BackgroundColor_TagPrimary: #0749B2;
   --mx-BackgroundColor_TagSuccess: #027357;
   --mx-BackgroundColor_TagWarning: #FFB400;
   --mx-BackgroundColor_TableRowHover: #49505A;
@@ -335,16 +335,16 @@
   --mx-BorderColor_CheckboxDisabled: #6A7381;
   --mx-BorderColor_ChipDefault: #A8B1BD;
   --mx-BorderColor_ChipDefaultHover: #6A7381;
-  --mx-BorderColor_ChipDefaultActive: #6FA1EC;
+  --mx-BorderColor_ChipDefaultActive: #69A1FA;
   --mx-BorderColor_ChipDefaultDisabled: #6A7381;
   --mx-BorderColor_DropdownDisabled: rgba(203, 211, 223, 0.55);
   --mx-BorderColor_Input: #A8B1BD;
   --mx-BorderColor_InputDisabled: #6A7381;
   --mx-BorderColor_InputError: #F45532;
-  --mx-BorderColor_InputFocus: #6FA1EC;
+  --mx-BorderColor_InputFocus: #69A1FA;
   --mx-BorderColor_InputHover: #A8B1BD;
   --mx-BorderColor_SelectionBoxOutline: #49505A;
-  --mx-BorderColor_SelectionBoxFocusedSelected: #6FA1EC;
+  --mx-BorderColor_SelectionBoxFocusedSelected: #69A1FA;
   --mx-BorderColor_SelectionBoxDisabled: #49505A;
   --mx-BorderColor_SelectionBoxDisabledSelected: #49505A;
   --mx-BorderColor_Radio: #FFFFFF;
@@ -353,22 +353,22 @@
   --mx-BorderColor_RadioDisabledChecked: #A8B1BD;
   --mx-BorderColor_Switch: #6A7381;
   --mx-BorderColor_SwitchDisabled: #6A7381;
-  --mx-BorderColor_TabActive: #6FA1EC;
+  --mx-BorderColor_TabActive: #69A1FA;
   --mx-BorderColor_TableHeader: #6A7381;
   --mx-BorderColor_TableCell: #49505A;
-  --mx-TextColor_Active: #6FA1EC;
-  --mx-TextColor_ActiveHover: #EAF1FB;
+  --mx-TextColor_Active: #69A1FA;
+  --mx-TextColor_ActiveHover: #E7F0FE;
   --mx-TextColor_Default: #FFFFFF;
   --mx-TextColor_Disabled: #6A7381;
   --mx-TextColor_Error: #F45532;
   --mx-TextColor_Secondary: #A8B1BD;
   --mx-TextColor_Avatar: #FFFFFF;
-  --mx-TextColor_BreadcrumbsLink: #6FA1EC;
+  --mx-TextColor_BreadcrumbsLink: #69A1FA;
   --mx-TextColor_BreadcrumbsDivider: #FFFFFF;
   --mx-TextColor_BreadcrumbsCurrentRoute: #FFFFFF;
   --mx-TextColor_ButtonDestructive: #FFFFFF;
   --mx-TextColor_ButtonDestructiveDisabled: #A8B1BD;
-  --mx-TextColor_ButtonLink: #6FA1EC;
+  --mx-TextColor_ButtonLink: #69A1FA;
   --mx-TextColor_ButtonLinkHover: #FFFFFF;
   --mx-TextColor_ButtonLinkTertiary: #CDD3DD;
   --mx-TextColor_ButtonLinkDestructive: #F45532;
@@ -378,12 +378,12 @@
   --mx-TextColor_ButtonNeutralHover: #FFFFFF;
   --mx-TextColor_ButtonPrimary: #FFFFFF;
   --mx-TextColor_ButtonPrimaryDisabled: #A8B1BD;
-  --mx-TextColor_ButtonTransparent: #6FA1EC;
+  --mx-TextColor_ButtonTransparent: #69A1FA;
   --mx-TextColor_ButtonTransparentDisabled: #6A7381;
   --mx-TextColor_ButtonTransparentHover: #FFFFFF;
   --mx-TextColor_ButtonTransparentTertiary: #CDD3DD;
   --mx-TextColor_ChipDefault: #FFFFFF;
-  --mx-TextColor_ChipDefaultActive: #6FA1EC;
+  --mx-TextColor_ChipDefaultActive: #69A1FA;
   --mx-TextColor_ChipDefaultDisabled: #6A7381;
   --mx-TextColor_DropdownMenuItemActive: #FFFFFF;
   --mx-TextColor_DropdownMenuItemDisabled: #A8B1BD;
@@ -394,7 +394,7 @@
   --mx-TextColor_LeftNavItemActive: #FFFFFF;
   --mx-TextColor_ModalClose: #FFFFFF;
   --mx-TextColor_SelectionBoxDisabled: #A8B1BD;
-  --mx-TextColor_TabActive: #6FA1EC;
+  --mx-TextColor_TabActive: #69A1FA;
   --mx-TextColor_TagError: #FFFFFF;
   --mx-TextColor_TagNeutral: #FFFFFF;
   --mx-TextColor_TagPrimary: #FFFFFF;
