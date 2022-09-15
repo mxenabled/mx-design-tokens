@@ -348,6 +348,7 @@
     "TableRowHover": "#49505A",
     "TableFooter": "#49505A",
     "Tooltip": "#E4E8EE",
+    "UtilityRowHover": "#49505A",
     "ButtonLinkDestructiveHover": "#49505A"
   },
   "BorderColor": {
