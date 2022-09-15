@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-#### <sup><code>mx-design-tokens (10.3.3)</code> &nbsp; _last generated: 2022-08-09_</sup>
+#### <sup><code>mx-design-tokens (10.3.3)</code> &nbsp; _last generated: 2022-09-15_</sup>
 
 ## 🌞 LIGHT THEME TOKENS
 
@@ -426,6 +426,7 @@
 | TableRowHover | #F8F9FB | ![#F8F9FB](https://via.placeholder.com/32/F8F9FB/F8F9FB.png) |
 | TableFooter | #EEF1F6 | ![#EEF1F6](https://via.placeholder.com/32/EEF1F6/EEF1F6.png) |
 | Tooltip | #1F2329 | ![#1F2329](https://via.placeholder.com/32/1F2329/1F2329.png) |
+| UtilityRowHover | #EEF1F6 | ![#EEF1F6](https://via.placeholder.com/32/EEF1F6/EEF1F6.png) |
 
 ---
 
@@ -947,6 +948,7 @@
 | TableRowHover | #49505A | ![#49505A](https://via.placeholder.com/32/49505A/49505A.png) |
 | TableFooter | #49505A | ![#49505A](https://via.placeholder.com/32/49505A/49505A.png) |
 | Tooltip | #E4E8EE | ![#E4E8EE](https://via.placeholder.com/32/E4E8EE/E4E8EE.png) |
+| UtilityRowHover | #49505A | ![#49505A](https://via.placeholder.com/32/49505A/49505A.png) |
 | ButtonLinkDestructiveHover | #49505A | ![#49505A](https://via.placeholder.com/32/49505A/49505A.png) |
 
 ---

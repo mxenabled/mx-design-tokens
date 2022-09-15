@@ -347,7 +347,8 @@
     "TagWarning": "#FEF7B9",
     "TableRowHover": "#F8F9FB",
     "TableFooter": "#EEF1F6",
-    "Tooltip": "#1F2329"
+    "Tooltip": "#1F2329",
+    "UtilityRowHover": "#EEF1F6"
   },
   "BorderColor": {
     "Error": "#DF320C",

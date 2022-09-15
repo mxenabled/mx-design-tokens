@@ -122,8 +122,10 @@ var light = function light(core) {
     // Table
     TableRowHover: core.Color.Neutral100,
     TableFooter: core.Color.Neutral200,
-    //Tooltip
-    Tooltip: core.Color.Neutral800
+    // Tooltip
+    Tooltip: core.Color.Neutral800,
+    // UtilityRow
+    UtilityRowHover: core.Color.Neutral200
   };
 };
 
@@ -234,7 +236,9 @@ var dark = function dark(core) {
     TableRowHover: core.Color.Neutral700,
     TableFooter: core.Color.Neutral700,
     // Tooltip
-    Tooltip: core.Color.Neutral300
+    Tooltip: core.Color.Neutral300,
+    // UtilityRow
+    UtilityRowHover: core.Color.Neutral700
   });
 };
 
