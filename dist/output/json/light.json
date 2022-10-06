@@ -391,6 +391,7 @@
     "Disabled": "#A8B1BD",
     "Error": "#DF320C",
     "Secondary": "#49505A",
+    "Success": "#078364",
     "Avatar": "#121417",
     "BreadcrumbsLink": "#2D64EF",
     "BreadcrumbsDivider": "#6A7381",

@@ -1,7 +1,7 @@
 /*
 ** mx-design-tokens (10.4.0)
 **
-** css variables auto-generated on 2022-09-15
+** css variables auto-generated on 2022-10-06
 ** from https://github.com/mxenabled/mx-design-tokens to /css/light.css
 */
 :root {
@@ -362,6 +362,7 @@
   --mx-TextColor_Disabled: #A8B1BD;
   --mx-TextColor_Error: #DF320C;
   --mx-TextColor_Secondary: #49505A;
+  --mx-TextColor_Success: #078364;
   --mx-TextColor_Avatar: #121417;
   --mx-TextColor_BreadcrumbsLink: #2D64EF;
   --mx-TextColor_BreadcrumbsDivider: #6A7381;
