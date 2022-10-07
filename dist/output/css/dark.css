@@ -1,7 +1,7 @@
 /*
 ** mx-design-tokens (10.4.0)
 **
-** css variables auto-generated on 2022-09-15
+** css variables auto-generated on 2022-10-06
 ** from https://github.com/mxenabled/mx-design-tokens to /css/dark.css
 */
 :root {
@@ -363,6 +363,7 @@
   --mx-TextColor_Disabled: #6A7381;
   --mx-TextColor_Error: #F45532;
   --mx-TextColor_Secondary: #A8B1BD;
+  --mx-TextColor_Success: #09A57F;
   --mx-TextColor_Avatar: #FFFFFF;
   --mx-TextColor_BreadcrumbsLink: #69A1FA;
   --mx-TextColor_BreadcrumbsDivider: #FFFFFF;

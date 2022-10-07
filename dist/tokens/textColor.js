@@ -20,6 +20,7 @@ var light = function light(core) {
     Disabled: core.Color.Neutral500,
     Error: core.Color.Error300,
     Secondary: core.Color.Neutral700,
+    Success: core.Color.Success400,
     // Avatar
     Avatar: core.Color.Neutral900,
     // Breadcrumbs
@@ -83,6 +84,7 @@ var dark = function dark(core) {
     Disabled: core.Color.Neutral600,
     Error: core.Color.Error200,
     Secondary: core.Color.Neutral500,
+    Success: core.Color.Success300,
     // Avatar
     Avatar: core.Color.NeutralWhite,
     // Breadcrumbs
