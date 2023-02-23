@@ -90,6 +90,7 @@ const dark = (core) => ({
   ButtonTransparent: core.Color.Brand200,
   ButtonTransparentDisabled: core.Color.Neutral600,
   ButtonTransparentHover: core.Color.NeutralWhite,
+  ButtonTransparentDestructiveHover: core.Color.NeutralWhite,
   ButtonTransparentTertiary: core.Color.Neutral400,
   // Dropdown
   DropdownMenuItemActive: core.Color.NeutralWhite,

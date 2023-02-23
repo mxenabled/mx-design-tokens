@@ -29,6 +29,7 @@ var light = function light(core) {
     ButtonPrimary: core.Color.Brand300,
     ButtonPrimaryDisabled: core.Color.Neutral200,
     ButtonPrimaryHover: core.Color.Brand400,
+    ButtonTransparentDestructiveHover: core.Color.Error100,
     ButtonTransparentHover: core.Color.Brand100,
     // Card
     Card: core.Color.NeutralWhite,
@@ -145,6 +146,7 @@ var dark = function dark(core) {
     ButtonNeutralHover: core.Color.Neutral600,
     ButtonPrimaryDisabled: core.Color.Neutral700,
     ButtonTransparentHover: core.Color.Neutral600,
+    ButtonTransparentDestructiveHover: core.Color.Neutral600,
     // Card
     Card: core.Color.Neutral800,
     // Categories
