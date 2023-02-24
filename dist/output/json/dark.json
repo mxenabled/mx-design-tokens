@@ -271,6 +271,7 @@
     "ButtonPrimary": "#2D64EF",
     "ButtonPrimaryDisabled": "#49505A",
     "ButtonPrimaryHover": "#095ADB",
+    "ButtonTransparentDestructiveHover": "#6A7381",
     "ButtonTransparentHover": "#6A7381",
     "Card": "#1F2329",
     "CategoryAutoTransport": "#4B9DBC",
@@ -432,6 +433,7 @@
     "TagSuccess": "#FFFFFF",
     "TagWarning": "#1F2329",
     "Tooltip": "#121417",
-    "ButtonLinkDisabled": "#6A7381"
+    "ButtonLinkDisabled": "#6A7381",
+    "ButtonTransparentDestructiveHover": "#FFFFFF"
   }
 }

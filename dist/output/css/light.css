@@ -1,7 +1,7 @@
 /*
-** mx-design-tokens (10.4.0)
+** mx-design-tokens (10.6.0)
 **
-** css variables auto-generated on 2022-10-06
+** css variables auto-generated on 2023-02-23
 ** from https://github.com/mxenabled/mx-design-tokens to /css/light.css
 */
 :root {
@@ -246,6 +246,7 @@
   --mx-BackgroundColor_ButtonPrimary: #2D64EF;
   --mx-BackgroundColor_ButtonPrimaryDisabled: #EEF1F6;
   --mx-BackgroundColor_ButtonPrimaryHover: #095ADB;
+  --mx-BackgroundColor_ButtonTransparentDestructiveHover: #FCD2CF;
   --mx-BackgroundColor_ButtonTransparentHover: #E7F0FE;
   --mx-BackgroundColor_Card: #FFFFFF;
   --mx-BackgroundColor_CategoryAutoTransport: #4B9DBC;

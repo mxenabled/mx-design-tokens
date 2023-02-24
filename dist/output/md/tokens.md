@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-#### <sup><code>mx-design-tokens (10.4.0)</code> &nbsp; _last generated: 2022-10-06_</sup>
+#### <sup><code>mx-design-tokens (10.6.0)</code> &nbsp; _last generated: 2023-02-23_</sup>
 
 ## 🌞 LIGHT THEME TOKENS
 
@@ -349,6 +349,7 @@
 | ButtonPrimary | #2D64EF | ![#2D64EF](https://via.placeholder.com/32/2D64EF/2D64EF.png) |
 | ButtonPrimaryDisabled | #EEF1F6 | ![#EEF1F6](https://via.placeholder.com/32/EEF1F6/EEF1F6.png) |
 | ButtonPrimaryHover | #095ADB | ![#095ADB](https://via.placeholder.com/32/095ADB/095ADB.png) |
+| ButtonTransparentDestructiveHover | #FCD2CF | ![#FCD2CF](https://via.placeholder.com/32/FCD2CF/FCD2CF.png) |
 | ButtonTransparentHover | #E7F0FE | ![#E7F0FE](https://via.placeholder.com/32/E7F0FE/E7F0FE.png) |
 | Card | #FFFFFF | ![#FFFFFF](https://via.placeholder.com/32/FFFFFF/FFFFFF.png) |
 | CategoryAutoTransport | #4B9DBC | ![#4B9DBC](https://via.placeholder.com/32/4B9DBC/4B9DBC.png) |
@@ -872,6 +873,7 @@
 | ButtonPrimary | #2D64EF | ![#2D64EF](https://via.placeholder.com/32/2D64EF/2D64EF.png) |
 | ButtonPrimaryDisabled | #49505A | ![#49505A](https://via.placeholder.com/32/49505A/49505A.png) |
 | ButtonPrimaryHover | #095ADB | ![#095ADB](https://via.placeholder.com/32/095ADB/095ADB.png) |
+| ButtonTransparentDestructiveHover | #6A7381 | ![#6A7381](https://via.placeholder.com/32/6A7381/6A7381.png) |
 | ButtonTransparentHover | #6A7381 | ![#6A7381](https://via.placeholder.com/32/6A7381/6A7381.png) |
 | Card | #1F2329 | ![#1F2329](https://via.placeholder.com/32/1F2329/1F2329.png) |
 | CategoryAutoTransport | #4B9DBC | ![#4B9DBC](https://via.placeholder.com/32/4B9DBC/4B9DBC.png) |
@@ -1044,6 +1046,7 @@
 | TagWarning | #1F2329 | ![#1F2329](https://via.placeholder.com/32/1F2329/1F2329.png) |
 | Tooltip | #121417 | ![#121417](https://via.placeholder.com/32/121417/121417.png) |
 | ButtonLinkDisabled | #6A7381 | ![#6A7381](https://via.placeholder.com/32/6A7381/6A7381.png) |
+| ButtonTransparentDestructiveHover | #FFFFFF | ![#FFFFFF](https://via.placeholder.com/32/FFFFFF/FFFFFF.png) |
 
 ---
 

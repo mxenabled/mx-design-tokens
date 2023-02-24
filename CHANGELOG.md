@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [10.6.0] - 02-23-2023
+
+### Added
+
+- Added BackgroundColor, TextColor tokens for `ButtonTransparentDestructive`
+
 ## [10.5.0] - 10-07-2022
 
 ### Added
