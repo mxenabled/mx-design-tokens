@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Added Dark, TextColor token for when you need the text to stay dark in light and dark mode
+- Added Dark, Light, TextColor token for when you need the text to stay dark or light in both light and dark mode
 
 ## [10.6.0] - 02-23-2023
 

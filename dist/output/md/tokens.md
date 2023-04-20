@@ -480,6 +480,7 @@
 | Default | #121417 | ![#121417](https://via.placeholder.com/32/121417/121417.png) |
 | Disabled | #A8B1BD | ![#A8B1BD](https://via.placeholder.com/32/A8B1BD/A8B1BD.png) |
 | Error | #DF320C | ![#DF320C](https://via.placeholder.com/32/DF320C/DF320C.png) |
+| Light | #FFFFFF | ![#FFFFFF](https://via.placeholder.com/32/FFFFFF/FFFFFF.png) |
 | Secondary | #49505A | ![#49505A](https://via.placeholder.com/32/49505A/49505A.png) |
 | Success | #078364 | ![#078364](https://via.placeholder.com/32/078364/078364.png) |
 | Avatar | #121417 | ![#121417](https://via.placeholder.com/32/121417/121417.png) |
@@ -1006,6 +1007,7 @@
 | Default | #FFFFFF | ![#FFFFFF](https://via.placeholder.com/32/FFFFFF/FFFFFF.png) |
 | Disabled | #6A7381 | ![#6A7381](https://via.placeholder.com/32/6A7381/6A7381.png) |
 | Error | #F45532 | ![#F45532](https://via.placeholder.com/32/F45532/F45532.png) |
+| Light | #FFFFFF | ![#FFFFFF](https://via.placeholder.com/32/FFFFFF/FFFFFF.png) |
 | Secondary | #A8B1BD | ![#A8B1BD](https://via.placeholder.com/32/A8B1BD/A8B1BD.png) |
 | Success | #09A57F | ![#09A57F](https://via.placeholder.com/32/09A57F/09A57F.png) |
 | Avatar | #FFFFFF | ![#FFFFFF](https://via.placeholder.com/32/FFFFFF/FFFFFF.png) |

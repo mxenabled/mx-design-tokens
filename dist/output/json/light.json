@@ -392,6 +392,7 @@
     "Default": "#121417",
     "Disabled": "#A8B1BD",
     "Error": "#DF320C",
+    "Light": "#FFFFFF",
     "Secondary": "#49505A",
     "Success": "#078364",
     "Avatar": "#121417",
