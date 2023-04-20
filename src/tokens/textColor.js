@@ -2,9 +2,11 @@ const light = (core) => ({
   // Global
   Active: core.Color.Brand300,
   ActiveHover: core.Color.Brand400,
+  Dark: core.Color.Neutral900,
   Default: core.Color.Neutral900,
   Disabled: core.Color.Neutral500,
   Error: core.Color.Error300,
+  Light: core.Color.NeutralWhite,
   Secondary: core.Color.Neutral700,
   Success: core.Color.Success400,
   // Avatar
@@ -65,9 +67,11 @@ const dark = (core) => ({
   // Global
   Active: core.Color.Brand200,
   ActiveHover: core.Color.Brand100,
+  Dark: core.Color.Neutral900,
   Default: core.Color.NeutralWhite,
   Disabled: core.Color.Neutral600,
   Error: core.Color.Error200,
+  Light: core.Color.NeutralWhite,
   Secondary: core.Color.Neutral500,
   Success: core.Color.Success300,
   // Avatar

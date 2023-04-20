@@ -1,7 +1,7 @@
 /*
-** mx-design-tokens (10.6.0)
+** mx-design-tokens (10.7.0)
 **
-** css variables auto-generated on 2023-02-23
+** css variables auto-generated on 2023-04-20
 ** from https://github.com/mxenabled/mx-design-tokens to /css/light.css
 */
 :root {
@@ -359,9 +359,11 @@
   --mx-BorderColor_TableCell: #EEF1F6;
   --mx-TextColor_Active: #2D64EF;
   --mx-TextColor_ActiveHover: #095ADB;
+  --mx-TextColor_Dark: #121417;
   --mx-TextColor_Default: #121417;
   --mx-TextColor_Disabled: #A8B1BD;
   --mx-TextColor_Error: #DF320C;
+  --mx-TextColor_Light: #FFFFFF;
   --mx-TextColor_Secondary: #49505A;
   --mx-TextColor_Success: #078364;
   --mx-TextColor_Avatar: #121417;
