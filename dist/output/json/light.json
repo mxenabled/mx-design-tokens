@@ -388,6 +388,7 @@
   "TextColor": {
     "Active": "#2D64EF",
     "ActiveHover": "#095ADB",
+    "Dark": "#121417",
     "Default": "#121417",
     "Disabled": "#A8B1BD",
     "Error": "#DF320C",

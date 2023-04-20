@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-#### <sup><code>mx-design-tokens (10.6.0)</code> &nbsp; _last generated: 2023-02-23_</sup>
+#### <sup><code>mx-design-tokens (10.7.0)</code> &nbsp; _last generated: 2023-04-20_</sup>
 
 ## 🌞 LIGHT THEME TOKENS
 
@@ -476,6 +476,7 @@
 | :-- | :---- | :---- |
 | Active | #2D64EF | ![#2D64EF](https://via.placeholder.com/32/2D64EF/2D64EF.png) |
 | ActiveHover | #095ADB | ![#095ADB](https://via.placeholder.com/32/095ADB/095ADB.png) |
+| Dark | #121417 | ![#121417](https://via.placeholder.com/32/121417/121417.png) |
 | Default | #121417 | ![#121417](https://via.placeholder.com/32/121417/121417.png) |
 | Disabled | #A8B1BD | ![#A8B1BD](https://via.placeholder.com/32/A8B1BD/A8B1BD.png) |
 | Error | #DF320C | ![#DF320C](https://via.placeholder.com/32/DF320C/DF320C.png) |
@@ -1001,6 +1002,7 @@
 | :-- | :---- | :---- |
 | Active | #69A1FA | ![#69A1FA](https://via.placeholder.com/32/69A1FA/69A1FA.png) |
 | ActiveHover | #E7F0FE | ![#E7F0FE](https://via.placeholder.com/32/E7F0FE/E7F0FE.png) |
+| Dark | #121417 | ![#121417](https://via.placeholder.com/32/121417/121417.png) |
 | Default | #FFFFFF | ![#FFFFFF](https://via.placeholder.com/32/FFFFFF/FFFFFF.png) |
 | Disabled | #6A7381 | ![#6A7381](https://via.placeholder.com/32/6A7381/6A7381.png) |
 | Error | #F45532 | ![#F45532](https://via.placeholder.com/32/F45532/F45532.png) |
