@@ -1,4 +1,6 @@
-const light = (core) => ({
+import type { BackgroundColorType, TokenType } from '../TokenType'
+
+const light = (core: TokenType) => ({
   // Global
   Body: core.Color.Neutral100,
   Error: core.Color.Error300,
@@ -113,9 +115,9 @@ const light = (core) => ({
   Tooltip: core.Color.Neutral800,
   // UtilityRow
   UtilityRowHover: core.Color.Neutral200,
-})
+} as BackgroundColorType)
 
-const dark = (core) => ({
+const dark = (core: TokenType) => ({
   ...light(core),
   // Global
   Body: core.Color.Neutral900,
@@ -226,7 +228,7 @@ const dark = (core) => ({
   Tooltip: core.Color.Neutral300,
   // UtilityRow
   UtilityRowHover: core.Color.Neutral700,
-})
+} as BackgroundColorType)
 
 export default {
   light,

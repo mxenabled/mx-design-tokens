@@ -1,4 +1,6 @@
-const light = (core) => ({
+import type { BorderColorType, TokenType } from '../TokenType'
+
+const light = (core: TokenType) => ({
   // Global
   Error: core.Color.Error300,
   // Button
@@ -42,9 +44,9 @@ const light = (core) => ({
   // Table
   TableHeader: core.Color.Neutral400,
   TableCell: core.Color.Neutral200,
-})
+} as BorderColorType)
 
-const dark = (core) => ({
+const dark = (core: TokenType) => ({
   ...light(core),
   // Global
   Error: core.Color.Error200,
@@ -85,7 +87,7 @@ const dark = (core) => ({
   // Table
   TableHeader: core.Color.Neutral600,
   TableCell: core.Color.Neutral700,
-})
+} as BorderColorType)
 
 export default {
   light,

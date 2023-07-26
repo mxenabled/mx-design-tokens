@@ -1,0 +1,9 @@
+export declare const isObject: (value: any) => any;
+export declare const deepMerge: (target: any, source: any) => any;
+export declare const getTokenType: (token: any, core: any, leaf: any) => string;
+export declare const expandTokens: (tokens: any) => any[];
+export declare const collapseTokens: (tokenList: any) => {};
+export declare const splitTokens: (tokens: any, core: any, leaf: any) => any;
+export declare const addSuffix: (json: any, suffix?: string) => any;
+export declare const removeSuffix: (json: any, suffix?: string) => any;
+export declare const updateValues: (json: any, value?: string) => any;

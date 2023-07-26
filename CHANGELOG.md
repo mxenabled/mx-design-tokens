@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [10.8.0] - 07-26-2023
+
+### Added
+
+- Added Typescript and types for all tokens
+
+### Updated
+
+- Updated font to Inter and adjusted font sizes
+
 ## [10.7.0] - 04-20-2023
 
 ### Added

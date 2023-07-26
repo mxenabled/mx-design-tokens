@@ -1,4 +1,6 @@
-const light = (core) => ({
+import type { TokenType, ZIndexType } from '../TokenType'
+
+const light = (core: TokenType) => ({
   // Global
   SendToBack: core.ZIndex.SendToBack,
   Default: core.ZIndex.Base,
@@ -20,11 +22,11 @@ const light = (core) => ({
   Modal: core.ZIndex.Overlay5,
   // Tooltip
   Tooltip: core.ZIndex.Overlay10,
-})
+} as ZIndexType)
 
-const dark = (core) => ({
+const dark = (core: TokenType) => ({
   ...light(core),
-})
+} as ZIndexType)
 
 export default {
   light,
