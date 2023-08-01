@@ -1,6 +1,6 @@
-import type { BorderColorType, TokenType } from '../TokenType';
+import type { BorderColorType, TokenTypes } from '../TokenTypes';
 declare const _default: {
-    light: (core: TokenType) => BorderColorType;
-    dark: (core: TokenType) => BorderColorType;
+    light: (core: TokenTypes) => BorderColorType;
+    dark: (core: TokenTypes) => BorderColorType;
 };
 export default _default;

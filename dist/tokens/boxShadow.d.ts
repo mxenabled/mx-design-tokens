@@ -1,6 +1,6 @@
-import type { BoxShadowType, TokenType } from '../TokenType';
+import type { BoxShadowType, TokenTypes } from '../TokenTypes';
 declare const _default: {
-    light: (core: TokenType) => BoxShadowType;
-    dark: (core: TokenType) => BoxShadowType;
+    light: (core: TokenTypes) => BoxShadowType;
+    dark: (core: TokenTypes) => BoxShadowType;
 };
 export default _default;

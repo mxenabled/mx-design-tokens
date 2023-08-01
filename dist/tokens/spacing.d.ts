@@ -1,6 +1,6 @@
-import type { SpacingType, TokenType } from '../TokenType';
+import type { SpacingType, TokenTypes } from '../TokenTypes';
 declare const _default: {
-    light: (core: TokenType) => SpacingType;
-    dark: (core: TokenType) => SpacingType;
+    light: (core: TokenTypes) => SpacingType;
+    dark: (core: TokenTypes) => SpacingType;
 };
 export default _default;

@@ -12,9 +12,9 @@ import type {
   ResolutionType,
   SpacingType,
   TimeType,
-  TokenType,
+  TokenTypes,
   ZIndexType,
-} from './TokenType'
+} from './TokenTypes'
 
 export default {
   Color: {
@@ -93,9 +93,9 @@ export default {
     TransparentScrimDarker: 'rgba(0, 0, 0, 0.50)',
   } as ColorType,
   Font: {
-    Regular: 'Inter, Helvetica, Arial, sans-serif',
-    Semibold: 'Inter, Helvetica, Arial, sans-serif',
-    Bold: 'Inter, Helvetica, Arial, sans-serif',
+    Regular: 'InterRegular, Helvetica, Arial, sans-serif',
+    Semibold: 'InterSemibold, Helvetica, Arial, sans-serif',
+    Bold: 'InterBold, Helvetica, Arial, sans-serif',
   } as FontType,
   BoxShadow: {
     Low: '0px 2px 8px rgba(106, 115, 129, 0.12)',
@@ -130,6 +130,9 @@ export default {
   } as FontWeightType,
   LetterSpacing: {
     Uppercase: 0.48,
+    SmallUppercase: -0.52,
+    TinyUppercase: 0.33,
+    XSmallUppercase: 0.33,
   } as LetterSpacingType,
   LineHeight: {
     Tiny: '12px',
@@ -192,4 +195,4 @@ export default {
     Large: 992,
     XLarge: 1200,
   } as ResolutionType,
-} as TokenType
+} as TokenTypes

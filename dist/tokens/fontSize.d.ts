@@ -1,6 +1,6 @@
-import type { FontSizeType, TokenType } from '../TokenType';
+import type { FontSizeType, TokenTypes } from '../TokenTypes';
 declare const _default: {
-    light: (core: TokenType) => FontSizeType;
-    dark: (core: TokenType) => FontSizeType;
+    light: (core: TokenTypes) => FontSizeType;
+    dark: (core: TokenTypes) => FontSizeType;
 };
 export default _default;

@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-#### <sup><code>mx-design-tokens (10.8.0)</code> &nbsp; _last generated: 2023-07-26_</sup>
+#### <sup><code>mx-design-tokens (10.8.0)</code> &nbsp; _last generated: 2023-08-01_</sup>
 
 ## 🌞 LIGHT THEME TOKENS
 
@@ -88,9 +88,9 @@
 
 | Key | Value |
 | :-- | :---- |
-| Regular | Inter, Helvetica, Arial, sans-serif |
-| Semibold | Inter, Helvetica, Arial, sans-serif |
-| Bold | Inter, Helvetica, Arial, sans-serif |
+| Regular | InterRegular, Helvetica, Arial, sans-serif |
+| Semibold | InterSemibold, Helvetica, Arial, sans-serif |
+| Bold | InterBold, Helvetica, Arial, sans-serif |
 
 ---
 
@@ -614,9 +614,9 @@
 
 | Key | Value |
 | :-- | :---- |
-| Regular | Inter, Helvetica, Arial, sans-serif |
-| Semibold | Inter, Helvetica, Arial, sans-serif |
-| Bold | Inter, Helvetica, Arial, sans-serif |
+| Regular | InterRegular, Helvetica, Arial, sans-serif |
+| Semibold | InterSemibold, Helvetica, Arial, sans-serif |
+| Bold | InterBold, Helvetica, Arial, sans-serif |
 
 ---
 

@@ -1,3 +1,3 @@
-import type { TokenType } from './TokenType';
-declare const _default: TokenType;
+import type { TokenTypes } from './TokenTypes';
+declare const _default: TokenTypes;
 export default _default;

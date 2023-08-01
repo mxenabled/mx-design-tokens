@@ -1,6 +1,6 @@
-import type { FontSizeType, TokenType } from '../TokenType'
+import type { FontSizeType, TokenTypes } from '../TokenTypes'
 
-const light = (core: TokenType) => ({
+const light = (core: TokenTypes) => ({
   // Globals
   ...core.FontSize,
   // Breadcrumbs
@@ -28,7 +28,7 @@ const light = (core: TokenType) => ({
   TooltipText: core.FontSize.ParagraphSmall,
 } as FontSizeType)
 
-const dark = (core: TokenType) => ({
+const dark = (core: TokenTypes) => ({
   ...light(core),
 } as FontSizeType)
 

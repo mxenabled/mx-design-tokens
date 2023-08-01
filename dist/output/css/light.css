@@ -1,7 +1,7 @@
 /*
 ** mx-design-tokens (10.8.0)
 **
-** css variables auto-generated on 2023-07-26
+** css variables auto-generated on 2023-08-01
 ** from https://github.com/mxenabled/mx-design-tokens to /css/light.css
 */
 :root {
@@ -78,9 +78,9 @@
   --mx-Color_TransparentNeutral400: rgba(203, 211, 223, 0.55);
   --mx-Color_TransparentScrim: rgba(0, 0, 0, 0.25);
   --mx-Color_TransparentScrimDarker: rgba(0, 0, 0, 0.50);
-  --mx-Font_Regular: (Inter, Helvetica, Arial, sans-serif);
-  --mx-Font_Semibold: (Inter, Helvetica, Arial, sans-serif);
-  --mx-Font_Bold: (Inter, Helvetica, Arial, sans-serif);
+  --mx-Font_Regular: (InterRegular, Helvetica, Arial, sans-serif);
+  --mx-Font_Semibold: (InterSemibold, Helvetica, Arial, sans-serif);
+  --mx-Font_Bold: (InterBold, Helvetica, Arial, sans-serif);
   --mx-BoxShadow_Low: 0px 2px 8px rgba(106, 115, 129, 0.12);
   --mx-BoxShadow_Medium: 0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06);
   --mx-BoxShadow_High: 0px 12px 20px rgba(106, 115, 129, 0.22);

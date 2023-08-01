@@ -1,7 +1,7 @@
 /*
 ** mx-design-tokens (10.8.0)
 **
-** sass variables auto-generated on 2023-07-26
+** sass variables auto-generated on 2023-08-01
 ** from https://github.com/mxenabled/mx-design-tokens to /scss/light.scss
 */
 $Color: (
@@ -80,9 +80,9 @@ $Color: (
   "TransparentScrimDarker": rgba(0, 0, 0, 0.50),
 );
 $Font: (
-  "Regular": (Inter, Helvetica, Arial, sans-serif),
-  "Semibold": (Inter, Helvetica, Arial, sans-serif),
-  "Bold": (Inter, Helvetica, Arial, sans-serif),
+  "Regular": (InterRegular, Helvetica, Arial, sans-serif),
+  "Semibold": (InterSemibold, Helvetica, Arial, sans-serif),
+  "Bold": (InterBold, Helvetica, Arial, sans-serif),
 );
 $BoxShadow: (
   "Low": "0px 2px 8px rgba(106, 115, 129, 0.12)",

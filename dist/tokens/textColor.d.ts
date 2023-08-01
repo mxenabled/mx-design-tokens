@@ -1,6 +1,6 @@
-import type { TextColorType, TokenType } from '../TokenType';
+import type { TextColorType, TokenTypes } from '../TokenTypes';
 declare const _default: {
-    light: (core: TokenType) => TextColorType;
-    dark: (core: TokenType) => TextColorType;
+    light: (core: TokenTypes) => TextColorType;
+    dark: (core: TokenTypes) => TextColorType;
 };
 export default _default;

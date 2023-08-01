@@ -75,9 +75,9 @@
     "TransparentScrimDarker": "rgba(0, 0, 0, 0.50)"
   },
   "Font": {
-    "Regular": "Inter, Helvetica, Arial, sans-serif",
-    "Semibold": "Inter, Helvetica, Arial, sans-serif",
-    "Bold": "Inter, Helvetica, Arial, sans-serif"
+    "Regular": "InterRegular, Helvetica, Arial, sans-serif",
+    "Semibold": "InterSemibold, Helvetica, Arial, sans-serif",
+    "Bold": "InterBold, Helvetica, Arial, sans-serif"
   },
   "BoxShadow": {
     "Low": "0px 2px 8px rgba(106, 115, 129, 0.12)",

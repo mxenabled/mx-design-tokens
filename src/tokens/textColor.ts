@@ -1,6 +1,6 @@
-import type { TextColorType, TokenType } from '../TokenType'
+import type { TextColorType, TokenTypes } from '../TokenTypes'
 
-const light = (core: TokenType) => ({
+const light = (core: TokenTypes) => ({
   // Global
   Active: core.Color.Brand300,
   ActiveHover: core.Color.Brand400,
@@ -64,7 +64,7 @@ const light = (core: TokenType) => ({
   Tooltip: core.Color.NeutralWhite,
 } as TextColorType)
 
-const dark = (core: TokenType) => ({
+const dark = (core: TokenTypes) => ({
   ...light(core),
   // Global
   Active: core.Color.Brand200,

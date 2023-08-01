@@ -1,6 +1,6 @@
-import type { TokenType, ZIndexType } from '../TokenType';
+import type { TokenTypes, ZIndexType } from '../TokenTypes';
 declare const _default: {
-    light: (core: TokenType) => ZIndexType;
-    dark: (core: TokenType) => ZIndexType;
+    light: (core: TokenTypes) => ZIndexType;
+    dark: (core: TokenTypes) => ZIndexType;
 };
 export default _default;

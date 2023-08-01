@@ -6,12 +6,11 @@ import backgroundColor from './tokens/backgroundColor'
 import borderColor from './tokens/borderColor'
 import borderRadius from './tokens/borderRadius'
 import boxShadow from './tokens/boxShadow'
-import letterSpacing from './tokens/letterSpacing'
 import fontSize from './tokens/fontSize'
 import spacing from './tokens/spacing'
 import textColor from './tokens/textColor'
 import zIndex from './tokens/zIndex'
-import type { TokenType } from './TokenType'
+import type { TokenTypes } from './TokenTypes'
 
 export const targets = {
   REACT: 'react',
@@ -29,24 +28,23 @@ const getSectionTokens = (theme = themes.LIGHT, base = core) => ({
   BorderColor: theme === themes.LIGHT ? borderColor.light(base) : borderColor.dark(base),
   BorderRadius: theme === themes.LIGHT ? borderRadius.light(base) : borderRadius.dark(base),
   BoxShadow: theme === themes.LIGHT ? boxShadow.light(base) : boxShadow.dark(base),
-  LetterSpacing: theme === themes.LIGHT ? letterSpacing.light() : letterSpacing.dark(),
   FontSize: theme === themes.LIGHT ? fontSize.light(base) : fontSize.dark(base),
   Spacing: theme === themes.LIGHT ? spacing.light(base) : spacing.dark(base),
   TextColor: theme === themes.LIGHT ? textColor.light(base) : textColor.dark(base),
   ZIndex: theme === themes.LIGHT ? zIndex.light(base) : zIndex.dark(base)
-} as TokenType)
+} as TokenTypes)
 
-export const buildTheme = (theme = themes.LIGHT, target = targets.REACT, tokenOverrides = {}) => {
+export const buildTheme = (theme = themes.LIGHT, target = targets.REACT, tokenOverrides = {}): TokenTypes => {
   // core token changes propagate down
-  const baseCore: TokenType = Object.assign({}, core)
-  const baseLeaf: TokenType = getSectionTokens(theme)
+  const baseCore: TokenTypes = Object.assign({}, core)
+  const baseLeaf: TokenTypes = getSectionTokens(theme)
   const baseParts = splitTokens(tokenOverrides, baseCore, baseLeaf)
 
   const updatedCore = collapseTokens(baseParts.updatedTokens.core)
   const mergedCore = deepMerge(baseCore, updatedCore)
 
-  const customCore: TokenType = applyTargetModifications(target, mergedCore)
-  const customLeaf: TokenType = getSectionTokens(theme, customCore)
+  const customCore: TokenTypes = applyTargetModifications(target, mergedCore)
+  const customLeaf: TokenTypes = getSectionTokens(theme, customCore)
   const customBoth = deepMerge(customCore, customLeaf)
 
   // leaf token changes take priority over core token changes
@@ -62,7 +60,7 @@ export const buildTheme = (theme = themes.LIGHT, target = targets.REACT, tokenOv
     mergedLeaf = deepMerge(mergedLeaf, n)
   })
 
-  return deepMerge(customBoth, mergedLeaf) as TokenType
+  return deepMerge(customBoth, mergedLeaf) as TokenTypes
 }
 
 export const light = buildTheme(themes.LIGHT)

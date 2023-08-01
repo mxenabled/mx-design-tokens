@@ -1,6 +1,6 @@
-import type { SpacingType, TokenType } from '../TokenType'
+import type { SpacingType, TokenTypes } from '../TokenTypes'
 
-const light = (core: TokenType) => ({
+const light = (core: TokenTypes) => ({
   // Globals
   ...core.Spacing,
   // Breadcrumbs
@@ -50,7 +50,7 @@ const light = (core: TokenType) => ({
   TooltipPadding: core.Spacing.Small,
 } as SpacingType)
 
-const dark = (core: TokenType) => ({
+const dark = (core: TokenTypes) => ({
   ...light(core),
 } as SpacingType)
 

@@ -1,3 +1,3 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-//# sourceMappingURL=TokenType.js.map
+//# sourceMappingURL=TokenTypes.js.map

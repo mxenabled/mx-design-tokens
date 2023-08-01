@@ -454,7 +454,7 @@ export interface ZIndexType {
   Tooltip: number
 }
 
-export interface TokenType {
+export interface TokenTypes {
   BackgroundColor: BackgroundColorType
   BorderColor: BorderColorType
   BorderRadius: BorderRadiusType

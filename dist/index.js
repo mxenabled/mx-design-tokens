@@ -11,7 +11,6 @@ const backgroundColor_1 = __importDefault(require("./tokens/backgroundColor"));
 const borderColor_1 = __importDefault(require("./tokens/borderColor"));
 const borderRadius_1 = __importDefault(require("./tokens/borderRadius"));
 const boxShadow_1 = __importDefault(require("./tokens/boxShadow"));
-const letterSpacing_1 = __importDefault(require("./tokens/letterSpacing"));
 const fontSize_1 = __importDefault(require("./tokens/fontSize"));
 const spacing_1 = __importDefault(require("./tokens/spacing"));
 const textColor_1 = __importDefault(require("./tokens/textColor"));
@@ -30,7 +29,6 @@ const getSectionTokens = (theme = exports.themes.LIGHT, base = core_1.default) =
     BorderColor: theme === exports.themes.LIGHT ? borderColor_1.default.light(base) : borderColor_1.default.dark(base),
     BorderRadius: theme === exports.themes.LIGHT ? borderRadius_1.default.light(base) : borderRadius_1.default.dark(base),
     BoxShadow: theme === exports.themes.LIGHT ? boxShadow_1.default.light(base) : boxShadow_1.default.dark(base),
-    LetterSpacing: theme === exports.themes.LIGHT ? letterSpacing_1.default.light() : letterSpacing_1.default.dark(),
     FontSize: theme === exports.themes.LIGHT ? fontSize_1.default.light(base) : fontSize_1.default.dark(base),
     Spacing: theme === exports.themes.LIGHT ? spacing_1.default.light(base) : spacing_1.default.dark(base),
     TextColor: theme === exports.themes.LIGHT ? textColor_1.default.light(base) : textColor_1.default.dark(base),

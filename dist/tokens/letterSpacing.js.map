@@ -1,1 +1,0 @@
-{"version":3,"file":"letterSpacing.js","sourceRoot":"","sources":["../../src/tokens/letterSpacing.ts"],"names":[],"mappings":";;AAEA,MAAM,KAAK,GAAG,GAAG,EAAE,CAAC,CAAC;IACnB,cAAc,EAAE,CAAC,IAAI;IACrB,aAAa,EAAE,IAAI;IACnB,eAAe,EAAE,IAAI;CACA,CAAA,CAAA;AAEvB,MAAM,IAAI,GAAG,GAAG,EAAE,CAAC,CAAC;IAClB,GAAG,KAAK,EAAE;CACW,CAAA,CAAA;AAEvB,kBAAe;IACb,KAAK;IACL,IAAI;CACL,CAAA"}

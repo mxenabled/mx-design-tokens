@@ -1,6 +1,6 @@
-import type { BackgroundColorType, TokenType } from '../TokenType'
+import type { BackgroundColorType, TokenTypes } from '../TokenTypes'
 
-const light = (core: TokenType) => ({
+const light = (core: TokenTypes) => ({
   // Global
   Body: core.Color.Neutral100,
   Error: core.Color.Error300,
@@ -117,7 +117,7 @@ const light = (core: TokenType) => ({
   UtilityRowHover: core.Color.Neutral200,
 } as BackgroundColorType)
 
-const dark = (core: TokenType) => ({
+const dark = (core: TokenTypes) => ({
   ...light(core),
   // Global
   Body: core.Color.Neutral900,

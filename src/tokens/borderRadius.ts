@@ -1,6 +1,6 @@
-import type { BorderRadiusType, TokenType } from '../TokenType'
+import type { BorderRadiusType, TokenTypes } from '../TokenTypes'
 
-const light = (core: TokenType) => ({
+const light = (core: TokenTypes) => ({
   // Globals
   ...core.BorderRadius,
   // Button
@@ -28,7 +28,7 @@ const light = (core: TokenType) => ({
   Tooltip: core.BorderRadius.Medium,
 } as BorderRadiusType)
 
-const dark = (core: TokenType) => ({
+const dark = (core: TokenTypes) => ({
   ...light(core),
 } as BorderRadiusType)
 

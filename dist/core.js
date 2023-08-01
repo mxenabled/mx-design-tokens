@@ -77,9 +77,9 @@ exports.default = {
         TransparentScrimDarker: 'rgba(0, 0, 0, 0.50)',
     },
     Font: {
-        Regular: 'Inter, Helvetica, Arial, sans-serif',
-        Semibold: 'Inter, Helvetica, Arial, sans-serif',
-        Bold: 'Inter, Helvetica, Arial, sans-serif',
+        Regular: 'InterRegular, Helvetica, Arial, sans-serif',
+        Semibold: 'InterSemibold, Helvetica, Arial, sans-serif',
+        Bold: 'InterBold, Helvetica, Arial, sans-serif',
     },
     BoxShadow: {
         Low: '0px 2px 8px rgba(106, 115, 129, 0.12)',
@@ -114,6 +114,9 @@ exports.default = {
     },
     LetterSpacing: {
         Uppercase: 0.48,
+        SmallUppercase: -0.52,
+        TinyUppercase: 0.33,
+        XSmallUppercase: 0.33,
     },
     LineHeight: {
         Tiny: '12px',
