@@ -1,5 +1,5 @@
 {
-  "name": "@mx-enabled/design-tokens",
+  "name": "@mxenabled/design-tokens",
   "version": "1.0.0",
   "description": "Design Tokens",
   "main": "dist/index.js",
