@@ -7,19 +7,19 @@ A simple utility for sharing themed styling information.
 To install the package via npm into another JS project, run the following command:
 
 ```
-npm install mx-design-tokens
+npm install @mx-enabled/design-tokens
 ```
 
 To import the default themed objects:
 
 ```
-import { light, dark } from 'mx-design-tokens'
+import { light, dark } from '@mx-enabled/design-tokens'
 ```
 
 To build a custom colored themed object:
 
 ```
-import { buildTheme } from 'mx-design-tokens'
+import { buildTheme } from '@mx-enabled/design-tokens'
 
 const myCustomOverrides = {
   "Color": {

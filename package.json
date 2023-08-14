@@ -1,6 +1,6 @@
 {
-  "name": "mx-design-tokens",
-  "version": "11.0.0",
+  "name": "@mx-enabled/design-tokens",
+  "version": "1.0.0",
   "description": "Design Tokens",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
