@@ -6,8 +6,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
+# @mx-enabled/design-tokens
 
-## [11.0.0] - 08-04-2023
+## [1.0.0] - 08-04-2023
 
 ### Added
 
@@ -16,6 +17,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updated
 
 - Updated font to Inter and adjusted font sizes
+- Changed package name to `@mx-enabled/mx-design-tokens`
+
+# mx-design-tokens (DEPRECATED)
 
 ## [10.7.0] - 04-20-2023
 
