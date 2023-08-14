@@ -1,20 +1,23 @@
 {
   "name": "mx-design-tokens",
-  "version": "10.7.0",
+  "version": "11.0.0",
   "description": "Design Tokens",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "engines": {
     "node": ">=12.13.1",
     "npm": ">=6.14.0"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/mxenabled/mx-design-tokens"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src/ -d dist/",
+    "build": "rm -rf ./dist && tsc",
     "build:docs": "cd ./bin && node docs.js",
     "build:json": "cd ./bin && node json.js",
     "build:scss": "cd ./bin && node scss.js",
@@ -24,10 +27,6 @@
   "author": "MX",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.14.3",
-    "@babel/core": "^7.14.3",
-    "@babel/plugin-proposal-object-rest-spread": "^7.14.2",
-    "@babel/preset-env": "^7.14.2",
-    "babel-plugin-module-resolver": "^4.1.0"
+    "typescript": "^5.1.6"
   }
 }

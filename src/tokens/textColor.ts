@@ -1,4 +1,6 @@
-const light = (core) => ({
+import type { TextColorType, TokenTypes } from '../TokenTypes'
+
+const light = (core: TokenTypes) => ({
   // Global
   Active: core.Color.Brand300,
   ActiveHover: core.Color.Brand400,
@@ -60,9 +62,9 @@ const light = (core) => ({
   TagWarning: core.Color.Warning500,
   // Tooltip
   Tooltip: core.Color.NeutralWhite,
-})
+} as TextColorType)
 
-const dark = (core) => ({
+const dark = (core: TokenTypes) => ({
   ...light(core),
   // Global
   Active: core.Color.Brand200,
@@ -123,7 +125,7 @@ const dark = (core) => ({
   TagWarning: core.Color.Neutral800,
   // Tooltip
   Tooltip: core.Color.Neutral900,
-})
+} as TextColorType)
 
 export default {
   light,

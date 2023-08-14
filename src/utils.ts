@@ -1,8 +1,8 @@
 // test if value is a simple object {}
-export const isObject = (value) => value && typeof value === 'object' && !Array.isArray(value)
+export const isObject = (value: any) => value && typeof value === 'object' && !Array.isArray(value)
 
 // recursively merge two simple token objects (won't handle circular refs)
-export const deepMerge = (target, source) => {
+export const deepMerge = (target: any, source: any) => {
   let retValues = Object.assign({}, target)
 
   if (isObject(target) && isObject(source)) {
@@ -23,7 +23,7 @@ export const deepMerge = (target, source) => {
 }
 
 // is token part of core or a calculated leaf value
-export const getTokenType = (token, core, leaf) => {
+export const getTokenType = (token: any, core: any, leaf: any) => {
   let tokenType = 'new'
   const coreKeys = Object.keys(core)
   const leafKeys = Object.keys(leaf)
@@ -56,9 +56,9 @@ export const getTokenType = (token, core, leaf) => {
 }
 
 // convert a single token object into an array of individual tokens
-export const expandTokens = (tokens) => {
-  let tokenList = []
-  const rootEntries = Object.entries(tokens)
+export const expandTokens = (tokens: any) => {
+  let tokenList: any[] = []
+  const rootEntries: any[] = Object.entries(tokens)
 
   rootEntries.map(([rKey, rVal]) => {
     const subEntries = Object.entries(rVal)
@@ -74,17 +74,17 @@ export const expandTokens = (tokens) => {
 }
 
 // convert array of individual tokens into a single token object
-export const collapseTokens = (tokenList) => {
+export const collapseTokens = (tokenList: any) => {
   let retToken = {}
 
-  tokenList.map((token) => (retToken = Object.assign({}, deepMerge(retToken, token))))
+  tokenList.map((token: any) => (retToken = Object.assign({}, deepMerge(retToken, token))))
 
   return retToken
 }
 
 // split a token object into various partitions
-export const splitTokens = (tokens, core, leaf) => {
-  const partitionedLists = {
+export const splitTokens = (tokens: any, core: any, leaf: any) => {
+  const partitionedLists: any = {
     defaultTokens: {
       core: [],
       leaf: [],
@@ -98,15 +98,15 @@ export const splitTokens = (tokens, core, leaf) => {
 
   const tokenList = expandTokens(tokens)
   tokenList.map((token) => {
-    const type = getTokenType(token, core, leaf)
+    const tokenType = getTokenType(token, core, leaf)
 
-    if (type === 'core-default') {
+    if (tokenType === 'core-default') {
       partitionedLists.defaultTokens.core.push(token)
-    } else if (type === 'core-updated') {
+    } else if (tokenType === 'core-updated') {
       partitionedLists.updatedTokens.core.push(token)
-    } else if (type === 'leaf-default') {
+    } else if (tokenType === 'leaf-default') {
       partitionedLists.defaultTokens.leaf.push(token)
-    } else if (type === 'leaf-updated') {
+    } else if (tokenType === 'leaf-updated') {
       partitionedLists.updatedTokens.leaf.push(token)
     } else {
       partitionedLists.updatedTokens.new.push(token)
@@ -118,8 +118,8 @@ export const splitTokens = (tokens, core, leaf) => {
 
 // concatenate a `suffix` to each token value in `json`
 // by default the suffix will be 'px'
-export const addSuffix = (json, suffix = 'px') => {
-  let retValues = {}
+export const addSuffix = (json: any, suffix = 'px') => {
+  let retValues: any = {}
 
   Object.keys(json).forEach(function (key) {
     retValues[key] = ''.concat(json[key], suffix)
@@ -130,8 +130,8 @@ export const addSuffix = (json, suffix = 'px') => {
 
 // remove a `suffix` like 'px' from each token value in `json`
 // by default the resulting value is stored as a number
-export const removeSuffix = (json, suffix = 'px', valueIsNumber = true) => {
-  let retValues = {}
+export const removeSuffix = (json: any, suffix = 'px') => {
+  let retValues: any = {}
 
   Object.keys(json).forEach((key) => {
     if (json[key].slice(-suffix.length) === suffix) {
@@ -147,8 +147,8 @@ export const removeSuffix = (json, suffix = 'px', valueIsNumber = true) => {
 
 // overwrite everything in `json` with a hardcoded `value`
 // by default the values will be reset to empty string
-export const updateValues = (json, value = '') => {
-  let retValues = {}
+export const updateValues = (json: any, value = '') => {
+  let retValues: any = {}
 
   Object.keys(json).forEach(function (key) {
     retValues[key] = isObject(value) ? Object.assign({}, retValues, value) : value

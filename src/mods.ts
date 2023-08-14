@@ -1,15 +1,10 @@
-import core from 'src/core'
-import { addSuffix, removeSuffix, updateValues } from 'src/utils'
-import { targets } from 'src/index'
+import core from './core'
+import { addSuffix, removeSuffix, updateValues } from './utils'
+import { targets } from './index'
 
 // Shared modifications
 const updatedBoxShadow = updateValues(core.BoxShadow, '')
-const updatedEasing = updateValues(core.Easing, {
-  x1: 0.475,
-  y1: 0.425,
-  x2: 0,
-  y2: 0.995,
-})
+const updatedEasing = updateValues(core.Easing, 'cubic-bezier(0.475, 0.425, 0, 0.995)')
 
 // React Native modifications
 const updatedTime = addSuffix(core.Time, 'ms')

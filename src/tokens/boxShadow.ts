@@ -1,4 +1,6 @@
-const light = (core) => ({
+import type { BoxShadowType, TokenTypes } from '../TokenTypes'
+
+const light = (core: TokenTypes) => ({
   // Global
   Low: core.BoxShadow.Low,
   Medium: core.BoxShadow.Medium,
@@ -22,9 +24,9 @@ const light = (core) => ({
   SelectionBoxShadow: core.BoxShadow.Low,
   // Tooltip
   Tooltip: core.BoxShadow.Medium,
-})
+} as BoxShadowType)
 
-const dark = (core) => ({
+const dark = (core: TokenTypes) => ({
   ...light(core),
   // Bottom Bar
   BottomBar: 'none',
@@ -42,7 +44,7 @@ const dark = (core) => ({
   SelectionBoxShadow: 'none',
   // Tooltip
   Tooltip: 'none',
-})
+} as BoxShadowType)
 
 export default {
   light,

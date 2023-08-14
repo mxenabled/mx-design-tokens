@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-#### <sup><code>mx-design-tokens (10.7.0)</code> &nbsp; _last generated: 2023-04-20_</sup>
+#### <sup><code>mx-design-tokens (10.8.0)</code> &nbsp; _last generated: 2023-08-01_</sup>
 
 ## 🌞 LIGHT THEME TOKENS
 
@@ -88,9 +88,9 @@
 
 | Key | Value |
 | :-- | :---- |
-| Regular | ProximaNovaRegular, Helvetica, Arial, sans-serif |
-| Semibold | ProximaNovaSemibold, Helvetica, Arial, sans-serif |
-| Bold | ProximaNovaBold, Helvetica, Arial, sans-serif |
+| Regular | InterRegular, Helvetica, Arial, sans-serif |
+| Semibold | InterSemibold, Helvetica, Arial, sans-serif |
+| Bold | InterBold, Helvetica, Arial, sans-serif |
 
 ---
 
@@ -146,30 +146,30 @@
 
 | Key | Value |
 | :-- | :---- |
-| Tiny | 10 |
-| XSmall | 12 |
-| Small | 14 |
-| ParagraphSmall | 14 |
-| Body | 16 |
-| Paragraph | 16 |
-| H3 | 20 |
-| H2 | 24 |
-| H1 | 32 |
-| Breadcrumbs | 14 |
-| Button | 16 |
-| ButtonLinkLarge | 16 |
-| ButtonLinkSmall | 14 |
-| DropdownChip | 10 |
-| DropdownItem | 16 |
-| Chip | 12 |
-| Input | 16 |
-| InputHelpText | 14 |
-| InputLabel | 14 |
-| ModalHeader | 20 |
-| TextArea | 16 |
-| TextAreaHelpText | 14 |
-| TooltipHeadline | 16 |
-| TooltipText | 14 |
+| Tiny | 9 |
+| XSmall | 11 |
+| Small | 13 |
+| ParagraphSmall | 13 |
+| Body | 15 |
+| Paragraph | 15 |
+| H3 | 18 |
+| H2 | 23 |
+| H1 | 31 |
+| Breadcrumbs | 13 |
+| Button | 15 |
+| ButtonLinkLarge | 15 |
+| ButtonLinkSmall | 13 |
+| DropdownChip | 9 |
+| DropdownItem | 15 |
+| Chip | 11 |
+| Input | 15 |
+| InputHelpText | 13 |
+| InputLabel | 13 |
+| ModalHeader | 18 |
+| TextArea | 15 |
+| TextAreaHelpText | 13 |
+| TooltipHeadline | 15 |
+| TooltipText | 13 |
 
 ---
 
@@ -188,9 +188,9 @@
 | Key | Value |
 | :-- | :---- |
 | Uppercase | 0.48 |
-| SmallUppercase | 0.48 |
-| TinyUppercase | 0.48 |
-| XSmallUppercase | 0.48 |
+| SmallUppercase | -0.52 |
+| TinyUppercase | 0.33 |
+| XSmallUppercase | 0.33 |
 
 ---
 
@@ -199,7 +199,7 @@
 | Key | Value |
 | :-- | :---- |
 | Tiny | 12px |
-| XSmall | 14px |
+| XSmall | 16px |
 | Small | 16px |
 | ParagraphSmall | 20px |
 | Body | 20px |
@@ -614,9 +614,9 @@
 
 | Key | Value |
 | :-- | :---- |
-| Regular | ProximaNovaRegular, Helvetica, Arial, sans-serif |
-| Semibold | ProximaNovaSemibold, Helvetica, Arial, sans-serif |
-| Bold | ProximaNovaBold, Helvetica, Arial, sans-serif |
+| Regular | InterRegular, Helvetica, Arial, sans-serif |
+| Semibold | InterSemibold, Helvetica, Arial, sans-serif |
+| Bold | InterBold, Helvetica, Arial, sans-serif |
 
 ---
 
@@ -672,30 +672,30 @@
 
 | Key | Value |
 | :-- | :---- |
-| Tiny | 10 |
-| XSmall | 12 |
-| Small | 14 |
-| ParagraphSmall | 14 |
-| Body | 16 |
-| Paragraph | 16 |
-| H3 | 20 |
-| H2 | 24 |
-| H1 | 32 |
-| Breadcrumbs | 14 |
-| Button | 16 |
-| ButtonLinkLarge | 16 |
-| ButtonLinkSmall | 14 |
-| DropdownChip | 10 |
-| DropdownItem | 16 |
-| Chip | 12 |
-| Input | 16 |
-| InputHelpText | 14 |
-| InputLabel | 14 |
-| ModalHeader | 20 |
-| TextArea | 16 |
-| TextAreaHelpText | 14 |
-| TooltipHeadline | 16 |
-| TooltipText | 14 |
+| Tiny | 9 |
+| XSmall | 11 |
+| Small | 13 |
+| ParagraphSmall | 13 |
+| Body | 15 |
+| Paragraph | 15 |
+| H3 | 18 |
+| H2 | 23 |
+| H1 | 31 |
+| Breadcrumbs | 13 |
+| Button | 15 |
+| ButtonLinkLarge | 15 |
+| ButtonLinkSmall | 13 |
+| DropdownChip | 9 |
+| DropdownItem | 15 |
+| Chip | 11 |
+| Input | 15 |
+| InputHelpText | 13 |
+| InputLabel | 13 |
+| ModalHeader | 18 |
+| TextArea | 15 |
+| TextAreaHelpText | 13 |
+| TooltipHeadline | 15 |
+| TooltipText | 13 |
 
 ---
 
@@ -714,9 +714,9 @@
 | Key | Value |
 | :-- | :---- |
 | Uppercase | 0.48 |
-| SmallUppercase | 0.48 |
-| TinyUppercase | 0.48 |
-| XSmallUppercase | 0.48 |
+| SmallUppercase | -0.52 |
+| TinyUppercase | 0.33 |
+| XSmallUppercase | 0.33 |
 
 ---
 
@@ -725,7 +725,7 @@
 | Key | Value |
 | :-- | :---- |
 | Tiny | 12px |
-| XSmall | 14px |
+| XSmall | 16px |
 | Small | 16px |
 | ParagraphSmall | 20px |
 | Body | 20px |

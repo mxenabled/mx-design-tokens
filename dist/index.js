@@ -1,93 +1,62 @@
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.dark = exports.light = exports.buildTheme = exports.themes = exports.targets = void 0;
-
-var _core = _interopRequireDefault(require("./core"));
-
-var _mods = require("./mods");
-
-var _utils = require("./utils");
-
-var _backgroundColor = _interopRequireDefault(require("./tokens/backgroundColor"));
-
-var _borderColor = _interopRequireDefault(require("./tokens/borderColor"));
-
-var _borderRadius = _interopRequireDefault(require("./tokens/borderRadius"));
-
-var _boxShadow = _interopRequireDefault(require("./tokens/boxShadow"));
-
-var _letterSpacing = _interopRequireDefault(require("./tokens/letterSpacing"));
-
-var _fontSize = _interopRequireDefault(require("./tokens/fontSize"));
-
-var _spacing = _interopRequireDefault(require("./tokens/spacing"));
-
-var _textColor = _interopRequireDefault(require("./tokens/textColor"));
-
-var _zIndex = _interopRequireDefault(require("./tokens/zIndex"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
-var targets = {
-  REACT: 'react',
-  REACT_NATIVE: 'react_native',
-  NATIVE: 'native'
+const core_1 = __importDefault(require("./core"));
+const mods_1 = require("./mods");
+const utils_1 = require("./utils");
+const backgroundColor_1 = __importDefault(require("./tokens/backgroundColor"));
+const borderColor_1 = __importDefault(require("./tokens/borderColor"));
+const borderRadius_1 = __importDefault(require("./tokens/borderRadius"));
+const boxShadow_1 = __importDefault(require("./tokens/boxShadow"));
+const fontSize_1 = __importDefault(require("./tokens/fontSize"));
+const spacing_1 = __importDefault(require("./tokens/spacing"));
+const textColor_1 = __importDefault(require("./tokens/textColor"));
+const zIndex_1 = __importDefault(require("./tokens/zIndex"));
+exports.targets = {
+    REACT: 'react',
+    REACT_NATIVE: 'react_native',
+    NATIVE: 'native',
 };
-exports.targets = targets;
-var themes = {
-  LIGHT: 'light',
-  DARK: 'dark'
+exports.themes = {
+    LIGHT: 'light',
+    DARK: 'dark',
 };
-exports.themes = themes;
-
-var getSectionTokens = function getSectionTokens() {
-  var theme = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : themes.LIGHT;
-  var base = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _core["default"];
-  return {
-    BackgroundColor: _backgroundColor["default"][theme](base),
-    BorderColor: _borderColor["default"][theme](base),
-    BorderRadius: _borderRadius["default"][theme](base),
-    BoxShadow: _boxShadow["default"][theme](base),
-    LetterSpacing: _letterSpacing["default"][theme](base),
-    FontSize: _fontSize["default"][theme](base),
-    Spacing: _spacing["default"][theme](base),
-    TextColor: _textColor["default"][theme](base),
-    ZIndex: _zIndex["default"][theme](base)
-  };
+const getSectionTokens = (theme = exports.themes.LIGHT, base = core_1.default) => ({
+    BackgroundColor: theme === exports.themes.LIGHT ? backgroundColor_1.default.light(base) : backgroundColor_1.default.dark(base),
+    BorderColor: theme === exports.themes.LIGHT ? borderColor_1.default.light(base) : borderColor_1.default.dark(base),
+    BorderRadius: theme === exports.themes.LIGHT ? borderRadius_1.default.light(base) : borderRadius_1.default.dark(base),
+    BoxShadow: theme === exports.themes.LIGHT ? boxShadow_1.default.light(base) : boxShadow_1.default.dark(base),
+    FontSize: theme === exports.themes.LIGHT ? fontSize_1.default.light(base) : fontSize_1.default.dark(base),
+    Spacing: theme === exports.themes.LIGHT ? spacing_1.default.light(base) : spacing_1.default.dark(base),
+    TextColor: theme === exports.themes.LIGHT ? textColor_1.default.light(base) : textColor_1.default.dark(base),
+    ZIndex: theme === exports.themes.LIGHT ? zIndex_1.default.light(base) : zIndex_1.default.dark(base)
+});
+const buildTheme = (theme = exports.themes.LIGHT, target = exports.targets.REACT, tokenOverrides = {}) => {
+    // core token changes propagate down
+    const baseCore = Object.assign({}, core_1.default);
+    const baseLeaf = getSectionTokens(theme);
+    const baseParts = (0, utils_1.splitTokens)(tokenOverrides, baseCore, baseLeaf);
+    const updatedCore = (0, utils_1.collapseTokens)(baseParts.updatedTokens.core);
+    const mergedCore = (0, utils_1.deepMerge)(baseCore, updatedCore);
+    const customCore = (0, mods_1.applyTargetModifications)(target, mergedCore);
+    const customLeaf = getSectionTokens(theme, customCore);
+    const customBoth = (0, utils_1.deepMerge)(customCore, customLeaf);
+    // leaf token changes take priority over core token changes
+    let mergedLeaf = {};
+    const leafChanges = baseParts.updatedTokens.leaf;
+    leafChanges.map((l) => {
+        mergedLeaf = (0, utils_1.deepMerge)(mergedLeaf, l);
+    });
+    const newChanges = baseParts.updatedTokens.new;
+    newChanges.map((n) => {
+        mergedLeaf = (0, utils_1.deepMerge)(mergedLeaf, n);
+    });
+    return (0, utils_1.deepMerge)(customBoth, mergedLeaf);
 };
-
-var buildTheme = function buildTheme() {
-  var theme = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : themes.LIGHT;
-  var target = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : targets.REACT;
-  var tokenOverrides = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-  // core token changes propagate down
-  var baseCore = Object.assign({}, _core["default"]);
-  var baseLeaf = getSectionTokens(theme);
-  var baseParts = (0, _utils.splitTokens)(tokenOverrides, baseCore, baseLeaf);
-  var updatedCore = (0, _utils.collapseTokens)(baseParts.updatedTokens.core);
-  var mergedCore = (0, _utils.deepMerge)(baseCore, updatedCore);
-  var customCore = (0, _mods.applyTargetModifications)(target, mergedCore);
-  var customLeaf = getSectionTokens(theme, customCore);
-  var customBoth = (0, _utils.deepMerge)(customCore, customLeaf); // leaf token changes take priority over core token changes
-
-  var mergedLeaf = {};
-  var leafChanges = baseParts.updatedTokens.leaf;
-  leafChanges.map(function (l) {
-    mergedLeaf = (0, _utils.deepMerge)(mergedLeaf, l);
-  });
-  var newChanges = baseParts.updatedTokens["new"];
-  newChanges.map(function (n) {
-    mergedLeaf = (0, _utils.deepMerge)(mergedLeaf, n);
-  });
-  var builtTokens = (0, _utils.deepMerge)(customBoth, mergedLeaf);
-  return builtTokens;
-};
-
 exports.buildTheme = buildTheme;
-var light = buildTheme(themes.LIGHT);
-exports.light = light;
-var dark = buildTheme(themes.DARK);
-exports.dark = dark;
+exports.light = (0, exports.buildTheme)(exports.themes.LIGHT);
+exports.dark = (0, exports.buildTheme)(exports.themes.DARK);
+//# sourceMappingURL=index.js.map

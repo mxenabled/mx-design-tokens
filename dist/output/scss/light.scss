@@ -1,7 +1,7 @@
 /*
-** mx-design-tokens (10.7.0)
+** mx-design-tokens (10.8.0)
 **
-** sass variables auto-generated on 2023-04-20
+** sass variables auto-generated on 2023-08-01
 ** from https://github.com/mxenabled/mx-design-tokens to /scss/light.scss
 */
 $Color: (
@@ -80,9 +80,9 @@ $Color: (
   "TransparentScrimDarker": rgba(0, 0, 0, 0.50),
 );
 $Font: (
-  "Regular": (ProximaNovaRegular, Helvetica, Arial, sans-serif),
-  "Semibold": (ProximaNovaSemibold, Helvetica, Arial, sans-serif),
-  "Bold": (ProximaNovaBold, Helvetica, Arial, sans-serif),
+  "Regular": (InterRegular, Helvetica, Arial, sans-serif),
+  "Semibold": (InterSemibold, Helvetica, Arial, sans-serif),
+  "Bold": (InterBold, Helvetica, Arial, sans-serif),
 );
 $BoxShadow: (
   "Low": "0px 2px 8px rgba(106, 115, 129, 0.12)",
@@ -123,30 +123,30 @@ $BorderRadius: (
   "Tooltip": 4px,
 );
 $FontSize: (
-  "Tiny": 10px,
-  "XSmall": 12px,
-  "Small": 14px,
-  "ParagraphSmall": 14px,
-  "Body": 16px,
-  "Paragraph": 16px,
-  "H3": 20px,
-  "H2": 24px,
-  "H1": 32px,
-  "Breadcrumbs": 14px,
-  "Button": 16px,
-  "ButtonLinkLarge": 16px,
-  "ButtonLinkSmall": 14px,
-  "DropdownChip": 10px,
-  "DropdownItem": 16px,
-  "Chip": 12px,
-  "Input": 16px,
-  "InputHelpText": 14px,
-  "InputLabel": 14px,
-  "ModalHeader": 20px,
-  "TextArea": 16px,
-  "TextAreaHelpText": 14px,
-  "TooltipHeadline": 16px,
-  "TooltipText": 14px,
+  "Tiny": 9px,
+  "XSmall": 11px,
+  "Small": 13px,
+  "ParagraphSmall": 13px,
+  "Body": 15px,
+  "Paragraph": 15px,
+  "H3": 18px,
+  "H2": 23px,
+  "H1": 31px,
+  "Breadcrumbs": 13px,
+  "Button": 15px,
+  "ButtonLinkLarge": 15px,
+  "ButtonLinkSmall": 13px,
+  "DropdownChip": 9px,
+  "DropdownItem": 15px,
+  "Chip": 11px,
+  "Input": 15px,
+  "InputHelpText": 13px,
+  "InputLabel": 13px,
+  "ModalHeader": 18px,
+  "TextArea": 15px,
+  "TextAreaHelpText": 13px,
+  "TooltipHeadline": 15px,
+  "TooltipText": 13px,
 );
 $FontWeight: (
   "Regular": 400,
@@ -155,13 +155,13 @@ $FontWeight: (
 );
 $LetterSpacing: (
   "Uppercase": 0.48,
-  "SmallUppercase": 0.48,
-  "TinyUppercase": 0.48,
-  "XSmallUppercase": 0.48,
+  "SmallUppercase": -0.52,
+  "TinyUppercase": 0.33,
+  "XSmallUppercase": 0.33,
 );
 $LineHeight: (
   "Tiny": 12px,
-  "XSmall": 14px,
+  "XSmall": 16px,
   "Small": 16px,
   "ParagraphSmall": 20px,
   "Body": 20px,

@@ -1,4 +1,6 @@
-const light = (core) => ({
+import type { SpacingType, TokenTypes } from '../TokenTypes'
+
+const light = (core: TokenTypes) => ({
   // Globals
   ...core.Spacing,
   // Breadcrumbs
@@ -46,11 +48,11 @@ const light = (core) => ({
   TextAreaPadding: core.Spacing.Small,
   // Tooltip
   TooltipPadding: core.Spacing.Small,
-})
+} as SpacingType)
 
-const dark = (core) => ({
+const dark = (core: TokenTypes) => ({
   ...light(core),
-})
+} as SpacingType)
 
 export default {
   light,

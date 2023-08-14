@@ -1,7 +1,7 @@
 /*
-** mx-design-tokens (10.7.0)
+** mx-design-tokens (10.8.0)
 **
-** css variables auto-generated on 2023-04-20
+** css variables auto-generated on 2023-08-01
 ** from https://github.com/mxenabled/mx-design-tokens to /css/dark.css
 */
 :root {
@@ -78,9 +78,9 @@
   --mx-Color_TransparentNeutral400: rgba(203, 211, 223, 0.55);
   --mx-Color_TransparentScrim: rgba(0, 0, 0, 0.25);
   --mx-Color_TransparentScrimDarker: rgba(0, 0, 0, 0.50);
-  --mx-Font_Regular: (ProximaNovaRegular, Helvetica, Arial, sans-serif);
-  --mx-Font_Semibold: (ProximaNovaSemibold, Helvetica, Arial, sans-serif);
-  --mx-Font_Bold: (ProximaNovaBold, Helvetica, Arial, sans-serif);
+  --mx-Font_Regular: (InterRegular, Helvetica, Arial, sans-serif);
+  --mx-Font_Semibold: (InterSemibold, Helvetica, Arial, sans-serif);
+  --mx-Font_Bold: (InterBold, Helvetica, Arial, sans-serif);
   --mx-BoxShadow_Low: 0px 2px 8px rgba(106, 115, 129, 0.12);
   --mx-BoxShadow_Medium: 0px 6px 12px rgba(106, 115, 129, 0.16), 0px 3px 8px rgba(87, 102, 117, 0.06);
   --mx-BoxShadow_High: 0px 12px 20px rgba(106, 115, 129, 0.22);
@@ -115,39 +115,39 @@
   --mx-BorderRadius_Modal: 4px;
   --mx-BorderRadius_ModalClose: 4px;
   --mx-BorderRadius_Tooltip: 4px;
-  --mx-FontSize_Tiny: 10px;
-  --mx-FontSize_XSmall: 12px;
-  --mx-FontSize_Small: 14px;
-  --mx-FontSize_ParagraphSmall: 14px;
-  --mx-FontSize_Body: 16px;
-  --mx-FontSize_Paragraph: 16px;
-  --mx-FontSize_H3: 20px;
-  --mx-FontSize_H2: 24px;
-  --mx-FontSize_H1: 32px;
-  --mx-FontSize_Breadcrumbs: 14px;
-  --mx-FontSize_Button: 16px;
-  --mx-FontSize_ButtonLinkLarge: 16px;
-  --mx-FontSize_ButtonLinkSmall: 14px;
-  --mx-FontSize_DropdownChip: 10px;
-  --mx-FontSize_DropdownItem: 16px;
-  --mx-FontSize_Chip: 12px;
-  --mx-FontSize_Input: 16px;
-  --mx-FontSize_InputHelpText: 14px;
-  --mx-FontSize_InputLabel: 14px;
-  --mx-FontSize_ModalHeader: 20px;
-  --mx-FontSize_TextArea: 16px;
-  --mx-FontSize_TextAreaHelpText: 14px;
-  --mx-FontSize_TooltipHeadline: 16px;
-  --mx-FontSize_TooltipText: 14px;
+  --mx-FontSize_Tiny: 9px;
+  --mx-FontSize_XSmall: 11px;
+  --mx-FontSize_Small: 13px;
+  --mx-FontSize_ParagraphSmall: 13px;
+  --mx-FontSize_Body: 15px;
+  --mx-FontSize_Paragraph: 15px;
+  --mx-FontSize_H3: 18px;
+  --mx-FontSize_H2: 23px;
+  --mx-FontSize_H1: 31px;
+  --mx-FontSize_Breadcrumbs: 13px;
+  --mx-FontSize_Button: 15px;
+  --mx-FontSize_ButtonLinkLarge: 15px;
+  --mx-FontSize_ButtonLinkSmall: 13px;
+  --mx-FontSize_DropdownChip: 9px;
+  --mx-FontSize_DropdownItem: 15px;
+  --mx-FontSize_Chip: 11px;
+  --mx-FontSize_Input: 15px;
+  --mx-FontSize_InputHelpText: 13px;
+  --mx-FontSize_InputLabel: 13px;
+  --mx-FontSize_ModalHeader: 18px;
+  --mx-FontSize_TextArea: 15px;
+  --mx-FontSize_TextAreaHelpText: 13px;
+  --mx-FontSize_TooltipHeadline: 15px;
+  --mx-FontSize_TooltipText: 13px;
   --mx-FontWeight_Regular: 400;
   --mx-FontWeight_Semibold: 600;
   --mx-FontWeight_Bold: 700;
   --mx-LetterSpacing_Uppercase: 0.48;
-  --mx-LetterSpacing_SmallUppercase: 0.48;
-  --mx-LetterSpacing_TinyUppercase: 0.48;
-  --mx-LetterSpacing_XSmallUppercase: 0.48;
+  --mx-LetterSpacing_SmallUppercase: -0.52;
+  --mx-LetterSpacing_TinyUppercase: 0.33;
+  --mx-LetterSpacing_XSmallUppercase: 0.33;
   --mx-LineHeight_Tiny: 12px;
-  --mx-LineHeight_XSmall: 14px;
+  --mx-LineHeight_XSmall: 16px;
   --mx-LineHeight_Small: 16px;
   --mx-LineHeight_ParagraphSmall: 20px;
   --mx-LineHeight_Body: 20px;
