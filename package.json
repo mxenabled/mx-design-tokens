@@ -1,6 +1,6 @@
 {
   "name": "@mxenabled/design-tokens",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Design Tokens",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,6 +26,9 @@
   },
   "author": "MX",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "typescript": "^5.1.6"
   }
