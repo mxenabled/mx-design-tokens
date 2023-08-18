@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ---
 # @mxenabled/design-tokens
 
+## [1.0.1] - 08-17-2023
+
+### Added
+
+- Added export of types
+
 ## [1.0.0] - 08-04-2023
 
 ### Added

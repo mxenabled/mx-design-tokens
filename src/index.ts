@@ -10,7 +10,29 @@ import fontSize from './tokens/fontSize'
 import spacing from './tokens/spacing'
 import textColor from './tokens/textColor'
 import zIndex from './tokens/zIndex'
+
 import type { TokenTypes } from './TokenTypes'
+
+export {
+  BackgroundColorType,
+  BorderColorType,
+  BorderRadiusType,
+  BoxShadowType,
+  ColorType,
+  EasingType,
+  FontSizeType,
+  FontType,
+  FontWeightType,
+  LetterSpacingType,
+  LineHeightType,
+  MediaQueryType,
+  ResolutionType,
+  SpacingType,
+  TextColorType,
+  TimeType,
+  TokenTypes,
+  ZIndexType
+} from './TokenTypes'
 
 export const targets = {
   REACT: 'react',
