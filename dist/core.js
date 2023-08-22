@@ -114,7 +114,7 @@ exports.default = {
     },
     LetterSpacing: {
         Uppercase: 0.48,
-        SmallUppercase: -0.52,
+        SmallUppercase: 0.48,
         TinyUppercase: 0.33,
         XSmallUppercase: 0.33,
     },

@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ---
 # @mxenabled/design-tokens
 
+## [1.0.2] - 08-23-2023
+
+### Fixed
+
+- Small Upper letter spacing was incorrect
+
 ## [1.0.1] - 08-17-2023
 
 ### Added
