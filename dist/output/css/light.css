@@ -1,7 +1,7 @@
 /*
-** @mxenabled/design-tokens (1.0.0)
+** @mxenabled/design-tokens (1.0.2)
 **
-** css variables auto-generated on 2023-08-14
+** css variables auto-generated on 2023-08-22
 ** from https://github.com/mxenabled/mx-design-tokens to /css/light.css
 */
 :root {
@@ -143,7 +143,7 @@
   --mx-FontWeight_Semibold: 600;
   --mx-FontWeight_Bold: 700;
   --mx-LetterSpacing_Uppercase: 0.48;
-  --mx-LetterSpacing_SmallUppercase: -0.52;
+  --mx-LetterSpacing_SmallUppercase: 0.48;
   --mx-LetterSpacing_TinyUppercase: 0.33;
   --mx-LetterSpacing_XSmallUppercase: 0.33;
   --mx-LineHeight_Tiny: 12px;

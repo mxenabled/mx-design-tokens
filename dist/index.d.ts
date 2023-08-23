@@ -1,4 +1,5 @@
 import type { TokenTypes } from './TokenTypes';
+export { BackgroundColorType, BorderColorType, BorderRadiusType, BoxShadowType, ColorType, EasingType, FontSizeType, FontType, FontWeightType, LetterSpacingType, LineHeightType, MediaQueryType, ResolutionType, SpacingType, TextColorType, TimeType, TokenTypes, ZIndexType } from './TokenTypes';
 export declare const targets: {
     REACT: string;
     REACT_NATIVE: string;

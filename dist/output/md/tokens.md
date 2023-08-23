@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-#### <sup><code>@mxenabled/design-tokens (1.0.0)</code> &nbsp; _last generated: 2023-08-14_</sup>
+#### <sup><code>@mxenabled/design-tokens (1.0.2)</code> &nbsp; _last generated: 2023-08-22_</sup>
 
 ## 🌞 LIGHT THEME TOKENS
 
@@ -188,7 +188,7 @@
 | Key | Value |
 | :-- | :---- |
 | Uppercase | 0.48 |
-| SmallUppercase | -0.52 |
+| SmallUppercase | 0.48 |
 | TinyUppercase | 0.33 |
 | XSmallUppercase | 0.33 |
 
@@ -714,7 +714,7 @@
 | Key | Value |
 | :-- | :---- |
 | Uppercase | 0.48 |
-| SmallUppercase | -0.52 |
+| SmallUppercase | 0.48 |
 | TinyUppercase | 0.33 |
 | XSmallUppercase | 0.33 |
 
