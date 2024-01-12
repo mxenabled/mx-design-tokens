@@ -1,6 +1,6 @@
 # MX Design Tokens
 
-#### <sup><code>@mxenabled/design-tokens (1.0.2)</code> &nbsp; _last generated: 2023-08-22_</sup>
+#### <sup><code>@mxenabled/design-tokens (1.0.3)</code> &nbsp; _last generated: 2024-01-12_</sup>
 
 ## 🌞 LIGHT THEME TOKENS
 
@@ -104,8 +104,8 @@
 | Top | 0px -2px 8px rgba(106, 115, 129, 0.12) |
 | Left | -1px 2px 8px rgba(106, 115, 129, 0.22) |
 | Right | 1px 0px 8px rgba(106, 115, 129, 0.22) |
-| Focus | 0px 0px 0px 2px rgba(82, 138, 224, 0.8) |
-| FocusRingDefault | 0px 0px 0px 2px rgba(82, 138, 224, 0.8) |
+| Focus | 0px 0px 0px 2px rgba(45, 100, 239, 1) |
+| FocusRingDefault | 0px 0px 0px 2px rgba(45, 100, 239, 1) |
 | BottomBar | 0px -2px 8px rgba(106, 115, 129, 0.12) |
 | Card | 0px 2px 8px rgba(106, 115, 129, 0.12) |
 | Container | 0px 2px 8px rgba(106, 115, 129, 0.12) |
@@ -630,8 +630,8 @@
 | Top | 0px -2px 8px rgba(106, 115, 129, 0.12) |
 | Left | -1px 2px 8px rgba(106, 115, 129, 0.22) |
 | Right | 1px 0px 8px rgba(106, 115, 129, 0.22) |
-| Focus | 0px 0px 0px 2px rgba(82, 138, 224, 0.8) |
-| FocusRingDefault | 0px 0px 0px 2px rgba(82, 138, 224, 0.8) |
+| Focus | 0px 0px 0px 2px rgba(45, 100, 239, 1) |
+| FocusRingDefault | 0px 0px 0px 2px rgba(45, 100, 239, 1) |
 | BottomBar | none |
 | Card | none |
 | Container | none |

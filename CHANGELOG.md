@@ -6,7 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
+
 # @mxenabled/design-tokens
+
+## [1.0.3] - 01-12-2023
+
+### Updated
+
+- Updated the color of focusRingDefault to match new color by design team
 
 ## [1.0.2] - 08-23-2023
 
