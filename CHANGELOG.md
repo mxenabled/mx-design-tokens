@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 # @mxenabled/design-tokens
 
-## [1.0.3] - 01-12-2023
+## [1.0.3] - 01-12-2024
 
 ### Updated
 
