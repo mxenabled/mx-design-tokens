@@ -1,7 +1,7 @@
 /*
-** @mxenabled/design-tokens (1.0.2)
+** @mxenabled/design-tokens (1.0.3)
 **
-** css variables auto-generated on 2023-08-22
+** css variables auto-generated on 2024-01-17
 ** from https://github.com/mxenabled/mx-design-tokens to /css/light.css
 */
 :root {
@@ -87,8 +87,8 @@
   --mx-BoxShadow_Top: 0px -2px 8px rgba(106, 115, 129, 0.12);
   --mx-BoxShadow_Left: -1px 2px 8px rgba(106, 115, 129, 0.22);
   --mx-BoxShadow_Right: 1px 0px 8px rgba(106, 115, 129, 0.22);
-  --mx-BoxShadow_Focus: 0px 0px 0px 2px rgba(82, 138, 224, 0.8);
-  --mx-BoxShadow_FocusRingDefault: 0px 0px 0px 2px rgba(82, 138, 224, 0.8);
+  --mx-BoxShadow_Focus: 0px 0px 0px 2px rgba(9, 90, 219, 0.75);
+  --mx-BoxShadow_FocusRingDefault: 0px 0px 0px 2px rgba(9, 90, 219, 0.75);
   --mx-BoxShadow_BottomBar: 0px -2px 8px rgba(106, 115, 129, 0.12);
   --mx-BoxShadow_Card: 0px 2px 8px rgba(106, 115, 129, 0.12);
   --mx-BoxShadow_Container: 0px 2px 8px rgba(106, 115, 129, 0.12);
